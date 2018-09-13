@@ -1,3 +1,10 @@
 <map id="main" name="main">
-<area shape="rect" id="node2" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a460964a5bb277865d1275fe3746132c1" title="tensorflow::tfcompile\l::Main" alt="" coords="104,5,247,47"/>
+<area shape="rect" id="node2" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a460964a5bb277865d1275fe3746132c1" title="tensorflow::tfcompile\l::Main" alt="" coords="104,111,247,152"/>
+<area shape="rect" id="node3" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a021cb1c58d938b16dcd998aa8d1fc191" title="Converts the graph into an XLA computation, and compiles the computation. Called by tensorflow::tfcom..." alt="" coords="295,111,437,152"/>
+<area shape="rect" id="node4" href="$de/d86/namespacetensorflow.html#a6f8fce5955ec6d67cd1762891d4830e9" title="Convert tensorflow graph_def to XLA UserComputation. " alt="" coords="485,111,656,152"/>
+<area shape="rect" id="node5" href="$d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03.html#aeef0cda05958b2b855b0e2fbe07b1314" title="InitGraph creates a graph based on the graph_def, that may then be convert to an xla::Computation via..." alt="" coords="704,63,863,119"/>
+<area shape="rect" id="node9" href="$d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03.html#a8bea171341441170c6d6c7dbb0b3227d" title="Converts the TensorFlow graph into an XLA computation, by executing the graph symbolically, with each op building up the XLA HLO. " alt="" coords="704,143,863,199"/>
+<area shape="rect" id="node6" href="$de/d86/namespacetensorflow.html#a491706512ccc1517e499cbdb810aa6ab" title="Assign each NodeDefs of GraphDef default values Google Docs: Adds default attributes to NodeDefs in &#39;..." alt="" coords="911,5,1093,47"/>
+<area shape="rect" id="node7" href="$de/d86/namespacetensorflow.html#a43875c6284c3af69e7a420b67c7eec6b" title="Convert GraphDef defined protobuf to type Graph " alt="" coords="917,71,1087,112"/>
+<area shape="rect" id="node8" href="$d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03.html#af0d9ad360ae01cf7c15abe04de99b230" title="tensorflow::anonymous\l_namespace\{tf2xla::cc\}\l::RewriteAndPruneGraph" alt="" coords="919,137,1085,193"/>
 </map>

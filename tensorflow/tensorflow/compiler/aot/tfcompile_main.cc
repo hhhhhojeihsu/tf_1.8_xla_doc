@@ -1,3 +1,5 @@
+#include "tensorflow/compiler/aot/compile.h"
+
 namespace tensorflow {
 namespace tfcompile {
 /**
