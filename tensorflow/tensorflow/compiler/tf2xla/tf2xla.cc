@@ -77,36 +77,36 @@ Status RewriteAndPruneGraph(
 /**
  * \brief Converts the TensorFlow graph into an XLA computation, by executing the
  *        graph symbolically, with each op building up the XLA HLO.
- * 1. `tensorflow::XlaOpRegistry::RegisterCompilationKernels()`
- * 2. Traverse nodes and record `assigned_device_name_index`(property of `Node`)
- * 3. Generate XLA Arguments by `_Arg` node
+ * 1. [UNCLEAR] `tensorflow::XlaOpRegistry::RegisterCompilationKernels()`
+ * 2. Traverse nodes and record the index of assigned device name (hard code with "/device:XLA_CPU_JIT")
+ * 3. Generate XLA Arguments by `_Arg` nodes (Ensure the index and type attrs of each nodes initialized correctly first)
  * 4. Compile graph to XLA UserComputation
- * 	1. Set options for object `XlaCompiler`
- * 	2. Call `CompileGraph`, method of `XlaCompiler`
- * 5. Check compilation result. Throw error if there's a generated function returns constant value(Result of invalid config).
+ *   1. Set options for object `XlaCompiler`
+ *   2. Call `CompileGraph`, method of object `XlaCompiler`
+ * 5. Check compilation result. Throw error if there's a generated function returns constant value (Result of invalid config).
  */
 Status ConvertGraphToXla(std::unique_ptr<Graph> graph, xla::Client* client,
                          xla::Computation* computation) {
   XlaOpRegistry::RegisterCompilationKernels();
-  for (Node* node : graph->nodes()) {
-    node->set_assigned_device_name(
-        strings::StrCat("/device:", DEVICE_CPU_XLA_JIT));
-  }
+  // ...
+  // 2.
+  // ...
   std::vector<XlaCompiler::Argument> xla_args;
   TF_RETURN_IF_ERROR(CreateXlaArgs(*graph, &xla_args));
+
   // Compile the graph into an XLA computation.
   XlaCompiler::Options compiler_options;
-  compiler_options.client = client;
-  DeviceType device_type(DEVICE_CPU_XLA_JIT);
-  compiler_options.device_type = &device_type;
-  compiler_options.flib_def = &graph->flib_def();
-  compiler_options.graph_def_version = graph->versions().producer();
-  compiler_options.allow_cpu_custom_calls = true;
+  // ...
+  // 4-1.
+  // ...
   XlaCompiler compiler(compiler_options);
   XlaCompiler::CompilationResult result;
   TF_RETURN_IF_ERROR(compiler.CompileGraph(XlaCompiler::CompileOptions(),
                                            "tfcompile", std::move(graph),
                                            xla_args, &result));
+  // ...
+  // 5.
+  // ...
   return Status::OK();
 }
 /**

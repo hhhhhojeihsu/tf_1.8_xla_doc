@@ -118,15 +118,15 @@ Functions</h2></td></tr>
 
 <p>Converts the TensorFlow graph into an XLA computation, by executing the graph symbolically, with each op building up the XLA HLO. </p>
 <ol type="1">
-<li><code>tensorflow::XlaOpRegistry::RegisterCompilationKernels()</code></li>
-<li>Traverse nodes and record <code>assigned_device_name_index</code>(property of <code>Node</code>)</li>
-<li>Generate XLA Arguments by <code>_Arg</code> node</li>
+<li>[UNCLEAR] <code>tensorflow::XlaOpRegistry::RegisterCompilationKernels()</code></li>
+<li>Traverse nodes and record the index of assigned device name (hard code with "/device:XLA_CPU_JIT")</li>
+<li>Generate XLA Arguments by <code>_Arg</code> nodes (Ensure the index and type attrs of each nodes initialized correctly first)</li>
 <li>Compile graph to XLA UserComputation<ol type="a">
 <li>Set options for object <code>XlaCompiler</code></li>
-<li>Call <code>CompileGraph</code>, method of <code>XlaCompiler</code></li>
+<li>Call <code>CompileGraph</code>, method of object <code>XlaCompiler</code></li>
 </ol>
 </li>
-<li>Check compilation result. Throw error if there's a generated function returns constant value(Result of invalid config). </li>
+<li>Check compilation result. Throw error if there's a generated function returns constant value (Result of invalid config). </li>
 </ol>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
