@@ -1,8 +1,8 @@
 <map id="tensorflow/tensorflow/compiler/tf2xla/xla_op_registry.cc" name="tensorflow/tensorflow/compiler/tf2xla/xla_op_registry.cc">
-<area shape="rect" id="node2" href="$d7/d49/xla__op__registry_8h.html" title="tensorflow/compiler\l/tf2xla/xla_op_registry.h" alt="" coords="993,109,1155,151"/>
-<area shape="rect" id="node20" href="$db/d47/client__library_8h.html" title="tensorflow/compiler\l/xla/client/client_library.h" alt="" coords="2929,109,3096,151"/>
-<area shape="rect" id="node22" href="$d4/dab/compile__only__client_8h.html" title="tensorflow/compiler\l/xla/client/compile\l_only_client.h" alt="" coords="2892,199,3027,255"/>
-<area shape="rect" id="node25" href="$d2/d89/compile__only__service_8h.html" title="tensorflow/compiler\l/xla/service/compile\l_only_service.h" alt="" coords="2997,303,3135,359"/>
-<area shape="rect" id="node27" href="$d4/dd1/compiler_8h.html" title="tensorflow/compiler\l/xla/service/compiler.h" alt="" coords="2363,407,2516,448"/>
-<area shape="rect" id="node37" href="$d5/d83/service_8h.html" title="tensorflow/compiler\l/xla/service/service.h" alt="" coords="2803,407,2950,448"/>
+<area shape="rect" id="node2" href="$d7/d49/xla__op__registry_8h.html" title="tensorflow/compiler\l/tf2xla/xla_op_registry.h" alt="" coords="1001,105,1162,144"/>
+<area shape="rect" id="node20" href="$db/d47/client__library_8h.html" title="tensorflow/compiler\l/xla/client/client_library.h" alt="" coords="2936,105,3101,144"/>
+<area shape="rect" id="node22" href="$d4/dab/compile__only__client_8h.html" title="tensorflow/compiler\l/xla/client/compile\l_only_client.h" alt="" coords="2897,192,3033,244"/>
+<area shape="rect" id="node25" href="$d2/d89/compile__only__service_8h.html" title="tensorflow/compiler\l/xla/service/compile\l_only_service.h" alt="" coords="3003,292,3141,344"/>
+<area shape="rect" id="node27" href="$d4/dd1/compiler_8h.html" title="tensorflow/compiler\l/xla/service/compiler.h" alt="" coords="2372,392,2524,431"/>
+<area shape="rect" id="node37" href="$d5/d83/service_8h.html" title="tensorflow/compiler\l/xla/service/service.h" alt="" coords="2811,392,2956,431"/>
 </map>

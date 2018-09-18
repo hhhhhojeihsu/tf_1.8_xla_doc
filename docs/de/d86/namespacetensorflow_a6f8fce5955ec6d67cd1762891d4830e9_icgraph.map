@@ -1,5 +1,5 @@
 <map id="tensorflow::ConvertGraphDefToXla" name="tensorflow::ConvertGraphDefToXla">
-<area shape="rect" id="node2" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a021cb1c58d938b16dcd998aa8d1fc191" title="Converts the graph into an XLA computation, and compiles the computation. Called by tensorflow::tfcom..." alt="" coords="224,5,367,47"/>
-<area shape="rect" id="node3" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a460964a5bb277865d1275fe3746132c1" title="tensorflow::tfcompile\l::Main" alt="" coords="415,5,557,47"/>
-<area shape="rect" id="node4" href="$d4/d8d/tfcompile__main_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="605,13,656,39"/>
+<area shape="rect" id="node2" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a021cb1c58d938b16dcd998aa8d1fc191" title="Converts the graph into an XLA computation, and compiles the computation. Called by tensorflow::tfcom..." alt="" coords="227,5,369,44"/>
+<area shape="rect" id="node3" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a460964a5bb277865d1275fe3746132c1" title="tensorflow::tfcompile\l::Main" alt="" coords="417,5,560,44"/>
+<area shape="rect" id="node4" href="$d4/d8d/tfcompile__main_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="608,12,659,37"/>
 </map>

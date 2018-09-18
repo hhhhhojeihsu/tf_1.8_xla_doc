@@ -1,4 +1,8 @@
 var searchData=
 [
-  ['initgraph',['InitGraph',['../d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03.html#aeef0cda05958b2b855b0e2fbe07b1314',1,'tensorflow::anonymous_namespace{tf2xla.cc}']]]
+  ['getorcreatecompileonlyclient',['GetOrCreateCompileOnlyClient',['../d5/ddb/classxla_1_1ClientLibrary.html#a5e940d153e6cfd72b34b2b8b89220f50',1,'xla::ClientLibrary']]],
+  ['graph_5fconstructor_2ecc',['graph_constructor.cc',['../d7/d7a/graph__constructor_8cc.html',1,'']]],
+  ['graph_5fconstructor_2eh',['graph_constructor.h',['../d7/dfb/graph__constructor_8h.html',1,'']]],
+  ['graph_5fdef_5futil_2ecc',['graph_def_util.cc',['../d3/d4f/graph__def__util_8cc.html',1,'']]],
+  ['graph_5fdef_5futil_2eh',['graph_def_util.h',['../de/d25/graph__def__util_8h.html',1,'']]]
 ];

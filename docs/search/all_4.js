@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['llvm_5fcompiler_2eh',['llvm_compiler.h',['../d8/d1e/llvm__compiler_8h.html',1,'']]],
-  ['llvmcompiler',['LLVMCompiler',['../d5/d52/classxla_1_1LLVMCompiler.html',1,'xla']]]
+  ['initgraph',['InitGraph',['../d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03.html#aeef0cda05958b2b855b0e2fbe07b1314',1,'tensorflow::anonymous_namespace{tf2xla.cc}']]]
 ];

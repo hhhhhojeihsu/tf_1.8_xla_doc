@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['validateconfig',['ValidateConfig',['../de/d86/namespacetensorflow.html#aaeeec358e2be013353667dd7c0a6dbaa',1,'tensorflow']]]
+  ['user_5fcomputation_2ecc',['user_computation.cc',['../d3/dd6/user__computation_8cc.html',1,'']]],
+  ['user_5fcomputation_2eh',['user_computation.h',['../d6/d38/user__computation_8h.html',1,'']]],
+  ['usercomputation',['UserComputation',['../db/dbb/classxla_1_1UserComputation.html',1,'xla']]]
 ];

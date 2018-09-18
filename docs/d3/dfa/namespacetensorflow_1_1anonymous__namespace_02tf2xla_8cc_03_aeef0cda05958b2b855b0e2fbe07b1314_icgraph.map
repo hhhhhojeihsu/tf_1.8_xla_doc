@@ -1,6 +1,6 @@
 <map id="tensorflow::anonymous_namespace{tf2xla::cc}::InitGraph" name="tensorflow::anonymous_namespace{tf2xla::cc}::InitGraph">
-<area shape="rect" id="node2" href="$de/d86/namespacetensorflow.html#a6f8fce5955ec6d67cd1762891d4830e9" title="Convert tensorflow graph_def to XLA UserComputation. " alt="" coords="212,13,383,54"/>
-<area shape="rect" id="node3" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a021cb1c58d938b16dcd998aa8d1fc191" title="Converts the graph into an XLA computation, and compiles the computation. Called by tensorflow::tfcom..." alt="" coords="431,13,573,54"/>
-<area shape="rect" id="node4" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a460964a5bb277865d1275fe3746132c1" title="tensorflow::tfcompile\l::Main" alt="" coords="621,13,764,54"/>
-<area shape="rect" id="node5" href="$d4/d8d/tfcompile__main_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="812,20,863,47"/>
+<area shape="rect" id="node2" href="$de/d86/namespacetensorflow.html#a6f8fce5955ec6d67cd1762891d4830e9" title="Convert tensorflow graph_def to XLA UserComputation. " alt="" coords="213,12,386,51"/>
+<area shape="rect" id="node3" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a021cb1c58d938b16dcd998aa8d1fc191" title="Converts the graph into an XLA computation, and compiles the computation. Called by tensorflow::tfcom..." alt="" coords="434,12,577,51"/>
+<area shape="rect" id="node4" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a460964a5bb277865d1275fe3746132c1" title="tensorflow::tfcompile\l::Main" alt="" coords="625,12,768,51"/>
+<area shape="rect" id="node5" href="$d4/d8d/tfcompile__main_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="816,19,866,44"/>
 </map>
