@@ -77,6 +77,11 @@ $(function() {
 <p><code>#include &lt;<a class="el" href="../../d2/d89/compile__only__service_8h_source.html">compile_only_service.h</a>&gt;</code></p>
 
 <p>Inherits xla::Service.</p>
+<div class="dynheader">
+Collaboration diagram for xla::CompileOnlyService:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d27/classxla_1_1CompileOnlyService__coll__graph.svg" width="178" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -91,7 +96,7 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Google Docs: </p><blockquote class="doxtable">
-<p>An XLA Service specialization for ahead-of-time compilation. This only instantiates a Compiler object for the relevant platform; it does not instantiate or require an execution backend.</p>
+<p>An XLA Service specialization for ahead-of-time compilation. This only instantiates a <a class="el" href="../../d3/d3e/classxla_1_1Compiler.html">Compiler</a> object for the relevant platform; it does not instantiate or require an execution backend.</p>
 </blockquote>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="aceb67616a89167b9af1bf23d17ec37c9"></a>
@@ -126,7 +131,7 @@ Public Member Functions</h2></td></tr>
 <li>[TODO] Create xla::HloModule</li>
 <li>Dump computation proto state if flag is set to a file.(Call <code>xla::ComputationTracker::SnapshotComputation</code>)</li>
 <li>Set execution options(e.g. debug options)</li>
-<li>Call <code>xla::Compiler::CompileAheadOfTime</code> </li>
+<li>Call <code><a class="el" href="../../d2/d94/classxla_1_1cpu_1_1CpuCompiler.html#ae39f2b47db1aaa1457e76acb6ee3d496">xla::cpu::CpuCompiler::CompileAheadOfTime</a></code>(Overridden, not shown in call graph) </li>
 </ol>
 <div class="dynheader">
 Here is the caller graph for this function:</div>

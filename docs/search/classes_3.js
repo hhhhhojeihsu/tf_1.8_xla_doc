@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['xlaopregistry',['XlaOpRegistry',['../d9/de9/classtensorflow_1_1XlaOpRegistry.html',1,'tensorflow']]]
+  ['usercomputation',['UserComputation',['../db/dbb/classxla_1_1UserComputation.html',1,'xla']]]
 ];

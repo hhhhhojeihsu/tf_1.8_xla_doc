@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['edgeinfo',['EdgeInfo',['../d9/d7c/structtensorflow_1_1anonymous__namespace_02graph__constructor_8cc_03_1_1GraphConstructor_1_1EdgeInfo.html',1,'tensorflow::anonymous_namespace{graph_constructor.cc}::GraphConstructor']]]
+  ['xlaopregistry',['XlaOpRegistry',['../d9/de9/classtensorflow_1_1XlaOpRegistry.html',1,'tensorflow']]]
 ];

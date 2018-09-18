@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$d4/dd7/structtensorflow_1_1anonymous__namespace_02graph__constructor_8cc_03_1_1GraphConstructor_1_1NodeInfo.html" title="tensorflow::anonymous\l_namespace\{graph_constructor.cc\}\l::GraphConstructor::NodeInfo" alt="" coords="5,5,231,61"/>
+<area shape="rect" id="node1" href="$d3/d3e/classxla_1_1Compiler.html" title="xla::Compiler" alt="" coords="5,5,104,32"/>
+<area shape="rect" id="node2" href="$d5/d52/classxla_1_1LLVMCompiler.html" title="xla::LLVMCompiler" alt="" coords="152,5,284,32"/>
+<area shape="rect" id="node3" href="$d2/d94/classxla_1_1cpu_1_1CpuCompiler.html" title="xla::cpu::CpuCompiler" alt="" coords="332,5,484,32"/>
 </map>

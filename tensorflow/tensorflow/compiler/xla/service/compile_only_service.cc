@@ -59,7 +59,7 @@ CompileOnlyService::CompileOnlyService(const ServiceOptions& options,
  *
  * 2. Dump computation proto state if flag is set to a file.(Call `xla::ComputationTracker::SnapshotComputation`)
  * 3. Set execution options(e.g. debug options)
- * 4. Call `xla::Compiler::CompileAheadOfTime`
+ * 4. Call `xla::cpu::CpuCompiler::CompileAheadOfTime`(Overridden, not shown in call graph)
  */
 StatusOr<std::vector<std::unique_ptr<AotCompilationResult>>>
 CompileOnlyService::CompileAheadOfTime(

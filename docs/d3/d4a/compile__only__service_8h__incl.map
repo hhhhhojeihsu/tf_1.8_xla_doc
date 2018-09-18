@@ -1,5 +1,6 @@
 <map id="tensorflow/tensorflow/compiler/xla/service/compile_only_service.h" name="tensorflow/tensorflow/compiler/xla/service/compile_only_service.h">
-<area shape="rect" id="node4" href="$d5/d83/service_8h.html" title="tensorflow/compiler\l/xla/service/service.h" alt="" coords="1698,109,1845,151"/>
-<area shape="rect" id="node14" href="$d1/dc5/computation__tracker_8h.html" title="tensorflow/compiler\l/xla/service/computation\l_tracker.h" alt="" coords="550,199,714,255"/>
-<area shape="rect" id="node21" href="$d6/d38/user__computation_8h.html" title="tensorflow/compiler\l/xla/service/user_computation.h" alt="" coords="1122,310,1328,351"/>
+<area shape="rect" id="node3" href="$d4/dd1/compiler_8h.html" title="tensorflow/compiler\l/xla/service/compiler.h" alt="" coords="558,206,710,247"/>
+<area shape="rect" id="node18" href="$d5/d83/service_8h.html" title="tensorflow/compiler\l/xla/service/service.h" alt="" coords="1662,109,1808,151"/>
+<area shape="rect" id="node25" href="$d1/dc5/computation__tracker_8h.html" title="tensorflow/compiler\l/xla/service/computation\l_tracker.h" alt="" coords="1798,199,1962,255"/>
+<area shape="rect" id="node29" href="$d6/d38/user__computation_8h.html" title="tensorflow/compiler\l/xla/service/user_computation.h" alt="" coords="1918,310,2125,351"/>
 </map>
