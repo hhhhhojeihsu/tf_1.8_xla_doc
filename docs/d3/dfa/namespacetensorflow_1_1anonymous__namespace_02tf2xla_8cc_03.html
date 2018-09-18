@@ -118,7 +118,7 @@ Functions</h2></td></tr>
 
 <p>Converts the TensorFlow graph into an XLA computation, by executing the graph symbolically, with each op building up the XLA HLO. </p>
 <ol type="1">
-<li>[UNCLEAR] <code>tensorflow::XlaOpRegistry::RegisterCompilationKernels()</code></li>
+<li>[UNCLEAR] <code><a class="el" href="../../d9/de9/classtensorflow_1_1XlaOpRegistry.html#a504bd86e27f0fedc9c5dcb82af983bfb">tensorflow::XlaOpRegistry::RegisterCompilationKernels()</a></code></li>
 <li>Traverse nodes and record the index of assigned device name (hard code with "/device:XLA_CPU_JIT")</li>
 <li>Generate XLA Arguments by <code>_Arg</code> nodes (Ensure the index and type attrs of each nodes initialized correctly first)</li>
 <li>Compile graph to XLA UserComputation<ol type="a">
@@ -128,6 +128,11 @@ Functions</h2></td></tr>
 </li>
 <li>Check compilation result. Throw error if there's a generated function returns constant value (Result of invalid config). </li>
 </ol>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03_a8bea171341441170c6d6c7dbb0b3227d_cgraph.svg" width="410" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -173,22 +178,22 @@ Here is the caller graph for this function:</div>
 <p>The graph is rewritten with _Arg and _Retval nodes, representing the inputs and outputs of the function that will be compiled. Each feed id causes a new _Arg node to be created, where we first collect all existing edges pointing from the named node's output index, and then rewrite them to point from that _Arg node instead. Each fetch id causes a new _Retval node to be created, with a new edge pointing from the named node's output index to that _Retval node. </p>
 </blockquote>
 <ol type="1">
-<li><code>tensorflow::ValidateConfig()</code></li>
+<li><code><a class="el" href="../../de/d86/namespacetensorflow.html#aaeeec358e2be013353667dd7c0a6dbaa">tensorflow::ValidateConfig()</a></code></li>
 <li>Generate mapping for user defined function.<ol type="a">
 <li>gtl::FlatMap&lt;string, std::unique_ptr&lt;FunctionDefAndOpRegistration&gt;&gt; function_defs_</li>
 <li>gtl::FlatMap&lt;string, string&gt; func_grad_</li>
 </ol>
 </li>
-<li><code>tensorflow::AddPlaceholdersForFeeds()</code></li>
+<li><code><a class="el" href="../../de/d86/namespacetensorflow.html#ac287ab9f1996e3d9086f8500c777ee9b" title="Generate corresponding placeholder for each feed tensor. Traverse each inputs of each nodes...">tensorflow::AddPlaceholdersForFeeds()</a></code></li>
 <li><code>tensorflow::PruneGraphDefInfo()</code></li>
-<li><code><a class="el" href="../../de/d86/namespacetensorflow.html#a491706512ccc1517e499cbdb810aa6ab" title="Assign each NodeDefs of GraphDef default values Google Docs: Adds default attributes to NodeDefs in &#39;...">tensorflow::AddDefaultAttrsToGraphDef()</a></code></li>
+<li><code><a class="el" href="../../de/d86/namespacetensorflow.html#a491706512ccc1517e499cbdb810aa6ab" title="Assign each NodeDefs of GraphDef default values. ">tensorflow::AddDefaultAttrsToGraphDef()</a></code></li>
 <li><code><a class="el" href="../../de/d86/namespacetensorflow.html#a43875c6284c3af69e7a420b67c7eec6b" title="Convert GraphDef defined protobuf to type Graph ">tensorflow::ConvertGraphDefToGraph()</a></code></li>
 <li><code><a class="el" href="../../d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03.html#af0d9ad360ae01cf7c15abe04de99b230">tensorflow::RewriteAndPruneGraph()</a></code> </li>
 </ol>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03_aeef0cda05958b2b855b0e2fbe07b1314_cgraph.svg" width="400" height="199"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03_aeef0cda05958b2b855b0e2fbe07b1314_cgraph.svg" width="651" height="352"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -232,7 +237,7 @@ Here is the caller graph for this function:</div>
 <ol type="1">
 <li>Generate a <code>_Arg</code> node and remove the original placeholder node by removing edge and add a new edge to <code>_Arg</code> node.</li>
 <li>For each fetch tensor, create a <code>_Retval</code> node and add it to the end.</li>
-<li>Do BFS from <code>_Retval</code> nodes and remove all unreachable nodes. Thus removing placeholders creating by <code>tensorflow::AddPlaceholdersForFeeds()</code></li>
+<li>Do BFS from <code>_Retval</code> nodes and remove all unreachable nodes. Thus removing placeholders creating by <code><a class="el" href="../../de/d86/namespacetensorflow.html#ac287ab9f1996e3d9086f8500c777ee9b" title="Generate corresponding placeholder for each feed tensor. Traverse each inputs of each nodes...">tensorflow::AddPlaceholdersForFeeds()</a></code></li>
 <li>Connect nodes without input edge with <code>Source</code> node by using control edge. And <code>Sink</code> node to nodes without output edge.</li>
 </ol>
 <p>Google Docs: </p><blockquote class="doxtable">

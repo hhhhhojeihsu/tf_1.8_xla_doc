@@ -1,0 +1,8 @@
+<map id="xla::ComputationTracker::ComputeComputationPostOrder" name="xla::ComputationTracker::ComputeComputationPostOrder">
+<area shape="rect" id="node2" href="$d8/d42/classxla_1_1ComputationTracker.html#aa2f38317a41c1c64fba497780bc39169" title="xla::ComputationTracker\l::ResolveInternal" alt="" coords="285,5,448,47"/>
+<area shape="rect" id="node3" href="$db/dbb/classxla_1_1UserComputation.html#add02ff5e2d9daf549727b8a4ed96f116" title="xla::UserComputation\l::GetEmbeddedComputations" alt="" coords="269,71,464,112"/>
+<area shape="rect" id="node4" href="$db/dbb/classxla_1_1UserComputation.html#af22e122e5671d4f05628c8aae80b8aee" title="xla::UserComputation\l::name" alt="" coords="512,37,661,79"/>
+<area shape="rect" id="node5" href="$db/dbb/classxla_1_1UserComputation.html#aee9eeba8ef86ffdae79b8fe9d74cd99b" title="xla::UserComputation\l::version" alt="" coords="512,103,661,144"/>
+<area shape="rect" id="node6" href="$db/dbb/classxla_1_1UserComputation.html#a4fef8fc438e3b3b2c396de862820af3e" title="xla::UserComputation\l::GetVersionedHandle" alt="" coords="709,103,859,144"/>
+<area shape="rect" id="node7" href="$db/dbb/classxla_1_1UserComputation.html#af44a77b35aaed6ff22d5fbb266dd824e" title="xla::UserComputation\l::GetVersionedHandleInternal" alt="" coords="907,103,1099,144"/>
+</map>

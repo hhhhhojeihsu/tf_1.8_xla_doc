@@ -1,0 +1,5 @@
+<map id="xla::UserComputation::request_count" name="xla::UserComputation::request_count">
+<area shape="rect" id="node2" href="$db/dbb/classxla_1_1UserComputation.html#aee9eeba8ef86ffdae79b8fe9d74cd99b" title="xla::UserComputation\l::version" alt="" coords="203,5,352,47"/>
+<area shape="rect" id="node3" href="$db/dbb/classxla_1_1UserComputation.html#a4fef8fc438e3b3b2c396de862820af3e" title="xla::UserComputation\l::GetVersionedHandle" alt="" coords="400,5,549,47"/>
+<area shape="rect" id="node4" href="$db/dbb/classxla_1_1UserComputation.html#af44a77b35aaed6ff22d5fbb266dd824e" title="xla::UserComputation\l::GetVersionedHandleInternal" alt="" coords="597,5,789,47"/>
+</map>

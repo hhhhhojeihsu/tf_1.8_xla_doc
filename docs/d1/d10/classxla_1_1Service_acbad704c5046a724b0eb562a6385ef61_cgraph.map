@@ -1,0 +1,5 @@
+<map id="xla::Service::ExecuteParallelAndRegisterResult" name="xla::Service::ExecuteParallelAndRegisterResult">
+<area shape="rect" id="node2" href="$d1/d10/classxla_1_1Service.html#aa23389c9947ef664bcaad4f253962b65" title="xla::Service::backend" alt="" coords="443,5,591,32"/>
+<area shape="rect" id="node3" href="$d5/d7a/classxla_1_1ServiceOptions.html#a16503bc7e5b638f42419425b48d648d7" title="xla::ServiceOptions\l::number_of_replicas" alt="" coords="445,67,588,109"/>
+<area shape="rect" id="node4" href="$d1/d10/classxla_1_1Service.html#a1c62dd29d5ef6643da20d7f1f53c93ee" title="xla::Service::Replicas" alt="" coords="244,45,395,72"/>
+</map>

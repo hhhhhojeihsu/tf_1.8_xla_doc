@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['xlabackendregistrar',['XlaBackendRegistrar',['../d5/d99/classtensorflow_1_1XlaBackendRegistrar.html',1,'tensorflow']]],
-  ['xlaopregistrar',['XlaOpRegistrar',['../d4/df6/classtensorflow_1_1XlaOpRegistrar.html',1,'tensorflow']]],
-  ['xlaopregistrationbuilder',['XlaOpRegistrationBuilder',['../d8/d08/classtensorflow_1_1XlaOpRegistrationBuilder.html',1,'tensorflow']]],
-  ['xlaopregistry',['XlaOpRegistry',['../d9/de9/classtensorflow_1_1XlaOpRegistry.html',1,'tensorflow']]]
+  ['graphconstructor',['GraphConstructor',['../d2/d97/classtensorflow_1_1anonymous__namespace_02graph__constructor_8cc_03_1_1GraphConstructor.html',1,'tensorflow::anonymous_namespace{graph_constructor.cc}']]],
+  ['graphconstructoroptions',['GraphConstructorOptions',['../dd/d87/structtensorflow_1_1GraphConstructorOptions.html',1,'tensorflow']]]
 ];

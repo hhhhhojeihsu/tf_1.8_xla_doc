@@ -1,0 +1,5 @@
+<map id="xla::Service" name="xla::Service">
+<area shape="rect" id="node2" href="$dc/d7f/classServiceInterface.html" title="ServiceInterface" alt="" coords="281,5,399,32"/>
+<area shape="rect" id="node5" href="$d5/d7a/classxla_1_1ServiceOptions.html" title="xla::ServiceOptions" alt="" coords="272,157,408,184"/>
+<area shape="rect" id="node11" href="$d8/d42/classxla_1_1ComputationTracker.html" title="Tracks computations for the XLA service. Registered with a xla::UserComputation instance and can be r..." alt="" coords="259,360,421,387"/>
+</map>

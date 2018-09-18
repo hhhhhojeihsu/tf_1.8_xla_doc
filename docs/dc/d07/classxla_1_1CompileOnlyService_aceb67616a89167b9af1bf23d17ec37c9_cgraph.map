@@ -1,0 +1,21 @@
+<map id="xla::CompileOnlyService::CompileAheadOfTime" name="xla::CompileOnlyService::CompileAheadOfTime">
+<area shape="rect" id="node2" href="$d8/d42/classxla_1_1ComputationTracker.html#add84b3f565b288fdcfdfad55bab8f3ee" title="xla::ComputationTracker\l::Resolve" alt="" coords="488,241,651,282"/>
+<area shape="rect" id="node4" href="$db/dbb/classxla_1_1UserComputation.html#a4fef8fc438e3b3b2c396de862820af3e" title="xla::UserComputation\l::GetVersionedHandle" alt="" coords="1231,37,1380,78"/>
+<area shape="rect" id="node6" href="$d8/d42/classxla_1_1ComputationTracker.html#a1acead58332b1b2c6beaeac5505b1b8a" title="xla::ComputationTracker\l::SnapshotComputation" alt="" coords="235,285,398,326"/>
+<area shape="rect" id="node11" href="$db/dbb/classxla_1_1UserComputation.html#a186a2daf1d487b8f35cf85f0dba034bf" title="xla::UserComputation\l::ComputeProgramShape" alt="" coords="485,175,654,217"/>
+<area shape="rect" id="node16" href="$d1/d10/classxla_1_1Service.html#a6ad3184af8a6365d1098539edfd8be14" title="xla::Service::CreateModule\lConfig" alt="" coords="227,350,407,391"/>
+<area shape="rect" id="node17" href="$d8/d42/classxla_1_1ComputationTracker.html#abaeb463c7038bcc61515a19e18fe0714" title="xla::ComputationTracker\l::BuildHloModule" alt="" coords="235,415,398,457"/>
+<area shape="rect" id="node20" href="$d1/d10/classxla_1_1Service.html#abf4af28e92e767afca01a02b8140e017" title="xla::Service::MaybeDumpHlo\lModule" alt="" coords="220,481,413,522"/>
+<area shape="rect" id="node3" href="$d8/d42/classxla_1_1ComputationTracker.html#aa2f38317a41c1c64fba497780bc39169" title="xla::ComputationTracker\l::ResolveInternal" alt="" coords="755,293,917,334"/>
+<area shape="rect" id="node5" href="$db/dbb/classxla_1_1UserComputation.html#af44a77b35aaed6ff22d5fbb266dd824e" title="xla::UserComputation\l::GetVersionedHandleInternal" alt="" coords="1428,37,1620,78"/>
+<area shape="rect" id="node7" href="$d8/d42/classxla_1_1ComputationTracker.html#a8a16c1575ce6ceb15e15ba2a7d9b65fa" title="xla::ComputationTracker\l::ComputeComputationPostOrder" alt="" coords="461,358,677,399"/>
+<area shape="rect" id="node8" href="$db/dbb/classxla_1_1UserComputation.html#add02ff5e2d9daf549727b8a4ed96f116" title="xla::UserComputation\l::GetEmbeddedComputations" alt="" coords="739,358,933,399"/>
+<area shape="rect" id="node9" href="$db/dbb/classxla_1_1UserComputation.html#af22e122e5671d4f05628c8aae80b8aee" title="xla::UserComputation\l::name" alt="" coords="1014,423,1163,465"/>
+<area shape="rect" id="node10" href="$db/dbb/classxla_1_1UserComputation.html#aee9eeba8ef86ffdae79b8fe9d74cd99b" title="xla::UserComputation\l::version" alt="" coords="1014,255,1163,297"/>
+<area shape="rect" id="node12" href="$db/dbb/classxla_1_1UserComputation.html#a02a015ab900f28dc61b02f47c44f96f0" title="xla::UserComputation\l::CheckParametersAreContiguous" alt="" coords="725,175,947,217"/>
+<area shape="rect" id="node13" href="$dc/d9d/namespacexla_1_1anonymous__namespace_02user__computation_8cc_03.html#a5ee0643c24e2ef217ab180c717d5de36" title="xla::anonymous_namespace\l\{user_computation::cc\}\l::GetRoot" alt="" coords="742,95,930,151"/>
+<area shape="rect" id="node14" href="$dc/d9d/namespacexla_1_1anonymous__namespace_02user__computation_8cc_03.html#a48377f566f973539c09065de3f43058e" title="xla::anonymous_namespace\l\{user_computation::cc\}\l::LookUpRequest" alt="" coords="995,95,1183,151"/>
+<area shape="rect" id="node15" href="$dc/d9d/namespacexla_1_1anonymous__namespace_02user__computation_8cc_03.html#a47ec5fc250056c19fc49c663922f592e" title="xla::anonymous_namespace\l\{user_computation::cc\}\l::CanBeRoot" alt="" coords="995,175,1183,231"/>
+<area shape="rect" id="node18" href="$d8/d42/classxla_1_1ComputationTracker.html#ac2cb38ead1ce3ed118d38e5ab7f7c3f6" title="xla::ComputationTracker\l::ToStringInternal" alt="" coords="488,541,651,582"/>
+<area shape="rect" id="node19" href="$db/dbb/classxla_1_1UserComputation.html#a7ab95fda9f35270dfbf0868b96f636c6" title="xla::UserComputation\l::BuildHloComputation" alt="" coords="759,423,913,465"/>
+</map>

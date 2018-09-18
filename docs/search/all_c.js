@@ -1,5 +1,9 @@
 var searchData=
 [
-  ['name',['Name',['../d8/d08/classtensorflow_1_1XlaOpRegistrationBuilder.html#a7e36af424cee5b69e6021afc55c14d29',1,'tensorflow::XlaOpRegistrationBuilder::Name()'],['../dd/dbf/structtensorflow_1_1XlaOpRegistry_1_1OpRegistration.html#a845988d1e4f3941e991b88637f607a3c',1,'tensorflow::XlaOpRegistry::OpRegistration::name()']]],
-  ['nodemap',['NodeMap',['../d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03.html#a7d213b5749e975e0c194a17e72a95647',1,'tensorflow::anonymous_namespace{tf2xla.cc}']]]
+  ['service',['Service',['../d1/d10/classxla_1_1Service.html',1,'xla']]],
+  ['service_2ecc',['service.cc',['../d9/d1a/service_8cc.html',1,'']]],
+  ['service_2eh',['service.h',['../d5/d83/service_8h.html',1,'']]],
+  ['serviceinterface',['ServiceInterface',['../dc/d7f/classServiceInterface.html',1,'']]],
+  ['serviceoptions',['ServiceOptions',['../d5/d7a/classxla_1_1ServiceOptions.html',1,'xla']]],
+  ['snapshotcomputation',['SnapshotComputation',['../d8/d42/classxla_1_1ComputationTracker.html#a1acead58332b1b2c6beaeac5505b1b8a',1,'xla::ComputationTracker']]]
 ];

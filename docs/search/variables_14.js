@@ -1,0 +1,7 @@
+var searchData=
+[
+  ['validate_5fcolocation_5fconstraints',['validate_colocation_constraints',['../d6/d7d/structtensorflow_1_1anonymous__namespace_02graph__constructor_8cc_03_1_1GraphConstructor_1_1Options.html#aba12d4b24ca2486bbe9e317bb42f0b76',1,'tensorflow::anonymous_namespace{graph_constructor.cc}::GraphConstructor::Options::validate_colocation_constraints()'],['../d0/de0/structtensorflow_1_1ImportGraphDefOptions.html#a6b0f256a8c01f026bb97b3044c66629a',1,'tensorflow::ImportGraphDefOptions::validate_colocation_constraints()']]],
+  ['validate_5fshape',['validate_shape',['../d6/d7d/structtensorflow_1_1anonymous__namespace_02graph__constructor_8cc_03_1_1GraphConstructor_1_1Options.html#a3e2526bf0083b0ed58a4cec24bf2b322',1,'tensorflow::anonymous_namespace{graph_constructor.cc}::GraphConstructor::Options::validate_shape()'],['../d0/de0/structtensorflow_1_1ImportGraphDefOptions.html#ad1a9e7020505d3651b624ec87e973475',1,'tensorflow::ImportGraphDefOptions::validate_shape()']]],
+  ['version_5f',['version_',['../d0/dee/classxla_1_1anonymous__namespace_02user__computation_8cc_03_1_1ComputationLowerer.html#abe1baacb130587fb5f744110f4ac09ac',1,'xla::anonymous_namespace{user_computation.cc}::ComputationLowerer']]],
+  ['versions_5f',['versions_',['../d2/d97/classtensorflow_1_1anonymous__namespace_02graph__constructor_8cc_03_1_1GraphConstructor.html#ac8e29f7ae351a786972512af8b4b99d0',1,'tensorflow::anonymous_namespace{graph_constructor.cc}::GraphConstructor']]]
+];

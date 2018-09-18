@@ -1,5 +1,27 @@
 var searchData=
 [
-  ['uniquify_5fnames',['uniquify_names',['../d0/de0/structtensorflow_1_1ImportGraphDefOptions.html#ab54ce14e70dac3e1efda66de99cf1085',1,'tensorflow::ImportGraphDefOptions']]],
-  ['uniquify_5fprefix',['uniquify_prefix',['../d0/de0/structtensorflow_1_1ImportGraphDefOptions.html#a71216eaa247412b819b20c4a9dc1f940',1,'tensorflow::ImportGraphDefOptions']]]
+  ['anonymous_5fnamespace_7bcompile_2ecc_7d',['anonymous_namespace{compile.cc}',['../d4/df4/namespacetensorflow_1_1tfcompile_1_1anonymous__namespace_02compile_8cc_03.html',1,'tensorflow::tfcompile']]],
+  ['anonymous_5fnamespace_7bgraph_5fconstructor_2ecc_7d',['anonymous_namespace{graph_constructor.cc}',['../d9/d86/namespacetensorflow_1_1anonymous__namespace_02graph__constructor_8cc_03.html',1,'tensorflow::anonymous_namespace{graph_constructor.cc}'],['../d9/d79/namespacetensorflow_1_1anonymous__namespace_02graph__constructor_8cc_03_1_1anonymous__namespace_02graph__constructor_8cc_03.html',1,'tensorflow::anonymous_namespace{graph_constructor.cc}::anonymous_namespace{graph_constructor.cc}']]],
+  ['anonymous_5fnamespace_7btf2xla_2ecc_7d',['anonymous_namespace{tf2xla.cc}',['../d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03.html',1,'tensorflow']]],
+  ['anonymous_5fnamespace_7btf2xla_5futil_2ecc_7d',['anonymous_namespace{tf2xla_util.cc}',['../d8/dc5/namespacetensorflow_1_1anonymous__namespace_02tf2xla__util_8cc_03.html',1,'tensorflow']]],
+  ['tensorflow',['tensorflow',['../de/d86/namespacetensorflow.html',1,'']]],
+  ['tensoridtostring',['TensorIdToString',['../de/d86/namespacetensorflow.html#a7884448129fe060a9d8e61b96aefeb42',1,'tensorflow']]],
+  ['ternaryoperationtohloopcode',['TernaryOperationToHloOpcode',['../dc/d9d/namespacexla_1_1anonymous__namespace_02user__computation_8cc_03.html#a24cae7d166bd61722554fe587245b604',1,'xla::anonymous_namespace{user_computation.cc}']]],
+  ['tf2xla_2ecc',['tf2xla.cc',['../d8/db8/tf2xla_8cc.html',1,'']]],
+  ['tf2xla_2eh',['tf2xla.h',['../d7/d62/tf2xla_8h.html',1,'']]],
+  ['tf2xla_5futil_2ecc',['tf2xla_util.cc',['../d1/d60/tf2xla__util_8cc.html',1,'']]],
+  ['tf2xla_5futil_2eh',['tf2xla_util.h',['../d2/d2b/tf2xla__util_8h.html',1,'']]],
+  ['tf_5fdisallow_5fcopy_5fand_5fassign',['TF_DISALLOW_COPY_AND_ASSIGN',['../d8/d42/classxla_1_1ComputationTracker.html#ab6c5fcebde4650ab0b4e39a8014c6684',1,'xla::ComputationTracker::TF_DISALLOW_COPY_AND_ASSIGN()'],['../d1/d10/classxla_1_1Service.html#a9767a2d991f43de746fc178698c0022c',1,'xla::Service::TF_DISALLOW_COPY_AND_ASSIGN()'],['../db/dbb/classxla_1_1UserComputation.html#ad9553adce44ef9fe9f11d35b3072a8b5',1,'xla::UserComputation::TF_DISALLOW_COPY_AND_ASSIGN()']]],
+  ['tfcompile',['tfcompile',['../d7/d38/namespacetensorflow_1_1tfcompile.html',1,'tensorflow']]],
+  ['tfcompile_5fmain_2ecc',['tfcompile_main.cc',['../d4/d8d/tfcompile__main_8cc.html',1,'']]],
+  ['tostring',['ToString',['../d8/d42/classxla_1_1ComputationTracker.html#aca0c1f170daeface2e07357e289ae95e',1,'xla::ComputationTracker']]],
+  ['tostringinternal',['ToStringInternal',['../d8/d42/classxla_1_1ComputationTracker.html#ac2cb38ead1ce3ed118d38e5ab7f7c3f6',1,'xla::ComputationTracker']]],
+  ['transferfromoutfeed',['TransferFromOutfeed',['../dc/d07/classxla_1_1CompileOnlyService.html#a2808f1a94b33758c5b6fd3d9e4da7294',1,'xla::CompileOnlyService::TransferFromOutfeed()'],['../d1/d10/classxla_1_1Service.html#ad886b3b1c00757ca3e609c721a556be9',1,'xla::Service::TransferFromOutfeed()']]],
+  ['transfertoclient',['TransferToClient',['../d1/d10/classxla_1_1Service.html#a68a310efc9149392e125d923925bf468',1,'xla::Service']]],
+  ['transfertoinfeed',['TransferToInfeed',['../dc/d07/classxla_1_1CompileOnlyService.html#a09ba218ce5f7adf5885536cc6fb7d4e5',1,'xla::CompileOnlyService::TransferToInfeed()'],['../d1/d10/classxla_1_1Service.html#a38ddca682c414a7a8a573fdbd3aa61ad',1,'xla::Service::TransferToInfeed()']]],
+  ['transfertoserver',['TransferToServer',['../dc/d07/classxla_1_1CompileOnlyService.html#ad23ece42151c4f061d17d5b6d12aa452',1,'xla::CompileOnlyService::TransferToServer()'],['../d1/d10/classxla_1_1Service.html#adcdc79b5e304ee115c59934e45b48093',1,'xla::Service::TransferToServer()']]],
+  ['traversepostorder',['TraversePostorder',['../d0/dee/classxla_1_1anonymous__namespace_02user__computation_8cc_03_1_1ComputationLowerer.html#a6bd9a8d705ba69e8a24c79cfc12ae27b',1,'xla::anonymous_namespace{user_computation.cc}::ComputationLowerer']]],
+  ['tryimport',['TryImport',['../d2/d97/classtensorflow_1_1anonymous__namespace_02graph__constructor_8cc_03_1_1GraphConstructor.html#a437a83abadb4c701bc2c1e9f0f102be8',1,'tensorflow::anonymous_namespace{graph_constructor.cc}::GraphConstructor']]],
+  ['type_5fconstraints',['type_constraints',['../dd/dbf/structtensorflow_1_1XlaOpRegistry_1_1OpRegistration.html#ab43513b4447210b7048d8874fda19397',1,'tensorflow::XlaOpRegistry::OpRegistration']]],
+  ['typeconstraint',['TypeConstraint',['../d8/d08/classtensorflow_1_1XlaOpRegistrationBuilder.html#ac68bc94c69813c96d6fd67d7b7cf20f9',1,'tensorflow::XlaOpRegistrationBuilder::TypeConstraint(StringPiece attr_name, DataType allowed)'],['../d8/d08/classtensorflow_1_1XlaOpRegistrationBuilder.html#afbe6bd674a6e4de7ab33dafa67f38138',1,'tensorflow::XlaOpRegistrationBuilder::TypeConstraint(StringPiece attr_name, gtl::ArraySlice&lt; DataType &gt; allowed)']]]
 ];

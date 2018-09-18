@@ -72,10 +72,18 @@ $(function() {
 <div class="title">graph_def_util.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><div class="dynheader">
+<div class="textblock"><code>#include &lt;set&gt;</code><br />
+<code>#include &quot;tensorflow/core/framework/op.h&quot;</code><br />
+<code>#include &quot;tensorflow/core/lib/core/status.h&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for graph_def_util.h:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/dec/graph__def__util_8h__incl.svg" width="432" height="156"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d39/graph__def__util_8h__dep__incl.svg" width="176" height="156"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d39/graph__def__util_8h__dep__incl.svg" width="523" height="171"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <p><a href="../../de/d25/graph__def__util_8h_source.html">Go to the source code of this file.</a></p>
@@ -87,16 +95,8 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a18a0d32d7cefd8d9617184b62c7069d3"><td class="memItemLeft" align="right" valign="top">Status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d86/namespacetensorflow.html#a18a0d32d7cefd8d9617184b62c7069d3">tensorflow::ValidateExternalGraphDefSyntax</a> (const GraphDef &amp;graph_def)</td></tr>
-<tr class="separator:a18a0d32d7cefd8d9617184b62c7069d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a491706512ccc1517e499cbdb810aa6ab"><td class="memItemLeft" align="right" valign="top">Status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d86/namespacetensorflow.html#a491706512ccc1517e499cbdb810aa6ab">tensorflow::AddDefaultAttrsToGraphDef</a> (GraphDef *graph_def, const OpRegistryInterface &amp;op_registry, int node_offset)</td></tr>
-<tr class="memdesc:a491706512ccc1517e499cbdb810aa6ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign each <code>NodeDefs</code> of <code>GraphDef</code> default values Google Docs: </p><blockquote class="doxtable">
-<p>Adds default attributes to NodeDefs in 'graph_def' starting from the 'node_offset' node in 'graph_def'.</p>
-<p>Default attributes are defined by 'op_registry'.</p>
-<p>Returns OK on success, an error if 'graph_def' has a NodeDef that cannot be found in 'op_registry'.</p>
-<p>REQUIRES: 'graph_def' and 'op_registry' are not nullptr.</p>
-</blockquote>
- <a href="../../de/d86/namespacetensorflow.html#a491706512ccc1517e499cbdb810aa6ab">More...</a><br /></td></tr>
+<tr class="memdesc:a491706512ccc1517e499cbdb810aa6ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign each <code>NodeDefs</code> of <code>GraphDef</code> default values.  <a href="../../de/d86/namespacetensorflow.html#a491706512ccc1517e499cbdb810aa6ab">More...</a><br /></td></tr>
 <tr class="separator:a491706512ccc1517e499cbdb810aa6ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

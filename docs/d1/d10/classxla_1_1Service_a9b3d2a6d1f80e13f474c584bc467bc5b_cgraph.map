@@ -1,0 +1,12 @@
+<map id="xla::Service::IsConstant" name="xla::Service::IsConstant">
+<area shape="rect" id="node2" href="$d8/d42/classxla_1_1ComputationTracker.html#add84b3f565b288fdcfdfad55bab8f3ee" title="xla::ComputationTracker\l::Resolve" alt="" coords="244,5,407,47"/>
+<area shape="rect" id="node4" href="$db/dbb/classxla_1_1UserComputation.html#a2213dc89e9c6bd1fb2a43bc1cadea48f" title="xla::UserComputation\l::GetVersionedHandleAtOperation" alt="" coords="216,71,435,112"/>
+<area shape="rect" id="node5" href="$db/dbb/classxla_1_1UserComputation.html#a3c6d076f89562622a79af3ea252dcdd7" title="xla::UserComputation\l::request_count" alt="" coords="251,136,400,177"/>
+<area shape="rect" id="node9" href="$db/dbb/classxla_1_1UserComputation.html#aed26b1fc0c4c9c7178f980eb3c8ab03a" title="xla::UserComputation\l::IsConstant" alt="" coords="251,201,400,243"/>
+<area shape="rect" id="node3" href="$d8/d42/classxla_1_1ComputationTracker.html#aa2f38317a41c1c64fba497780bc39169" title="xla::ComputationTracker\l::ResolveInternal" alt="" coords="495,5,658,47"/>
+<area shape="rect" id="node6" href="$db/dbb/classxla_1_1UserComputation.html#aee9eeba8ef86ffdae79b8fe9d74cd99b" title="xla::UserComputation\l::version" alt="" coords="502,136,651,177"/>
+<area shape="rect" id="node7" href="$db/dbb/classxla_1_1UserComputation.html#a4fef8fc438e3b3b2c396de862820af3e" title="xla::UserComputation\l::GetVersionedHandle" alt="" coords="719,136,868,177"/>
+<area shape="rect" id="node8" href="$db/dbb/classxla_1_1UserComputation.html#af44a77b35aaed6ff22d5fbb266dd824e" title="xla::UserComputation\l::GetVersionedHandleInternal" alt="" coords="916,136,1108,177"/>
+<area shape="rect" id="node10" href="$db/dbb/classxla_1_1UserComputation.html#a89b9415667968217b87209ccdf989070" title="xla::UserComputation\l::LookUpRequest" alt="" coords="502,201,651,243"/>
+<area shape="rect" id="node11" href="$dc/d9d/namespacexla_1_1anonymous__namespace_02user__computation_8cc_03.html#acaaec29f8a4042ed7c65dd6ac58028f6" title="xla::anonymous_namespace\l\{user_computation::cc\}\l::PureFunctionalVisitor" alt="" coords="483,267,671,323"/>
+</map>

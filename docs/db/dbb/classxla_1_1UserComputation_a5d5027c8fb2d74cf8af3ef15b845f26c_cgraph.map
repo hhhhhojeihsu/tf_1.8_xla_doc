@@ -1,0 +1,12 @@
+<map id="xla::UserComputation::AddSelectAndScatterInstruction" name="xla::UserComputation::AddSelectAndScatterInstruction">
+<area shape="rect" id="node2" href="$db/dbb/classxla_1_1UserComputation.html#a89b9415667968217b87209ccdf989070" title="xla::UserComputation\l::LookUpRequest" alt="" coords="301,5,450,47"/>
+<area shape="rect" id="node3" href="$db/dbb/classxla_1_1UserComputation.html#aee9eeba8ef86ffdae79b8fe9d74cd99b" title="xla::UserComputation\l::version" alt="" coords="818,160,967,201"/>
+<area shape="rect" id="node5" href="$db/dbb/classxla_1_1UserComputation.html#af44a77b35aaed6ff22d5fbb266dd824e" title="xla::UserComputation\l::GetVersionedHandleInternal" alt="" coords="1232,105,1424,147"/>
+<area shape="rect" id="node6" href="$db/dbb/classxla_1_1UserComputation.html#a186a2daf1d487b8f35cf85f0dba034bf" title="xla::UserComputation\l::ComputeProgramShape" alt="" coords="291,173,460,215"/>
+<area shape="rect" id="node11" href="$db/dbb/classxla_1_1UserComputation.html#a3d120052a47ab98a431b908192f0d755" title="xla::UserComputation\l::CreateComputationDataHandle" alt="" coords="269,239,481,280"/>
+<area shape="rect" id="node4" href="$db/dbb/classxla_1_1UserComputation.html#a4fef8fc438e3b3b2c396de862820af3e" title="xla::UserComputation\l::GetVersionedHandle" alt="" coords="1035,135,1184,176"/>
+<area shape="rect" id="node7" href="$db/dbb/classxla_1_1UserComputation.html#a02a015ab900f28dc61b02f47c44f96f0" title="xla::UserComputation\l::CheckParametersAreContiguous" alt="" coords="529,173,751,215"/>
+<area shape="rect" id="node8" href="$dc/d9d/namespacexla_1_1anonymous__namespace_02user__computation_8cc_03.html#a5ee0643c24e2ef217ab180c717d5de36" title="xla::anonymous_namespace\l\{user_computation::cc\}\l::GetRoot" alt="" coords="546,290,734,346"/>
+<area shape="rect" id="node9" href="$dc/d9d/namespacexla_1_1anonymous__namespace_02user__computation_8cc_03.html#a48377f566f973539c09065de3f43058e" title="xla::anonymous_namespace\l\{user_computation::cc\}\l::LookUpRequest" alt="" coords="799,250,987,306"/>
+<area shape="rect" id="node10" href="$dc/d9d/namespacexla_1_1anonymous__namespace_02user__computation_8cc_03.html#a47ec5fc250056c19fc49c663922f592e" title="xla::anonymous_namespace\l\{user_computation::cc\}\l::CanBeRoot" alt="" coords="799,330,987,386"/>
+</map>

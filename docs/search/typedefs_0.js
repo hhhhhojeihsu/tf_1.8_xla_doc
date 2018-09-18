@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['nodemap',['NodeMap',['../d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03.html#a7d213b5749e975e0c194a17e72a95647',1,'tensorflow::anonymous_namespace{tf2xla.cc}']]]
+  ['backendopfilter',['BackendOpFilter',['../d9/de9/classtensorflow_1_1XlaOpRegistry.html#a6125d89c7c330bacae0031b1528aa012',1,'tensorflow::XlaOpRegistry']]]
 ];

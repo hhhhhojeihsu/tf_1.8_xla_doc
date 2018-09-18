@@ -1,0 +1,17 @@
+<map id="tensorflow::XlaOpRegistry::Instance" name="tensorflow::XlaOpRegistry::Instance">
+<area shape="rect" id="node2" href="$d9/de9/classtensorflow_1_1XlaOpRegistry.html#a6b6d684b68684deb7eca78ea4c95f94a" title="tensorflow::XlaOpRegistry\l::RegisterCompilationDevice" alt="" coords="231,5,421,47"/>
+<area shape="rect" id="node3" href="$d9/de9/classtensorflow_1_1XlaOpRegistry.html#a3a702dcfe8024dd83f59fe9ef5186bb4" title="tensorflow::XlaOpRegistry\l::RegisterBackend" alt="" coords="239,71,413,112"/>
+<area shape="rect" id="node4" href="$d5/d99/classtensorflow_1_1XlaBackendRegistrar.html#abb4a520ea201bb379112af955f71887c" title="tensorflow::XlaBackendRegistrar\l::XlaBackendRegistrar" alt="" coords="472,100,685,141"/>
+<area shape="rect" id="node5" href="$d9/de9/classtensorflow_1_1XlaOpRegistry.html#a4c9d8e8c614f533e0bf12e6d56d74a24" title="tensorflow::XlaOpRegistry\l::GetCompilationDevice" alt="" coords="239,188,413,229"/>
+<area shape="rect" id="node6" href="$d9/de9/classtensorflow_1_1XlaOpRegistry.html#a504bd86e27f0fedc9c5dcb82af983bfb" title="Registers all JIT kernels on JIT devices, if not already registered. Does nothing otherwise..." alt="" coords="230,253,422,295"/>
+<area shape="rect" id="node12" href="$d9/de9/classtensorflow_1_1XlaOpRegistry.html#a7d7734cf12a6ac5d2ceeadb57a075812" title="tensorflow::XlaOpRegistry\l::DeviceKernels" alt="" coords="491,312,666,353"/>
+<area shape="rect" id="node13" href="$d9/de9/classtensorflow_1_1XlaOpRegistry.html#ad39465d13588909105b117ba98ef144e" title="tensorflow::XlaOpRegistry\l::CompileTimeConstantInputs" alt="" coords="228,371,424,412"/>
+<area shape="rect" id="node14" href="$d9/de9/classtensorflow_1_1XlaOpRegistry.html#a89ea89d5893bbd6d049d7326a2b24cbd" title="tensorflow::XlaOpRegistry\l::BackendNames" alt="" coords="239,436,413,477"/>
+<area shape="rect" id="node15" href="$d9/de9/classtensorflow_1_1XlaOpRegistry.html#a6a251f50fef1c4bd5293f9e215ea180e" title="tensorflow::XlaOpRegistry\l::IsBackendRegistered" alt="" coords="239,501,413,543"/>
+<area shape="rect" id="node16" href="$d4/df6/classtensorflow_1_1XlaOpRegistrar.html#a445d470a578bf0b473d283dbe1a534b1" title="tensorflow::XlaOpRegistrar\l::XlaOpRegistrar" alt="" coords="237,567,415,608"/>
+<area shape="rect" id="node7" href="$d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03.html#a8bea171341441170c6d6c7dbb0b3227d" title="Converts the TensorFlow graph into an XLA computation, by executing the graph symbolically, with each op building up the XLA HLO. " alt="" coords="499,231,658,287"/>
+<area shape="rect" id="node8" href="$de/d86/namespacetensorflow.html#a6f8fce5955ec6d67cd1762891d4830e9" title="Convert tensorflow graph_def to XLA UserComputation. " alt="" coords="733,239,904,280"/>
+<area shape="rect" id="node9" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a021cb1c58d938b16dcd998aa8d1fc191" title="Converts the graph into an XLA computation, and compiles the computation. Called by tensorflow::tfcom..." alt="" coords="952,239,1095,280"/>
+<area shape="rect" id="node10" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a460964a5bb277865d1275fe3746132c1" title="tensorflow::tfcompile\l::Main" alt="" coords="1143,239,1285,280"/>
+<area shape="rect" id="node11" href="$d4/d8d/tfcompile__main_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1333,246,1384,273"/>
+</map>

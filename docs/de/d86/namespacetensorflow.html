@@ -63,8 +63,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">tensorflow Namespace Reference</div>  </div>
 </div><!--header-->
@@ -72,9 +72,12 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03.html">anonymous_namespace{tf2xla.cc}</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d7/d38/namespacetensorflow_1_1tfcompile"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d38/namespacetensorflow_1_1tfcompile.html">tfcompile</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de9/classtensorflow_1_1XlaOpRegistry.html">XlaOpRegistry</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -82,37 +85,24 @@ Functions</h2></td></tr>
 <tr class="memitem:a6f8fce5955ec6d67cd1762891d4830e9"><td class="memItemLeft" align="right" valign="top">Status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d86/namespacetensorflow.html#a6f8fce5955ec6d67cd1762891d4830e9">ConvertGraphDefToXla</a> (const GraphDef &amp;graph_def, const tf2xla::Config &amp;config, xla::Client *client, xla::Computation *computation)</td></tr>
 <tr class="memdesc:a6f8fce5955ec6d67cd1762891d4830e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert tensorflow graph_def to XLA UserComputation.  <a href="#a6f8fce5955ec6d67cd1762891d4830e9">More...</a><br /></td></tr>
 <tr class="separator:a6f8fce5955ec6d67cd1762891d4830e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18a0d32d7cefd8d9617184b62c7069d3"><td class="memItemLeft" align="right" valign="top">Status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d86/namespacetensorflow.html#a18a0d32d7cefd8d9617184b62c7069d3">ValidateExternalGraphDefSyntax</a> (const GraphDef &amp;graph_def)</td></tr>
-<tr class="separator:a18a0d32d7cefd8d9617184b62c7069d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaeeec358e2be013353667dd7c0a6dbaa"><td class="memItemLeft" align="right" valign="top">Status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d86/namespacetensorflow.html#aaeeec358e2be013353667dd7c0a6dbaa">ValidateConfig</a> (const tf2xla::Config &amp;config)</td></tr>
+<tr class="separator:aaeeec358e2be013353667dd7c0a6dbaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac287ab9f1996e3d9086f8500c777ee9b"><td class="memItemLeft" align="right" valign="top">Status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d86/namespacetensorflow.html#ac287ab9f1996e3d9086f8500c777ee9b">AddPlaceholdersForFeeds</a> (const tf2xla::Config &amp;config, const OpRegistryInterface *op_registry, std::unordered_map&lt; string, string &gt; *feed_remapping, GraphDef *graph_def)</td></tr>
+<tr class="memdesc:ac287ab9f1996e3d9086f8500c777ee9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate corresponding placeholder for each feed tensor. Traverse each inputs of each nodes. Replace feeds to corresponding placeholders.  <a href="#ac287ab9f1996e3d9086f8500c777ee9b">More...</a><br /></td></tr>
+<tr class="separator:ac287ab9f1996e3d9086f8500c777ee9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac09f7fb26bddd7564249fd5d1b255435"><td class="memItemLeft" align="right" valign="top">Status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d86/namespacetensorflow.html#ac09f7fb26bddd7564249fd5d1b255435">PruneGraphDefInto</a> (const tf2xla::Config &amp;config, const GraphDef &amp;in, GraphDef *out)</td></tr>
+<tr class="memdesc:ac09f7fb26bddd7564249fd5d1b255435"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove source nodes of feed tensor. Because they are removed at <code><a class="el" href="../../de/d86/namespacetensorflow.html#ac287ab9f1996e3d9086f8500c777ee9b" title="Generate corresponding placeholder for each feed tensor. Traverse each inputs of each nodes...">tensorflow::AddPlaceholdersForFeeds</a></code>  <a href="#ac09f7fb26bddd7564249fd5d1b255435">More...</a><br /></td></tr>
+<tr class="separator:ac09f7fb26bddd7564249fd5d1b255435"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a491706512ccc1517e499cbdb810aa6ab"><td class="memItemLeft" align="right" valign="top">Status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d86/namespacetensorflow.html#a491706512ccc1517e499cbdb810aa6ab">AddDefaultAttrsToGraphDef</a> (GraphDef *graph_def, const OpRegistryInterface &amp;op_registry, int node_offset)</td></tr>
-<tr class="memdesc:a491706512ccc1517e499cbdb810aa6ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign each <code>NodeDefs</code> of <code>GraphDef</code> default values Google Docs: </p><blockquote class="doxtable">
-<p>Adds default attributes to NodeDefs in 'graph_def' starting from the 'node_offset' node in 'graph_def'.</p>
-<p>Default attributes are defined by 'op_registry'.</p>
-<p>Returns OK on success, an error if 'graph_def' has a NodeDef that cannot be found in 'op_registry'.</p>
-<p>REQUIRES: 'graph_def' and 'op_registry' are not nullptr.</p>
-</blockquote>
- <a href="#a491706512ccc1517e499cbdb810aa6ab">More...</a><br /></td></tr>
+<tr class="memdesc:a491706512ccc1517e499cbdb810aa6ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign each <code>NodeDefs</code> of <code>GraphDef</code> default values.  <a href="#a491706512ccc1517e499cbdb810aa6ab">More...</a><br /></td></tr>
 <tr class="separator:a491706512ccc1517e499cbdb810aa6ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43875c6284c3af69e7a420b67c7eec6b"><td class="memItemLeft" align="right" valign="top">Status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d86/namespacetensorflow.html#a43875c6284c3af69e7a420b67c7eec6b">ConvertGraphDefToGraph</a> (const GraphConstructorOptions &amp;opts, const GraphDef &amp;gdef, Graph *g)</td></tr>
 <tr class="memdesc:a43875c6284c3af69e7a420b67c7eec6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <code>GraphDef</code> defined protobuf to type <code>Graph</code>  <a href="#a43875c6284c3af69e7a420b67c7eec6b">More...</a><br /></td></tr>
 <tr class="separator:a43875c6284c3af69e7a420b67c7eec6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:ab117a854aecc46741962d730b3fbbe17"><td class="memItemLeft" align="right" valign="top">const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d86/namespacetensorflow.html#ab117a854aecc46741962d730b3fbbe17">kArgOp</a> = &quot;_Arg&quot;</td></tr>
-<tr class="separator:ab117a854aecc46741962d730b3fbbe17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97d90591f72d9eb4c4a1e5583c7ac024"><td class="memItemLeft" align="right" valign="top">const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d86/namespacetensorflow.html#a97d90591f72d9eb4c4a1e5583c7ac024">kRetvalOp</a> = &quot;_Retval&quot;</td></tr>
-<tr class="separator:a97d90591f72d9eb4c4a1e5583c7ac024"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac48f4d56010f4b71d611163c6e19270c"><td class="memItemLeft" align="right" valign="top">const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d86/namespacetensorflow.html#ac48f4d56010f4b71d611163c6e19270c">kFeedIdAttr</a> = &quot;_feed_id&quot;</td></tr>
-<tr class="separator:ac48f4d56010f4b71d611163c6e19270c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb1bca7b73a0c5c55dbcad4b08416554"><td class="memItemLeft" align="right" valign="top">const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d86/namespacetensorflow.html#abb1bca7b73a0c5c55dbcad4b08416554">kFetchIdAttr</a> = &quot;_fetch_id&quot;</td></tr>
-<tr class="separator:abb1bca7b73a0c5c55dbcad4b08416554"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae43a4b2587ff60700442dba4c8c2f292"><td class="memItemLeft" align="right" valign="top">const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d86/namespacetensorflow.html#ae43a4b2587ff60700442dba4c8c2f292">kShapeAttr</a> = &quot;_shape&quot;</td></tr>
-<tr class="separator:ae43a4b2587ff60700442dba4c8c2f292"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a228e329c03c330252ee50413740f3a5e"><td class="memItemLeft" align="right" valign="top">const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d86/namespacetensorflow.html#a228e329c03c330252ee50413740f3a5e">kDebugNameAttr</a> = &quot;_debug_name&quot;</td></tr>
-<tr class="separator:a228e329c03c330252ee50413740f3a5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Namespace of tensorflow </p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="a491706512ccc1517e499cbdb810aa6ab"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a491706512ccc1517e499cbdb810aa6ab">&#9670;&nbsp;</a></span>AddDefaultAttrsToGraphDef()</h2>
 
@@ -145,17 +135,70 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Assign each <code>NodeDefs</code> of <code>GraphDef</code> default values Google Docs: </p><blockquote class="doxtable">
+<p>Assign each <code>NodeDefs</code> of <code>GraphDef</code> default values. </p>
+<p>Google Docs: </p><blockquote class="doxtable">
 <p>Adds default attributes to NodeDefs in 'graph_def' starting from the 'node_offset' node in 'graph_def'.</p>
 <p>Default attributes are defined by 'op_registry'.</p>
 <p>Returns OK on success, an error if 'graph_def' has a NodeDef that cannot be found in 'op_registry'.</p>
 <p>REQUIRES: 'graph_def' and 'op_registry' are not nullptr.</p>
 </blockquote>
-</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d86/namespacetensorflow_a491706512ccc1517e499cbdb810aa6ab_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d86/namespacetensorflow_a491706512ccc1517e499cbdb810aa6ab_icgraph.svg" width="100%" height="367"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ac287ab9f1996e3d9086f8500c777ee9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac287ab9f1996e3d9086f8500c777ee9b">&#9670;&nbsp;</a></span>AddPlaceholdersForFeeds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Status tensorflow::AddPlaceholdersForFeeds </td>
+          <td>(</td>
+          <td class="paramtype">const tf2xla::Config &amp;&#160;</td>
+          <td class="paramname"><em>config</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const OpRegistryInterface *&#160;</td>
+          <td class="paramname"><em>op_registry</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::unordered_map&lt; string, string &gt; *&#160;</td>
+          <td class="paramname"><em>feed_remapping</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GraphDef *&#160;</td>
+          <td class="paramname"><em>graph_def</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generate corresponding placeholder for each feed tensor. Traverse each inputs of each nodes. Replace feeds to corresponding placeholders. </p>
+<p>Modifies &lt;graph_def&gt; to include placeholders for each fed tensor, and update references to the fed tensors to refer to the placeholders. The existing nodes referenced by the feeds are not removed or modified (except where their input edges are modified by the replacement of other feeds). </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d86/namespacetensorflow_ac287ab9f1996e3d9086f8500c777ee9b_cgraph.svg" width="430" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d86/namespacetensorflow_ac287ab9f1996e3d9086f8500c777ee9b_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -193,6 +236,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Convert <code>GraphDef</code> defined protobuf to type <code>Graph</code> </p>
+<p>As brief </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -247,7 +291,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d86/namespacetensorflow_a6f8fce5955ec6d67cd1762891d4830e9_cgraph.svg" width="619" height="206"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d86/namespacetensorflow_a6f8fce5955ec6d67cd1762891d4830e9_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -257,106 +301,69 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a18a0d32d7cefd8d9617184b62c7069d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18a0d32d7cefd8d9617184b62c7069d3">&#9670;&nbsp;</a></span>ValidateExternalGraphDefSyntax()</h2>
+<a id="ac09f7fb26bddd7564249fd5d1b255435"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac09f7fb26bddd7564249fd5d1b255435">&#9670;&nbsp;</a></span>PruneGraphDefInto()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Status tensorflow::ValidateExternalGraphDefSyntax </td>
+          <td class="memname">Status tensorflow::PruneGraphDefInto </td>
           <td>(</td>
+          <td class="paramtype">const tf2xla::Config &amp;&#160;</td>
+          <td class="paramname"><em>config</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const GraphDef &amp;&#160;</td>
-          <td class="paramname"><em>graph_def</em></td><td>)</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GraphDef *&#160;</td>
+          <td class="paramname"><em>out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Remove source nodes of feed tensor. Because they are removed at <code><a class="el" href="../../de/d86/namespacetensorflow.html#ac287ab9f1996e3d9086f8500c777ee9b" title="Generate corresponding placeholder for each feed tensor. Traverse each inputs of each nodes...">tensorflow::AddPlaceholdersForFeeds</a></code> </p>
+<p>Returns in &lt;out&gt; a copy of &lt;in&gt;, pruned to only include fetches from &lt;config&gt;. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d86/namespacetensorflow_ac09f7fb26bddd7564249fd5d1b255435_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="aaeeec358e2be013353667dd7c0a6dbaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaeeec358e2be013353667dd7c0a6dbaa">&#9670;&nbsp;</a></span>ValidateConfig()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Status tensorflow::ValidateConfig </td>
+          <td>(</td>
+          <td class="paramtype">const tf2xla::Config &amp;&#160;</td>
+          <td class="paramname"><em>config</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<p>Check settings of input config(feed &amp; fetch). For example, if <code>id</code>, <code>shape</code> are legal, duplicated names... </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d86/namespacetensorflow_aaeeec358e2be013353667dd7c0a6dbaa_icgraph.svg" width="100%" height="372"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="ab117a854aecc46741962d730b3fbbe17"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab117a854aecc46741962d730b3fbbe17">&#9670;&nbsp;</a></span>kArgOp</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const char* const tensorflow::kArgOp = &quot;_Arg&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a228e329c03c330252ee50413740f3a5e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a228e329c03c330252ee50413740f3a5e">&#9670;&nbsp;</a></span>kDebugNameAttr</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const char* const tensorflow::kDebugNameAttr = &quot;_debug_name&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac48f4d56010f4b71d611163c6e19270c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac48f4d56010f4b71d611163c6e19270c">&#9670;&nbsp;</a></span>kFeedIdAttr</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const char* const tensorflow::kFeedIdAttr = &quot;_feed_id&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abb1bca7b73a0c5c55dbcad4b08416554"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb1bca7b73a0c5c55dbcad4b08416554">&#9670;&nbsp;</a></span>kFetchIdAttr</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const char* const tensorflow::kFetchIdAttr = &quot;_fetch_id&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a97d90591f72d9eb4c4a1e5583c7ac024"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97d90591f72d9eb4c4a1e5583c7ac024">&#9670;&nbsp;</a></span>kRetvalOp</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const char* const tensorflow::kRetvalOp = &quot;_Retval&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae43a4b2587ff60700442dba4c8c2f292"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae43a4b2587ff60700442dba4c8c2f292">&#9670;&nbsp;</a></span>kShapeAttr</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const char* const tensorflow::kShapeAttr = &quot;_shape&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>

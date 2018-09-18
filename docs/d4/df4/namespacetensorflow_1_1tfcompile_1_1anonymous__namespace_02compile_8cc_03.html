@@ -74,7 +74,8 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a40f8a019f31fa8cbe2fff5d90e69c21b"><td class="memItemLeft" align="right" valign="top">Status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/df4/namespacetensorflow_1_1tfcompile_1_1anonymous__namespace_02compile_8cc_03.html#a40f8a019f31fa8cbe2fff5d90e69c21b">CompileXla</a> (xla::CompileOnlyClient *client, const xla::Computation &amp;computation, const xla::cpu::CpuAotCompilationOptions &amp;aot_opts, CompileResult *compile_result)</td></tr>
+<tr class="memitem:a40f8a019f31fa8cbe2fff5d90e69c21b"><td class="memItemLeft" align="right" valign="top">Status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/df4/namespacetensorflow_1_1tfcompile_1_1anonymous__namespace_02compile_8cc_03.html#a40f8a019f31fa8cbe2fff5d90e69c21b">CompileXla</a> (<a class="el" href="../../d1/dd1/classxla_1_1CompileOnlyClient.html">xla::CompileOnlyClient</a> *client, const xla::Computation &amp;computation, const xla::cpu::CpuAotCompilationOptions &amp;aot_opts, CompileResult *compile_result)</td></tr>
+<tr class="memdesc:a40f8a019f31fa8cbe2fff5d90e69c21b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compiles the XLA computation into executable code.  <a href="#a40f8a019f31fa8cbe2fff5d90e69c21b">More...</a><br /></td></tr>
 <tr class="separator:a40f8a019f31fa8cbe2fff5d90e69c21b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -87,7 +88,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">Status tensorflow::tfcompile::anonymous_namespace{compile.cc}::CompileXla </td>
           <td>(</td>
-          <td class="paramtype">xla::CompileOnlyClient *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d1/dd1/classxla_1_1CompileOnlyClient.html">xla::CompileOnlyClient</a> *&#160;</td>
           <td class="paramname"><em>client</em>, </td>
         </tr>
         <tr>
@@ -115,6 +116,19 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Compiles the XLA computation into executable code. </p>
+<ol type="1">
+<li>Get XLA program shape</li>
+<li>Create an instance of <code>xla::CompileOnlyClient::AotComputationInstance</code> with arg and layout</li>
+<li>Call <code><a class="el" href="../../d1/dd1/classxla_1_1CompileOnlyClient.html#a5a585d21f617b77a1cecc1b587d18d7a" title="Compiles a list of computations for ahead-of-time execution. This is intended for use in static compi...">xla::CompileOnlyClient::CompileAheadOfTime</a></code></li>
+<li>Save result to CompileResult </li>
+</ol>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/df4/namespacetensorflow_1_1tfcompile_1_1anonymous__namespace_02compile_8cc_03_a40f8a019f31fa8cbe2fff5d90e69c21b_cgraph.svg" width="604" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">

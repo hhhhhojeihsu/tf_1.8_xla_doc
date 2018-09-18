@@ -1,4 +1,5 @@
 <map id="tensorflow::anonymous_namespace{tf2xla::cc}::RewriteAndPruneGraph" name="tensorflow::anonymous_namespace{tf2xla::cc}::RewriteAndPruneGraph">
 <area shape="rect" id="node2" href="$d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03.html#a5a9e535379a62f9f3ffe7b1bff6ce8ab" title="tensorflow::anonymous\l_namespace\{tf2xla::cc\}\l::AddArgNodes" alt="" coords="220,5,379,61"/>
-<area shape="rect" id="node3" href="$d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03.html#a5ff78a52c332a9f1b84959776a0d6161" title="tensorflow::anonymous\l_namespace\{tf2xla::cc\}\l::AddRetvalNodes" alt="" coords="220,85,379,141"/>
+<area shape="rect" id="node3" href="$de/d86/namespacetensorflow.html#a7884448129fe060a9d8e61b96aefeb42" title="tensorflow::TensorIdToString" alt="" coords="427,85,615,112"/>
+<area shape="rect" id="node4" href="$d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03.html#a5ff78a52c332a9f1b84959776a0d6161" title="tensorflow::anonymous\l_namespace\{tf2xla::cc\}\l::AddRetvalNodes" alt="" coords="220,136,379,192"/>
 </map>

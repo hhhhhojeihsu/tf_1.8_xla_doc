@@ -1,7 +1,17 @@
 var searchData=
 [
-  ['validate_5fcolocation_5fconstraints',['validate_colocation_constraints',['../d0/de0/structtensorflow_1_1ImportGraphDefOptions.html#a6b0f256a8c01f026bb97b3044c66629a',1,'tensorflow::ImportGraphDefOptions']]],
-  ['validate_5fshape',['validate_shape',['../d0/de0/structtensorflow_1_1ImportGraphDefOptions.html#ad1a9e7020505d3651b624ec87e973475',1,'tensorflow::ImportGraphDefOptions']]],
-  ['validateconfig',['ValidateConfig',['../de/d86/namespacetensorflow.html#aaeeec358e2be013353667dd7c0a6dbaa',1,'tensorflow']]],
-  ['validateexternalgraphdefsyntax',['ValidateExternalGraphDefSyntax',['../de/d86/namespacetensorflow.html#a18a0d32d7cefd8d9617184b62c7069d3',1,'tensorflow']]]
+  ['unaryoperationtohloopcode',['UnaryOperationToHloOpcode',['../dc/d9d/namespacexla_1_1anonymous__namespace_02user__computation_8cc_03.html#a31de11b4fdb0614ca1a623ed2c176bc6',1,'xla::anonymous_namespace{user_computation.cc}']]],
+  ['undo',['Undo',['../d2/d97/classtensorflow_1_1anonymous__namespace_02graph__constructor_8cc_03_1_1GraphConstructor.html#a44f7a84f25b7853e6942435d4dbab5ee',1,'tensorflow::anonymous_namespace{graph_constructor.cc}::GraphConstructor']]],
+  ['uniquified_5fnames_5f',['uniquified_names_',['../d2/d97/classtensorflow_1_1anonymous__namespace_02graph__constructor_8cc_03_1_1GraphConstructor.html#a94bc6539b0d8deba4fc53261e8658f04',1,'tensorflow::anonymous_namespace{graph_constructor.cc}::GraphConstructor']]],
+  ['uniquify_5fnames',['uniquify_names',['../d6/d7d/structtensorflow_1_1anonymous__namespace_02graph__constructor_8cc_03_1_1GraphConstructor_1_1Options.html#a6687dcc226f11c539b0ccb4ea2834b65',1,'tensorflow::anonymous_namespace{graph_constructor.cc}::GraphConstructor::Options::uniquify_names()'],['../d0/de0/structtensorflow_1_1ImportGraphDefOptions.html#ab54ce14e70dac3e1efda66de99cf1085',1,'tensorflow::ImportGraphDefOptions::uniquify_names()']]],
+  ['uniquify_5fprefix',['uniquify_prefix',['../d6/d7d/structtensorflow_1_1anonymous__namespace_02graph__constructor_8cc_03_1_1GraphConstructor_1_1Options.html#a53dde16cb1907cf6d416db484eafbbac',1,'tensorflow::anonymous_namespace{graph_constructor.cc}::GraphConstructor::Options::uniquify_prefix()'],['../d0/de0/structtensorflow_1_1ImportGraphDefOptions.html#a71216eaa247412b819b20c4a9dc1f940',1,'tensorflow::ImportGraphDefOptions::uniquify_prefix()']]],
+  ['uniquifynames',['UniquifyNames',['../d2/d97/classtensorflow_1_1anonymous__namespace_02graph__constructor_8cc_03_1_1GraphConstructor.html#aa86c34fff11f22ed8c0782f8090e1724',1,'tensorflow::anonymous_namespace{graph_constructor.cc}::GraphConstructor']]],
+  ['unregister',['Unregister',['../d1/d10/classxla_1_1Service.html#a25ab01c98c727e7a9f37063d6c71f2eb',1,'xla::Service']]],
+  ['updatependingcountandready',['UpdatePendingCountAndReady',['../d9/d79/namespacetensorflow_1_1anonymous__namespace_02graph__constructor_8cc_03_1_1anonymous__namespace_02graph__constructor_8cc_03.html#a090b92bf7c77eb322c36efcbdeae8bab',1,'tensorflow::anonymous_namespace{graph_constructor.cc}::anonymous_namespace{graph_constructor.cc}']]],
+  ['updateuniquifiedcolocationnames',['UpdateUniquifiedColocationNames',['../d2/d97/classtensorflow_1_1anonymous__namespace_02graph__constructor_8cc_03_1_1GraphConstructor.html#a10db9fa4d14c131bb73307e0cfef3267',1,'tensorflow::anonymous_namespace{graph_constructor.cc}::GraphConstructor']]],
+  ['updateversiondef',['UpdateVersionDef',['../d2/d97/classtensorflow_1_1anonymous__namespace_02graph__constructor_8cc_03_1_1GraphConstructor.html#a5e8bd83d497e5946f63966becd7560b0',1,'tensorflow::anonymous_namespace{graph_constructor.cc}::GraphConstructor']]],
+  ['used_5finput_5fmap_5fkeys_5f',['used_input_map_keys_',['../d2/d97/classtensorflow_1_1anonymous__namespace_02graph__constructor_8cc_03_1_1GraphConstructor.html#aec7d16444e58bd405f1f05393b15c4b6',1,'tensorflow::anonymous_namespace{graph_constructor.cc}::GraphConstructor']]],
+  ['user_5fcomputation_2ecc',['user_computation.cc',['../d3/dd6/user__computation_8cc.html',1,'']]],
+  ['user_5fcomputation_2eh',['user_computation.h',['../d6/d38/user__computation_8h.html',1,'']]],
+  ['usercomputation',['UserComputation',['../db/dbb/classxla_1_1UserComputation.html',1,'xla::UserComputation'],['../db/dbb/classxla_1_1UserComputation.html#a8a978b597e454a03d8e9d000b8711d9d',1,'xla::UserComputation::UserComputation()']]]
 ];

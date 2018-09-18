@@ -72,12 +72,31 @@ $(function() {
 <div class="title">compile.cc File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;tensorflow/compiler/aot/compile.h&quot;</code><br />
-<code>#include &quot;tensorflow/compiler/tf2xla/tf2xla.h&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d4/d03/compile_8h_source.html">tensorflow/compiler/aot/compile.h</a>&quot;</code><br />
+<code>#include &lt;memory&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;utility&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+<code>#include &quot;tensorflow/compiler/aot/flags.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/d62/tf2xla_8h_source.html">tensorflow/compiler/tf2xla/tf2xla.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/d2b/tf2xla__util_8h_source.html">tensorflow/compiler/tf2xla/tf2xla_util.h</a>&quot;</code><br />
+<code>#include &quot;tensorflow/compiler/xla/client/client_library.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/dab/compile__only__client_8h_source.html">tensorflow/compiler/xla/client/compile_only_client.h</a>&quot;</code><br />
+<code>#include &quot;tensorflow/compiler/xla/service/cpu/cpu_compiler.h&quot;</code><br />
+<code>#include &quot;tensorflow/compiler/xla/statusor.h&quot;</code><br />
+<code>#include &quot;tensorflow/compiler/xla/util.h&quot;</code><br />
+<code>#include &quot;tensorflow/compiler/xla/xla_data.pb.h&quot;</code><br />
+<code>#include &quot;tensorflow/core/framework/graph.pb.h&quot;</code><br />
+<code>#include &quot;tensorflow/core/lib/core/errors.h&quot;</code><br />
+<code>#include &quot;tensorflow/core/lib/io/path.h&quot;</code><br />
+<code>#include &quot;tensorflow/core/lib/strings/proto_serialization.h&quot;</code><br />
+<code>#include &quot;tensorflow/core/platform/env.h&quot;</code><br />
+<code>#include &quot;tensorflow/core/platform/logging.h&quot;</code><br />
+<code>#include &quot;tensorflow/core/platform/types.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for compile.cc:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/da9/compile_8cc__incl.svg" width="304" height="142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d7/da9/compile_8cc__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -89,6 +108,9 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a40f8a019f31fa8cbe2fff5d90e69c21b"><td class="memItemLeft" align="right" valign="top">Status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/df4/namespacetensorflow_1_1tfcompile_1_1anonymous__namespace_02compile_8cc_03.html#a40f8a019f31fa8cbe2fff5d90e69c21b">tensorflow::tfcompile::anonymous_namespace{compile.cc}::CompileXla</a> (<a class="el" href="../../d1/dd1/classxla_1_1CompileOnlyClient.html">xla::CompileOnlyClient</a> *client, const xla::Computation &amp;computation, const xla::cpu::CpuAotCompilationOptions &amp;aot_opts, CompileResult *compile_result)</td></tr>
+<tr class="memdesc:a40f8a019f31fa8cbe2fff5d90e69c21b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compiles the XLA computation into executable code.  <a href="../../d4/df4/namespacetensorflow_1_1tfcompile_1_1anonymous__namespace_02compile_8cc_03.html#a40f8a019f31fa8cbe2fff5d90e69c21b">More...</a><br /></td></tr>
+<tr class="separator:a40f8a019f31fa8cbe2fff5d90e69c21b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a021cb1c58d938b16dcd998aa8d1fc191"><td class="memItemLeft" align="right" valign="top">Status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d38/namespacetensorflow_1_1tfcompile.html#a021cb1c58d938b16dcd998aa8d1fc191">tensorflow::tfcompile::CompileGraph</a> (const GraphDef &amp;graph_def, const tf2xla::Config &amp;config, const MainFlags &amp;flags, CompileResult *compile_result)</td></tr>
 <tr class="memdesc:a021cb1c58d938b16dcd998aa8d1fc191"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the graph into an XLA computation, and compiles the computation. Called by <code><a class="el" href="../../d7/d38/namespacetensorflow_1_1tfcompile.html#a460964a5bb277865d1275fe3746132c1">tensorflow::tfcompile::Main</a></code>. Convert graph definition to object file that include graph's function.  <a href="../../d7/d38/namespacetensorflow_1_1tfcompile.html#a021cb1c58d938b16dcd998aa8d1fc191">More...</a><br /></td></tr>
 <tr class="separator:a021cb1c58d938b16dcd998aa8d1fc191"><td class="memSeparator" colspan="2">&#160;</td></tr>

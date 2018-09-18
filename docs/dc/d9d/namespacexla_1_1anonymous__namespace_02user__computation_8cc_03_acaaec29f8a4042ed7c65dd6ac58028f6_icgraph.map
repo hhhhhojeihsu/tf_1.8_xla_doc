@@ -1,0 +1,5 @@
+<map id="xla::anonymous_namespace{user_computation::cc}::PureFunctionalVisitor" name="xla::anonymous_namespace{user_computation::cc}::PureFunctionalVisitor">
+<area shape="rect" id="node2" href="$db/dbb/classxla_1_1UserComputation.html#aed26b1fc0c4c9c7178f980eb3c8ab03a" title="xla::UserComputation\l::IsConstant" alt="" coords="241,23,391,65"/>
+<area shape="rect" id="node3" href="$d1/d10/classxla_1_1Service.html#a9b3d2a6d1f80e13f474c584bc467bc5b" title="xla::Service::IsConstant" alt="" coords="460,5,623,32"/>
+<area shape="rect" id="node4" href="$d1/d10/classxla_1_1Service.html#a18b542fa30535934fbe3f425088b6537" title="xla::Service::ComputeConstant" alt="" coords="439,56,644,83"/>
+</map>

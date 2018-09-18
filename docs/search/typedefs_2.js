@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['index',['Index',['../de/d4c/structtensorflow_1_1ImportGraphDefResults.html#aa01ee160da18c8ac23a67e13be8ce67f',1,'tensorflow::ImportGraphDefResults']]]
+  ['hlocomputationresolver',['HloComputationResolver',['../db/dbb/classxla_1_1UserComputation.html#ac4b5478f45def6d553e578cea88c8e63',1,'xla::UserComputation']]]
 ];

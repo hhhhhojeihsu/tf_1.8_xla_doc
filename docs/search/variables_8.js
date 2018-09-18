@@ -1,14 +1,8 @@
 var searchData=
 [
-  ['kargop',['kArgOp',['../de/d86/namespacetensorflow.html#ab117a854aecc46741962d730b3fbbe17',1,'tensorflow']]],
-  ['kcpualltypes',['kCpuAllTypes',['../de/d86/namespacetensorflow.html#a21ee539f46a2e8000e3e557900e9b8b0',1,'tensorflow']]],
-  ['kdebugnameattr',['kDebugNameAttr',['../de/d86/namespacetensorflow.html#a228e329c03c330252ee50413740f3a5e',1,'tensorflow']]],
-  ['kernel_5fdefs',['kernel_defs',['../d8/d12/structtensorflow_1_1XlaOpRegistry_1_1Backend.html#a0e729f88cede11760c444eacbe10106c',1,'tensorflow::XlaOpRegistry::Backend']]],
-  ['kfeedidattr',['kFeedIdAttr',['../de/d86/namespacetensorflow.html#ac48f4d56010f4b71d611163c6e19270c',1,'tensorflow']]],
-  ['kfetchidattr',['kFetchIdAttr',['../de/d86/namespacetensorflow.html#abb1bca7b73a0c5c55dbcad4b08416554',1,'tensorflow']]],
-  ['kfloattypes',['kFloatTypes',['../de/d86/namespacetensorflow.html#a2eb62cd245d9b6308c5b8e0a9e0156e3',1,'tensorflow']]],
-  ['kgpualltypes',['kGpuAllTypes',['../de/d86/namespacetensorflow.html#a9a8c869ceebfc29c3debf48d3ce5305e',1,'tensorflow']]],
-  ['knumerictypes',['kNumericTypes',['../de/d86/namespacetensorflow.html#ac1fa0639aacb1187713fb97d2b2bc203',1,'tensorflow']]],
-  ['kretvalop',['kRetvalOp',['../de/d86/namespacetensorflow.html#a97d90591f72d9eb4c4a1e5583c7ac024',1,'tensorflow']]],
-  ['kshapeattr',['kShapeAttr',['../de/d86/namespacetensorflow.html#ae43a4b2587ff60700442dba4c8c2f292',1,'tensorflow']]]
+  ['importing',['importing',['../d6/d7d/structtensorflow_1_1anonymous__namespace_02graph__constructor_8cc_03_1_1GraphConstructor_1_1Options.html#adccd40eb1cc97f4beff1212c1f62858c',1,'tensorflow::anonymous_namespace{graph_constructor.cc}::GraphConstructor::Options']]],
+  ['include_5funreachable_5finstructions_5f',['include_unreachable_instructions_',['../d0/dee/classxla_1_1anonymous__namespace_02user__computation_8cc_03_1_1ComputationLowerer.html#a8103e04b97853636a3b667fb1a949689',1,'xla::anonymous_namespace{user_computation.cc}::ComputationLowerer']]],
+  ['index',['index',['../d0/d0a/structtensorflow_1_1anonymous__namespace_02graph__constructor_8cc_03_1_1GraphConstructor_1_1InputInfo.html#a47971d8ec2e0e5c07be6dbc4428f20a8',1,'tensorflow::anonymous_namespace{graph_constructor.cc}::GraphConstructor::InputInfo']]],
+  ['input_5fmap',['input_map',['../d6/d7d/structtensorflow_1_1anonymous__namespace_02graph__constructor_8cc_03_1_1GraphConstructor_1_1Options.html#a6716c16dcaf91ce2137d5ed5ab9e3e92',1,'tensorflow::anonymous_namespace{graph_constructor.cc}::GraphConstructor::Options::input_map()'],['../d0/de0/structtensorflow_1_1ImportGraphDefOptions.html#ad5d68102c5f747e5e3bcd49737717709',1,'tensorflow::ImportGraphDefOptions::input_map()']]],
+  ['intra_5fop_5fparallelism_5fthreads_5f',['intra_op_parallelism_threads_',['../d5/d7a/classxla_1_1ServiceOptions.html#a996866101f0a294e9177eac54aa45588',1,'xla::ServiceOptions']]]
 ];

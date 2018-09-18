@@ -1,5 +1,8 @@
 <map id="tensorflow::anonymous_namespace{tf2xla::cc}::InitGraph" name="tensorflow::anonymous_namespace{tf2xla::cc}::InitGraph">
-<area shape="rect" id="node2" href="$de/d86/namespacetensorflow.html#a491706512ccc1517e499cbdb810aa6ab" title="Assign each NodeDefs of GraphDef default values Google Docs: Adds default attributes to NodeDefs in &#39;..." alt="" coords="212,5,395,47"/>
-<area shape="rect" id="node3" href="$de/d86/namespacetensorflow.html#a43875c6284c3af69e7a420b67c7eec6b" title="Convert GraphDef defined protobuf to type Graph " alt="" coords="218,71,389,112"/>
-<area shape="rect" id="node4" href="$d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03.html#af0d9ad360ae01cf7c15abe04de99b230" title="tensorflow::anonymous\l_namespace\{tf2xla::cc\}\l::RewriteAndPruneGraph" alt="" coords="220,137,387,193"/>
+<area shape="rect" id="node2" href="$de/d86/namespacetensorflow.html#aaeeec358e2be013353667dd7c0a6dbaa" title="tensorflow::ValidateConfig" alt="" coords="226,5,401,32"/>
+<area shape="rect" id="node3" href="$de/d86/namespacetensorflow.html#ac287ab9f1996e3d9086f8500c777ee9b" title="Generate corresponding placeholder for each feed tensor. Traverse each inputs of each nodes..." alt="" coords="219,57,407,98"/>
+<area shape="rect" id="node4" href="$de/d86/namespacetensorflow.html#a491706512ccc1517e499cbdb810aa6ab" title="Assign each NodeDefs of GraphDef default values. " alt="" coords="463,86,645,127"/>
+<area shape="rect" id="node5" href="$de/d86/namespacetensorflow.html#ac09f7fb26bddd7564249fd5d1b255435" title="Remove source nodes of feed tensor. Because they are removed at tensorflow::AddPlaceholdersForFeeds ..." alt="" coords="212,173,415,200"/>
+<area shape="rect" id="node6" href="$de/d86/namespacetensorflow.html#a43875c6284c3af69e7a420b67c7eec6b" title="Convert GraphDef defined protobuf to type Graph " alt="" coords="228,225,399,266"/>
+<area shape="rect" id="node7" href="$d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03.html#af0d9ad360ae01cf7c15abe04de99b230" title="tensorflow::anonymous\l_namespace\{tf2xla::cc\}\l::RewriteAndPruneGraph" alt="" coords="230,291,397,347"/>
 </map>

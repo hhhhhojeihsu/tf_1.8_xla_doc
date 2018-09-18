@@ -1,0 +1,8 @@
+<map id="tensorflow::anonymous_namespace{tf2xla_util::cc}::CheckNameDuplicates" name="tensorflow::anonymous_namespace{tf2xla_util::cc}::CheckNameDuplicates">
+<area shape="rect" id="node2" href="$de/d86/namespacetensorflow.html#aaeeec358e2be013353667dd7c0a6dbaa" title="Check settings of input config(feed &amp; fetch). For example, if id, shape are legal, duplicated names... " alt="" coords="244,20,419,47"/>
+<area shape="rect" id="node3" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a460964a5bb277865d1275fe3746132c1" title="tensorflow::tfcompile\l::Main" alt="" coords="1083,9,1225,50"/>
+<area shape="rect" id="node5" href="$d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03.html#aeef0cda05958b2b855b0e2fbe07b1314" title="InitGraph creates a graph based on the graph_def, that may then be convert to an xla::Computation via..." alt="" coords="467,37,625,93"/>
+<area shape="rect" id="node4" href="$d4/d8d/tfcompile__main_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1273,16,1324,43"/>
+<area shape="rect" id="node6" href="$de/d86/namespacetensorflow.html#a6f8fce5955ec6d67cd1762891d4830e9" title="Convert tensorflow graph_def to XLA UserComputation. " alt="" coords="673,41,844,82"/>
+<area shape="rect" id="node7" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a021cb1c58d938b16dcd998aa8d1fc191" title="Converts the graph into an XLA computation, and compiles the computation. Called by tensorflow::tfcom..." alt="" coords="892,38,1035,79"/>
+</map>

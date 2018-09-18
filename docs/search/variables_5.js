@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['has_5fdevice_5fwhitelist',['has_device_whitelist',['../dd/dbf/structtensorflow_1_1XlaOpRegistry_1_1OpRegistration.html#a1787be7e5a5a5c75486e022595ca5ca0',1,'tensorflow::XlaOpRegistry::OpRegistration']]]
+  ['factory',['factory',['../dd/dbf/structtensorflow_1_1XlaOpRegistry_1_1OpRegistration.html#aaec97dd1cd5ba2062c0e084f43acecef',1,'tensorflow::XlaOpRegistry::OpRegistration']]]
 ];

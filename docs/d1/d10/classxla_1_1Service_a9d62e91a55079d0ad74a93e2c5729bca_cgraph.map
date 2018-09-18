@@ -1,0 +1,7 @@
+<map id="xla::Service::SetReturnValue" name="xla::Service::SetReturnValue">
+<area shape="rect" id="node2" href="$d8/d42/classxla_1_1ComputationTracker.html#add84b3f565b288fdcfdfad55bab8f3ee" title="xla::ComputationTracker\l::Resolve" alt="" coords="244,5,407,47"/>
+<area shape="rect" id="node4" href="$db/dbb/classxla_1_1UserComputation.html#a43162efd6a56fc6c8789c50196eba04b" title="xla::UserComputation\l::SetReturnValue" alt="" coords="251,71,400,112"/>
+<area shape="rect" id="node3" href="$d8/d42/classxla_1_1ComputationTracker.html#aa2f38317a41c1c64fba497780bc39169" title="xla::ComputationTracker\l::ResolveInternal" alt="" coords="469,5,632,47"/>
+<area shape="rect" id="node5" href="$db/dbb/classxla_1_1UserComputation.html#af22e122e5671d4f05628c8aae80b8aee" title="xla::UserComputation\l::name" alt="" coords="476,71,625,112"/>
+<area shape="rect" id="node6" href="$db/dbb/classxla_1_1UserComputation.html#af44a77b35aaed6ff22d5fbb266dd824e" title="xla::UserComputation\l::GetVersionedHandleInternal" alt="" coords="455,136,647,177"/>
+</map>

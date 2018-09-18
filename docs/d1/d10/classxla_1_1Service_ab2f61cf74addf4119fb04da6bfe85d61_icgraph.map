@@ -1,0 +1,9 @@
+<map id="xla::Service::SingleComputationDeviceHandle" name="xla::Service::SingleComputationDeviceHandle">
+<area shape="rect" id="node2" href="$d1/d10/classxla_1_1Service.html#a384d1ad9e483a5e2a65575ca011cc274" title="xla::Service::ExecuteAnd\lRegisterResult" alt="" coords="269,40,440,82"/>
+<area shape="rect" id="node3" href="$d1/d10/classxla_1_1Service.html#ac3f89822d1f6faab8382f1902e54eea3" title="xla::Service::Execute" alt="" coords="513,21,659,48"/>
+<area shape="rect" id="node4" href="$d1/d10/classxla_1_1Service.html#a6d2eb2712a109ab9484080dfd1e2e446" title="xla::Service::ExecuteGraph" alt="" coords="495,76,677,102"/>
+<area shape="rect" id="node5" href="$d1/d10/classxla_1_1Service.html#ad940842d8a31741ccd025d883744223c" title="xla::Service::ExecuteAsync" alt="" coords="263,157,447,184"/>
+<area shape="rect" id="node6" href="$d1/d10/classxla_1_1Service.html#adcdc79b5e304ee115c59934e45b48093" title="xla::Service::TransferTo\lServer" alt="" coords="275,208,435,250"/>
+<area shape="rect" id="node7" href="$d1/d10/classxla_1_1Service.html#a38ddca682c414a7a8a573fdbd3aa61ad" title="xla::Service::TransferTo\lInfeed" alt="" coords="275,274,435,315"/>
+<area shape="rect" id="node8" href="$d1/d10/classxla_1_1Service.html#ad886b3b1c00757ca3e609c721a556be9" title="xla::Service::TransferFrom\lOutfeed" alt="" coords="267,339,443,380"/>
+</map>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['nodemap',['NodeMap',['../d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03.html#a7d213b5749e975e0c194a17e72a95647',1,'tensorflow::anonymous_namespace{tf2xla.cc}']]]
+  ['index',['Index',['../de/d4c/structtensorflow_1_1ImportGraphDefResults.html#aa01ee160da18c8ac23a67e13be8ce67f',1,'tensorflow::ImportGraphDefResults']]]
 ];

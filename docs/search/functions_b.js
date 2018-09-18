@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['setnodeshardingfromneighbors',['SetNodeShardingFromNeighbors',['../de/d86/namespacetensorflow.html#a3391d21e0e838c21374c1c81414566b9',1,'tensorflow']]],
-  ['strippedoplistforgraph',['StrippedOpListForGraph',['../de/d86/namespacetensorflow.html#aa617fe7d5bc4b078acf3a1cc5f5cbd51',1,'tensorflow']]],
-  ['summarizegraphdef',['SummarizeGraphDef',['../de/d86/namespacetensorflow.html#ac273f280b4c7b01549351715651ab972',1,'tensorflow']]]
+  ['op',['Op',['../d1/d10/classxla_1_1Service.html#a8aa08872316b8fa3297972486b4b339e',1,'xla::Service']]],
+  ['operator_3d',['operator=',['../d1/dd1/classxla_1_1CompileOnlyClient.html#a8d1ffa013abb492617ee8269a793c8a4',1,'xla::CompileOnlyClient::operator=()'],['../dc/d07/classxla_1_1CompileOnlyService.html#af21e05cdc5c117e673f25613ecc22667',1,'xla::CompileOnlyService::operator=()']]],
+  ['opsusedbygraph',['OpsUsedByGraph',['../de/d86/namespacetensorflow.html#a6a455c2705dda20a22d76fd1e6c54b8f',1,'tensorflow']]],
+  ['options',['Options',['../d6/d7d/structtensorflow_1_1anonymous__namespace_02graph__constructor_8cc_03_1_1GraphConstructor_1_1Options.html#a05d0f2aa25ad9b8f9eef24384704fb0a',1,'tensorflow::anonymous_namespace{graph_constructor.cc}::GraphConstructor::Options::Options(const GraphConstructorOptions &amp;in)'],['../d6/d7d/structtensorflow_1_1anonymous__namespace_02graph__constructor_8cc_03_1_1GraphConstructor_1_1Options.html#ae586d35385da96eae3e67b43223b499b',1,'tensorflow::anonymous_namespace{graph_constructor.cc}::GraphConstructor::Options::Options(const ImportGraphDefOptions &amp;in)']]]
 ];

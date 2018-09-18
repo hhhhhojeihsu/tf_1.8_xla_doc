@@ -1,0 +1,6 @@
+<map id="xla::CompileOnlyClient::PointerSizeForTriple" name="xla::CompileOnlyClient::PointerSizeForTriple">
+<area shape="rect" id="node2" href="$d4/df4/namespacetensorflow_1_1tfcompile_1_1anonymous__namespace_02compile_8cc_03.html#a40f8a019f31fa8cbe2fff5d90e69c21b" title="Compiles the XLA computation into executable code. " alt="" coords="209,5,381,61"/>
+<area shape="rect" id="node3" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a021cb1c58d938b16dcd998aa8d1fc191" title="Converts the graph into an XLA computation, and compiles the computation. Called by tensorflow::tfcom..." alt="" coords="429,13,572,54"/>
+<area shape="rect" id="node4" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a460964a5bb277865d1275fe3746132c1" title="tensorflow::tfcompile\l::Main" alt="" coords="620,13,763,54"/>
+<area shape="rect" id="node5" href="$d4/d8d/tfcompile__main_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="811,20,861,47"/>
+</map>
