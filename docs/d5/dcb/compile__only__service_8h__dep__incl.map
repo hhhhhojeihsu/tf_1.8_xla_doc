@@ -1,6 +1,9 @@
 <map id="tensorflow/tensorflow/compiler/xla/service/compile_only_service.h" name="tensorflow/tensorflow/compiler/xla/service/compile_only_service.h">
-<area shape="rect" id="node2" href="$d4/dab/compile__only__client_8h.html" title="tensorflow/tensorflow\l/compiler/xla/client\l/compile_only_client.h" alt="" coords="104,109,255,165"/>
-<area shape="rect" id="node5" href="$df/d69/compile__only__service_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/compile_only_service.cc" alt="" coords="279,109,448,165"/>
-<area shape="rect" id="node3" href="$d6/d17/compile_8cc.html" title="tensorflow/tensorflow\l/compiler/aot/compile.cc" alt="" coords="5,221,169,262"/>
-<area shape="rect" id="node4" href="$d8/d93/compile__only__client_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/client\l/compile_only_client.cc" alt="" coords="193,213,352,269"/>
+<area shape="rect" id="node2" href="$db/d47/client__library_8h.html" title="tensorflow/tensorflow\l/compiler/xla/client\l/client_library.h" alt="" coords="147,213,293,269"/>
+<area shape="rect" id="node6" href="$d4/dab/compile__only__client_8h.html" title="tensorflow/tensorflow\l/compiler/xla/client\l/compile_only_client.h" alt="" coords="306,109,457,165"/>
+<area shape="rect" id="node8" href="$df/d69/compile__only__service_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/compile_only_service.cc" alt="" coords="481,109,650,165"/>
+<area shape="rect" id="node3" href="$d6/d17/compile_8cc.html" title="tensorflow/tensorflow\l/compiler/aot/compile.cc" alt="" coords="375,325,539,366"/>
+<area shape="rect" id="node4" href="$d2/d10/xla__op__registry_8cc.html" title="tensorflow/tensorflow\l/compiler/tf2xla/xla\l_op_registry.cc" alt="" coords="5,317,152,373"/>
+<area shape="rect" id="node5" href="$d3/dba/client__library_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/client\l/client_library.cc" alt="" coords="176,317,323,373"/>
+<area shape="rect" id="node7" href="$d8/d93/compile__only__client_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/client\l/compile_only_client.cc" alt="" coords="318,213,477,269"/>
 </map>

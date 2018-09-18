@@ -36,6 +36,11 @@ CompileOnlyService::NewService(perftools::gputools::Platform* platform) {
   default_options.set_platform(platform);
   return NewService(default_options);
 }
+
+/**
+ * 1. Get pointer to the compiler singleton for the assigned platform.
+ * 2. Create a compile-only XLA service.
+ */
 /* static */ StatusOr<std::unique_ptr<CompileOnlyService>>
 CompileOnlyService::NewService(const ServiceOptions& options) {
   perftools::gputools::Platform* platform = options.platform();

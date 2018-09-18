@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['snapshotcomputation',['SnapshotComputation',['../dd/d3d/classComputationTracker.html#addb407ae0007ec874f2b9d8a81364a3c',1,'ComputationTracker']]]
+  ['prunegraphdefinto',['PruneGraphDefInto',['../de/d86/namespacetensorflow.html#ac09f7fb26bddd7564249fd5d1b255435',1,'tensorflow']]]
 ];

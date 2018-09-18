@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['main',['Main',['../d7/d38/namespacetensorflow_1_1tfcompile.html#a460964a5bb277865d1275fe3746132c1',1,'tensorflow::tfcompile::Main()'],['../d4/d8d/tfcompile__main_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main():&#160;tfcompile_main.cc']]]
+  ['initgraph',['InitGraph',['../d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03.html#aeef0cda05958b2b855b0e2fbe07b1314',1,'tensorflow::anonymous_namespace{tf2xla.cc}']]]
 ];

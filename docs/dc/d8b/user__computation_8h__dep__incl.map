@@ -1,12 +1,15 @@
 <map id="tensorflow/tensorflow/compiler/xla/service/user_computation.h" name="tensorflow/tensorflow/compiler/xla/service/user_computation.h">
-<area shape="rect" id="node2" href="$d1/dc5/computation__tracker_8h.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/computation_tracker.h" alt="" coords="163,109,318,165"/>
-<area shape="rect" id="node5" href="$d5/d83/service_8h.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/service.h" alt="" coords="314,213,461,269"/>
-<area shape="rect" id="node11" href="$d3/dd6/user__computation_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/user_computation.cc" alt="" coords="409,109,555,165"/>
-<area shape="rect" id="node3" href="$df/d69/compile__only__service_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/compile_only_service.cc" alt="" coords="5,421,175,477"/>
-<area shape="rect" id="node4" href="$d2/dbf/computation__tracker_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/computation_tracker.cc" alt="" coords="128,213,289,269"/>
-<area shape="rect" id="node6" href="$d2/d89/compile__only__service_8h.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/compile_only_service.h" alt="" coords="159,317,322,373"/>
-<area shape="rect" id="node10" href="$d9/d1a/service_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/service.cc" alt="" coords="346,317,493,373"/>
-<area shape="rect" id="node7" href="$d4/dab/compile__only__client_8h.html" title="tensorflow/tensorflow\l/compiler/xla/client\l/compile_only_client.h" alt="" coords="199,421,349,477"/>
-<area shape="rect" id="node8" href="$d6/d17/compile_8cc.html" title="tensorflow/tensorflow\l/compiler/aot/compile.cc" alt="" coords="100,533,264,574"/>
-<area shape="rect" id="node9" href="$d8/d93/compile__only__client_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/client\l/compile_only_client.cc" alt="" coords="288,525,447,581"/>
+<area shape="rect" id="node2" href="$d1/dc5/computation__tracker_8h.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/computation_tracker.h" alt="" coords="127,109,281,165"/>
+<area shape="rect" id="node5" href="$d5/d83/service_8h.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/service.h" alt="" coords="244,213,391,269"/>
+<area shape="rect" id="node14" href="$d3/dd6/user__computation_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/user_computation.cc" alt="" coords="356,109,503,165"/>
+<area shape="rect" id="node3" href="$df/d69/compile__only__service_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/compile_only_service.cc" alt="" coords="173,421,342,477"/>
+<area shape="rect" id="node4" href="$d2/dbf/computation__tracker_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/computation_tracker.cc" alt="" coords="5,213,168,269"/>
+<area shape="rect" id="node6" href="$d2/d89/compile__only__service_8h.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/compile_only_service.h" alt="" coords="413,317,576,373"/>
+<area shape="rect" id="node13" href="$d9/d1a/service_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/service.cc" alt="" coords="243,317,389,373"/>
+<area shape="rect" id="node7" href="$db/d47/client__library_8h.html" title="tensorflow/tensorflow\l/compiler/xla/client\l/client_library.h" alt="" coords="556,525,703,581"/>
+<area shape="rect" id="node11" href="$d4/dab/compile__only__client_8h.html" title="tensorflow/tensorflow\l/compiler/xla/client\l/compile_only_client.h" alt="" coords="393,421,543,477"/>
+<area shape="rect" id="node8" href="$d6/d17/compile_8cc.html" title="tensorflow/tensorflow\l/compiler/aot/compile.cc" alt="" coords="310,637,474,678"/>
+<area shape="rect" id="node9" href="$d2/d10/xla__op__registry_8cc.html" title="tensorflow/tensorflow\l/compiler/tf2xla/xla\l_op_registry.cc" alt="" coords="697,629,844,685"/>
+<area shape="rect" id="node10" href="$d3/dba/client__library_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/client\l/client_library.cc" alt="" coords="527,629,673,685"/>
+<area shape="rect" id="node12" href="$d8/d93/compile__only__client_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/client\l/compile_only_client.cc" alt="" coords="373,525,531,581"/>
 </map>

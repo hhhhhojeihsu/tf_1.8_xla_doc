@@ -1,14 +1,11 @@
 var searchData=
 [
-  ['anonymous_5fnamespace_7bcompile_2ecc_7d',['anonymous_namespace{compile.cc}',['../d4/df4/namespacetensorflow_1_1tfcompile_1_1anonymous__namespace_02compile_8cc_03.html',1,'tensorflow::tfcompile']]],
-  ['anonymous_5fnamespace_7bgraph_5fconstructor_2ecc_7d',['anonymous_namespace{graph_constructor.cc}',['../d9/d86/namespacetensorflow_1_1anonymous__namespace_02graph__constructor_8cc_03.html',1,'tensorflow::anonymous_namespace{graph_constructor.cc}'],['../d9/d79/namespacetensorflow_1_1anonymous__namespace_02graph__constructor_8cc_03_1_1anonymous__namespace_02graph__constructor_8cc_03.html',1,'tensorflow::anonymous_namespace{graph_constructor.cc}::anonymous_namespace{graph_constructor.cc}']]],
-  ['anonymous_5fnamespace_7btf2xla_2ecc_7d',['anonymous_namespace{tf2xla.cc}',['../d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03.html',1,'tensorflow']]],
-  ['anonymous_5fnamespace_7btf2xla_5futil_2ecc_7d',['anonymous_namespace{tf2xla_util.cc}',['../d8/dc5/namespacetensorflow_1_1anonymous__namespace_02tf2xla__util_8cc_03.html',1,'tensorflow']]],
-  ['tensorflow',['tensorflow',['../de/d86/namespacetensorflow.html',1,'']]],
-  ['tf2xla_2ecc',['tf2xla.cc',['../d8/db8/tf2xla_8cc.html',1,'']]],
-  ['tf2xla_2eh',['tf2xla.h',['../d7/d62/tf2xla_8h.html',1,'']]],
-  ['tf2xla_5futil_2ecc',['tf2xla_util.cc',['../d1/d60/tf2xla__util_8cc.html',1,'']]],
-  ['tf2xla_5futil_2eh',['tf2xla_util.h',['../d2/d2b/tf2xla__util_8h.html',1,'']]],
-  ['tfcompile',['tfcompile',['../d7/d38/namespacetensorflow_1_1tfcompile.html',1,'tensorflow']]],
-  ['tfcompile_5fmain_2ecc',['tfcompile_main.cc',['../d4/d8d/tfcompile__main_8cc.html',1,'']]]
+  ['anonymous_5fnamespace_7bcpu_5fcompiler_2ecc_7d',['anonymous_namespace{cpu_compiler.cc}',['../d6/d10/namespacexla_1_1cpu_1_1anonymous__namespace_02cpu__compiler_8cc_03.html',1,'xla::cpu']]],
+  ['anonymous_5fnamespace_7bservice_2ecc_7d',['anonymous_namespace{service.cc}',['../dd/d32/namespacexla_1_1anonymous__namespace_02service_8cc_03.html',1,'xla']]],
+  ['anonymous_5fnamespace_7buser_5fcomputation_2ecc_7d',['anonymous_namespace{user_computation.cc}',['../dc/d9d/namespacexla_1_1anonymous__namespace_02user__computation_8cc_03.html',1,'xla']]],
+  ['cpu',['cpu',['../d2/db5/namespacexla_1_1cpu.html',1,'xla']]],
+  ['xla',['xla',['../d3/dbc/namespacexla.html',1,'']]],
+  ['xla_5fop_5fregistry_2ecc',['xla_op_registry.cc',['../d2/d10/xla__op__registry_8cc.html',1,'']]],
+  ['xla_5fop_5fregistry_2eh',['xla_op_registry.h',['../d7/d49/xla__op__registry_8h.html',1,'']]],
+  ['xlaopregistry',['XlaOpRegistry',['../d9/de9/classtensorflow_1_1XlaOpRegistry.html',1,'tensorflow']]]
 ];
