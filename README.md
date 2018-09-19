@@ -27,4 +27,4 @@ If you want to let `doxygen` reload each time you change a file you can do the f
 ## How to Commit
 Please change to `code` branch before modify source code and run `doxygen` on this branch. `.gitignore` will auto ignore `/docs` folder so you can commit safely.
 
-If you want to publish the newest content onto github.io. Then you should switch to `master` branch and then commit the changes in `/docs` and push to origin.
+If you want to publish the newest content onto github.io. Then you should switch to `master` branch and then commit the changes in `/docs` using `git add -f /docs` and push to origin.
