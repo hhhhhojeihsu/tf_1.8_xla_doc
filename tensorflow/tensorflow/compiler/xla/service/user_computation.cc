@@ -181,6 +181,11 @@ ComputationDataHandle UserComputation::CreateComputationDataHandle() {
   next_handle_value_++;
   return handle;
 }
+/**
+ * \brief Enqueue a parameter-retrieving instruction onto this `UserComputation`
+ * 1. Check whether this parameter has been registered or not.
+ * 2. [TODO]
+ */
 StatusOr<ComputationDataHandle> UserComputation::AddParameterInstruction(
     const ParameterRequest& parameter_request) {
   tensorflow::mutex_lock lock(mutex_);

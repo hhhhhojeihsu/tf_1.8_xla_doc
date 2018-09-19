@@ -66,6 +66,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="../../df/d71/classxla_1_1UserComputation-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">xla::UserComputation Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -73,6 +74,13 @@ $(function() {
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="../../d6/d38/user__computation_8h_source.html">user_computation.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a25685bdc2be08a3873ba52d4867e8db8"><td class="memItemLeft" align="right" valign="top">StatusOr&lt; ComputationDataHandle &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbb/classxla_1_1UserComputation.html#a25685bdc2be08a3873ba52d4867e8db8">AddParameterInstruction</a> (const ParameterRequest &amp;parameter_request)</td></tr>
+<tr class="memdesc:a25685bdc2be08a3873ba52d4867e8db8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enqueue a parameter-retrieving instruction onto this <code><a class="el" href="../../db/dbb/classxla_1_1UserComputation.html">UserComputation</a></code>  <a href="#a25685bdc2be08a3873ba52d4867e8db8">More...</a><br /></td></tr>
+<tr class="separator:a25685bdc2be08a3873ba52d4867e8db8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Google Docs: </p><blockquote class="doxtable">
 <p>A <a class="el" href="../../db/dbb/classxla_1_1UserComputation.html">UserComputation</a> is the built-up computation that users create via the XLA Service interface. </p>
@@ -83,7 +91,32 @@ $(function() {
 <blockquote class="doxtable">
 <p>UserComputations are lowered to HloComputations which are passed to the high level compiler interface.</p>
 </blockquote>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a25685bdc2be08a3873ba52d4867e8db8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25685bdc2be08a3873ba52d4867e8db8">&#9670;&nbsp;</a></span>AddParameterInstruction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">StatusOr&lt; ComputationDataHandle &gt; xla::UserComputation::AddParameterInstruction </td>
+          <td>(</td>
+          <td class="paramtype">const ParameterRequest &amp;&#160;</td>
+          <td class="paramname"><em>parameter_request</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enqueue a parameter-retrieving instruction onto this <code><a class="el" href="../../db/dbb/classxla_1_1UserComputation.html">UserComputation</a></code> </p>
+<ol type="1">
+<li>Check whether this parameter has been registered or not.</li>
+<li>[TODO] </li>
+</ol>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>tensorflow/tensorflow/compiler/xla/service/<a class="el" href="../../d6/d38/user__computation_8h_source.html">user_computation.h</a></li>
 <li>tensorflow/tensorflow/compiler/xla/service/<a class="el" href="../../d3/dd6/user__computation_8cc.html">user_computation.cc</a></li>
 </ul>

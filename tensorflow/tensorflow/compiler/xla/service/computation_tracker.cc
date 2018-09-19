@@ -27,6 +27,8 @@ limitations under the License.
 using ::tensorflow::strings::Appendf;
 namespace xla {
 ComputationTracker::ComputationTracker() : next_computation_(1) {}
+/** \brief Create a new `UserComputation` object and return the corresponding `ComputationHandle` for it
+ */
 ComputationHandle ComputationTracker::NewComputation(
     const string& computation_name) {
   tensorflow::mutex_lock lock(computation_mutex_);

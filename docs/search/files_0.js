@@ -9,6 +9,8 @@ var searchData=
   ['compile_5fonly_5fservice_2ecc',['compile_only_service.cc',['../df/d69/compile__only__service_8cc.html',1,'']]],
   ['compile_5fonly_5fservice_2eh',['compile_only_service.h',['../d2/d89/compile__only__service_8h.html',1,'']]],
   ['compiler_2eh',['compiler.h',['../d4/dd1/compiler_8h.html',1,'']]],
+  ['computation_5fbuilder_2ecc',['computation_builder.cc',['../da/d4d/computation__builder_8cc.html',1,'']]],
+  ['computation_5fbuilder_2eh',['computation_builder.h',['../d0/d18/computation__builder_8h.html',1,'']]],
   ['computation_5ftracker_2ecc',['computation_tracker.cc',['../d2/dbf/computation__tracker_8cc.html',1,'']]],
   ['computation_5ftracker_2eh',['computation_tracker.h',['../d1/dc5/computation__tracker_8h.html',1,'']]]
 ];

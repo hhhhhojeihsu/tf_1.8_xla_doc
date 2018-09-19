@@ -154,6 +154,15 @@ Service::Service(const ServiceOptions& options,
     VLOG(1) << "XLA compile-only service constructed";
   }
 }
+  // Creates a new computation with the given name.
+  // A unique ComputationHandle is returned.
+/**
+ * \brief Populates `computation_` with a valid object.
+ *        Used before any given operation is enqueued.
+ * 1. Check existence of the name of given request
+ * 2. Use member `computation_tracker_`'s method `NewComputation()` to create a new computation
+ *    and store the `ComputationHandle` in the given `ComputationResponse` object `result`.
+ */
 tensorflow::Status Service::Computation(const ComputationRequest* arg,
                                         ComputationResponse* result) {
   if (arg->name().empty()) {
@@ -1424,6 +1433,12 @@ tensorflow::Status Service::AddInstruction(
   TF_ASSIGN_OR_RETURN(*result->mutable_output(), adder(computation));
   return tensorflow::Status::OK();
 }
+/**
+ * \brief Enqueue an `Op` on the computation
+ * 1. Get the `UserComputation` object.
+ * 2. Based on different cases of operation, call the right method of `UserComputation` object.
+ * 3. Set `result` and add some common setting (metadata, sharding) in computation.
+ */
 tensorflow::Status Service::Op(const OpRequest* arg, OpResponse* result) {
   TF_ASSIGN_OR_RETURN(UserComputation * computation,
                       computation_tracker_.Resolve(arg->computation()));
