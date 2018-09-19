@@ -1,5 +1,0 @@
-<map id="xla::Service::PickParallelResponse" name="xla::Service::PickParallelResponse">
-<area shape="rect" id="node2" href="$d1/d10/classxla_1_1Service.html#a170f36c8fd2b964f57d00d9b720c6912" title="xla::Service::ExecuteOneToN" alt="" coords="221,31,416,57"/>
-<area shape="rect" id="node3" href="$d1/d10/classxla_1_1Service.html#ac3f89822d1f6faab8382f1902e54eea3" title="xla::Service::Execute" alt="" coords="482,5,629,32"/>
-<area shape="rect" id="node4" href="$d1/d10/classxla_1_1Service.html#a6d2eb2712a109ab9484080dfd1e2e446" title="xla::Service::ExecuteGraph" alt="" coords="464,56,647,83"/>
-</map>

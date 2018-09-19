@@ -1,7 +1,0 @@
-<map id="tensorflow/tensorflow/compiler/aot/tfcompile_main.cc" name="tensorflow/tensorflow/compiler/aot/tfcompile_main.cc">
-<area shape="rect" id="node7" href="$d4/d03/compile_8h.html" title="tensorflow/compiler\l/aot/compile.h" alt="" coords="1036,112,1172,151"/>
-<area shape="rect" id="node15" href="$d4/dd1/compiler_8h.html" title="tensorflow/compiler\l/xla/service/compiler.h" alt="" coords="868,392,1020,431"/>
-<area shape="rect" id="node29" href="$d2/d2b/tf2xla__util_8h.html" title="tensorflow/compiler\l/tf2xla/tf2xla_util.h" alt="" coords="1399,112,1535,151"/>
-<area shape="rect" id="node10" href="$db/de2/cpu__compiler_8h_source.html" title="tensorflow/compiler\l/xla/service/cpu/cpu\l_compiler.h" alt="" coords="672,205,811,257"/>
-<area shape="rect" id="node13" href="$d8/d1e/llvm__compiler_8h.html" title="tensorflow/compiler\l/xla/service/llvm_compiler.h" alt="" coords="650,305,833,344"/>
-</map>

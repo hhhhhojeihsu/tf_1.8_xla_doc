@@ -1,8 +1,0 @@
-<map id="tensorflow::AddDefaultAttrsToGraphDef" name="tensorflow::AddDefaultAttrsToGraphDef">
-<area shape="rect" id="node2" href="$d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03.html#aeef0cda05958b2b855b0e2fbe07b1314" title="InitGraph creates a graph based on the graph_def, that may then be convert to an xla::Computation via..." alt="" coords="472,5,631,61"/>
-<area shape="rect" id="node7" href="$de/d86/namespacetensorflow.html#ac287ab9f1996e3d9086f8500c777ee9b" title="Generate corresponding placeholder for each feed tensor. Traverse each inputs of each nodes..." alt="" coords="236,42,424,83"/>
-<area shape="rect" id="node3" href="$de/d86/namespacetensorflow.html#a6f8fce5955ec6d67cd1762891d4830e9" title="Convert tensorflow graph_def to XLA UserComputation. " alt="" coords="679,13,849,54"/>
-<area shape="rect" id="node4" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a021cb1c58d938b16dcd998aa8d1fc191" title="Converts the graph into an XLA computation, and compiles the computation. Called by tensorflow::tfcom..." alt="" coords="897,13,1040,54"/>
-<area shape="rect" id="node5" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a460964a5bb277865d1275fe3746132c1" title="tensorflow::tfcompile\l::Main" alt="" coords="1088,13,1231,54"/>
-<area shape="rect" id="node6" href="$d4/d8d/tfcompile__main_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1279,20,1329,47"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="tensorflow/tensorflow/compiler/tf2xla/xla_compiler.cc" name="tensorflow/tensorflow/compiler/tf2xla/xla_compiler.cc">
-<area shape="rect" id="node2" href="$db/d88/xla__compiler_8h.html" title="tensorflow/compiler\l/tf2xla/xla_compiler.h" alt="" coords="1089,112,1235,151"/>
-<area shape="rect" id="node23" href="$d2/d2b/tf2xla__util_8h.html" title="tensorflow/compiler\l/tf2xla/tf2xla_util.h" alt="" coords="3207,112,3343,151"/>
-<area shape="rect" id="node33" href="$db/d47/client__library_8h.html" title="tensorflow/compiler\l/xla/client/client_library.h" alt="" coords="2516,112,2682,151"/>
-<area shape="rect" id="node47" href="$d7/dfb/graph__constructor_8h.html" title="tensorflow/core/graph\l/graph_constructor.h" alt="" coords="4140,112,4290,151"/>
-<area shape="rect" id="node38" href="$d4/dab/compile__only__client_8h.html" title="tensorflow/compiler\l/xla/client/compile\l_only_client.h" alt="" coords="3057,205,3194,257"/>
-<area shape="rect" id="node39" href="$d2/d89/compile__only__service_8h.html" title="tensorflow/compiler\l/xla/service/compile\l_only_service.h" alt="" coords="2950,305,3088,357"/>
-</map>

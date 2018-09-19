@@ -1,6 +1,0 @@
-<map id="xla::Service::TransferToServer" name="xla::Service::TransferToServer">
-<area shape="rect" id="node2" href="$d1/d10/classxla_1_1Service.html#a1c62dd29d5ef6643da20d7f1f53c93ee" title="xla::Service::Replicas" alt="" coords="243,42,393,69"/>
-<area shape="rect" id="node5" href="$d1/d10/classxla_1_1Service.html#ab2f61cf74addf4119fb04da6bfe85d61" title="xla::Service::SingleComputation\lDeviceHandle" alt="" coords="213,93,423,135"/>
-<area shape="rect" id="node3" href="$d5/d7a/classxla_1_1ServiceOptions.html#a16503bc7e5b638f42419425b48d648d7" title="xla::ServiceOptions\l::number_of_replicas" alt="" coords="473,5,616,47"/>
-<area shape="rect" id="node4" href="$d1/d10/classxla_1_1Service.html#aa23389c9947ef664bcaad4f253962b65" title="xla::Service::backend" alt="" coords="471,71,619,98"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="tensorflow/tensorflow/compiler/tf2xla/tf2xla.cc" name="tensorflow/tensorflow/compiler/tf2xla/tf2xla.cc">
-<area shape="rect" id="node2" href="$d7/d62/tf2xla_8h.html" title="tensorflow/compiler\l/tf2xla/tf2xla.h" alt="" coords="569,92,706,131"/>
-<area shape="rect" id="node15" href="$d2/d2b/tf2xla__util_8h.html" title="tensorflow/compiler\l/tf2xla/tf2xla_util.h" alt="" coords="885,92,1022,131"/>
-<area shape="rect" id="node19" href="$db/d88/xla__compiler_8h.html" title="tensorflow/compiler\l/tf2xla/xla_compiler.h" alt="" coords="2303,92,2449,131"/>
-<area shape="rect" id="node32" href="$d7/d49/xla__op__registry_8h.html" title="tensorflow/compiler\l/tf2xla/xla_op_registry.h" alt="" coords="3361,92,3522,131"/>
-<area shape="rect" id="node40" href="$de/d25/graph__def__util_8h.html" title="tensorflow/core/framework\l/graph_def_util.h" alt="" coords="3109,92,3286,131"/>
-<area shape="rect" id="node44" href="$d7/dfb/graph__constructor_8h.html" title="tensorflow/core/graph\l/graph_constructor.h" alt="" coords="260,92,410,131"/>
-</map>

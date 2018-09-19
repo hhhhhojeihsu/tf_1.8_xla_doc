@@ -1,7 +1,0 @@
-<map id="tensorflow::XlaOpRegistry::RegisterCompilationKernels" name="tensorflow::XlaOpRegistry::RegisterCompilationKernels">
-<area shape="rect" id="node2" href="$d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03.html#a8bea171341441170c6d6c7dbb0b3227d" title="Converts the TensorFlow graph into an XLA computation, by executing the graph symbolically, with each op building up the XLA HLO. " alt="" coords="245,5,404,61"/>
-<area shape="rect" id="node3" href="$de/d86/namespacetensorflow.html#a6f8fce5955ec6d67cd1762891d4830e9" title="Convert tensorflow graph_def to XLA UserComputation. " alt="" coords="452,13,623,54"/>
-<area shape="rect" id="node4" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a021cb1c58d938b16dcd998aa8d1fc191" title="Converts the graph into an XLA computation, and compiles the computation. Called by tensorflow::tfcom..." alt="" coords="671,13,813,54"/>
-<area shape="rect" id="node5" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a460964a5bb277865d1275fe3746132c1" title="tensorflow::tfcompile\l::Main" alt="" coords="861,13,1004,54"/>
-<area shape="rect" id="node6" href="$d4/d8d/tfcompile__main_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1052,20,1103,47"/>
-</map>
