@@ -182,9 +182,12 @@ ComputationDataHandle UserComputation::CreateComputationDataHandle() {
   return handle;
 }
 /**
- * \brief Enqueue a parameter-retrieving instruction onto this `UserComputation`
- * 1. Check whether this parameter has been registered or not.
- * 2. [TODO]
+ * \brief Enqueue a parameter-retrieving instruction onto this `UserComputation`.
+ * 1. Check whether this parameter has been registered by member `parameter_requests` (`map<parameter_number, OperationRequest>`).
+ * 2. Create a new `ComputationDataHandle` object which will use the `next_handle_value_` as value.
+ * 3. Register an `OperationRequest` object in member `session_computation_`'s requests map by using the value of `ComputationDataHandle` as a key.
+ * 4. Register the `ComputationDataHandle` object created in step 2 in the map mentioned in step 1.
+ * 5. Return the `ComputationDataHandle` which represents the index of `OperationRequest` object.
  */
 StatusOr<ComputationDataHandle> UserComputation::AddParameterInstruction(
     const ParameterRequest& parameter_request) {
