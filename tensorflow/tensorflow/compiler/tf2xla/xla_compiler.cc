@@ -424,11 +424,11 @@ Status BuildComputation(
 /**
  * \brief Build XLA computations for each of the arguments to the `UserComputation`.
  *
- * 1. Traverse `args` (arguments to the `UserComputation`) to set index of non-constant arguments in `input_mapping` (in order of `kParameter` to `kResource`).
+ * 1. Traverse `args` (arguments to the `UserComputation`) to set index of non-constant arguments in `input_mapping` (in order of `kParameter` to `kResource`) and set up `arg_expressions`.
  * 2. Traverse `input_mapping` to compute the shapes of non-constant arguments and record in `arg_shapes`. Based on the option `use_tuple_arg`, it decides how to store `arg_shapes` to `input_shapes`.
  * 3. Use `_Arg` nodes in graph to resolve core assignments. The result is written in function argument `arg_cores`.
  * 4. Build parameter handles for non-constant arguments.
- * 5. [TODO] Fill in the handles in non-constant arguments.
+ * 5. Fill in the handles in non-constant arguments (update the `arg_expressions` set up in 1.).
  *
  * Unclear parts:
  *   1. Usage of `XlaResource` in 1.
