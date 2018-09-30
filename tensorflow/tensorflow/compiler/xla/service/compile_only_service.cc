@@ -60,7 +60,7 @@ CompileOnlyService::CompileOnlyService(const ServiceOptions& options,
  * > Compiles a list of computations for ahead-of-time execution.  This is
  * > intended for use in static compilation.
  *
- * 1. [TODO] Create xla::HloModule
+ * 1. \todo Create xla::HloModule
  *
  * 2. Dump computation proto state if flag is set to a file.(Call `xla::ComputationTracker::SnapshotComputation`)
  * 3. Set execution options(e.g. debug options)

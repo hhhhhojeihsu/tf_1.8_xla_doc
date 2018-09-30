@@ -65,7 +65,7 @@ Status ReadProtoFile(const string& fname, protobuf::Message* proto) {
  * Called by `main`
  * 1. Process config(generate config & graph_def)
  * 2. Call `tensorflow::tfcompile::CompileGraph`
- * 3. [TODO] Generate output (object, header, etc)
+ * \todo 3. Generate output (object, header, etc)
  */
 Status Main(const MainFlags& flags) {
   // Process config.
