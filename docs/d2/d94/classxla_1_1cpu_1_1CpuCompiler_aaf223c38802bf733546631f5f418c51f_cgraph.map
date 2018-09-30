@@ -1,0 +1,8 @@
+<map id="xla::cpu::CpuCompiler::RunBackend" name="xla::cpu::CpuCompiler::RunBackend">
+<area shape="rect" id="node2" href="$d6/d10/namespacexla_1_1cpu_1_1anonymous__namespace_02cpu__compiler_8cc_03.html#a30c6aa4784e80949c00688656216a1d0" title="xla::cpu::anonymous\l_namespace\{cpu_compiler\l::cc\}::InitializeModuleHooks" alt="" coords="208,5,392,61"/>
+<area shape="rect" id="node3" href="$d6/d10/namespacexla_1_1cpu_1_1anonymous__namespace_02cpu__compiler_8cc_03.html#a0ae720d5858e0c36f05eeafa920bfdc5" title="xla::cpu::anonymous\l_namespace\{cpu_compiler\l::cc\}::CompilerTargetOptions" alt="" coords="205,85,395,141"/>
+<area shape="rect" id="node4" href="$d6/d10/namespacexla_1_1cpu_1_1anonymous__namespace_02cpu__compiler_8cc_03.html#aacffb4d75550dfb887b23937cec77fb6" title="xla::cpu::anonymous\l_namespace\{cpu_compiler\l::cc\}::CodeGenOptLevel" alt="" coords="211,165,389,221"/>
+<area shape="rect" id="node5" href="$d3/d3e/classxla_1_1Compiler.html#a06a2a3d995eca2de6c632f04e9a631e8" title="xla::Compiler::BufferSize\lBytesFunction" alt="" coords="217,246,383,287"/>
+<area shape="rect" id="node7" href="$d6/d10/namespacexla_1_1cpu_1_1anonymous__namespace_02cpu__compiler_8cc_03.html#afda30ab3f3866f05c5a12ec7deb71911" title="xla::cpu::anonymous\l_namespace\{cpu_compiler\l::cc\}::VerifyLlvmModule" alt="" coords="211,312,389,368"/>
+<area shape="rect" id="node6" href="$d3/d3e/classxla_1_1Compiler.html#a367cd60b4b301c94daecbaff5b243594" title="xla::Compiler::ShapeSize\lBytesFunction" alt="" coords="443,246,613,287"/>
+</map>

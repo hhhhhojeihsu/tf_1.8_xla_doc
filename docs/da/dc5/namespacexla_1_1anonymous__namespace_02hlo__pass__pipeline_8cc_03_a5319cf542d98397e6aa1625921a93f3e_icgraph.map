@@ -1,0 +1,4 @@
+<map id="xla::anonymous_namespace{hlo_pass_pipeline::cc}::DumpModuleGraph" name="xla::anonymous_namespace{hlo_pass_pipeline::cc}::DumpModuleGraph">
+<area shape="rect" id="node2" href="$d2/dbd/classxla_1_1HloPassPipeline.html#ab27120e575c66e2991a9085a94c88169" title="xla::HloPassPipeline::Run" alt="" coords="241,20,416,47"/>
+<area shape="rect" id="node3" href="$d2/d94/classxla_1_1cpu_1_1CpuCompiler.html#ab3bae76bdf9896dcfe3e1e749373f6b1" title="xla::cpu::CpuCompiler\l::RunHloPasses" alt="" coords="464,13,616,54"/>
+</map>

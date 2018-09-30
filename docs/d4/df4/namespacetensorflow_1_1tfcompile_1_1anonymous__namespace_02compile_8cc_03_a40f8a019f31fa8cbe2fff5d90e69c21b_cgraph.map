@@ -1,4 +1,4 @@
 <map id="tensorflow::tfcompile::anonymous_namespace{compile::cc}::CompileXla" name="tensorflow::tfcompile::anonymous_namespace{compile::cc}::CompileXla">
-<area shape="rect" id="node2" href="$d1/dd1/classxla_1_1CompileOnlyClient.html#a5a585d21f617b77a1cecc1b587d18d7a" title="Compiles a list of computations for ahead&#45;of&#45;time execution. This is intended for use in static compi..." alt="" coords="227,12,387,51"/>
-<area shape="rect" id="node3" href="$dc/d07/classxla_1_1CompileOnlyService.html#aceb67616a89167b9af1bf23d17ec37c9" title="xla::CompileOnlyService\l::CompileAheadOfTime" alt="" coords="435,12,601,51"/>
+<area shape="rect" id="node2" href="$d1/dd1/classxla_1_1CompileOnlyClient.html#a5a585d21f617b77a1cecc1b587d18d7a" title="Compiles a list of computations for ahead&#45;of&#45;time execution. This is intended for use in static compi..." alt="" coords="225,13,384,54"/>
+<area shape="rect" id="node3" href="$dc/d07/classxla_1_1CompileOnlyService.html#aceb67616a89167b9af1bf23d17ec37c9" title="xla::CompileOnlyService\l::CompileAheadOfTime" alt="" coords="432,13,599,54"/>
 </map>

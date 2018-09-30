@@ -1,24 +1,9 @@
 var searchData=
 [
-  ['service',['Service',['../d1/d10/classxla_1_1Service.html',1,'xla::Service'],['../d1/d10/classxla_1_1Service.html#a4433d1d400766a274dd47b4f3d2ca5a2',1,'xla::Service::Service()']]],
-  ['service_2ecc',['service.cc',['../d9/d1a/service_8cc.html',1,'']]],
-  ['service_2eh',['service.h',['../d5/d83/service_8h.html',1,'']]],
-  ['serviceinterface',['ServiceInterface',['../dc/d7f/classServiceInterface.html',1,'']]],
-  ['serviceoptions',['ServiceOptions',['../d5/d7a/classxla_1_1ServiceOptions.html',1,'xla']]],
-  ['session_5fcomputation_5f',['session_computation_',['../d0/dee/classxla_1_1anonymous__namespace_02user__computation_8cc_03_1_1ComputationLowerer.html#a0adbba5864ea173ddf1643e88f99a18c',1,'xla::anonymous_namespace{user_computation.cc}::ComputationLowerer']]],
-  ['set_5fintra_5fop_5fparallelism_5fthreads',['set_intra_op_parallelism_threads',['../d5/d7a/classxla_1_1ServiceOptions.html#a0e32ba87207a4b650905259689ee12e2',1,'xla::ServiceOptions']]],
-  ['set_5fnumber_5fof_5freplicas',['set_number_of_replicas',['../d5/d7a/classxla_1_1ServiceOptions.html#a17698d0ee256741b5e66e1d07527c603',1,'xla::ServiceOptions']]],
-  ['set_5fplatform',['set_platform',['../d5/d7a/classxla_1_1ServiceOptions.html#a5bd8b3cc7434c561574a3289c119766f',1,'xla::ServiceOptions']]],
-  ['setnodeshardingfromneighbors',['SetNodeShardingFromNeighbors',['../de/d86/namespacetensorflow.html#a3391d21e0e838c21374c1c81414566b9',1,'tensorflow']]],
-  ['setopmetadata',['SetOpMetadata',['../db/dbb/classxla_1_1UserComputation.html#aa5542fc65853498ef3ac0774a6806011',1,'xla::UserComputation']]],
-  ['setopsharding',['SetOpSharding',['../db/dbb/classxla_1_1UserComputation.html#a04cfe3bcab65649bce0d484e6d917841',1,'xla::UserComputation']]],
-  ['setreturnvalue',['SetReturnValue',['../d1/d10/classxla_1_1Service.html#a9d62e91a55079d0ad74a93e2c5729bca',1,'xla::Service::SetReturnValue()'],['../db/dbb/classxla_1_1UserComputation.html#a43162efd6a56fc6c8789c50196eba04b',1,'xla::UserComputation::SetReturnValue()']]],
-  ['singlecomputationdevicehandle',['SingleComputationDeviceHandle',['../d1/d10/classxla_1_1Service.html#ab2f61cf74addf4119fb04da6bfe85d61',1,'xla::Service']]],
-  ['skip_5fmapped_5fnodes',['skip_mapped_nodes',['../d6/d7d/structtensorflow_1_1anonymous__namespace_02graph__constructor_8cc_03_1_1GraphConstructor_1_1Options.html#a9a08a77f46b2202e26f5b643af1504b1',1,'tensorflow::anonymous_namespace{graph_constructor.cc}::GraphConstructor::Options::skip_mapped_nodes()'],['../d0/de0/structtensorflow_1_1ImportGraphDefOptions.html#a674b70a2bd9bfbbd10bc7a680daf6c25',1,'tensorflow::ImportGraphDefOptions::skip_mapped_nodes()']]],
-  ['snapshotcomputation',['SnapshotComputation',['../d8/d42/classxla_1_1ComputationTracker.html#a1acead58332b1b2c6beaeac5505b1b8a',1,'xla::ComputationTracker::SnapshotComputation()'],['../d1/d10/classxla_1_1Service.html#ab6915b044aa99a7186c77b543bc1fb30',1,'xla::Service::SnapshotComputation()']]],
-  ['src_5findex',['src_index',['../d9/d7c/structtensorflow_1_1anonymous__namespace_02graph__constructor_8cc_03_1_1GraphConstructor_1_1EdgeInfo.html#a859fb1da416b10ff427bf08cdfc60921',1,'tensorflow::anonymous_namespace{graph_constructor.cc}::GraphConstructor::EdgeInfo']]],
-  ['src_5fname',['src_name',['../d9/d7c/structtensorflow_1_1anonymous__namespace_02graph__constructor_8cc_03_1_1GraphConstructor_1_1EdgeInfo.html#aa568e6a3cee178bfd87b9d4bcaa7fb9a',1,'tensorflow::anonymous_namespace{graph_constructor.cc}::GraphConstructor::EdgeInfo']]],
-  ['strippedoplistforgraph',['StrippedOpListForGraph',['../de/d86/namespacetensorflow.html#aa617fe7d5bc4b078acf3a1cc5f5cbd51',1,'tensorflow']]],
-  ['summarizegraphdef',['SummarizeGraphDef',['../de/d86/namespacetensorflow.html#ac273f280b4c7b01549351715651ab972',1,'tensorflow']]],
-  ['supported_5ftypes',['supported_types',['../d8/d12/structtensorflow_1_1XlaOpRegistry_1_1Backend.html#a9291d72309af79f9a24a04fb236a6cc0',1,'tensorflow::XlaOpRegistry::Backend']]]
+  ['while_5floop_5finvariant_5fcode_5fmotion_2ecc',['while_loop_invariant_code_motion.cc',['../da/df1/while__loop__invariant__code__motion_8cc.html',1,'']]],
+  ['while_5floop_5finvariant_5fcode_5fmotion_2eh',['while_loop_invariant_code_motion.h',['../d1/d57/while__loop__invariant__code__motion_8h.html',1,'']]],
+  ['while_5floop_5fsimplifier_2ecc',['while_loop_simplifier.cc',['../d5/d0e/while__loop__simplifier_8cc.html',1,'']]],
+  ['while_5floop_5fsimplifier_2eh',['while_loop_simplifier.h',['../da/d88/while__loop__simplifier_8h.html',1,'']]],
+  ['whileloopinvariantcodemotion',['WhileLoopInvariantCodeMotion',['../d6/dc0/classxla_1_1WhileLoopInvariantCodeMotion.html',1,'xla']]],
+  ['whileloopsimplifier',['WhileLoopSimplifier',['../d8/df6/classxla_1_1WhileLoopSimplifier.html',1,'xla']]]
 ];

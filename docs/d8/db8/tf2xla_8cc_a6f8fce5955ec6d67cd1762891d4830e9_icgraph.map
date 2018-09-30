@@ -1,3 +1,0 @@
-<map id="tensorflow::ConvertGraphDefToXla" name="tensorflow::ConvertGraphDefToXla">
-<area shape="rect" id="node2" href="$d6/d17/compile_8cc.html#a021cb1c58d938b16dcd998aa8d1fc191" title="Converts the graph into an XLA computation, and compiles the computation. Called by tensorflow::tfcom..." alt="" coords="224,29,367,71"/>
-</map>

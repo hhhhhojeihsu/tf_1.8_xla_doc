@@ -1,0 +1,6 @@
+<map id="xla::LocalClientOptions::platform" name="xla::LocalClientOptions::platform">
+<area shape="rect" id="node2" href="$df/d22/classxla_1_1LocalClientOptions.html#a08daece72aed61a9fd5f8cbbcd2201be" title="xla::LocalClientOptions\l::set_platform" alt="" coords="217,5,374,47"/>
+<area shape="rect" id="node5" href="$d5/ddb/classxla_1_1ClientLibrary.html#a7dadd4179a27235b58ed227ddbc2cbbe" title="xla::ClientLibrary\l::GetOrCreateLocalClient" alt="" coords="211,71,380,112"/>
+<area shape="rect" id="node3" href="$d5/ddb/classxla_1_1ClientLibrary.html#a2c557ab4776d12fe509b17cc6abda1be" title="xla::ClientLibrary\l::GetOrCreateLocalClient" alt="" coords="428,5,597,47"/>
+<area shape="rect" id="node4" href="$d5/ddb/classxla_1_1ClientLibrary.html#a5b92b1357eb4acaf3d0e555be2b0244f" title="xla::ClientLibrary\l::LocalClientOrDie" alt="" coords="645,5,775,47"/>
+</map>

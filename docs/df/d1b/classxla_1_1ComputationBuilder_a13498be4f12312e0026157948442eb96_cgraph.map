@@ -1,0 +1,15 @@
+<map id="xla::ComputationBuilder::Conv" name="xla::ComputationBuilder::Conv">
+<area shape="rect" id="node2" href="$df/d1b/classxla_1_1ComputationBuilder.html#a2e01c5667c341089ea9128d44e77ebf9" title="xla::ComputationBuilder\l::ConvWithGeneralDimensions" alt="" coords="215,153,418,194"/>
+<area shape="rect" id="node14" href="$df/d1b/classxla_1_1ComputationBuilder.html#a3fdd55443e13dbeefab2f5c2bbb78147" title="xla::ComputationBuilder\l::CreateDefaultConvDimension\lNumbers" alt="" coords="215,219,419,275"/>
+<area shape="rect" id="node3" href="$df/d1b/classxla_1_1ComputationBuilder.html#af5ca3f8bbbe525f593293b55df772f1a" title="Populates computation_ with a valid object. Used before any given operation is enqueued. " alt="" coords="1357,394,1519,435"/>
+<area shape="rect" id="node4" href="$df/d1b/classxla_1_1ComputationBuilder.html#a787b5fd4e96b9c918b7d0d73704f0d57" title="xla::ComputationBuilder\l::NoteError" alt="" coords="1567,178,1728,219"/>
+<area shape="rect" id="node5" href="$df/d1b/classxla_1_1ComputationBuilder.html#a802577eb94272bfc6b2b7684b8a2ad85" title="xla::ComputationBuilder\l::GetShape" alt="" coords="898,153,1059,194"/>
+<area shape="rect" id="node7" href="$df/d1b/classxla_1_1ComputationBuilder.html#a318ddf58896882c677aac1548c183f25" title="xla::ComputationBuilder\l::VerifyConvolution" alt="" coords="898,87,1059,129"/>
+<area shape="rect" id="node8" href="$df/d1b/classxla_1_1ComputationBuilder.html#a012fb04362bae1bd7d7ecdb469cbd6c1" title="xla::ComputationBuilder\l::ConvGeneral" alt="" coords="467,211,628,253"/>
+<area shape="rect" id="node6" href="$df/d1b/classxla_1_1ComputationBuilder.html#a3cc9e4cb9e38733572e7153a1931b19f" title="xla::ComputationBuilder\l::GetShapeWithoutNoteError" alt="" coords="1120,94,1309,135"/>
+<area shape="rect" id="node9" href="$df/d1b/classxla_1_1ComputationBuilder.html#ac0905f4579b318824ca65f112f3f1408" title="xla::ComputationBuilder\l::ConvGeneralDilated" alt="" coords="676,211,837,253"/>
+<area shape="rect" id="node10" href="$df/d1b/classxla_1_1ComputationBuilder.html#ac7d7dca366ed62647e192ad629aad835" title="xla::ComputationBuilder\l::MakeWindow" alt="" coords="1134,211,1295,253"/>
+<area shape="rect" id="node11" href="$df/d1b/classxla_1_1ComputationBuilder.html#a584f43dacccc04122c79a7e4ad2770d0" title="Call RunOp() and either return the output ComputationDataHandle (on success) or an empty ComputationD..." alt="" coords="885,270,1072,311"/>
+<area shape="rect" id="node12" href="$df/d1b/classxla_1_1ComputationBuilder.html#a7d2ff8c5c638378bb6fb998a71661d22" title="Run the given parameter op_request and fill in op_response. " alt="" coords="1134,329,1295,370"/>
+<area shape="rect" id="node13" href="$df/d1b/classxla_1_1ComputationBuilder.html#a2def8246d1c1829a85e095a84e364bca" title="xla::ComputationBuilder\l::name" alt="" coords="1357,329,1519,370"/>
+</map>

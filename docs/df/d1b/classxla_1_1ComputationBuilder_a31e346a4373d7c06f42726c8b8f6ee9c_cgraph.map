@@ -1,0 +1,7 @@
+<map id="xla::ComputationBuilder::Trace" name="xla::ComputationBuilder::Trace">
+<area shape="rect" id="node2" href="$df/d1b/classxla_1_1ComputationBuilder.html#a681fc397f3b82250fed07d3549cac7ac" title="xla::ComputationBuilder\l::RunOpAndNoteError" alt="" coords="215,100,376,141"/>
+<area shape="rect" id="node3" href="$df/d1b/classxla_1_1ComputationBuilder.html#a7d2ff8c5c638378bb6fb998a71661d22" title="Run the given parameter op_request and fill in op_response. " alt="" coords="424,71,585,112"/>
+<area shape="rect" id="node5" href="$df/d1b/classxla_1_1ComputationBuilder.html#a787b5fd4e96b9c918b7d0d73704f0d57" title="xla::ComputationBuilder\l::NoteError" alt="" coords="843,68,1004,109"/>
+<area shape="rect" id="node4" href="$df/d1b/classxla_1_1ComputationBuilder.html#af5ca3f8bbbe525f593293b55df772f1a" title="Populates computation_ with a valid object. Used before any given operation is enqueued. " alt="" coords="633,5,795,47"/>
+<area shape="rect" id="node6" href="$df/d1b/classxla_1_1ComputationBuilder.html#a2def8246d1c1829a85e095a84e364bca" title="xla::ComputationBuilder\l::name" alt="" coords="633,71,795,112"/>
+</map>

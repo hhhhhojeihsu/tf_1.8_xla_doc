@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="../../d8/da8/classxla_1_1cpu_1_1CpuCompiler-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">xla::cpu::CpuCompiler Class Reference</div>  </div>
@@ -77,18 +78,25 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for xla::cpu::CpuCompiler:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d99/classxla_1_1cpu_1_1CpuCompiler__inherit__graph.svg" width="163" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d99/classxla_1_1cpu_1_1CpuCompiler__inherit__graph.svg" width="163" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for xla::cpu::CpuCompiler:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d55/classxla_1_1cpu_1_1CpuCompiler__coll__graph.svg" width="163" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d55/classxla_1_1cpu_1_1CpuCompiler__coll__graph.svg" width="163" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ae39f2b47db1aaa1457e76acb6ee3d496"><td class="memItemLeft" align="right" valign="top">StatusOr&lt; std::vector&lt; std::unique_ptr&lt; AotCompilationResult &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d94/classxla_1_1cpu_1_1CpuCompiler.html#ae39f2b47db1aaa1457e76acb6ee3d496">CompileAheadOfTime</a> (std::vector&lt; std::unique_ptr&lt; HloModule &gt;&gt; modules, const AotCompilationOptions &amp;options) override</td></tr>
 <tr class="separator:ae39f2b47db1aaa1457e76acb6ee3d496"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ab3bae76bdf9896dcfe3e1e749373f6b1"><td class="memItemLeft" align="right" valign="top">Status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d94/classxla_1_1cpu_1_1CpuCompiler.html#ab3bae76bdf9896dcfe3e1e749373f6b1">RunHloPasses</a> (HloModule *module, bool is_aot_compile)</td></tr>
+<tr class="separator:ab3bae76bdf9896dcfe3e1e749373f6b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Google Doc: </p><blockquote class="doxtable">
@@ -129,15 +137,133 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Called by <code><a class="el" href="../../dc/d07/classxla_1_1CompileOnlyService.html#aceb67616a89167b9af1bf23d17ec37c9">xla::CompileOnlyService::CompileAheadOfTime</a></code>, not in caller graph due to overridden. </p>
+<p>Called by <code><a class="el" href="../../dc/d07/classxla_1_1CompileOnlyService.html#aceb67616a89167b9af1bf23d17ec37c9">xla::CompileOnlyService::CompileAheadOfTime</a></code>, not in caller graph due to overridden.</p>
+<ol type="1">
+<li>Initialize LLVM command line options</li>
+<li>Check if platform is compatible for AOT</li>
+<li>Convert options to <code>llvm::Target</code> (line 741 ~ 754)</li>
+<li>Set LLVM IR options (line 756 ~ 785)<ol type="a">
+<li>Set relocation model: Static or PIC</li>
+<li>Set PIC level: No PIC, small PIC, big PIC</li>
+<li>Set PIE level: Default, small, large</li>
+</ol>
+</li>
+<li>Set target CPU, supported instructions and set optimization level.</li>
+<li>Create <code>llvm::Module</code> using <code>llvm::LLVMContext</code> because it requires to be thread safe.</li>
+<li>Loop through HLO modules<ol type="a">
+<li>Compile the code without optimization (call <code><a class="el" href="../../d2/d94/classxla_1_1cpu_1_1CpuCompiler.html">CpuCompiler</a>::<a class="el" href="../../d2/d94/classxla_1_1cpu_1_1CpuCompiler.html#ab3bae76bdf9896dcfe3e1e749373f6b1">RunHloPasses(HloModule* module, bool is_aot_compile)</a></code>) <dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000007">Todo:</a></b></dt><dd>There's still code below </dd></dl>
+</li>
+</ol>
+</li>
+</ol>
 
 <p>Implements <a class="el" href="../../d3/d3e/classxla_1_1Compiler.html">xla::Compiler</a>.</p>
 
 </div>
 </div>
+<a id="ab3bae76bdf9896dcfe3e1e749373f6b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3bae76bdf9896dcfe3e1e749373f6b1">&#9670;&nbsp;</a></span>RunHloPasses()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Status xla::cpu::CpuCompiler::RunHloPasses </td>
+          <td>(</td>
+          <td class="paramtype">HloModule *&#160;</td>
+          <td class="paramname"><em>module</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>is_aot_compile</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Called by <code><a class="el" href="../../d2/d94/classxla_1_1cpu_1_1CpuCompiler.html#ae39f2b47db1aaa1457e76acb6ee3d496">xla::cpu::CpuCompiler::CompileAheadOfTime</a></code></p>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000005">Todo:</a></b></dt><dd>See what those invariant checker and pass do</dd></dl>
+<ol type="1">
+<li>Create a <code><a class="el" href="../../d2/dbd/classxla_1_1HloPassPipeline.html">xla::HloPassPipeline</a></code></li>
+<li>Add invariant checker <code><a class="el" href="../../d5/dd4/classxla_1_1HloVerifier.html">xla::HloVerifier</a></code></li>
+<li>Add pass <code><a class="el" href="../../da/d45/classxla_1_1CpuHloSupportChecker.html">xla::CpuHloSupportChecker</a></code></li>
+<li>Set <code><a class="el" href="../../d2/d62/classxla_1_1ReducePrecisionInsertion.html#a7157e414afc3f98e2531a52cd13ebcf6">xla::ReducePrecisionInsertion::PassTiming</a></code> to <code>BEFORE_OPTIMIZATION</code> and add pass</li>
+<li>Add pass <code><a class="el" href="../../de/d0f/classxla_1_1CallInliner.html">xla::CallInliner</a></code></li>
+<li>Add pass <code><a class="el" href="../../dd/d99/classxla_1_1DotDecomposer.html">xla::DotDecomposer</a></code></li>
+<li>Add pass <code><a class="el" href="../../d2/dcc/classxla_1_1cpu_1_1ConvCanonicalization.html">xla::cpu::ConvCanonicalization</a></code></li>
+<li>Add pass <code><a class="el" href="../../da/d51/classxla_1_1HloPassFix.html">xla::HloPassFix</a>&lt;<a class="el" href="../../d2/dbd/classxla_1_1HloPassPipeline.html">xla::HloPassPipeline</a>&gt;("simplification")</code><ol type="a">
+<li>Add invariant checker <code><a class="el" href="../../d5/dd4/classxla_1_1HloVerifier.html">xla::HloVerifier</a></code></li>
+<li>Add pass <code><a class="el" href="../../df/d13/classxla_1_1BatchNormExpander.html">xla::BatchNormExpander</a></code><ul>
+<li><code>rewritie_training_op</code> = true</li>
+<li><code>rewrite_inference_op</code> = true</li>
+<li><code>rewrite_grad_op</code> = true</li>
+<li><code>use_fusion</code> = false</li>
+</ul>
+</li>
+<li>Add pass <code><a class="el" href="../../d8/d9a/classxla_1_1GatherExpander.html">xla::GatherExpander</a></code></li>
+<li>Add pass <code><a class="el" href="../../d8/dd7/classxla_1_1AlgebraicSimplifier.html">xla::AlgebraicSimplifier</a></code><ul>
+<li><code>is_layout_sensitive</code> = false</li>
+<li><dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000006">Todo:</a></b></dt><dd>unknown argument</dd></dl>
+</li>
+<li><code>enable_dot_strength_reduction</code> = false</li>
+</ul>
+</li>
+<li>Add pass <code><a class="el" href="../../db/df3/classxla_1_1ZeroSizedHloElimination.html">xla::ZeroSizedHloElimination</a></code></li>
+<li>Add pass <code><a class="el" href="../../d6/dc0/classxla_1_1WhileLoopInvariantCodeMotion.html">xla::WhileLoopInvariantCodeMotion</a></code></li>
+<li>Add pass <code><a class="el" href="../../dd/de3/classxla_1_1TupleSimplifier.html">xla::TupleSimplifier</a></code></li>
+<li>Add pass <code><a class="el" href="../../d8/df6/classxla_1_1WhileLoopSimplifier.html">xla::WhileLoopSimplifier</a></code></li>
+<li>Add pass <code><a class="el" href="../../d3/db4/classxla_1_1HloDCE.html">xla::HloDCE</a></code></li>
+<li>Add pass <code><a class="el" href="../../db/d5f/classxla_1_1ReshapeMover.html">xla::ReshapeMover</a></code></li>
+<li>Add pass <code><a class="el" href="../../df/d35/classxla_1_1HloConstantFolding.html">xla::HloConstantFolding</a></code></li>
+<li>Add pass <code><a class="el" href="../../d0/d1b/classxla_1_1ConditionalSimplifier.html">xla::ConditionalSimplifier</a></code></li>
+</ol>
+</li>
+<li>Add pass <code><a class="el" href="../../d5/db5/classxla_1_1TransposeFolding.html">xla::TransposeFolding</a></code></li>
+<li>Add pass <code><a class="el" href="../../d5/d69/classxla_1_1HloCSE.html">xla::HloCSE</a></code> with <code>is_layout_sensitive</code> is true</li>
+<li>Add pass <code><a class="el" href="../../dd/db8/classxla_1_1cpu_1_1CpuInstructionFusion.html">xla::cpu::CpuInstructionFusion</a></code></li>
+<li>Set <code><a class="el" href="../../d2/d62/classxla_1_1ReducePrecisionInsertion.html#a7157e414afc3f98e2531a52cd13ebcf6">xla::ReducePrecisionInsertion::PassTiming</a></code> to <code>AFTER_FUSION</code> and add pass</li>
+<li>Add pass <code><a class="el" href="../../d1/d9e/classxla_1_1cpu_1_1CpuLayoutAssignment.html">xla::cpu::CpuLayoutAssignment</a></code>. Because the <code><a class="el" href="../../d1/d9e/classxla_1_1cpu_1_1CpuLayoutAssignment.html">xla::cpu::CpuLayoutAssignment</a></code> may leave behind <code>kCopy</code> instructions which are duplicate or NOPs, so remove them with <code><a class="el" href="../../d8/dd7/classxla_1_1AlgebraicSimplifier.html">xla::AlgebraicSimplifier</a></code> and <code><a class="el" href="../../d5/d69/classxla_1_1HloCSE.html">xla::HloCSE</a></code>.</li>
+<li>Add pass <code><a class="el" href="../../da/d51/classxla_1_1HloPassFix.html">xla::HloPassFix</a>&lt;<a class="el" href="../../d8/dd7/classxla_1_1AlgebraicSimplifier.html">AlgebraicSimplifier</a>&gt;</code></li>
+<li>Add pass <code><a class="el" href="../../d5/d69/classxla_1_1HloCSE.html">xla::HloCSE</a></code> with <code>is_layout_sensitive</code> is false</li>
+<li>Add pass <code><a class="el" href="../../d8/de7/classxla_1_1HloElementTypeConverter.html">xla::HloElementTypeConverter</a></code> to convert type <code>BF16</code> to <code>F32</code></li>
+<li>Set <code>max_parallelism</code> to outline ops in the entry computation into subcomputations</li>
+<li>If parallel backend is requested then add pass <code><a class="el" href="../../dd/dda/classxla_1_1cpu_1_1ParallelizationPreparation.html">xla::cpu::ParallelizationPreparation</a></code></li>
+<li>If <code>is_aot_compile</code> is false then add pass <code><a class="el" href="../../df/d9b/classxla_1_1cpu_1_1ParallelTaskAssigner.html">xla::cpu::ParallelTaskAssigner</a></code> but <code>is_aot_compile</code> is always true in this case</li>
+<li>Add pass <code><a class="el" href="../../d3/db4/classxla_1_1HloDCE.html">xla::HloDCE</a></code></li>
+<li>Add pass <code><a class="el" href="../../dc/d87/classxla_1_1FlattenCallGraph.html">xla::FlattenCallGraph</a></code></li>
+<li>Add pass <code><a class="el" href="../../dd/d50/classxla_1_1CpuCopyInsertion.html">xla::CpuCopyInsertion</a></code></li>
+<li>Re-run outlining if parallel backend is requested, in case any copies were inserted into entry computation<ol type="a">
+<li>Add pass <code><a class="el" href="../../dd/dda/classxla_1_1cpu_1_1ParallelizationPreparation.html">xla::cpu::ParallelizationPreparation</a></code></li>
+<li>Add pass <code><a class="el" href="../../dd/d50/classxla_1_1CpuCopyInsertion.html">xla::CpuCopyInsertion</a></code></li>
+</ol>
+</li>
+<li>Add pass <code><a class="el" href="../../d3/db4/classxla_1_1HloDCE.html">xla::HloDCE</a></code></li>
+<li>Start the process by calling <code><a class="el" href="../../d2/dbd/classxla_1_1HloPassPipeline.html#ab27120e575c66e2991a9085a94c88169" title="Run the Hlo pipeline by invoking each class&#39; Run method. ">xla::HloPassPipeline::Run</a></code> </li>
+</ol>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d94/classxla_1_1cpu_1_1CpuCompiler_ab3bae76bdf9896dcfe3e1e749373f6b1_cgraph.svg" width="598" height="222"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>tensorflow/tensorflow/compiler/xla/service/cpu/<a class="el" href="../../db/de2/cpu__compiler_8h_source.html">cpu_compiler.h</a></li>
-<li>tensorflow/tensorflow/compiler/xla/service/cpu/cpu_compiler.cc</li>
+<li>tensorflow/tensorflow/compiler/xla/service/cpu/<a class="el" href="../../d4/dcb/cpu__compiler_8cc.html">cpu_compiler.cc</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -1,7 +1,7 @@
 <map id="tensorflow::XlaCompiler::CompileGraph" name="tensorflow::XlaCompiler::CompileGraph">
-<area shape="rect" id="node2" href="$d7/dbf/classtensorflow_1_1XlaCompiler.html#af976233791194ab48c2512fdfac123ea" title="Build XLA computations for each of the arguments to the UserComputation. " alt="" coords="215,5,378,44"/>
-<area shape="rect" id="node3" href="$df/d1b/classxla_1_1ComputationBuilder.html#a7312b57426afbc7bcb728307fc020869" title="Enqueues a &quot;retrieve parameter value&quot; instruction to the UserComputation. " alt="" coords="426,5,588,44"/>
-<area shape="rect" id="node4" href="$df/d1b/classxla_1_1ComputationBuilder.html#a584f43dacccc04122c79a7e4ad2770d0" title="Call RunOp() and either return the output ComputationDataHandle (on success) or an empty ComputationD..." alt="" coords="636,5,826,44"/>
-<area shape="rect" id="node5" href="$df/d1b/classxla_1_1ComputationBuilder.html#a7d2ff8c5c638378bb6fb998a71661d22" title="Run the given parameter op_request and fill in op_response. " alt="" coords="874,5,1037,44"/>
-<area shape="rect" id="node6" href="$df/d1b/classxla_1_1ComputationBuilder.html#af5ca3f8bbbe525f593293b55df772f1a" title="Populates computation_ with a valid object. Used before any given operation is enqueued. " alt="" coords="1085,5,1248,44"/>
+<area shape="rect" id="node2" href="$d7/dbf/classtensorflow_1_1XlaCompiler.html#af976233791194ab48c2512fdfac123ea" title="Build XLA computations for each of the arguments to the UserComputation. " alt="" coords="215,5,376,47"/>
+<area shape="rect" id="node3" href="$df/d1b/classxla_1_1ComputationBuilder.html#a7312b57426afbc7bcb728307fc020869" title="Enqueues a &quot;retrieve parameter value&quot; instruction to the UserComputation. " alt="" coords="424,5,585,47"/>
+<area shape="rect" id="node4" href="$df/d1b/classxla_1_1ComputationBuilder.html#a584f43dacccc04122c79a7e4ad2770d0" title="Call RunOp() and either return the output ComputationDataHandle (on success) or an empty ComputationD..." alt="" coords="633,5,820,47"/>
+<area shape="rect" id="node5" href="$df/d1b/classxla_1_1ComputationBuilder.html#a7d2ff8c5c638378bb6fb998a71661d22" title="Run the given parameter op_request and fill in op_response. " alt="" coords="868,5,1029,47"/>
+<area shape="rect" id="node6" href="$df/d1b/classxla_1_1ComputationBuilder.html#af5ca3f8bbbe525f593293b55df772f1a" title="Populates computation_ with a valid object. Used before any given operation is enqueued. " alt="" coords="1077,5,1239,47"/>
 </map>

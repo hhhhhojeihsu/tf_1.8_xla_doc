@@ -1,0 +1,15 @@
+<map id="xla::cpu::CpuCompiler::CompileAheadOfTime" name="xla::cpu::CpuCompiler::CompileAheadOfTime">
+<area shape="rect" id="node2" href="$d0/d80/classxla_1_1AotCompilationOptions.html#a52a2eb2e44d7d50f7fee3d193e8f86a6" title="xla::AotCompilationOptions\l::PlatformId" alt="" coords="216,5,397,47"/>
+<area shape="rect" id="node3" href="$df/de0/classxla_1_1cpu_1_1CpuAotCompilationOptions.html#afa2b79e3b1d5f52699369752bbca5df9" title="xla::cpu::CpuAotCompilation\lOptions::triple" alt="" coords="212,71,401,112"/>
+<area shape="rect" id="node4" href="$df/de0/classxla_1_1cpu_1_1CpuAotCompilationOptions.html#af784132098b4689b8b0480811fccda5f" title="xla::cpu::CpuAotCompilation\lOptions::relocation_model" alt="" coords="212,136,401,177"/>
+<area shape="rect" id="node5" href="$df/de0/classxla_1_1cpu_1_1CpuAotCompilationOptions.html#ac364bb2adb33132307f2ad57205c9cc4" title="xla::cpu::CpuAotCompilation\lOptions::cpu_name" alt="" coords="212,201,401,243"/>
+<area shape="rect" id="node6" href="$df/de0/classxla_1_1cpu_1_1CpuAotCompilationOptions.html#ad3e28972f415547965f20aaf8bd82336" title="xla::cpu::CpuAotCompilation\lOptions::features" alt="" coords="212,267,401,308"/>
+<area shape="rect" id="node7" href="$d6/d10/namespacexla_1_1cpu_1_1anonymous__namespace_02cpu__compiler_8cc_03.html#aacffb4d75550dfb887b23937cec77fb6" title="xla::cpu::anonymous\l_namespace\{cpu_compiler\l::cc\}::CodeGenOptLevel" alt="" coords="218,333,395,389"/>
+<area shape="rect" id="node8" href="$d6/d10/namespacexla_1_1cpu_1_1anonymous__namespace_02cpu__compiler_8cc_03.html#a0ae720d5858e0c36f05eeafa920bfdc5" title="xla::cpu::anonymous\l_namespace\{cpu_compiler\l::cc\}::CompilerTargetOptions" alt="" coords="212,413,401,469"/>
+<area shape="rect" id="node9" href="$d2/d94/classxla_1_1cpu_1_1CpuCompiler.html#aac812c9dc39bbaba9c750b9156534ffb" title="xla::cpu::CpuCompiler\l::RunHloPasses" alt="" coords="231,493,383,535"/>
+<area shape="rect" id="node10" href="$d3/d3e/classxla_1_1Compiler.html#a06a2a3d995eca2de6c632f04e9a631e8" title="xla::Compiler::BufferSize\lBytesFunction" alt="" coords="223,559,390,600"/>
+<area shape="rect" id="node12" href="$df/de0/classxla_1_1cpu_1_1CpuAotCompilationOptions.html#a402ca01af4eca5927a30088e04acb2b0" title="xla::cpu::CpuAotCompilation\lOptions::entry_point_name" alt="" coords="212,624,401,665"/>
+<area shape="rect" id="node13" href="$d6/d10/namespacexla_1_1cpu_1_1anonymous__namespace_02cpu__compiler_8cc_03.html#a30c6aa4784e80949c00688656216a1d0" title="xla::cpu::anonymous\l_namespace\{cpu_compiler\l::cc\}::InitializeModuleHooks" alt="" coords="215,690,399,746"/>
+<area shape="rect" id="node14" href="$d6/d10/namespacexla_1_1cpu_1_1anonymous__namespace_02cpu__compiler_8cc_03.html#afda30ab3f3866f05c5a12ec7deb71911" title="xla::cpu::anonymous\l_namespace\{cpu_compiler\l::cc\}::VerifyLlvmModule" alt="" coords="218,770,395,826"/>
+<area shape="rect" id="node11" href="$d3/d3e/classxla_1_1Compiler.html#a367cd60b4b301c94daecbaff5b243594" title="xla::Compiler::ShapeSize\lBytesFunction" alt="" coords="449,559,620,600"/>
+</map>

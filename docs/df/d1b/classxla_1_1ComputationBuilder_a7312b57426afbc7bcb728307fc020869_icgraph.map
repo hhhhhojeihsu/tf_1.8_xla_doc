@@ -1,4 +1,4 @@
 <map id="xla::ComputationBuilder::Parameter" name="xla::ComputationBuilder::Parameter">
-<area shape="rect" id="node2" href="$d7/dbf/classtensorflow_1_1XlaCompiler.html#af976233791194ab48c2512fdfac123ea" title="Build XLA computations for each of the arguments to the UserComputation. " alt="" coords="216,5,378,44"/>
-<area shape="rect" id="node3" href="$d7/dbf/classtensorflow_1_1XlaCompiler.html#ade5be3e41d2892412acb844070182858" title="Compiles a tensorflow::Graph into an xla::Computation. " alt="" coords="426,5,588,44"/>
+<area shape="rect" id="node2" href="$d7/dbf/classtensorflow_1_1XlaCompiler.html#af976233791194ab48c2512fdfac123ea" title="Build XLA computations for each of the arguments to the UserComputation. " alt="" coords="215,5,376,47"/>
+<area shape="rect" id="node3" href="$d7/dbf/classtensorflow_1_1XlaCompiler.html#ade5be3e41d2892412acb844070182858" title="Compiles a tensorflow::Graph into an xla::Computation. " alt="" coords="424,5,585,47"/>
 </map>

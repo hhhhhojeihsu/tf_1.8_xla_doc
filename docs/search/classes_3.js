@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['usercomputation',['UserComputation',['../db/dbb/classxla_1_1UserComputation.html',1,'xla']]]
+  ['dotdecomposer',['DotDecomposer',['../dd/d99/classxla_1_1DotDecomposer.html',1,'xla']]]
 ];

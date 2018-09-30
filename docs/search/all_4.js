@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['initgraph',['InitGraph',['../d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03.html#aeef0cda05958b2b855b0e2fbe07b1314',1,'tensorflow::anonymous_namespace{tf2xla.cc}']]]
+  ['flatten_5fcall_5fgraph_2ecc',['flatten_call_graph.cc',['../d9/db4/flatten__call__graph_8cc.html',1,'']]],
+  ['flatten_5fcall_5fgraph_2eh',['flatten_call_graph.h',['../d2/d8b/flatten__call__graph_8h.html',1,'']]],
+  ['flattencallgraph',['FlattenCallGraph',['../dc/d87/classxla_1_1FlattenCallGraph.html',1,'xla']]]
 ];

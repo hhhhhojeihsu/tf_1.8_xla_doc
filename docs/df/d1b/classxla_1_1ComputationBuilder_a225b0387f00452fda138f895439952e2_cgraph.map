@@ -1,0 +1,8 @@
+<map id="xla::ComputationBuilder::ConstantR3FromArray3DWithLayout" name="xla::ComputationBuilder::ConstantR3FromArray3DWithLayout">
+<area shape="rect" id="node2" href="$df/d1b/classxla_1_1ComputationBuilder.html#a5f223ba66777e0b8699c138dc4d6a97e" title="xla::ComputationBuilder\l::ConstantLiteral" alt="" coords="297,100,459,141"/>
+<area shape="rect" id="node3" href="$df/d1b/classxla_1_1ComputationBuilder.html#a584f43dacccc04122c79a7e4ad2770d0" title="Call RunOp() and either return the output ComputationDataHandle (on success) or an empty ComputationD..." alt="" coords="507,100,693,141"/>
+<area shape="rect" id="node4" href="$df/d1b/classxla_1_1ComputationBuilder.html#a7d2ff8c5c638378bb6fb998a71661d22" title="Run the given parameter op_request and fill in op_response. " alt="" coords="741,71,903,112"/>
+<area shape="rect" id="node6" href="$df/d1b/classxla_1_1ComputationBuilder.html#a787b5fd4e96b9c918b7d0d73704f0d57" title="xla::ComputationBuilder\l::NoteError" alt="" coords="1160,68,1321,109"/>
+<area shape="rect" id="node5" href="$df/d1b/classxla_1_1ComputationBuilder.html#af5ca3f8bbbe525f593293b55df772f1a" title="Populates computation_ with a valid object. Used before any given operation is enqueued. " alt="" coords="951,5,1112,47"/>
+<area shape="rect" id="node7" href="$df/d1b/classxla_1_1ComputationBuilder.html#a2def8246d1c1829a85e095a84e364bca" title="xla::ComputationBuilder\l::name" alt="" coords="951,71,1112,112"/>
+</map>

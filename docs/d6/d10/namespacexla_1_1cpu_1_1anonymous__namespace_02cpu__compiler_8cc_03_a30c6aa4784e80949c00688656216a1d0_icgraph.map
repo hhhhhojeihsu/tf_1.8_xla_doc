@@ -1,0 +1,4 @@
+<map id="xla::cpu::anonymous_namespace{cpu_compiler::cc}::InitializeModuleHooks" name="xla::cpu::anonymous_namespace{cpu_compiler::cc}::InitializeModuleHooks">
+<area shape="rect" id="node2" href="$d2/d94/classxla_1_1cpu_1_1CpuCompiler.html#aaf223c38802bf733546631f5f418c51f" title="xla::cpu::CpuCompiler\l::RunBackend" alt="" coords="241,5,393,47"/>
+<area shape="rect" id="node3" href="$d2/d94/classxla_1_1cpu_1_1CpuCompiler.html#ae39f2b47db1aaa1457e76acb6ee3d496" title="xla::cpu::CpuCompiler\l::CompileAheadOfTime" alt="" coords="237,71,396,112"/>
+</map>

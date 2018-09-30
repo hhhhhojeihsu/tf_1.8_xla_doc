@@ -1,0 +1,5 @@
+<map id="xla::Compiler::ShapeSizeBytesFunction" name="xla::Compiler::ShapeSizeBytesFunction">
+<area shape="rect" id="node2" href="$d3/d3e/classxla_1_1Compiler.html#a06a2a3d995eca2de6c632f04e9a631e8" title="xla::Compiler::BufferSize\lBytesFunction" alt="" coords="224,39,391,80"/>
+<area shape="rect" id="node3" href="$d2/d94/classxla_1_1cpu_1_1CpuCompiler.html#aaf223c38802bf733546631f5f418c51f" title="xla::cpu::CpuCompiler\l::RunBackend" alt="" coords="442,5,594,47"/>
+<area shape="rect" id="node4" href="$d2/d94/classxla_1_1cpu_1_1CpuCompiler.html#ae39f2b47db1aaa1457e76acb6ee3d496" title="xla::cpu::CpuCompiler\l::CompileAheadOfTime" alt="" coords="439,71,597,112"/>
+</map>

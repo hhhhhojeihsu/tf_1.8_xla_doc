@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['service_2ecc',['service.cc',['../d9/d1a/service_8cc.html',1,'']]],
-  ['service_2eh',['service.h',['../d5/d83/service_8h.html',1,'']]],
-  ['snapshotcomputation',['SnapshotComputation',['../dd/d3d/classComputationTracker.html#addb407ae0007ec874f2b9d8a81364a3c',1,'ComputationTracker']]]
+  ['newcomputation',['NewComputation',['../dd/d3d/classComputationTracker.html#ae78b4b777cd7ca74a5b714bd94b974a4',1,'ComputationTracker']]],
+  ['newservice',['NewService',['../dc/d07/classxla_1_1CompileOnlyService.html#a99de5fe3f0dadada637309e65f53ce13',1,'xla::CompileOnlyService']]]
 ];

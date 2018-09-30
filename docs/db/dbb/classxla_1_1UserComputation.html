@@ -78,7 +78,7 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a25685bdc2be08a3873ba52d4867e8db8"><td class="memItemLeft" align="right" valign="top">StatusOr&lt; ComputationDataHandle &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbb/classxla_1_1UserComputation.html#a25685bdc2be08a3873ba52d4867e8db8">AddParameterInstruction</a> (const ParameterRequest &amp;parameter_request)</td></tr>
-<tr class="memdesc:a25685bdc2be08a3873ba52d4867e8db8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enqueue a parameter-retrieving instruction onto this <code><a class="el" href="../../db/dbb/classxla_1_1UserComputation.html">UserComputation</a></code>  <a href="#a25685bdc2be08a3873ba52d4867e8db8">More...</a><br /></td></tr>
+<tr class="memdesc:a25685bdc2be08a3873ba52d4867e8db8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enqueue a parameter-retrieving instruction onto this <code><a class="el" href="../../db/dbb/classxla_1_1UserComputation.html">UserComputation</a></code>.  <a href="#a25685bdc2be08a3873ba52d4867e8db8">More...</a><br /></td></tr>
 <tr class="separator:a25685bdc2be08a3873ba52d4867e8db8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -108,10 +108,13 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Enqueue a parameter-retrieving instruction onto this <code><a class="el" href="../../db/dbb/classxla_1_1UserComputation.html">UserComputation</a></code> </p>
+<p>Enqueue a parameter-retrieving instruction onto this <code><a class="el" href="../../db/dbb/classxla_1_1UserComputation.html">UserComputation</a></code>. </p>
 <ol type="1">
-<li>Check whether this parameter has been registered or not.</li>
-<li>[TODO] </li>
+<li>Check whether this parameter has been registered by member <code>parameter_requests</code> (<code>map&lt;parameter_number, OperationRequest&gt;</code>).</li>
+<li>Create a new <code>ComputationDataHandle</code> object which will use the <code>next_handle_value_</code> as value.</li>
+<li>Register an <code>OperationRequest</code> object in member <code>session_computation_</code>'s requests map by using the value of <code>ComputationDataHandle</code> as a key.</li>
+<li>Register the <code>ComputationDataHandle</code> object created in step 2 in the map mentioned in step 1.</li>
+<li>Return the <code>ComputationDataHandle</code> which represents the index of <code>OperationRequest</code> object. </li>
 </ol>
 
 </div>

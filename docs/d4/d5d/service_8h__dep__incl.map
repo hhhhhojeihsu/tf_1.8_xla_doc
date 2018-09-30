@@ -1,12 +1,12 @@
 <map id="tensorflow/tensorflow/compiler/xla/service/service.h" name="tensorflow/tensorflow/compiler/xla/service/service.h">
-<area shape="rect" id="node2" href="$d2/d89/compile__only__service_8h.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/compile_only_service.h" alt="" coords="386,105,550,157"/>
-<area shape="rect" id="node11" href="$d9/d1a/service_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/service.cc" alt="" coords="573,105,720,157"/>
-<area shape="rect" id="node3" href="$db/d47/client__library_8h.html" title="tensorflow/tensorflow\l/compiler/xla/client\l/client_library.h" alt="" coords="235,305,381,357"/>
-<area shape="rect" id="node8" href="$d4/dab/compile__only__client_8h.html" title="tensorflow/tensorflow\l/compiler/xla/client\l/compile_only_client.h" alt="" coords="392,205,544,257"/>
-<area shape="rect" id="node10" href="$df/d69/compile__only__service_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/compile_only_service.cc" alt="" coords="569,205,738,257"/>
-<area shape="rect" id="node4" href="$d6/d17/compile_8cc.html" title="tensorflow/tensorflow\l/compiler/aot/compile.cc" alt="" coords="518,412,682,451"/>
-<area shape="rect" id="node5" href="$d5/d88/xla__compiler_8cc.html" title="tensorflow/tensorflow\l/compiler/tf2xla/xla\l_compiler.cc" alt="" coords="5,405,152,457"/>
-<area shape="rect" id="node6" href="$d2/d10/xla__op__registry_8cc.html" title="tensorflow/tensorflow\l/compiler/tf2xla/xla\l_op_registry.cc" alt="" coords="176,405,323,457"/>
-<area shape="rect" id="node7" href="$d3/dba/client__library_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/client\l/client_library.cc" alt="" coords="347,405,493,457"/>
-<area shape="rect" id="node9" href="$d8/d93/compile__only__client_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/client\l/compile_only_client.cc" alt="" coords="405,305,563,357"/>
+<area shape="rect" id="node2" href="$d2/d89/compile__only__service_8h.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/compile_only_service.h" alt="" coords="385,109,548,165"/>
+<area shape="rect" id="node11" href="$d9/d1a/service_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/service.cc" alt="" coords="572,109,719,165"/>
+<area shape="rect" id="node3" href="$db/d47/client__library_8h.html" title="tensorflow/tensorflow\l/compiler/xla/client\l/client_library.h" alt="" coords="232,317,379,373"/>
+<area shape="rect" id="node8" href="$d4/dab/compile__only__client_8h.html" title="tensorflow/tensorflow\l/compiler/xla/client\l/compile_only_client.h" alt="" coords="391,213,542,269"/>
+<area shape="rect" id="node10" href="$df/d69/compile__only__service_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/compile_only_service.cc" alt="" coords="566,213,735,269"/>
+<area shape="rect" id="node4" href="$d6/d17/compile_8cc.html" title="tensorflow/tensorflow\l/compiler/aot/compile.cc" alt="" coords="518,429,682,470"/>
+<area shape="rect" id="node5" href="$d5/d88/xla__compiler_8cc.html" title="tensorflow/tensorflow\l/compiler/tf2xla/xla\l_compiler.cc" alt="" coords="5,421,152,477"/>
+<area shape="rect" id="node6" href="$d2/d10/xla__op__registry_8cc.html" title="tensorflow/tensorflow\l/compiler/tf2xla/xla\l_op_registry.cc" alt="" coords="176,421,323,477"/>
+<area shape="rect" id="node7" href="$d3/dba/client__library_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/client\l/client_library.cc" alt="" coords="347,421,493,477"/>
+<area shape="rect" id="node9" href="$d8/d93/compile__only__client_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/client\l/compile_only_client.cc" alt="" coords="403,317,562,373"/>
 </map>

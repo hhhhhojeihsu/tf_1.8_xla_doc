@@ -1,5 +1,0 @@
-<map id="tensorflow::XlaBackendRegistrar::XlaBackendRegistrar" name="tensorflow::XlaBackendRegistrar::XlaBackendRegistrar">
-<area shape="rect" id="node2" href="$d9/de9/classtensorflow_1_1XlaOpRegistry.html#a6df4a46abd7f1d52ab601ee4f694d4fe" title="tensorflow::XlaOpRegistry\l::Instance" alt="" coords="489,5,664,47"/>
-<area shape="rect" id="node4" href="$d9/de9/classtensorflow_1_1XlaOpRegistry.html#a3a702dcfe8024dd83f59fe9ef5186bb4" title="tensorflow::XlaOpRegistry\l::RegisterBackend" alt="" coords="267,35,441,76"/>
-<area shape="rect" id="node3" href="$d9/de9/classtensorflow_1_1XlaOpRegistry.html#a2be34fb36eb475b48d2d319d2a53e15b" title="tensorflow::XlaOpRegistry\l::XlaOpRegistry" alt="" coords="712,5,887,47"/>
-</map>

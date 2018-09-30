@@ -1,8 +1,0 @@
-<map id="xla::Service::GetExecutors" name="xla::Service::GetExecutors">
-<area shape="rect" id="node2" href="$d1/d10/classxla_1_1Service.html#aa0f93c81ca82a50f0ff7f044745bf227" title="xla::Service::ExecuteParallel" alt="" coords="232,31,423,57"/>
-<area shape="rect" id="node6" href="$d1/d10/classxla_1_1Service.html#ae6f727fa681c065fc529a422a83f9133" title="xla::Service::ExecuteGraph\lParallel" alt="" coords="236,82,419,123"/>
-<area shape="rect" id="node3" href="$d1/d10/classxla_1_1Service.html#a170f36c8fd2b964f57d00d9b720c6912" title="xla::Service::ExecuteOneToN" alt="" coords="471,31,665,57"/>
-<area shape="rect" id="node4" href="$d1/d10/classxla_1_1Service.html#ac3f89822d1f6faab8382f1902e54eea3" title="xla::Service::Execute" alt="" coords="731,5,878,32"/>
-<area shape="rect" id="node5" href="$d1/d10/classxla_1_1Service.html#a6d2eb2712a109ab9484080dfd1e2e446" title="xla::Service::ExecuteGraph" alt="" coords="713,56,896,83"/>
-<area shape="rect" id="node7" href="$d1/d10/classxla_1_1Service.html#a11604b813ba3e3208b2bda70f0f02f0d" title="xla::Service::ExecuteOneToN" alt="" coords="471,89,665,116"/>
-</map>

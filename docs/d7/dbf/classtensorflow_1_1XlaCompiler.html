@@ -184,11 +184,11 @@ Private Member Functions</h2></td></tr>
 
 <p>Build XLA computations for each of the arguments to the <code>UserComputation</code>. </p>
 <ol type="1">
-<li>Traverse <code>args</code> (arguments to the <code>UserComputation</code>) to set index of non-constant arguments in <code>input_mapping</code> (in order of <code>kParameter</code> to <code>kResource</code>).</li>
+<li>Traverse <code>args</code> (arguments to the <code>UserComputation</code>) to set index of non-constant arguments in <code>input_mapping</code> (in order of <code>kParameter</code> to <code>kResource</code>) and set up <code>arg_expressions</code>.</li>
 <li>Traverse <code>input_mapping</code> to compute the shapes of non-constant arguments and record in <code>arg_shapes</code>. Based on the option <code>use_tuple_arg</code>, it decides how to store <code>arg_shapes</code> to <code>input_shapes</code>.</li>
 <li>Use <code>_Arg</code> nodes in graph to resolve core assignments. The result is written in function argument <code>arg_cores</code>.</li>
 <li>Build parameter handles for non-constant arguments.</li>
-<li>[TODO] Fill in the handles in non-constant arguments.</li>
+<li>Fill in the handles in non-constant arguments (update the <code>arg_expressions</code> set up in 1.).</li>
 </ol>
 <p>Unclear parts:</p><ol type="1">
 <li>Usage of <code>XlaResource</code> in 1.</li>
@@ -205,7 +205,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/dbf/classtensorflow_1_1XlaCompiler_af976233791194ab48c2512fdfac123ea_icgraph.svg" width="383" height="50"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/dbf/classtensorflow_1_1XlaCompiler_af976233791194ab48c2512fdfac123ea_icgraph.svg" width="382" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>

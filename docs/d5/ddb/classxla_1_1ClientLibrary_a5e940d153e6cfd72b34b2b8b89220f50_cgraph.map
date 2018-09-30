@@ -1,0 +1,7 @@
+<map id="xla::ClientLibrary::GetOrCreateCompileOnlyClient" name="xla::ClientLibrary::GetOrCreateCompileOnlyClient">
+<area shape="rect" id="node2" href="$d5/ddb/classxla_1_1ClientLibrary.html#ac40609723460dfc489fa81ac519cc25c" title="xla::ClientLibrary\l::Singleton" alt="" coords="290,5,410,47"/>
+<area shape="rect" id="node4" href="$dc/d07/classxla_1_1CompileOnlyService.html#a050a7989ecb1ded6e7c06ca1ab6e606a" title="xla::CompileOnlyService\l::NewService" alt="" coords="267,71,433,112"/>
+<area shape="rect" id="node3" href="$d5/ddb/classxla_1_1ClientLibrary.html#a0694c4f9b519d1c23352d1cca703cbae" title="xla::ClientLibrary\l::ClientLibrary" alt="" coords="489,5,609,47"/>
+<area shape="rect" id="node5" href="$d5/d7a/classxla_1_1ServiceOptions.html#a5bd8b3cc7434c561574a3289c119766f" title="xla::ServiceOptions\l::set_platform" alt="" coords="481,71,617,112"/>
+<area shape="rect" id="node6" href="$d5/d7a/classxla_1_1ServiceOptions.html#a1ad6696733168cf15591c8cb192e3458" title="xla::ServiceOptions\l::platform" alt="" coords="665,71,801,112"/>
+</map>

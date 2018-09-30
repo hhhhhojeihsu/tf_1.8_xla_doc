@@ -1,7 +1,7 @@
 <map id="tensorflow::anonymous_namespace{tf2xla::cc}::RewriteAndPruneGraph" name="tensorflow::anonymous_namespace{tf2xla::cc}::RewriteAndPruneGraph">
-<area shape="rect" id="node2" href="$d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03.html#aeef0cda05958b2b855b0e2fbe07b1314" title="InitGraph creates a graph based on the graph_def, that may then be convert to an xla::Computation via..." alt="" coords="224,5,383,57"/>
-<area shape="rect" id="node3" href="$de/d86/namespacetensorflow.html#a6f8fce5955ec6d67cd1762891d4830e9" title="Convert tensorflow graph_def to XLA UserComputation. " alt="" coords="431,12,604,51"/>
-<area shape="rect" id="node4" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a021cb1c58d938b16dcd998aa8d1fc191" title="Converts the graph into an XLA computation, and compiles the computation. Called by tensorflow::tfcom..." alt="" coords="652,12,795,51"/>
-<area shape="rect" id="node5" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a460964a5bb277865d1275fe3746132c1" title="tensorflow::tfcompile\l::Main" alt="" coords="843,12,986,51"/>
-<area shape="rect" id="node6" href="$d4/d8d/tfcompile__main_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1034,19,1084,44"/>
+<area shape="rect" id="node2" href="$d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03.html#aeef0cda05958b2b855b0e2fbe07b1314" title="InitGraph creates a graph based on the graph_def, that may then be convert to an xla::Computation via..." alt="" coords="220,5,379,61"/>
+<area shape="rect" id="node3" href="$de/d86/namespacetensorflow.html#a6f8fce5955ec6d67cd1762891d4830e9" title="Convert tensorflow graph_def to XLA UserComputation. " alt="" coords="427,13,597,54"/>
+<area shape="rect" id="node4" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a021cb1c58d938b16dcd998aa8d1fc191" title="Converts the graph into an XLA computation, and compiles the computation. Called by tensorflow::tfcom..." alt="" coords="645,13,788,54"/>
+<area shape="rect" id="node5" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a460964a5bb277865d1275fe3746132c1" title="tensorflow::tfcompile\l::Main" alt="" coords="836,13,979,54"/>
+<area shape="rect" id="node6" href="$d4/d8d/tfcompile__main_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1027,20,1077,47"/>
 </map>

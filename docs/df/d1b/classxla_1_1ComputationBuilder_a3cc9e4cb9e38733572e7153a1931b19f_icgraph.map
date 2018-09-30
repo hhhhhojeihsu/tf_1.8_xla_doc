@@ -1,0 +1,17 @@
+<map id="xla::ComputationBuilder::GetShapeWithoutNoteError" name="xla::ComputationBuilder::GetShapeWithoutNoteError">
+<area shape="rect" id="node2" href="$df/d1b/classxla_1_1ComputationBuilder.html#a802577eb94272bfc6b2b7684b8a2ad85" title="xla::ComputationBuilder\l::GetShape" alt="" coords="243,304,404,345"/>
+<area shape="rect" id="node3" href="$df/d1b/classxla_1_1ComputationBuilder.html#ac73d9ab4b30a35eb0a906c9264244fc2" title="xla::ComputationBuilder\l::SliceInDim" alt="" coords="467,5,628,47"/>
+<area shape="rect" id="node4" href="$df/d1b/classxla_1_1ComputationBuilder.html#ad18750c7d0a37ad374b60fd3ac97f530" title="xla::ComputationBuilder\l::Reshape" alt="" coords="467,71,628,112"/>
+<area shape="rect" id="node5" href="$df/d1b/classxla_1_1ComputationBuilder.html#a21cd04fecd9b0cc08698b59637a10a7e" title="xla::ComputationBuilder\l::Collapse" alt="" coords="467,136,628,177"/>
+<area shape="rect" id="node6" href="$df/d1b/classxla_1_1ComputationBuilder.html#a3e8940234ad5642846994d3fc1b9b66a" title="xla::ComputationBuilder::Dot" alt="" coords="452,202,643,229"/>
+<area shape="rect" id="node7" href="$df/d1b/classxla_1_1ComputationBuilder.html#a2e01c5667c341089ea9128d44e77ebf9" title="xla::ComputationBuilder\l::ConvWithGeneralDimensions" alt="" coords="900,245,1103,287"/>
+<area shape="rect" id="node9" href="$df/d1b/classxla_1_1ComputationBuilder.html#ac0905f4579b318824ca65f112f3f1408" title="xla::ComputationBuilder\l::ConvGeneralDilated" alt="" coords="467,304,628,345"/>
+<area shape="rect" id="node12" href="$df/d1b/classxla_1_1ComputationBuilder.html#af6144c2a08127864b6e3671cfaf17035" title="xla::ComputationBuilder\l::ConvertElementType" alt="" coords="467,369,628,411"/>
+<area shape="rect" id="node13" href="$df/d1b/classxla_1_1ComputationBuilder.html#a3977cb09dbde1ad273c88fcb2751ede5" title="xla::ComputationBuilder\l::BitcastConvertType" alt="" coords="467,435,628,476"/>
+<area shape="rect" id="node14" href="$df/d1b/classxla_1_1ComputationBuilder.html#ac7b6e914be0576dcbff16be8326b9687" title="xla::ComputationBuilder\l::ReduceAll" alt="" coords="467,500,628,541"/>
+<area shape="rect" id="node15" href="$df/d1b/classxla_1_1ComputationBuilder.html#aeee4ce84a296f1c3eab536180dc4af0d" title="xla::ComputationBuilder\l::ReduceWindow" alt="" coords="467,565,628,607"/>
+<area shape="rect" id="node16" href="$df/d1b/classxla_1_1ComputationBuilder.html#a7eb4066e4756d792dbc57276d596989b" title="xla::ComputationBuilder\l::SelectAndScatter" alt="" coords="467,631,628,672"/>
+<area shape="rect" id="node8" href="$df/d1b/classxla_1_1ComputationBuilder.html#a13498be4f12312e0026157948442eb96" title="xla::ComputationBuilder\l::Conv" alt="" coords="1151,245,1312,287"/>
+<area shape="rect" id="node10" href="$df/d1b/classxla_1_1ComputationBuilder.html#a012fb04362bae1bd7d7ecdb469cbd6c1" title="xla::ComputationBuilder\l::ConvGeneral" alt="" coords="691,304,852,345"/>
+<area shape="rect" id="node11" href="$df/d1b/classxla_1_1ComputationBuilder.html#aa55e6967d685a12315126f80a2daf1f7" title="xla::ComputationBuilder\l::ConvWithGeneralPadding" alt="" coords="911,311,1091,352"/>
+</map>

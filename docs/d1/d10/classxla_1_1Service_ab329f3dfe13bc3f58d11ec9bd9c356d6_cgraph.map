@@ -1,6 +1,0 @@
-<map id="xla::Service::GetLocalShape" name="xla::Service::GetLocalShape">
-<area shape="rect" id="node2" href="$d8/d42/classxla_1_1ComputationTracker.html#add84b3f565b288fdcfdfad55bab8f3ee" title="xla::ComputationTracker\l::Resolve" alt="" coords="241,5,404,47"/>
-<area shape="rect" id="node4" href="$db/dbb/classxla_1_1UserComputation.html#a7df49647b381eddf6a4476cede258109" title="xla::UserComputation\l::GetShape" alt="" coords="248,71,397,112"/>
-<area shape="rect" id="node3" href="$d8/d42/classxla_1_1ComputationTracker.html#aa2f38317a41c1c64fba497780bc39169" title="xla::ComputationTracker\l::ResolveInternal" alt="" coords="452,5,615,47"/>
-<area shape="rect" id="node5" href="$db/dbb/classxla_1_1UserComputation.html#a89b9415667968217b87209ccdf989070" title="xla::UserComputation\l::LookUpRequest" alt="" coords="459,71,608,112"/>
-</map>

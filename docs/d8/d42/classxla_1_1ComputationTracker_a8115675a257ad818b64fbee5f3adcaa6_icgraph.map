@@ -1,5 +1,0 @@
-<map id="xla::ComputationTracker::AllocateHandle" name="xla::ComputationTracker::AllocateHandle">
-<area shape="rect" id="node2" href="$d8/d42/classxla_1_1ComputationTracker.html#a1facfad94400ca2ffa423eb26f815061" title="xla::ComputationTracker\l::LoadSessionModule" alt="" coords="443,5,605,47"/>
-<area shape="rect" id="node4" href="$d8/d42/classxla_1_1ComputationTracker.html#a20564ecea90b9bd4a90202e873941cf1" title="xla::ComputationTracker\l::LoadSessionComputation" alt="" coords="216,35,395,76"/>
-<area shape="rect" id="node3" href="$d1/d10/classxla_1_1Service.html#a6470d971df0e6843a824407ed1f35349" title="xla::Service::LoadComputation\lSnapshot" alt="" coords="653,5,855,47"/>
-</map>

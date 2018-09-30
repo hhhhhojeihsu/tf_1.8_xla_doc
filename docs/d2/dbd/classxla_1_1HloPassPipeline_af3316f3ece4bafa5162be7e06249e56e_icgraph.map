@@ -1,0 +1,4 @@
+<map id="xla::HloPassPipeline::name" name="xla::HloPassPipeline::name">
+<area shape="rect" id="node2" href="$d2/dbd/classxla_1_1HloPassPipeline.html#ab27120e575c66e2991a9085a94c88169" title="xla::HloPassPipeline::Run" alt="" coords="196,13,371,39"/>
+<area shape="rect" id="node3" href="$d2/d94/classxla_1_1cpu_1_1CpuCompiler.html#ab3bae76bdf9896dcfe3e1e749373f6b1" title="xla::cpu::CpuCompiler\l::RunHloPasses" alt="" coords="419,5,571,47"/>
+</map>

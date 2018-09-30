@@ -1,0 +1,28 @@
+<map id="tensorflow::XlaCompiler::CompileFunction" name="tensorflow::XlaCompiler::CompileFunction">
+<area shape="rect" id="node2" href="$d7/dbf/classtensorflow_1_1XlaCompiler.html#a11bad5ab2e4c3e68eb7b05e61e7e7af5" title="tensorflow::XlaCompiler\l::FindFunctionBody" alt="" coords="230,5,391,47"/>
+<area shape="rect" id="node5" href="$de/d61/namespacetensorflow_1_1anonymous__namespace_02xla__compiler_8cc_03.html#a5a1a396d66536aebc096226267770899" title="tensorflow::anonymous\l_namespace\{xla_compiler\l::cc\}::CheckSignature" alt="" coords="224,71,397,127"/>
+<area shape="rect" id="node6" href="$d7/dbf/classtensorflow_1_1XlaCompiler.html#a53d7bb82e97bfeaf5a864acc827b72a0" title="tensorflow::XlaCompiler\l::GetGraph" alt="" coords="230,152,391,193"/>
+<area shape="rect" id="node8" href="$de/d86/namespacetensorflow.html#a3391d21e0e838c21374c1c81414566b9" title="tensorflow::SetNodeSharding\lFromNeighbors" alt="" coords="215,217,407,259"/>
+<area shape="rect" id="node9" href="$d7/dbf/classtensorflow_1_1XlaCompiler.html#ade5be3e41d2892412acb844070182858" title="Compiles a tensorflow::Graph into an xla::Computation. " alt="" coords="230,381,391,423"/>
+<area shape="rect" id="node11" href="$d7/dbf/classtensorflow_1_1XlaCompiler.html#ae32d4db4084c279f416faca933b1f65f" title="tensorflow::XlaCompiler\l::options" alt="" coords="469,243,631,284"/>
+<area shape="rect" id="node3" href="$de/d86/namespacetensorflow.html#a1be38bc1834820c78b21c2ee9b648416" title="tensorflow::GetFunctionBody" alt="" coords="455,13,645,39"/>
+<area shape="rect" id="node4" href="$d7/dbf/classtensorflow_1_1XlaCompiler.html#ae52fa23cfbf27a3760562e08dcc619a8" title="tensorflow::XlaCompiler\l::flib_runtime" alt="" coords="696,5,857,47"/>
+<area shape="rect" id="node7" href="$de/d86/namespacetensorflow.html#a244bb9f5eebb687952b00fb4e8172b96" title="tensorflow::CopyGraph" alt="" coords="472,159,628,186"/>
+<area shape="rect" id="node10" href="$d7/dbf/classtensorflow_1_1XlaCompiler.html#ae7cc1e2fd56ff0c61612266ef8a55876" title="tensorflow::XlaCompiler\l::client" alt="" coords="469,600,631,641"/>
+<area shape="rect" id="node12" href="$d7/dbf/classtensorflow_1_1XlaCompiler.html#af976233791194ab48c2512fdfac123ea" title="Build XLA computations for each of the arguments to the UserComputation. " alt="" coords="469,308,631,349"/>
+<area shape="rect" id="node23" href="$de/d61/namespacetensorflow_1_1anonymous__namespace_02xla__compiler_8cc_03.html#ab66709e68d0ce33e67adc361964a8f35" title="tensorflow::anonymous\l_namespace\{xla_compiler\l::cc\}::ExecuteGraph" alt="" coords="463,454,637,510"/>
+<area shape="rect" id="node24" href="$d7/dbf/classtensorflow_1_1XlaCompiler.html#a4cee9d6b8b7faf021a5d37ee2b839f8d" title="tensorflow::XlaCompiler\l::NextStepId" alt="" coords="469,535,631,576"/>
+<area shape="rect" id="node25" href="$de/d61/namespacetensorflow_1_1anonymous__namespace_02xla__compiler_8cc_03.html#a3550e13c6c31e2a093c4032a38eefd57" title="tensorflow::anonymous\l_namespace\{xla_compiler\l::cc\}::BuildComputation" alt="" coords="463,374,637,430"/>
+<area shape="rect" id="node13" href="$d7/dbf/classtensorflow_1_1XlaCompiler.html#a334e12dadf0d72858fd537f58b60f95d" title="tensorflow::XlaCompiler\l::XLAShapeForArgument" alt="" coords="693,215,860,256"/>
+<area shape="rect" id="node14" href="$df/d1b/classxla_1_1ComputationBuilder.html#aa3298712facb1f0eb6607dbad3fdf0a4" title="xla::ComputationBuilder\l::SetOpMetadata" alt="" coords="696,280,857,321"/>
+<area shape="rect" id="node15" href="$df/d1b/classxla_1_1ComputationBuilder.html#a7312b57426afbc7bcb728307fc020869" title="Enqueues a &quot;retrieve parameter value&quot; instruction to the UserComputation. " alt="" coords="696,149,857,191"/>
+<area shape="rect" id="node21" href="$df/d1b/classxla_1_1ComputationBuilder.html#a2838794807c1ccf962479d6c3a239f23" title="xla::ComputationBuilder\l::GetTupleElement" alt="" coords="696,345,857,387"/>
+<area shape="rect" id="node22" href="$df/d1b/classxla_1_1ComputationBuilder.html#ab1a11c49c4d7c7e55a683fdd499d15cc" title="xla::ComputationBuilder\l::ClearOpMetadata" alt="" coords="696,411,857,452"/>
+<area shape="rect" id="node16" href="$df/d1b/classxla_1_1ComputationBuilder.html#a2def8246d1c1829a85e095a84e364bca" title="xla::ComputationBuilder\l::name" alt="" coords="1352,168,1513,209"/>
+<area shape="rect" id="node17" href="$df/d1b/classxla_1_1ComputationBuilder.html#a584f43dacccc04122c79a7e4ad2770d0" title="Call RunOp() and either return the output ComputationDataHandle (on success) or an empty ComputationD..." alt="" coords="908,309,1095,351"/>
+<area shape="rect" id="node18" href="$df/d1b/classxla_1_1ComputationBuilder.html#a7d2ff8c5c638378bb6fb998a71661d22" title="Run the given parameter op_request and fill in op_response. " alt="" coords="1143,251,1304,292"/>
+<area shape="rect" id="node20" href="$df/d1b/classxla_1_1ComputationBuilder.html#a787b5fd4e96b9c918b7d0d73704f0d57" title="xla::ComputationBuilder\l::NoteError" alt="" coords="1561,280,1723,321"/>
+<area shape="rect" id="node19" href="$df/d1b/classxla_1_1ComputationBuilder.html#af5ca3f8bbbe525f593293b55df772f1a" title="Populates computation_ with a valid object. Used before any given operation is enqueued. " alt="" coords="1352,251,1513,292"/>
+<area shape="rect" id="node26" href="$df/d1b/classxla_1_1ComputationBuilder.html#adc18eb25fc8c8ed25aaf1f8690a07335" title="xla::ComputationBuilder\l::Tuple" alt="" coords="696,541,857,583"/>
+<area shape="rect" id="node27" href="$df/d1b/classxla_1_1ComputationBuilder.html#ae9f763345711a86e5c940486d49b03b4" title="xla::ComputationBuilder\l::Build" alt="" coords="696,476,857,517"/>
+</map>

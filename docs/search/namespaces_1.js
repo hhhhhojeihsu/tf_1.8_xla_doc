@@ -1,7 +1,19 @@
 var searchData=
 [
+  ['anonymous_5fnamespace_7balgebraic_5fsimplifier_2ecc_7d',['anonymous_namespace{algebraic_simplifier.cc}',['../df/dbb/namespacexla_1_1anonymous__namespace_02algebraic__simplifier_8cc_03.html',1,'xla']]],
+  ['anonymous_5fnamespace_7bcall_5finliner_2ecc_7d',['anonymous_namespace{call_inliner.cc}',['../d5/d71/namespacexla_1_1anonymous__namespace_02call__inliner_8cc_03.html',1,'xla']]],
   ['anonymous_5fnamespace_7bcpu_5fcompiler_2ecc_7d',['anonymous_namespace{cpu_compiler.cc}',['../d6/d10/namespacexla_1_1cpu_1_1anonymous__namespace_02cpu__compiler_8cc_03.html',1,'xla::cpu']]],
+  ['anonymous_5fnamespace_7bcpu_5finstruction_5ffusion_2ecc_7d',['anonymous_namespace{cpu_instruction_fusion.cc}',['../d3/d22/namespacexla_1_1cpu_1_1anonymous__namespace_02cpu__instruction__fusion_8cc_03.html',1,'xla::cpu']]],
+  ['anonymous_5fnamespace_7bcpu_5flayout_5fassignment_2ecc_7d',['anonymous_namespace{cpu_layout_assignment.cc}',['../da/df9/namespacexla_1_1cpu_1_1anonymous__namespace_02cpu__layout__assignment_8cc_03.html',1,'xla::cpu']]],
+  ['anonymous_5fnamespace_7bdot_5fdecomposer_2ecc_7d',['anonymous_namespace{dot_decomposer.cc}',['../da/d89/namespacexla_1_1anonymous__namespace_02dot__decomposer_8cc_03.html',1,'xla']]],
+  ['anonymous_5fnamespace_7bflatten_5fcall_5fgraph_2ecc_7d',['anonymous_namespace{flatten_call_graph.cc}',['../d1/d9b/namespacexla_1_1anonymous__namespace_02flatten__call__graph_8cc_03.html',1,'xla']]],
+  ['anonymous_5fnamespace_7bhlo_5fcse_2ecc_7d',['anonymous_namespace{hlo_cse.cc}',['../da/d58/namespacexla_1_1anonymous__namespace_02hlo__cse_8cc_03.html',1,'xla']]],
+  ['anonymous_5fnamespace_7bhlo_5felement_5ftype_5fconverter_2ecc_7d',['anonymous_namespace{hlo_element_type_converter.cc}',['../d4/dbd/namespacexla_1_1anonymous__namespace_02hlo__element__type__converter_8cc_03.html',1,'xla']]],
+  ['anonymous_5fnamespace_7bhlo_5fpass_5fpipeline_2ecc_7d',['anonymous_namespace{hlo_pass_pipeline.cc}',['../da/dc5/namespacexla_1_1anonymous__namespace_02hlo__pass__pipeline_8cc_03.html',1,'xla']]],
+  ['anonymous_5fnamespace_7bhlo_5fverifier_2ecc_7d',['anonymous_namespace{hlo_verifier.cc}',['../d6/d07/namespacexla_1_1anonymous__namespace_02hlo__verifier_8cc_03.html',1,'xla']]],
+  ['anonymous_5fnamespace_7breshape_5fmover_2ecc_7d',['anonymous_namespace{reshape_mover.cc}',['../d0/d0f/namespacexla_1_1anonymous__namespace_02reshape__mover_8cc_03.html',1,'xla']]],
   ['anonymous_5fnamespace_7bservice_2ecc_7d',['anonymous_namespace{service.cc}',['../dd/d32/namespacexla_1_1anonymous__namespace_02service_8cc_03.html',1,'xla']]],
+  ['anonymous_5fnamespace_7btranspose_5ffolding_2ecc_7d',['anonymous_namespace{transpose_folding.cc}',['../dd/d16/namespacexla_1_1anonymous__namespace_02transpose__folding_8cc_03.html',1,'xla']]],
   ['anonymous_5fnamespace_7buser_5fcomputation_2ecc_7d',['anonymous_namespace{user_computation.cc}',['../dc/d9d/namespacexla_1_1anonymous__namespace_02user__computation_8cc_03.html',1,'xla']]],
   ['cpu',['cpu',['../d2/db5/namespacexla_1_1cpu.html',1,'xla']]],
   ['xla',['xla',['../d3/dbc/namespacexla.html',1,'']]]

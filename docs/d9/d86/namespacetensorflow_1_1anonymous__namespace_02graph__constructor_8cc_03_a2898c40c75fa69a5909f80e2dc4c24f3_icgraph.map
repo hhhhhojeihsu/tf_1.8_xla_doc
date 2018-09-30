@@ -1,4 +1,0 @@
-<map id="tensorflow::anonymous_namespace{graph_constructor::cc}::IsNextIteration" name="tensorflow::anonymous_namespace{graph_constructor::cc}::IsNextIteration">
-<area shape="rect" id="node2" href="$d9/d86/namespacetensorflow_1_1anonymous__namespace_02graph__constructor_8cc_03.html#a1d03c3aeafa24220e63f60b064cc85ae" title="tensorflow::anonymous\l_namespace\{graph_constructor\l::cc\}::GetNextIterationNodes" alt="" coords="257,5,461,61"/>
-<area shape="rect" id="node3" href="$d2/d97/classtensorflow_1_1anonymous__namespace_02graph__constructor_8cc_03_1_1GraphConstructor.html#ac14975f11390e484744043b9a7cf69c8" title="tensorflow::anonymous\l_namespace\{graph_constructor\l::cc\}::GraphConstructor::InitFromEdges" alt="" coords="509,5,761,61"/>
-</map>

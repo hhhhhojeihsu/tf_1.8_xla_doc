@@ -1,0 +1,20 @@
+<map id="xla::ComputationBuilder::UnaryOp" name="xla::ComputationBuilder::UnaryOp">
+<area shape="rect" id="node2" href="$df/d1b/classxla_1_1ComputationBuilder.html#a9549b0c26748cf3b69e19b4fb7459930" title="xla::ComputationBuilder::Not" alt="" coords="216,5,407,32"/>
+<area shape="rect" id="node4" href="$df/d1b/classxla_1_1ComputationBuilder.html#a3f50c780344022b55132627a41a70882" title="xla::ComputationBuilder::Abs" alt="" coords="215,56,407,83"/>
+<area shape="rect" id="node5" href="$df/d1b/classxla_1_1ComputationBuilder.html#abbbce36b9495b9bb765c552cb4586dd6" title="xla::ComputationBuilder::Exp" alt="" coords="215,107,407,133"/>
+<area shape="rect" id="node6" href="$df/d1b/classxla_1_1ComputationBuilder.html#ae6f4ad2d0515638fe62e53ce27ae26b1" title="xla::ComputationBuilder\l::Floor" alt="" coords="231,158,392,199"/>
+<area shape="rect" id="node7" href="$df/d1b/classxla_1_1ComputationBuilder.html#ac500b9e08933f88ce6fe461621a1ac4a" title="xla::ComputationBuilder\l::Ceil" alt="" coords="231,223,392,265"/>
+<area shape="rect" id="node8" href="$df/d1b/classxla_1_1ComputationBuilder.html#a8914ce31b6d7019791ad2c35f9f6c025" title="xla::ComputationBuilder\l::Round" alt="" coords="231,289,392,330"/>
+<area shape="rect" id="node9" href="$df/d1b/classxla_1_1ComputationBuilder.html#a61d5d0d5decc708a8e1e17321a43d5ea" title="xla::ComputationBuilder::Log" alt="" coords="216,355,407,381"/>
+<area shape="rect" id="node10" href="$df/d1b/classxla_1_1ComputationBuilder.html#a0c8e039f7ee77d7bce27f70349f80533" title="xla::ComputationBuilder\l::Sign" alt="" coords="231,406,392,447"/>
+<area shape="rect" id="node11" href="$df/d1b/classxla_1_1ComputationBuilder.html#a4315131a7c36dcd5b69d0b208f756641" title="xla::ComputationBuilder::Cos" alt="" coords="215,472,408,499"/>
+<area shape="rect" id="node12" href="$df/d1b/classxla_1_1ComputationBuilder.html#a7c4735624a023426201c1f1ef8d73719" title="xla::ComputationBuilder::Sin" alt="" coords="217,523,405,549"/>
+<area shape="rect" id="node13" href="$df/d1b/classxla_1_1ComputationBuilder.html#af5c5066f968e5e9bef55234090e1a4da" title="xla::ComputationBuilder\l::Tanh" alt="" coords="231,574,392,615"/>
+<area shape="rect" id="node14" href="$df/d1b/classxla_1_1ComputationBuilder.html#a67fbe2371d5ebd66b445cdedb35de78a" title="xla::ComputationBuilder\l::Real" alt="" coords="231,639,392,681"/>
+<area shape="rect" id="node16" href="$df/d1b/classxla_1_1ComputationBuilder.html#a51fb388e8929ae0cad11919874ad4f06" title="xla::ComputationBuilder\l::Imag" alt="" coords="231,705,392,746"/>
+<area shape="rect" id="node17" href="$df/d1b/classxla_1_1ComputationBuilder.html#a7a8bab33397cdb8f038d41e2db09bf7a" title="xla::ComputationBuilder\l::IsFinite" alt="" coords="231,770,392,811"/>
+<area shape="rect" id="node18" href="$df/d1b/classxla_1_1ComputationBuilder.html#aecd6236ec9c3213f428e827172ffb46f" title="xla::ComputationBuilder\l::Sort" alt="" coords="231,835,392,877"/>
+<area shape="rect" id="node19" href="$df/d1b/classxla_1_1ComputationBuilder.html#aa3a02b5617a6584c95cfcd841b50282e" title="xla::ComputationBuilder::Neg" alt="" coords="215,901,408,928"/>
+<area shape="rect" id="node3" href="$df/d1b/classxla_1_1ComputationBuilder.html#aee2be03677ccae79e7f5666a50213eda" title="xla::ComputationBuilder::Xor" alt="" coords="456,5,645,32"/>
+<area shape="rect" id="node15" href="$df/d1b/classxla_1_1ComputationBuilder.html#a84dd2247ffacea58bb6d2861cf21a8c1" title="xla::ComputationBuilder\l::Conj" alt="" coords="470,705,631,746"/>
+</map>

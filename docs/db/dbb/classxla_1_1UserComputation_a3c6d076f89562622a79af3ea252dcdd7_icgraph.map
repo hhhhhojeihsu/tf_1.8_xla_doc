@@ -1,9 +1,0 @@
-<map id="xla::UserComputation::request_count" name="xla::UserComputation::request_count">
-<area shape="rect" id="node2" href="$d1/d10/classxla_1_1Service.html#aa0f93c81ca82a50f0ff7f044745bf227" title="xla::Service::ExecuteParallel" alt="" coords="210,5,401,32"/>
-<area shape="rect" id="node4" href="$d1/d10/classxla_1_1Service.html#ac3f89822d1f6faab8382f1902e54eea3" title="xla::Service::Execute" alt="" coords="717,56,863,83"/>
-<area shape="rect" id="node6" href="$d1/d10/classxla_1_1Service.html#ad940842d8a31741ccd025d883744223c" title="xla::Service::ExecuteAsync" alt="" coords="213,107,397,133"/>
-<area shape="rect" id="node7" href="$d1/d10/classxla_1_1Service.html#a9b3d2a6d1f80e13f474c584bc467bc5b" title="xla::Service::IsConstant" alt="" coords="224,157,387,184"/>
-<area shape="rect" id="node8" href="$d1/d10/classxla_1_1Service.html#a18b542fa30535934fbe3f425088b6537" title="xla::Service::ComputeConstant" alt="" coords="203,208,408,235"/>
-<area shape="rect" id="node3" href="$d1/d10/classxla_1_1Service.html#a170f36c8fd2b964f57d00d9b720c6912" title="xla::Service::ExecuteOneToN" alt="" coords="456,5,651,32"/>
-<area shape="rect" id="node5" href="$d1/d10/classxla_1_1Service.html#a6d2eb2712a109ab9484080dfd1e2e446" title="xla::Service::ExecuteGraph" alt="" coords="699,5,881,32"/>
-</map>

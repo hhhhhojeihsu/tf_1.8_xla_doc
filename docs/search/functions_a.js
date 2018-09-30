@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['validateconfig',['ValidateConfig',['../de/d86/namespacetensorflow.html#aaeeec358e2be013353667dd7c0a6dbaa',1,'tensorflow']]]
+  ['snapshotcomputation',['SnapshotComputation',['../dd/d3d/classComputationTracker.html#addb407ae0007ec874f2b9d8a81364a3c',1,'ComputationTracker']]]
 ];
