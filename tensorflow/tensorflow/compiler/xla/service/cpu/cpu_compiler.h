@@ -1,4 +1,4 @@
-/* \file
+/** \file
  */
 /* Copyright 2017 The TensorFlow Authors. All Rights Reserved.
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -23,12 +23,12 @@ limitations under the License.
 #include "tensorflow/core/platform/stream_executor_no_cuda.h"
 namespace xla {
 /**
- * namespace of `cpu`
+ * Google docs:
+ * > This class wraps the configurability options that LLVM exposes including: the
+ * > target triple, the target cpu and the target features. It also includes the
+ * > desired linkage name for the computation entry point.
  */
 namespace cpu {
-// This class wraps the configurability options that LLVM exposes including: the
-// target triple, the target cpu and the target features.  It also includes the
-// desired linkage name for the computation entry point.
 class CpuAotCompilationOptions : public AotCompilationOptions {
  public:
   // Relocation models available for compilation.

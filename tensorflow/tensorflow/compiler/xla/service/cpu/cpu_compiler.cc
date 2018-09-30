@@ -1,4 +1,4 @@
-/* \file
+/** \file
  */
 /* Copyright 2017 The TensorFlow Authors. All Rights Reserved.
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -208,6 +208,61 @@ class CollectProfileCandidates : public DfsHloVisitorWithDefault {
   const std::unordered_map<const HloInstruction*, int64>& assigned_indices_;
 };
 }  // namespace
+/**
+ * Called by `xla::cpu::CpuCompiler::CompileAheadOfTime`
+ *
+ * \todo See what those invariant checker and pass do
+ *
+ * 1. Create a `xla::HloPassPipeline`
+ * 2. Add invariant checker `xla::HloVerifier`
+ * 3. Add pass `xla::CpuHloSupportChecker`
+ * 4. Set `xla::ReducePrecisionInsertion::PassTiming` to `BEFORE_OPTIMIZATION` and add pass
+ * 5. Add pass `xla::CallInliner`
+ * 6. Add pass `xla::DotDecomposer`
+ * 7. Add pass `xla::cpu::ConvCanonicalization`
+ * 8. Add pass `xla::HloPassFix<xla::HloPassPipeline>("simplification")`
+ *   1. Add invariant checker `xla::HloVerifier`
+ *   2. Add pass `xla::BatchNormExpander`
+ *
+ *      - `rewritie_training_op` = true
+ *      - `rewrite_inference_op` = true
+ *      - `rewrite_grad_op` = true
+ *      - `use_fusion` = false
+ *   3. Add pass `xla::GatherExpander`
+ *   4. Add pass `xla::AlgebraicSimplifier`
+ *
+ *      - `is_layout_sensitive` = false
+ *      - \todo unknown argument
+ *
+ *      - `enable_dot_strength_reduction` = false
+ *   5. Add pass `xla::ZeroSizedHloElimination`
+ *   6. Add pass `xla::WhileLoopInvariantCodeMotion`
+ *   7. Add pass `xla::TupleSimplifier`
+ *   8. Add pass `xla::WhileLoopSimplifier`
+ *   9. Add pass `xla::HloDCE`
+ *   10. Add pass `xla::ReshapeMover`
+ *   11. Add pass `xla::HloConstantFolding`
+ *   12. Add pass `xla::ConditionalSimplifier`
+ * 9. Add pass `xla::TransposeFolding`
+ * 10. Add pass `xla::HloCSE` with `is_layout_sensitive` is true
+ * 11. Add pass `xla::cpu::CpuInstructionFusion`
+ * 12. Set `xla::ReducePrecisionInsertion::PassTiming` to `AFTER_FUSION` and add pass
+ * 13. Add pass `xla::cpu::CpuLayoutAssignment`. Because the `xla::cpu::CpuLayoutAssignment` may leave behind `kCopy` instructions which are duplicate or NOPs, so remove them with `xla::AlgebraicSimplifier` and `xla::HloCSE`.
+ * 14. Add pass `xla::HloPassFix<AlgebraicSimplifier>`
+ * 15. Add pass `xla::HloCSE` with `is_layout_sensitive` is false
+ * 16. Add pass `xla::HloElementTypeConverter` to convert type `BF16` to `F32`
+ * 17. Set `max_parallelism` to outline ops in the entry computation into subcomputations
+ * 18. If parallel backend is requested then add pass `xla::cpu::ParallelizationPreparation`
+ * 19. If `is_aot_compile` is false then add pass `xla::cpu::ParallelTaskAssigner` but `is_aot_compile` is always true in this case
+ * 20. Add pass `xla::HloDCE`
+ * 21. Add pass `xla::FlattenCallGraph`
+ * 22. Add pass `xla::CpuCopyInsertion`
+ * 23. Re-run outlining if parallel backend is requested, in case any copies were inserted into entry computation
+ *   1. Add pass `xla::cpu::ParallelizationPreparation`
+ *   2. Add pass `xla::CpuCopyInsertion`
+ * 24. Add pass `xla::HloDCE`
+ * 25. Start the process by calling `xla::HloPassPipeline::Run`
+ */
 Status CpuCompiler::RunHloPasses(HloModule* module, bool is_aot_compile) {
   // Optimization pipeline.
   HloPassPipeline pipeline("CPU");
@@ -637,6 +692,19 @@ StatusOr<std::unique_ptr<Executable>> CpuCompiler::RunBackend(
 /**
  * Called by `xla::CompileOnlyService::CompileAheadOfTime`,
  * not in caller graph due to overridden.
+ *
+ * 1. Initialize LLVM command line options
+ * 2. Check if platform is compatible for AOT
+ * 3. Convert options to `llvm::Target` (line 741 ~ 754)
+ * 4. Set LLVM IR options (line 756 ~ 785)
+ *   1. Set relocation model: Static or PIC
+ *   2. Set PIC level: No PIC, small PIC, big PIC
+ *   3. Set PIE level: Default, small, large
+ * 5. Set target CPU, supported instructions and set optimization level.
+ * 6. Create `llvm::Module` using `llvm::LLVMContext` because it requires to be thread safe.
+ * 7. Loop through HLO modules
+ *   1. Compile the code without optimization (call `CpuCompiler::#RunHloPasses(HloModule* module, bool is_aot_compile)`)
+ *   \todo There's still code below
  */
 StatusOr<std::vector<std::unique_ptr<AotCompilationResult>>>
 CpuCompiler::CompileAheadOfTime(std::vector<std::unique_ptr<HloModule>> modules,
