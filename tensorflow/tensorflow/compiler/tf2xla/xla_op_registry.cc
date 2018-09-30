@@ -134,7 +134,21 @@ XlaOpRegistry::~XlaOpRegistry() = default;
   *registration = &it->second;
   return true;
 }
-/** Registers all JIT kernels on JIT devices, if not already registered. Does nothing otherwise.
+/**
+ * Google Docs:
+ * > Registers all JIT kernels on JIT devices, if not already registered. Does nothing otherwise.
+ *
+ * * For each operator registered via `REGISTER_XLA_OP` (Lots of operator registered under `compiler/tf2xla/kernels`)
+ *   * Fetch its `op_def` from `OpRegistry`, and record the attributes with `type` field being `type` or `list(type)`
+ *   * For each backend device (Currently only `XLA_CPU_JIT`)
+ *       * Skip if this device isn't on the whitelist of the operator
+ *       * Create a `KernelDef` instance. Use the intersection of
+ *           1. types supported by backend
+ *           2. types allowed by operator
+ *           3. the [type constraints](https://hhhhhojeihsu.github.io/tensorflow_1.8_woboq/tensorflow_1.8_aot_test/tensorflow/tensorflow/compiler/tf2xla/xla_op_registry.h.html#tensorflow::XlaOpRegistry::OpRegistration::type_constraints)
+ *       * Checked by the filter. [CpuOpFilter](https://hhhhhojeihsu.github.io/tensorflow_1.8_woboq/tensorflow_1.8_aot_test/tensorflow/tensorflow/compiler/tf2xla/xla_cpu_backend.cc.html#_ZN10tensorflow11CpuOpFilterEPNS_9KernelDefE) is in charge of `XLA_CPU_JIT`
+ *       * Finally, register via `OpKernelRegistrar`, this step is quite similar to usual kernel registration
+ *
  */
 void XlaOpRegistry::RegisterCompilationKernels() {
   XlaOpRegistry& registry = Instance();
