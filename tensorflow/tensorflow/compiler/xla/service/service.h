@@ -42,6 +42,9 @@ limitations under the License.
 #include "tensorflow/core/platform/logging.h"
 #include "tensorflow/core/platform/macros.h"
 #include "tensorflow/core/platform/stream_executor_no_cuda.h"
+/**
+ * namespace of xla
+ */
 namespace xla {
 // Options to configure the service when it is created.
 class ServiceOptions {
@@ -61,10 +64,13 @@ class ServiceOptions {
   int number_of_replicas_ = 1;
   int intra_op_parallelism_threads_ = -1;
 };
-// The XLA service object, which is the same across all platforms. It maintains
-// the service state of computations and allocations, and delegates
-// target-specific requests to the target-specific infrastructure
-// (target-specific compiler, StreamExecutor).
+/**
+ * Google Docs:
+ * > The XLA service object, which is the same across all platforms. It maintains
+ * > the service state of computations and allocations, and delegates
+ * > target-specific requests to the target-specific infrastructure
+ * > (target-specific compiler, StreamExecutor).
+ */
 class Service : public ServiceInterface {
  public:
   // Factory method for creating a new Service.

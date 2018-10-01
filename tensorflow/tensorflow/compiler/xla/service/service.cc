@@ -53,6 +53,9 @@ namespace se = ::perftools::gputools;
 using ::tensorflow::strings::Printf;
 using ::tensorflow::strings::StrCat;
 using ::xla::source_map_util::InvalidParameterArgument;
+/**
+ * namespace of xla
+ */
 namespace xla {
 namespace {
 // Records the arguments used to invoke a computation in a SessionModule
