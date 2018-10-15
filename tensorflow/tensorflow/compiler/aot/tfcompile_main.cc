@@ -42,7 +42,7 @@ limitations under the License.
  */
 namespace tensorflow {
 /**
- * \breif Namespace of tfcompile
+ * \brief Namespace of tfcompile
  */
 namespace tfcompile {
 const char kUsageHeader[] =

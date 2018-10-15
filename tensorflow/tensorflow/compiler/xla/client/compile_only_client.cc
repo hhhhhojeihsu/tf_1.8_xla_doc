@@ -21,7 +21,7 @@ namespace xla {
  *        intended for use in static compilation. The |options| parameter describes
  *        the target for which the compiler should emit code.
  * 1. Create vector of `CompileOnlyService::AotComputationInstance`
- * 2. Do something
+ * 2. Put all the UserComputation into the instance array.
  * 3. Call `xla::CompileOnlyService::CompileAheadOfTime`
  */
 StatusOr<std::vector<std::unique_ptr<AotCompilationResult>>>

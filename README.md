@@ -2,7 +2,7 @@
 
 ## Requirement
 - Doxygen
-	- `sudo pacman -Sy doxygen graphviz` on Arch
+	- `sudo pacman -Syu doxygen graphviz` on Arch
 
 ## How to Write The Document
 Because `EXTRACT_ALL` is set to `NO`. So it requires you to have every parent classes/namespaces(except anonymous namespace) documented at least once(can be content free but must have `/**\n [gibberish]\n */`). Otherwise the function would not show up correctly on HTML pages.

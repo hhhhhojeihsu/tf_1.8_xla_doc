@@ -651,7 +651,7 @@ Status XlaCompiler::CompileSingleOp(
  * 2. Functionalize control flow in Graph in order to be compiled into XLA code.
  * 3. Contruct `ComputationBuilder` & `XlaContext` objects.
  * 4. Build argument (Build XLA computations for each of arguments to the `UserComputation`.)
- * 5. [TODO] 
+ * 5. \todo Rest of the code
  */
 Status XlaCompiler::CompileGraph(const XlaCompiler::CompileOptions& options,
                                  string const& name,

@@ -433,6 +433,10 @@ Status InitializeModuleHooks(
       };
   return Status::OK();
 }
+
+/**
+ * Call `llvm:verifyModule` to verify it
+ */
 Status VerifyLlvmModule(const llvm::Module& llvm_module) {
   XLA_SCOPED_LOGGING_TIMER("CpuCompiler - Running LLVM verifier");
   std::string err;
@@ -696,22 +700,32 @@ StatusOr<std::unique_ptr<Executable>> CpuCompiler::RunBackend(
  * 1. Initialize LLVM command line options
  * 2. Check if platform is compatible for AOT
  * 3. Convert options to `llvm::Target` (line 741 ~ 754)
- * 4. Set LLVM IR options (line 756 ~ 785)
+ * 4. Set LLVM output options (line 756 ~ 785)
  *   1. Set relocation model: Static or PIC
  *   2. Set PIC level: No PIC, small PIC, big PIC
  *   3. Set PIE level: Default, small, large
  * 5. Set target CPU, supported instructions and set optimization level.
  * 6. Create `llvm::Module` using `llvm::LLVMContext` because it requires to be thread safe.
  * 7. Loop through HLO modules
- *   1. Compile the code without optimization (call `CpuCompiler::#RunHloPasses(HloModule* module, bool is_aot_compile)`)
- *   \todo There's still code below
+ *   1. Compile the code without optimization (call `xla::cpu::CpuCompiler::RunHloPasses(HloModule* module, bool is_aot_compile)`)
+ *   2. Create a `xla::SequentialHloOrdering::HloModuleSequence` using `xla::CreateMemoryMinimizingSequence`
+ *   3. Run buffer analysis on the HLO graph. Figures out which temporary buffers are required to run the computation
+ *   4. Construct IrEmmiter(that will but not yet compile HLO module to LLVM IR and saves to `llvm_module`(via `xla::cpu::IrEmitter::IrEmitter()`)
+ *   5. For all the embedded_computation(`xla::HloComputation::MakeEmbeddedComputationsList()`) made from entry computation of HLO module except entry computation do
+ *     1. Ignore fusion computation
+ *     2. Emmit LLVM IR from computation via `xla::cpu::IrEmitter::EmitComputation()`
+ *   6. Assign and compile entry computation to `entry_function` of type `llvm:Function` type
+ *   7. Set up hook for pre-optimization phrase and post-optimzation phrase.
+ *   8. Run the `xla::cpu::anonymous_namespace{cpu_compiler.cc}::VerifyLlvmModule()` and fall back if verfication failed.
+ *   9. Create `xla::cpu::Disassembler` for `xla::cpu::CompilerFunctor`
+ *   10. Create `xla::cpu::CompilerFunctor` to compile llvm_module to object file
+ *   11. Save object file into a character vector
+ *   12. Create buffer for result, save to pointer.
  */
 StatusOr<std::vector<std::unique_ptr<AotCompilationResult>>>
 CpuCompiler::CompileAheadOfTime(std::vector<std::unique_ptr<HloModule>> modules,
-                                const AotCompilationOptions& aot_options) {
-  TF_RET_CHECK(!modules.empty());
-  std::call_once(llvm_command_line_options_initialized,
-                 &llvm_ir::InitializeLLVMCommandLineOptions,
+                                const AotCompilationOptions& aot_options) { TF_RET_CHECK(!modules.empty());
+  std::call_once(llvm_command_line_options_initialized, &llvm_ir::InitializeLLVMCommandLineOptions,
                  modules[0]->config());
   // We can pass just one llvm::TargetOptions when we compile the LLVM module,
   // so we bail if the configs have conflicting flags. At the moment, the only
