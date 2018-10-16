@@ -1,7 +1,9 @@
 <map id="tensorflow/tensorflow/compiler/xla/service/llvm_compiler.h" name="tensorflow/tensorflow/compiler/xla/service/llvm_compiler.h">
-<area shape="rect" id="node2" href="$db/de2/cpu__compiler_8h.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/cpu/cpu_compiler.h" alt="" coords="130,109,277,165"/>
-<area shape="rect" id="node3" href="$d6/d17/compile_8cc.html" title="tensorflow/tensorflow\l/compiler/aot/compile.cc" alt="" coords="5,325,169,366"/>
-<area shape="rect" id="node4" href="$d4/d03/compile_8h.html" title="tensorflow/tensorflow\l/compiler/aot/compile.h" alt="" coords="125,221,282,262"/>
-<area shape="rect" id="node6" href="$d4/dcb/cpu__compiler_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/cpu/cpu_compiler.cc" alt="" coords="306,213,453,269"/>
-<area shape="rect" id="node5" href="$d4/d8d/tfcompile__main_8cc.html" title="tensorflow/tensorflow\l/compiler/aot/tfcompile\l_main.cc" alt="" coords="194,317,349,373"/>
+<area shape="rect" id="node2" href="$d7/d3d/compiler__functor_8h.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/cpu/compiler_functor.h" alt="" coords="123,109,281,165"/>
+<area shape="rect" id="node5" href="$db/de2/cpu__compiler_8h.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/cpu/cpu_compiler.h" alt="" coords="305,109,451,165"/>
+<area shape="rect" id="node3" href="$de/ded/compiler__functor_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/cpu/compiler_functor.cc" alt="" coords="5,213,169,269"/>
+<area shape="rect" id="node4" href="$d4/dcb/cpu__compiler_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/cpu/cpu_compiler.cc" alt="" coords="194,213,341,269"/>
+<area shape="rect" id="node6" href="$d6/d17/compile_8cc.html" title="tensorflow/tensorflow\l/compiler/aot/compile.cc" alt="" coords="296,325,460,366"/>
+<area shape="rect" id="node7" href="$d4/d03/compile_8h.html" title="tensorflow/tensorflow\l/compiler/aot/compile.h" alt="" coords="415,221,573,262"/>
+<area shape="rect" id="node8" href="$d4/d8d/tfcompile__main_8cc.html" title="tensorflow/tensorflow\l/compiler/aot/tfcompile\l_main.cc" alt="" coords="485,317,639,373"/>
 </map>

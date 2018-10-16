@@ -15,4 +15,6 @@
 <area shape="rect" id="node14" href="$d9/de9/classtensorflow_1_1XlaOpRegistry.html#a504bd86e27f0fedc9c5dcb82af983bfb" title="tensorflow::XlaOpRegistry\l::RegisterCompilationKernels" alt="" coords="959,371,1151,413"/>
 <area shape="rect" id="node16" href="$d1/dd1/classxla_1_1CompileOnlyClient.html#a5a585d21f617b77a1cecc1b587d18d7a" title="Compiles a list of computations for ahead&#45;of&#45;time execution. This is intended for use in static compi..." alt="" coords="747,407,905,449"/>
 <area shape="rect" id="node17" href="$dc/d07/classxla_1_1CompileOnlyService.html#aceb67616a89167b9af1bf23d17ec37c9" title="xla::CompileOnlyService\l::CompileAheadOfTime" alt="" coords="971,437,1138,478"/>
+<area shape="rect" id="node18" href="$dd/d3d/classComputationTracker.html#a1a3946ea7b82135df39842f6e5ed4b08" title="ComputationTracker\l::Resolve" alt="" coords="1226,403,1365,445"/>
+<area shape="rect" id="node19" href="$dd/d3d/classComputationTracker.html#addb407ae0007ec874f2b9d8a81364a3c" title="ComputationTracker\l::SnapshotComputation" alt="" coords="1216,469,1375,510"/>
 </map>

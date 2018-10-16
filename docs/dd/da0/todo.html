@@ -68,22 +68,28 @@ $(function() {
 <div class="textblock"><dl class="reflist">
 <dt><a class="anchor" id="_todo000001"></a>Member <a class="el" href="../../d7/d38/namespacetensorflow_1_1tfcompile.html#a460964a5bb277865d1275fe3746132c1">tensorflow::tfcompile::Main</a>  (const MainFlags &amp;flags)</dt>
 <dd>3. Generate output (object, header, etc)  </dd>
-<dt><a class="anchor" id="_todo000002"></a>Class <a class="el" href="../../d8/dd7/classxla_1_1AlgebraicSimplifier.html">xla::AlgebraicSimplifier</a>  </dt>
+<dt><a class="anchor" id="_todo000002"></a>Member <a class="el" href="../../d7/dbf/classtensorflow_1_1XlaCompiler.html#ade5be3e41d2892412acb844070182858">tensorflow::XlaCompiler::CompileGraph</a>  (const CompileOptions &amp;options, string const &amp;name, std::unique_ptr&lt; Graph &gt; graph, const std::vector&lt; Argument &gt; &amp;args, CompilationResult *result)</dt>
+<dd>Rest of the code  </dd>
+<dt><a class="anchor" id="_todo000003"></a>Class <a class="el" href="../../d8/dd7/classxla_1_1AlgebraicSimplifier.html">xla::AlgebraicSimplifier</a>  </dt>
 <dd>Contains lots of code including broadcast sementics  </dd>
-<dt><a class="anchor" id="_todo000003"></a>Class <a class="el" href="../../df/d13/classxla_1_1BatchNormExpander.html">xla::BatchNormExpander</a>  </dt>
+<dt><a class="anchor" id="_todo000004"></a>Class <a class="el" href="../../df/d13/classxla_1_1BatchNormExpander.html">xla::BatchNormExpander</a>  </dt>
 <dd>See how the function work </dd>
-<dt><a class="anchor" id="_todo000004"></a>Member <a class="el" href="../../dc/d07/classxla_1_1CompileOnlyService.html#aceb67616a89167b9af1bf23d17ec37c9">xla::CompileOnlyService::CompileAheadOfTime</a>  (const tensorflow::gtl::ArraySlice&lt; AotComputationInstance &gt; computations, const AotCompilationOptions &amp;Options)</dt>
-<dd>Create xla::HloModule </dd>
-<dt><a class="anchor" id="_todo000007"></a>Member <a class="el" href="../../d2/d94/classxla_1_1cpu_1_1CpuCompiler.html#ae39f2b47db1aaa1457e76acb6ee3d496">xla::cpu::CpuCompiler::CompileAheadOfTime</a>  (std::vector&lt; std::unique_ptr&lt; HloModule &gt;&gt; modules, const AotCompilationOptions &amp;options) override</dt>
-<dd>There's still code below  </dd>
-<dt><a class="anchor" id="_todo000005"></a>Member <a class="el" href="../../d2/d94/classxla_1_1cpu_1_1CpuCompiler.html#ab3bae76bdf9896dcfe3e1e749373f6b1">xla::cpu::CpuCompiler::RunHloPasses</a>  (HloModule *module, bool is_aot_compile)</dt>
+<dt><a class="anchor" id="_todo000005"></a>Member <a class="el" href="../../dc/d07/classxla_1_1CompileOnlyService.html#aceb67616a89167b9af1bf23d17ec37c9">xla::CompileOnlyService::CompileAheadOfTime</a>  (const tensorflow::gtl::ArraySlice&lt; AotComputationInstance &gt; computations, const AotCompilationOptions &amp;Options)</dt>
+<dd>Create <a class="el" href="../../d7/d10/classxla_1_1HloModule.html">xla::HloModule</a> </dd>
+<dt><a class="anchor" id="_todo000006"></a>Member <a class="el" href="../../d2/d94/classxla_1_1cpu_1_1CpuCompiler.html#ab3bae76bdf9896dcfe3e1e749373f6b1">xla::cpu::CpuCompiler::RunHloPasses</a>  (<a class="el" href="../../d7/d10/classxla_1_1HloModule.html">HloModule</a> *module, bool is_aot_compile)</dt>
 <dd><p class="startdd">See what those invariant checker and pass do</p>
 <p class="enddd">unknown argument </p>
 </dd>
 <dt><a class="anchor" id="_todo000008"></a>Class <a class="el" href="../../dd/db8/classxla_1_1cpu_1_1CpuInstructionFusion.html">xla::cpu::CpuInstructionFusion</a>  </dt>
 <dd>See what this pass do  </dd>
-<dt><a class="anchor" id="_todo000009"></a>Class <a class="el" href="../../d5/dd4/classxla_1_1HloVerifier.html">xla::HloVerifier</a>  </dt>
-<dd>Make sure what it check. For now it seems like it checks for HLO shape</dd>
+<dt><a class="anchor" id="_todo000009"></a>Member <a class="el" href="../../d9/d4e/classxla_1_1cpu_1_1IrEmitter.html#a6b7becbce273b698ca6337eb906626f9">xla::cpu::IrEmitter::EmitComputation</a>  (<a class="el" href="../../d4/d36/classxla_1_1HloComputation.html">HloComputation</a> *computation, const string &amp;function_name_prefix, bool is_top_level_computation, std::vector&lt; const HloInstruction *&gt; *instruction_order)</dt>
+<dd>See what it does  </dd>
+<dt><a class="anchor" id="_todo000010"></a>Member <a class="el" href="../../d3/dbc/namespacexla.html#a1bbf3fb68f84f76b209f48f664a6a5a1">xla::CreateMemoryMinimizingSequence</a>  (const <a class="el" href="../../d7/d10/classxla_1_1HloModule.html">HloModule</a> &amp;module, const LogicalBuffer::SizeFunction &amp;size_function, const MemorySchedulerAlgorithm &amp;algorithm)</dt>
+<dd>Trace who decide who should be fuse  </dd>
+<dt><a class="anchor" id="_todo000011"></a>Class <a class="el" href="../../d5/dd4/classxla_1_1HloVerifier.html">xla::HloVerifier</a>  </dt>
+<dd>Make sure what it check. For now it seems like it checks for HLO shape </dd>
+<dt><a class="anchor" id="_todo000012"></a>Member <a class="el" href="../../da/daf/classxla_1_1TuplePointsToAnalysis.html#ac1c92742c6239f1eb7cf6bcb40bc7826">xla::TuplePointsToAnalysis::Run</a>  (const <a class="el" href="../../d7/d10/classxla_1_1HloModule.html">HloModule</a> *module)</dt>
+<dd>Too deep. Abort.</dd>
 </dl>
 </div></div><!-- contents -->
 <!-- start footer part -->

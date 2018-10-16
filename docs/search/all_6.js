@@ -1,23 +1,11 @@
 var searchData=
 [
-  ['hlo_5fconstant_5ffolding_2ecc',['hlo_constant_folding.cc',['../de/d8b/hlo__constant__folding_8cc.html',1,'']]],
-  ['hlo_5fconstant_5ffolding_2eh',['hlo_constant_folding.h',['../dd/d3a/hlo__constant__folding_8h.html',1,'']]],
-  ['hlo_5fcse_2ecc',['hlo_cse.cc',['../d0/d7a/hlo__cse_8cc.html',1,'']]],
-  ['hlo_5fcse_2eh',['hlo_cse.h',['../d7/d2b/hlo__cse_8h.html',1,'']]],
-  ['hlo_5fdce_2ecc',['hlo_dce.cc',['../d3/d25/hlo__dce_8cc.html',1,'']]],
-  ['hlo_5fdce_2eh',['hlo_dce.h',['../da/d99/hlo__dce_8h.html',1,'']]],
-  ['hlo_5felement_5ftype_5fconverter_2ecc',['hlo_element_type_converter.cc',['../d4/d43/hlo__element__type__converter_8cc.html',1,'']]],
-  ['hlo_5felement_5ftype_5fconverter_2eh',['hlo_element_type_converter.h',['../da/dd2/hlo__element__type__converter_8h.html',1,'']]],
-  ['hlo_5fpass_5ffix_2eh',['hlo_pass_fix.h',['../da/d46/hlo__pass__fix_8h.html',1,'']]],
-  ['hlo_5fpass_5fpipeline_2ecc',['hlo_pass_pipeline.cc',['../d7/d62/hlo__pass__pipeline_8cc.html',1,'']]],
-  ['hlo_5fpass_5fpipeline_2eh',['hlo_pass_pipeline.h',['../df/d0a/hlo__pass__pipeline_8h.html',1,'']]],
-  ['hlo_5fverifier_2ecc',['hlo_verifier.cc',['../de/d69/hlo__verifier_8cc.html',1,'']]],
-  ['hlo_5fverifier_2eh',['hlo_verifier.h',['../d4/d0a/hlo__verifier_8h.html',1,'']]],
-  ['hloconstantfolding',['HloConstantFolding',['../df/d35/classxla_1_1HloConstantFolding.html',1,'xla']]],
-  ['hlocse',['HloCSE',['../d5/d69/classxla_1_1HloCSE.html',1,'xla']]],
-  ['hlodce',['HloDCE',['../d3/db4/classxla_1_1HloDCE.html',1,'xla']]],
-  ['hloelementtypeconverter',['HloElementTypeConverter',['../d8/de7/classxla_1_1HloElementTypeConverter.html',1,'xla']]],
-  ['hlopassfix',['HloPassFix',['../da/d51/classxla_1_1HloPassFix.html',1,'xla']]],
-  ['hlopasspipeline',['HloPassPipeline',['../d2/dbd/classxla_1_1HloPassPipeline.html',1,'xla::HloPassPipeline'],['../d2/dbd/classxla_1_1HloPassPipeline.html#a0055f7e378a73b6e3bcc59663cf88502',1,'xla::HloPassPipeline::HloPassPipeline()']]],
-  ['hloverifier',['HloVerifier',['../d5/dd4/classxla_1_1HloVerifier.html',1,'xla']]]
+  ['gather_5fexpander_2ecc',['gather_expander.cc',['../dd/d1c/gather__expander_8cc.html',1,'']]],
+  ['gather_5fexpander_2eh',['gather_expander.h',['../da/d22/gather__expander_8h.html',1,'']]],
+  ['gatherexpander',['GatherExpander',['../d8/d9a/classxla_1_1GatherExpander.html',1,'xla']]],
+  ['getorcreatecompileonlyclient',['GetOrCreateCompileOnlyClient',['../d5/ddb/classxla_1_1ClientLibrary.html#a5e940d153e6cfd72b34b2b8b89220f50',1,'xla::ClientLibrary']]],
+  ['graph_5fconstructor_2ecc',['graph_constructor.cc',['../d7/d7a/graph__constructor_8cc.html',1,'']]],
+  ['graph_5fconstructor_2eh',['graph_constructor.h',['../d7/dfb/graph__constructor_8h.html',1,'']]],
+  ['graph_5fdef_5futil_2ecc',['graph_def_util.cc',['../d3/d4f/graph__def__util_8cc.html',1,'']]],
+  ['graph_5fdef_5futil_2eh',['graph_def_util.h',['../de/d25/graph__def__util_8h.html',1,'']]]
 ];

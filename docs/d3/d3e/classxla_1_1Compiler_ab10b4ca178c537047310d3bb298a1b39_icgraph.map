@@ -1,8 +1,0 @@
-<map id="xla::Compiler::CompileAheadOfTime" name="xla::Compiler::CompileAheadOfTime">
-<area shape="rect" id="node2" href="$dc/d07/classxla_1_1CompileOnlyService.html#aceb67616a89167b9af1bf23d17ec37c9" title="xla::CompileOnlyService\l::CompileAheadOfTime" alt="" coords="245,13,412,54"/>
-<area shape="rect" id="node3" href="$d1/dd1/classxla_1_1CompileOnlyClient.html#a5a585d21f617b77a1cecc1b587d18d7a" title="Compiles a list of computations for ahead&#45;of&#45;time execution. This is intended for use in static compi..." alt="" coords="460,13,619,54"/>
-<area shape="rect" id="node4" href="$d4/df4/namespacetensorflow_1_1tfcompile_1_1anonymous__namespace_02compile_8cc_03.html#a40f8a019f31fa8cbe2fff5d90e69c21b" title="Compiles the XLA computation into executable code. " alt="" coords="667,5,839,61"/>
-<area shape="rect" id="node5" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a021cb1c58d938b16dcd998aa8d1fc191" title="Converts the graph into an XLA computation, and compiles the computation. Called by tensorflow::tfcom..." alt="" coords="887,13,1029,54"/>
-<area shape="rect" id="node6" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a460964a5bb277865d1275fe3746132c1" title="tensorflow::tfcompile\l::Main" alt="" coords="1077,13,1220,54"/>
-<area shape="rect" id="node7" href="$d4/d8d/tfcompile__main_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1268,20,1319,47"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="tensorflow::anonymous_namespace{xla_compiler::cc}::SetTransfer" name="tensorflow::anonymous_namespace{xla_compiler::cc}::SetTransfer">
-<area shape="rect" id="node2" href="$d7/dbf/classtensorflow_1_1XlaCompiler.html#a5d27f5cbbdabbafa7738e145f593c9ce" title="tensorflow::XlaCompiler\l::SetDeviceToHostMetadata" alt="" coords="227,5,413,47"/>
-<area shape="rect" id="node3" href="$d7/dbf/classtensorflow_1_1XlaCompiler.html#a8447d227e508b97d4ccc389fd626ade8" title="tensorflow::XlaCompiler\l::SetHostToDeviceMetadata" alt="" coords="227,71,413,112"/>
-</map>

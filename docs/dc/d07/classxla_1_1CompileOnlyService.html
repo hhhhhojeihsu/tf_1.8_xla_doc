@@ -76,12 +76,16 @@ $(function() {
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="../../d2/d89/compile__only__service_8h_source.html">compile_only_service.h</a>&gt;</code></p>
-
-<p>Inherits xla::Service.</p>
+<div class="dynheader">
+Inheritance diagram for xla::CompileOnlyService:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/def/classxla_1_1CompileOnlyService__inherit__graph.svg" width="178" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+<center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for xla::CompileOnlyService:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d27/classxla_1_1CompileOnlyService__coll__graph.svg" width="178" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d27/classxla_1_1CompileOnlyService__coll__graph.svg" width="252" height="216"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -95,6 +99,13 @@ Classes</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aceb67616a89167b9af1bf23d17ec37c9"><td class="memItemLeft" align="right" valign="top">StatusOr&lt; std::vector&lt; std::unique_ptr&lt; AotCompilationResult &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d07/classxla_1_1CompileOnlyService.html#aceb67616a89167b9af1bf23d17ec37c9">CompileAheadOfTime</a> (const tensorflow::gtl::ArraySlice&lt; <a class="el" href="../../d5/d85/structxla_1_1CompileOnlyService_1_1AotComputationInstance.html">AotComputationInstance</a> &gt; computations, const AotCompilationOptions &amp;Options)</td></tr>
 <tr class="separator:aceb67616a89167b9af1bf23d17ec37c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classxla_1_1Service"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classxla_1_1Service')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d1/d10/classxla_1_1Service.html">xla::Service</a></td></tr>
+<tr class="memitem:a99903338d816b47e9205fa44739e113a inherit pub_methods_classxla_1_1Service"><td class="memItemLeft" align="right" valign="top">tensorflow::Status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d10/classxla_1_1Service.html#a99903338d816b47e9205fa44739e113a">Computation</a> (const ComputationRequest *arg, ComputationResponse *result) override</td></tr>
+<tr class="memdesc:a99903338d816b47e9205fa44739e113a inherit pub_methods_classxla_1_1Service"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populates <code>computation_</code> with a valid object. Used before any given operation is enqueued.  <a href="../../d1/d10/classxla_1_1Service.html#a99903338d816b47e9205fa44739e113a">More...</a><br /></td></tr>
+<tr class="separator:a99903338d816b47e9205fa44739e113a inherit pub_methods_classxla_1_1Service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8aa08872316b8fa3297972486b4b339e inherit pub_methods_classxla_1_1Service"><td class="memItemLeft" align="right" valign="top">tensorflow::Status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d10/classxla_1_1Service.html#a8aa08872316b8fa3297972486b4b339e">Op</a> (const OpRequest *arg, OpResponse *result) override</td></tr>
+<tr class="memdesc:a8aa08872316b8fa3297972486b4b339e inherit pub_methods_classxla_1_1Service"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enqueue an <code>Op</code> on the computation.  <a href="../../d1/d10/classxla_1_1Service.html#a8aa08872316b8fa3297972486b4b339e">More...</a><br /></td></tr>
+<tr class="separator:a8aa08872316b8fa3297972486b4b339e inherit pub_methods_classxla_1_1Service"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -103,7 +114,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Google Docs: </p><blockquote class="doxtable">
-<p>An XLA Service specialization for ahead-of-time compilation. This only instantiates a <a class="el" href="../../d3/d3e/classxla_1_1Compiler.html">Compiler</a> object for the relevant platform; it does not instantiate or require an execution backend.</p>
+<p>An XLA <a class="el" href="../../d1/d10/classxla_1_1Service.html">Service</a> specialization for ahead-of-time compilation. This only instantiates a <a class="el" href="../../d3/d3e/classxla_1_1Compiler.html">Compiler</a> object for the relevant platform; it does not instantiate or require an execution backend.</p>
 </blockquote>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="aceb67616a89167b9af1bf23d17ec37c9"></a>
@@ -135,12 +146,18 @@ Static Public Member Functions</h2></td></tr>
 <p>Compiles a list of computations for ahead-of-time execution. This is intended for use in static compilation. </p>
 </blockquote>
 <ol type="1">
-<li><dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000004">Todo:</a></b></dt><dd>Create xla::HloModule</dd></dl>
+<li><dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000005">Todo:</a></b></dt><dd>Create <a class="el" href="../../d7/d10/classxla_1_1HloModule.html">xla::HloModule</a></dd></dl>
 </li>
 <li>Dump computation proto state if flag is set to a file.(Call <code>xla::ComputationTracker::SnapshotComputation</code>)</li>
 <li>Set execution options(e.g. debug options)</li>
 <li>Call <code><a class="el" href="../../d2/d94/classxla_1_1cpu_1_1CpuCompiler.html#ae39f2b47db1aaa1457e76acb6ee3d496">xla::cpu::CpuCompiler::CompileAheadOfTime</a></code>(Overridden, not shown in call graph) </li>
 </ol>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d07/classxla_1_1CompileOnlyService_aceb67616a89167b9af1bf23d17ec37c9_cgraph.svg" width="384" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">

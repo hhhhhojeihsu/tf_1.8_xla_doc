@@ -105,7 +105,27 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Google Docs: </p><blockquote class="doxtable">
 <p>Registers all JIT kernels on JIT devices, if not already registered. Does nothing otherwise. </p>
+</blockquote>
+<ul>
+<li>For each operator registered via <code>REGISTER_XLA_OP</code> (Lots of operator registered under <code>compiler/tf2xla/kernels</code>)<ul>
+<li>Fetch its <code>op_def</code> from <code>OpRegistry</code>, and record the attributes with <code>type</code> field being <code>type</code> or <code>list(type)</code></li>
+<li>For each backend device (Currently only <code>XLA_CPU_JIT</code>)<ul>
+<li>Skip if this device isn't on the whitelist of the operator</li>
+<li>Create a <code>KernelDef</code> instance. Use the intersection of<ol type="1">
+<li>types supported by backend</li>
+<li>types allowed by operator</li>
+<li>the <a href="https://hhhhhojeihsu.github.io/tensorflow_1.8_woboq/tensorflow_1.8_aot_test/tensorflow/tensorflow/compiler/tf2xla/xla_op_registry.h.html#tensorflow::XlaOpRegistry::OpRegistration::type_constraints">type constraints</a></li>
+</ol>
+</li>
+<li>Checked by the filter. <a href="https://hhhhhojeihsu.github.io/tensorflow_1.8_woboq/tensorflow_1.8_aot_test/tensorflow/tensorflow/compiler/tf2xla/xla_cpu_backend.cc.html#_ZN10tensorflow11CpuOpFilterEPNS_9KernelDefE">CpuOpFilter</a> is in charge of <code>XLA_CPU_JIT</code></li>
+<li>Finally, register via <code>OpKernelRegistrar</code>, this step is quite similar to usual kernel registration </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">

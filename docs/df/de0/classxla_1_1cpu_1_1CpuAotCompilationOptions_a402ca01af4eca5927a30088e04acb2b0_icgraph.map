@@ -1,7 +1,0 @@
-<map id="xla::cpu::CpuAotCompilationOptions::entry_point_name" name="xla::cpu::CpuAotCompilationOptions::entry_point_name">
-<area shape="rect" id="node2" href="$d4/df4/namespacetensorflow_1_1tfcompile_1_1anonymous__namespace_02compile_8cc_03.html#a40f8a019f31fa8cbe2fff5d90e69c21b" title="Compiles the XLA computation into executable code. " alt="" coords="243,5,415,61"/>
-<area shape="rect" id="node6" href="$d2/d94/classxla_1_1cpu_1_1CpuCompiler.html#ae39f2b47db1aaa1457e76acb6ee3d496" title="xla::cpu::CpuCompiler\l::CompileAheadOfTime" alt="" coords="249,86,408,127"/>
-<area shape="rect" id="node3" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a021cb1c58d938b16dcd998aa8d1fc191" title="Converts the graph into an XLA computation, and compiles the computation. Called by tensorflow::tfcom..." alt="" coords="463,13,605,54"/>
-<area shape="rect" id="node4" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a460964a5bb277865d1275fe3746132c1" title="tensorflow::tfcompile\l::Main" alt="" coords="653,13,796,54"/>
-<area shape="rect" id="node5" href="$d4/d8d/tfcompile__main_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="844,20,895,47"/>
-</map>

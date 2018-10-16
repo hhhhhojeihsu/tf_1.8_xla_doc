@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['reduceprecisioninsertion',['ReducePrecisionInsertion',['../d2/d62/classxla_1_1ReducePrecisionInsertion.html',1,'xla']]],
-  ['reshapemover',['ReshapeMover',['../db/d5f/classxla_1_1ReshapeMover.html',1,'xla']]]
+  ['parallelizationpreparation',['ParallelizationPreparation',['../dd/dda/classxla_1_1cpu_1_1ParallelizationPreparation.html',1,'xla::cpu']]],
+  ['paralleltaskassigner',['ParallelTaskAssigner',['../df/d9b/classxla_1_1cpu_1_1ParallelTaskAssigner.html',1,'xla::cpu']]]
 ];

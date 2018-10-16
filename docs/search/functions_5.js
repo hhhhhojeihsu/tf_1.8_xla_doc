@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['initgraph',['InitGraph',['../d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03.html#aeef0cda05958b2b855b0e2fbe07b1314',1,'tensorflow::anonymous_namespace{tf2xla.cc}']]]
+  ['getorcreatecompileonlyclient',['GetOrCreateCompileOnlyClient',['../d5/ddb/classxla_1_1ClientLibrary.html#a5e940d153e6cfd72b34b2b8b89220f50',1,'xla::ClientLibrary']]]
 ];

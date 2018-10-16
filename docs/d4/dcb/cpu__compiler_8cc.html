@@ -66,7 +66,8 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">cpu_compiler.cc File Reference</div>  </div>
 </div><!--header-->
@@ -102,7 +103,7 @@ $(function() {
 <code>#include &quot;tensorflow/compiler/xla/service/buffer_liveness.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d5/db7/call__inliner_8h_source.html">tensorflow/compiler/xla/service/call_inliner.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/dd6/conditional__simplifier_8h_source.html">tensorflow/compiler/xla/service/conditional_simplifier.h</a>&quot;</code><br />
-<code>#include &quot;tensorflow/compiler/xla/service/cpu/compiler_functor.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/d3d/compiler__functor_8h_source.html">tensorflow/compiler/xla/service/cpu/compiler_functor.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/d76/conv__canonicalization_8h_source.html">tensorflow/compiler/xla/service/cpu/conv_canonicalization.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d4/d7e/cpu__copy__insertion_8h_source.html">tensorflow/compiler/xla/service/cpu/cpu_copy_insertion.h</a>&quot;</code><br />
 <code>#include &quot;tensorflow/compiler/xla/service/cpu/cpu_executable.h&quot;</code><br />
@@ -111,10 +112,10 @@ $(function() {
 <code>#include &quot;<a class="el" href="../../d1/d17/cpu__layout__assignment_8h_source.html">tensorflow/compiler/xla/service/cpu/cpu_layout_assignment.h</a>&quot;</code><br />
 <code>#include &quot;tensorflow/compiler/xla/service/cpu/cpu_options.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../db/db4/cpu__parallelization__preparation_8h_source.html">tensorflow/compiler/xla/service/cpu/cpu_parallelization_preparation.h</a>&quot;</code><br />
-<code>#include &quot;tensorflow/compiler/xla/service/cpu/disassembler.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/d87/disassembler_8h_source.html">tensorflow/compiler/xla/service/cpu/disassembler.h</a>&quot;</code><br />
 <code>#include &quot;tensorflow/compiler/xla/service/cpu/dot_op_emitter.h&quot;</code><br />
 <code>#include &quot;tensorflow/compiler/xla/service/cpu/ir_emission_utils.h&quot;</code><br />
-<code>#include &quot;tensorflow/compiler/xla/service/cpu/ir_emitter.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/d6d/ir__emitter_8h_source.html">tensorflow/compiler/xla/service/cpu/ir_emitter.h</a>&quot;</code><br />
 <code>#include &quot;tensorflow/compiler/xla/service/cpu/parallel_cpu_executable.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/df9/parallel__task__assignment_8h_source.html">tensorflow/compiler/xla/service/cpu/parallel_task_assignment.h</a>&quot;</code><br />
 <code>#include &quot;tensorflow/compiler/xla/service/cpu/simple_orc_jit.h&quot;</code><br />
@@ -123,18 +124,18 @@ $(function() {
 <code>#include &quot;<a class="el" href="../../d2/d8b/flatten__call__graph_8h_source.html">tensorflow/compiler/xla/service/flatten_call_graph.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../da/d22/gather__expander_8h_source.html">tensorflow/compiler/xla/service/gather_expander.h</a>&quot;</code><br />
 <code>#include &quot;tensorflow/compiler/xla/service/hlo.pb.h&quot;</code><br />
-<code>#include &quot;tensorflow/compiler/xla/service/hlo_computation.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/d31/hlo__computation_8h_source.html">tensorflow/compiler/xla/service/hlo_computation.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dd/d3a/hlo__constant__folding_8h_source.html">tensorflow/compiler/xla/service/hlo_constant_folding.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d7/d2b/hlo__cse_8h_source.html">tensorflow/compiler/xla/service/hlo_cse.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../da/d99/hlo__dce_8h_source.html">tensorflow/compiler/xla/service/hlo_dce.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../da/dd2/hlo__element__type__converter_8h_source.html">tensorflow/compiler/xla/service/hlo_element_type_converter.h</a>&quot;</code><br />
 <code>#include &quot;tensorflow/compiler/xla/service/hlo_instruction.h&quot;</code><br />
 <code>#include &quot;tensorflow/compiler/xla/service/hlo_opcode.h&quot;</code><br />
-<code>#include &quot;tensorflow/compiler/xla/service/hlo_ordering.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dd/d39/hlo__ordering_8h_source.html">tensorflow/compiler/xla/service/hlo_ordering.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../da/d46/hlo__pass__fix_8h_source.html">tensorflow/compiler/xla/service/hlo_pass_fix.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../df/d0a/hlo__pass__pipeline_8h_source.html">tensorflow/compiler/xla/service/hlo_pass_pipeline.h</a>&quot;</code><br />
 <code>#include &quot;tensorflow/compiler/xla/service/hlo_proto_util.h&quot;</code><br />
-<code>#include &quot;tensorflow/compiler/xla/service/hlo_scheduling.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/da3/hlo__scheduling_8h_source.html">tensorflow/compiler/xla/service/hlo_scheduling.h</a>&quot;</code><br />
 <code>#include &quot;tensorflow/compiler/xla/service/hlo_subcomputation_unification.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d4/d0a/hlo__verifier_8h_source.html">tensorflow/compiler/xla/service/hlo_verifier.h</a>&quot;</code><br />
 <code>#include &quot;tensorflow/compiler/xla/service/inliner.h&quot;</code><br />
@@ -161,6 +162,11 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d2/db5/namespacexla_1_1cpu"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db5/namespacexla_1_1cpu.html">xla::cpu</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:afda30ab3f3866f05c5a12ec7deb71911"><td class="memItemLeft" align="right" valign="top">Status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d10/namespacexla_1_1cpu_1_1anonymous__namespace_02cpu__compiler_8cc_03.html#afda30ab3f3866f05c5a12ec7deb71911">xla::cpu::anonymous_namespace{cpu_compiler.cc}::VerifyLlvmModule</a> (const llvm::Module &amp;llvm_module)</td></tr>
+<tr class="separator:afda30ab3f3866f05c5a12ec7deb71911"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

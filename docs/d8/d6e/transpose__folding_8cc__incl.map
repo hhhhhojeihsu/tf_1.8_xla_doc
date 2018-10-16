@@ -1,3 +1,5 @@
 <map id="tensorflow/tensorflow/compiler/xla/service/transpose_folding.cc" name="tensorflow/tensorflow/compiler/xla/service/transpose_folding.cc">
-<area shape="rect" id="node2" href="$d6/dac/transpose__folding_8h.html" title="tensorflow/compiler\l/xla/service/transpose\l_folding.h" alt="" coords="106,109,257,165"/>
+<area shape="rect" id="node2" href="$d6/dac/transpose__folding_8h.html" title="tensorflow/compiler\l/xla/service/transpose\l_folding.h" alt="" coords="1716,109,1867,165"/>
+<area shape="rect" id="node13" href="$d2/d31/hlo__computation_8h.html" title="tensorflow/compiler\l/xla/service/hlo_computation.h" alt="" coords="1799,325,1997,366"/>
+<area shape="rect" id="node3" href="$db/da0/hlo__module_8h.html" title="tensorflow/compiler\l/xla/service/hlo_module.h" alt="" coords="1159,221,1330,262"/>
 </map>

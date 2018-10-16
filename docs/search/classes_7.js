@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['llvmcompiler',['LLVMCompiler',['../d5/d52/classxla_1_1LLVMCompiler.html',1,'xla']]]
+  ['iremitter',['IrEmitter',['../d9/d4e/classxla_1_1cpu_1_1IrEmitter.html',1,'xla::cpu']]]
 ];

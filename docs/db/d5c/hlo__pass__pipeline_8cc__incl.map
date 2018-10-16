@@ -1,3 +1,5 @@
 <map id="tensorflow/tensorflow/compiler/xla/service/hlo_pass_pipeline.cc" name="tensorflow/tensorflow/compiler/xla/service/hlo_pass_pipeline.cc">
-<area shape="rect" id="node2" href="$df/d0a/hlo__pass__pipeline_8h.html" title="tensorflow/compiler\l/xla/service/hlo_pass\l_pipeline.h" alt="" coords="533,109,678,165"/>
+<area shape="rect" id="node2" href="$df/d0a/hlo__pass__pipeline_8h.html" title="tensorflow/compiler\l/xla/service/hlo_pass\l_pipeline.h" alt="" coords="1475,109,1621,165"/>
+<area shape="rect" id="node8" href="$db/da0/hlo__module_8h.html" title="tensorflow/compiler\l/xla/service/hlo_module.h" alt="" coords="1463,221,1633,262"/>
+<area shape="rect" id="node15" href="$d2/d31/hlo__computation_8h.html" title="tensorflow/compiler\l/xla/service/hlo_computation.h" alt="" coords="1381,325,1579,366"/>
 </map>

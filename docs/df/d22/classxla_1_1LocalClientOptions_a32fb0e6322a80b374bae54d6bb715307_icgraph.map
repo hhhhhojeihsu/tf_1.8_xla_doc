@@ -1,4 +1,0 @@
-<map id="xla::LocalClientOptions::number_of_replicas" name="xla::LocalClientOptions::number_of_replicas">
-<area shape="rect" id="node2" href="$df/d22/classxla_1_1LocalClientOptions.html#a3cb7d5933df313b9dc075b35275806ff" title="xla::LocalClientOptions\l::set_number_of_replicas" alt="" coords="211,5,379,47"/>
-<area shape="rect" id="node3" href="$d5/ddb/classxla_1_1ClientLibrary.html#a7dadd4179a27235b58ed227ddbc2cbbe" title="xla::ClientLibrary\l::GetOrCreateLocalClient" alt="" coords="211,71,380,112"/>
-</map>

@@ -55,17 +55,17 @@ var sectionId = 'dynsection-1';
 <g id="viewport">
 <title>tensorflow/tensorflow/compiler/xla/client/client_library.h</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-124 511.5,-124 511.5,4 -4,4"/>
-<!-- Node46 -->
+<!-- Node64 -->
 <g id="node1" class="node">
-<title>Node46</title>
+<title>Node64</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="205.5,-78.5 205.5,-119.5 315.5,-119.5 315.5,-78.5 205.5,-78.5"/>
 <text text-anchor="start" x="213.5" y="-107.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
 <text text-anchor="start" x="213.5" y="-96.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/xla/client</text>
 <text text-anchor="middle" x="260.5" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/client_library.h</text>
 </g>
-<!-- Node47 -->
+<!-- Node65 -->
 <g id="node2" class="node">
-<title>Node47</title>
+<title>Node65</title>
 <g id="a_node2"><a xlink:href="../../d6/d17/compile_8cc.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/aot/compile.cc">
 <polygon fill="#ffffff" stroke="#000000" points="0,-6 0,-36 123,-36 123,-6 0,-6"/>
 <text text-anchor="start" x="8" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
@@ -73,15 +73,15 @@ var sectionId = 'dynsection-1';
 </a>
 </g>
 </g>
-<!-- Node46&#45;&gt;Node47 -->
+<!-- Node64&#45;&gt;Node65 -->
 <g id="edge1" class="edge">
-<title>Node46&#45;&gt;Node47</title>
+<title>Node64&#45;&gt;Node65</title>
 <path fill="none" stroke="#191970" d="M198.5855,-74.732C166.2812,-62.07 127.7805,-46.9793 99.8172,-36.0188"/>
 <polygon fill="#191970" stroke="#191970" points="197.3672,-78.0137 207.9548,-78.4044 199.9217,-71.4964 197.3672,-78.0137"/>
 </g>
-<!-- Node48 -->
+<!-- Node66 -->
 <g id="node3" class="node">
-<title>Node48</title>
+<title>Node66</title>
 <g id="a_node3"><a xlink:href="../../d5/d88/xla__compiler_8cc.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/tf2xla/xla\l_compiler.cc">
 <polygon fill="#ffffff" stroke="#000000" points="141.5,-.5 141.5,-41.5 251.5,-41.5 251.5,-.5 141.5,-.5"/>
 <text text-anchor="start" x="149.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
@@ -90,15 +90,15 @@ var sectionId = 'dynsection-1';
 </a>
 </g>
 </g>
-<!-- Node46&#45;&gt;Node48 -->
+<!-- Node64&#45;&gt;Node66 -->
 <g id="edge2" class="edge">
-<title>Node46&#45;&gt;Node48</title>
+<title>Node64&#45;&gt;Node66</title>
 <path fill="none" stroke="#191970" d="M236.7794,-70.0905C229.0437,-60.6626 220.6148,-50.3899 213.4762,-41.6898"/>
 <polygon fill="#191970" stroke="#191970" points="234.3002,-72.5868 243.3492,-78.0974 239.7117,-68.1466 234.3002,-72.5868"/>
 </g>
-<!-- Node49 -->
+<!-- Node67 -->
 <g id="node4" class="node">
-<title>Node49</title>
+<title>Node67</title>
 <g id="a_node4"><a xlink:href="../../d2/d10/xla__op__registry_8cc.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/tf2xla/xla\l_op_registry.cc">
 <polygon fill="#ffffff" stroke="#000000" points="269.5,-.5 269.5,-41.5 379.5,-41.5 379.5,-.5 269.5,-.5"/>
 <text text-anchor="start" x="277.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
@@ -107,15 +107,15 @@ var sectionId = 'dynsection-1';
 </a>
 </g>
 </g>
-<!-- Node46&#45;&gt;Node49 -->
+<!-- Node64&#45;&gt;Node67 -->
 <g id="edge3" class="edge">
-<title>Node46&#45;&gt;Node49</title>
+<title>Node64&#45;&gt;Node67</title>
 <path fill="none" stroke="#191970" d="M284.2206,-70.0905C291.9563,-60.6626 300.3852,-50.3899 307.5238,-41.6898"/>
 <polygon fill="#191970" stroke="#191970" points="281.2883,-68.1466 277.6508,-78.0974 286.6998,-72.5868 281.2883,-68.1466"/>
 </g>
-<!-- Node50 -->
+<!-- Node68 -->
 <g id="node5" class="node">
-<title>Node50</title>
+<title>Node68</title>
 <g id="a_node5"><a xlink:href="../../d3/dba/client__library_8cc.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/xla/client\l/client_library.cc">
 <polygon fill="#ffffff" stroke="#000000" points="397.5,-.5 397.5,-41.5 507.5,-41.5 507.5,-.5 397.5,-.5"/>
 <text text-anchor="start" x="405.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
@@ -124,9 +124,9 @@ var sectionId = 'dynsection-1';
 </a>
 </g>
 </g>
-<!-- Node46&#45;&gt;Node50 -->
+<!-- Node64&#45;&gt;Node68 -->
 <g id="edge4" class="edge">
-<title>Node46&#45;&gt;Node50</title>
+<title>Node64&#45;&gt;Node68</title>
 <path fill="none" stroke="#191970" d="M320.6055,-74.5821C346.6982,-63.982 376.9238,-51.7028 401.8522,-41.5757"/>
 <polygon fill="#191970" stroke="#191970" points="319.1442,-71.3979 311.1969,-78.4044 321.7789,-77.8832 319.1442,-71.3979"/>
 </g>

@@ -9,17 +9,17 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 124)">
 <title>tensorflow/tensorflow/compiler/xla/service/while_loop_simplifier.h</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-124 254,-124 254,4 -4,4"/>
-<!-- Node4 -->
+<!-- Node36 -->
 <g id="node1" class="node">
-<title>Node4</title>
+<title>Node36</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="63.5,-78.5 63.5,-119.5 180.5,-119.5 180.5,-78.5 63.5,-78.5"/>
 <text text-anchor="start" x="71.5" y="-107.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
 <text text-anchor="start" x="71.5" y="-96.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/xla/service</text>
 <text text-anchor="middle" x="122" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/while_loop_simplifier.h</text>
 </g>
-<!-- Node5 -->
+<!-- Node37 -->
 <g id="node2" class="node">
-<title>Node5</title>
+<title>Node37</title>
 <g id="a_node2"><a xlink:href="../../d4/dcb/cpu__compiler_8cc.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/xla/service\l/cpu/cpu_compiler.cc">
 <polygon fill="#ffffff" stroke="#000000" points="0,-.5 0,-41.5 110,-41.5 110,-.5 0,-.5"/>
 <text text-anchor="start" x="8" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
@@ -28,15 +28,15 @@
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node5 -->
+<!-- Node36&#45;&gt;Node37 -->
 <g id="edge1" class="edge">
-<title>Node4&#45;&gt;Node5</title>
+<title>Node36&#45;&gt;Node37</title>
 <path fill="none" stroke="#191970" d="M97.4127,-70.376C89.2476,-60.8703 80.3207,-50.4778 72.772,-41.6898"/>
 <polygon fill="#191970" stroke="#191970" points="94.8743,-72.7923 104.0452,-78.0974 100.1843,-68.2311 94.8743,-72.7923"/>
 </g>
-<!-- Node6 -->
+<!-- Node38 -->
 <g id="node3" class="node">
-<title>Node6</title>
+<title>Node38</title>
 <g id="a_node3"><a xlink:href="../../d5/d0e/while__loop__simplifier_8cc.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/xla/service\l/while_loop_simplifier.cc">
 <polygon fill="#ffffff" stroke="#000000" points="128,-.5 128,-41.5 250,-41.5 250,-.5 128,-.5"/>
 <text text-anchor="start" x="136" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
@@ -45,9 +45,9 @@
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node6 -->
+<!-- Node36&#45;&gt;Node38 -->
 <g id="edge2" class="edge">
-<title>Node4&#45;&gt;Node6</title>
+<title>Node36&#45;&gt;Node38</title>
 <path fill="none" stroke="#191970" d="M146.5873,-70.376C154.7524,-60.8703 163.6793,-50.4778 171.228,-41.6898"/>
 <polygon fill="#191970" stroke="#191970" points="143.8157,-68.2311 139.9548,-78.0974 149.1257,-72.7923 143.8157,-68.2311"/>
 </g>

@@ -1,3 +1,5 @@
 <map id="tensorflow/tensorflow/compiler/xla/service/cpu/conv_canonicalization.cc" name="tensorflow/tensorflow/compiler/xla/service/cpu/conv_canonicalization.cc">
-<area shape="rect" id="node2" href="$d6/d76/conv__canonicalization_8h.html" title="tensorflow/compiler\l/xla/service/cpu/conv\l_canonicalization.h" alt="" coords="108,109,255,165"/>
+<area shape="rect" id="node2" href="$d6/d76/conv__canonicalization_8h.html" title="tensorflow/compiler\l/xla/service/cpu/conv\l_canonicalization.h" alt="" coords="1143,109,1289,165"/>
+<area shape="rect" id="node13" href="$d2/d31/hlo__computation_8h.html" title="tensorflow/compiler\l/xla/service/hlo_computation.h" alt="" coords="1655,325,1854,366"/>
+<area shape="rect" id="node3" href="$db/da0/hlo__module_8h.html" title="tensorflow/compiler\l/xla/service/hlo_module.h" alt="" coords="1131,221,1301,262"/>
 </map>

@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['user_5fcomputation_2ecc',['user_computation.cc',['../d3/dd6/user__computation_8cc.html',1,'']]],
-  ['user_5fcomputation_2eh',['user_computation.h',['../d6/d38/user__computation_8h.html',1,'']]],
-  ['usercomputation',['UserComputation',['../db/dbb/classxla_1_1UserComputation.html',1,'xla']]]
+  ['sequentialhloordering',['SequentialHloOrdering',['../d9/dbf/classxla_1_1SequentialHloOrdering.html',1,'xla']]],
+  ['service',['Service',['../d1/d10/classxla_1_1Service.html',1,'xla']]],
+  ['service_2ecc',['service.cc',['../d9/d1a/service_8cc.html',1,'']]],
+  ['service_2eh',['service.h',['../d5/d83/service_8h.html',1,'']]],
+  ['snapshotcomputation',['SnapshotComputation',['../dd/d3d/classComputationTracker.html#addb407ae0007ec874f2b9d8a81364a3c',1,'ComputationTracker']]]
 ];

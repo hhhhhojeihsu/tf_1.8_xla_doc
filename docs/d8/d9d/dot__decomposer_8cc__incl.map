@@ -1,3 +1,5 @@
 <map id="tensorflow/tensorflow/compiler/xla/service/dot_decomposer.cc" name="tensorflow/tensorflow/compiler/xla/service/dot_decomposer.cc">
-<area shape="rect" id="node2" href="$d5/d31/dot__decomposer_8h.html" title="tensorflow/compiler\l/xla/service/dot_decomposer.h" alt="" coords="82,109,281,151"/>
+<area shape="rect" id="node2" href="$d5/d31/dot__decomposer_8h.html" title="tensorflow/compiler\l/xla/service/dot_decomposer.h" alt="" coords="1312,109,1510,151"/>
+<area shape="rect" id="node13" href="$d2/d31/hlo__computation_8h.html" title="tensorflow/compiler\l/xla/service/hlo_computation.h" alt="" coords="1606,310,1805,351"/>
+<area shape="rect" id="node3" href="$db/da0/hlo__module_8h.html" title="tensorflow/compiler\l/xla/service/hlo_module.h" alt="" coords="902,206,1072,247"/>
 </map>

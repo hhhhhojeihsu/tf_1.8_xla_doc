@@ -1,5 +1,0 @@
-<map id="xla::HloPassPipeline::Run" name="xla::HloPassPipeline::Run">
-<area shape="rect" id="node2" href="$d2/dbd/classxla_1_1HloPassPipeline.html#af3316f3ece4bafa5162be7e06249e56e" title="xla::HloPassPipeline\l::name" alt="" coords="251,5,393,47"/>
-<area shape="rect" id="node3" href="$da/dc5/namespacexla_1_1anonymous__namespace_02hlo__pass__pipeline_8cc_03.html#a002f9135ce43451af6d09360bd8a794c" title="xla::anonymous_namespace\l\{hlo_pass_pipeline::cc\}\l::DumpModuleProto" alt="" coords="228,71,416,127"/>
-<area shape="rect" id="node4" href="$da/dc5/namespacexla_1_1anonymous__namespace_02hlo__pass__pipeline_8cc_03.html#a5319cf542d98397e6aa1625921a93f3e" title="xla::anonymous_namespace\l\{hlo_pass_pipeline::cc\}\l::DumpModuleGraph" alt="" coords="228,151,416,207"/>
-</map>

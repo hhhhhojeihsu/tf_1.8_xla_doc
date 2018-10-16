@@ -1,7 +1,0 @@
-<map id="xla::ComputationBuilder::VerifyConvolution" name="xla::ComputationBuilder::VerifyConvolution">
-<area shape="rect" id="node2" href="$df/d1b/classxla_1_1ComputationBuilder.html#a2e01c5667c341089ea9128d44e77ebf9" title="xla::ComputationBuilder\l::ConvWithGeneralDimensions" alt="" coords="633,5,836,47"/>
-<area shape="rect" id="node4" href="$df/d1b/classxla_1_1ComputationBuilder.html#ac0905f4579b318824ca65f112f3f1408" title="xla::ComputationBuilder\l::ConvGeneralDilated" alt="" coords="215,64,376,105"/>
-<area shape="rect" id="node3" href="$df/d1b/classxla_1_1ComputationBuilder.html#a13498be4f12312e0026157948442eb96" title="xla::ComputationBuilder\l::Conv" alt="" coords="884,5,1045,47"/>
-<area shape="rect" id="node5" href="$df/d1b/classxla_1_1ComputationBuilder.html#a012fb04362bae1bd7d7ecdb469cbd6c1" title="xla::ComputationBuilder\l::ConvGeneral" alt="" coords="424,64,585,105"/>
-<area shape="rect" id="node6" href="$df/d1b/classxla_1_1ComputationBuilder.html#aa55e6967d685a12315126f80a2daf1f7" title="xla::ComputationBuilder\l::ConvWithGeneralPadding" alt="" coords="645,71,825,112"/>
-</map>

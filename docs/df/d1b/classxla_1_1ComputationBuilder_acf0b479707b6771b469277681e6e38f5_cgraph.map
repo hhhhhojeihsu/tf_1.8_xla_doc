@@ -1,7 +1,0 @@
-<map id="xla::ComputationBuilder::ReducePrecision" name="xla::ComputationBuilder::ReducePrecision">
-<area shape="rect" id="node2" href="$df/d1b/classxla_1_1ComputationBuilder.html#a584f43dacccc04122c79a7e4ad2770d0" title="Call RunOp() and either return the output ComputationDataHandle (on success) or an empty ComputationD..." alt="" coords="215,100,401,141"/>
-<area shape="rect" id="node3" href="$df/d1b/classxla_1_1ComputationBuilder.html#a7d2ff8c5c638378bb6fb998a71661d22" title="Run the given parameter op_request and fill in op_response. " alt="" coords="449,71,611,112"/>
-<area shape="rect" id="node5" href="$df/d1b/classxla_1_1ComputationBuilder.html#a787b5fd4e96b9c918b7d0d73704f0d57" title="xla::ComputationBuilder\l::NoteError" alt="" coords="868,68,1029,109"/>
-<area shape="rect" id="node4" href="$df/d1b/classxla_1_1ComputationBuilder.html#af5ca3f8bbbe525f593293b55df772f1a" title="Populates computation_ with a valid object. Used before any given operation is enqueued. " alt="" coords="659,5,820,47"/>
-<area shape="rect" id="node6" href="$df/d1b/classxla_1_1ComputationBuilder.html#a2def8246d1c1829a85e095a84e364bca" title="xla::ComputationBuilder\l::name" alt="" coords="659,71,820,112"/>
-</map>

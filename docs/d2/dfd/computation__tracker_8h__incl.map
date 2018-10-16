@@ -1,3 +1,5 @@
 <map id="tensorflow/tensorflow/compiler/xla/service/computation_tracker.h" name="tensorflow/tensorflow/compiler/xla/service/computation_tracker.h">
-<area shape="rect" id="node10" href="$d6/d38/user__computation_8h.html" title="tensorflow/compiler\l/xla/service/user_computation.h" alt="" coords="996,117,1203,158"/>
+<area shape="rect" id="node7" href="$db/da0/hlo__module_8h.html" title="tensorflow/compiler\l/xla/service/hlo_module.h" alt="" coords="2353,109,2523,151"/>
+<area shape="rect" id="node39" href="$d6/d38/user__computation_8h.html" title="tensorflow/compiler\l/xla/service/user_computation.h" alt="" coords="744,109,951,151"/>
+<area shape="rect" id="node14" href="$d2/d31/hlo__computation_8h.html" title="tensorflow/compiler\l/xla/service/hlo_computation.h" alt="" coords="2036,206,2235,247"/>
 </map>

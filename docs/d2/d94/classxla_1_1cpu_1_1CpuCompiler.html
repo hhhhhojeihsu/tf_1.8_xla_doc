@@ -90,12 +90,12 @@ Collaboration diagram for xla::cpu::CpuCompiler:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae39f2b47db1aaa1457e76acb6ee3d496"><td class="memItemLeft" align="right" valign="top">StatusOr&lt; std::vector&lt; std::unique_ptr&lt; AotCompilationResult &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d94/classxla_1_1cpu_1_1CpuCompiler.html#ae39f2b47db1aaa1457e76acb6ee3d496">CompileAheadOfTime</a> (std::vector&lt; std::unique_ptr&lt; HloModule &gt;&gt; modules, const AotCompilationOptions &amp;options) override</td></tr>
+<tr class="memitem:ae39f2b47db1aaa1457e76acb6ee3d496"><td class="memItemLeft" align="right" valign="top">StatusOr&lt; std::vector&lt; std::unique_ptr&lt; AotCompilationResult &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d94/classxla_1_1cpu_1_1CpuCompiler.html#ae39f2b47db1aaa1457e76acb6ee3d496">CompileAheadOfTime</a> (std::vector&lt; std::unique_ptr&lt; <a class="el" href="../../d7/d10/classxla_1_1HloModule.html">HloModule</a> &gt;&gt; modules, const AotCompilationOptions &amp;options) override</td></tr>
 <tr class="separator:ae39f2b47db1aaa1457e76acb6ee3d496"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:ab3bae76bdf9896dcfe3e1e749373f6b1"><td class="memItemLeft" align="right" valign="top">Status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d94/classxla_1_1cpu_1_1CpuCompiler.html#ab3bae76bdf9896dcfe3e1e749373f6b1">RunHloPasses</a> (HloModule *module, bool is_aot_compile)</td></tr>
+<tr class="memitem:ab3bae76bdf9896dcfe3e1e749373f6b1"><td class="memItemLeft" align="right" valign="top">Status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d94/classxla_1_1cpu_1_1CpuCompiler.html#ab3bae76bdf9896dcfe3e1e749373f6b1">RunHloPasses</a> (<a class="el" href="../../d7/d10/classxla_1_1HloModule.html">HloModule</a> *module, bool is_aot_compile)</td></tr>
 <tr class="separator:ab3bae76bdf9896dcfe3e1e749373f6b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -116,7 +116,7 @@ Private Member Functions</h2></td></tr>
         <tr>
           <td class="memname">StatusOr&lt; std::vector&lt; std::unique_ptr&lt; AotCompilationResult &gt; &gt; &gt; xla::cpu::CpuCompiler::CompileAheadOfTime </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; std::unique_ptr&lt; HloModule &gt;&gt;&#160;</td>
+          <td class="paramtype">std::vector&lt; std::unique_ptr&lt; <a class="el" href="../../d7/d10/classxla_1_1HloModule.html">HloModule</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>modules</em>, </td>
         </tr>
         <tr>
@@ -142,7 +142,7 @@ Private Member Functions</h2></td></tr>
 <li>Initialize LLVM command line options</li>
 <li>Check if platform is compatible for AOT</li>
 <li>Convert options to <code>llvm::Target</code> (line 741 ~ 754)</li>
-<li>Set LLVM IR options (line 756 ~ 785)<ol type="a">
+<li>Set LLVM output options (line 756 ~ 785)<ol type="a">
 <li>Set relocation model: Static or PIC</li>
 <li>Set PIC level: No PIC, small PIC, big PIC</li>
 <li>Set PIE level: Default, small, large</li>
@@ -151,8 +151,22 @@ Private Member Functions</h2></td></tr>
 <li>Set target CPU, supported instructions and set optimization level.</li>
 <li>Create <code>llvm::Module</code> using <code>llvm::LLVMContext</code> because it requires to be thread safe.</li>
 <li>Loop through HLO modules<ol type="a">
-<li>Compile the code without optimization (call <code><a class="el" href="../../d2/d94/classxla_1_1cpu_1_1CpuCompiler.html">CpuCompiler</a>::<a class="el" href="../../d2/d94/classxla_1_1cpu_1_1CpuCompiler.html#ab3bae76bdf9896dcfe3e1e749373f6b1">RunHloPasses(HloModule* module, bool is_aot_compile)</a></code>) <dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000007">Todo:</a></b></dt><dd>There's still code below </dd></dl>
+<li>Compile the code without optimization (call <code><a class="el" href="../../d2/d94/classxla_1_1cpu_1_1CpuCompiler.html#ab3bae76bdf9896dcfe3e1e749373f6b1">xla::cpu::CpuCompiler::RunHloPasses(HloModule* module, bool is_aot_compile)</a></code>)</li>
+<li>Create a <code><a class="el" href="../../d9/dbf/classxla_1_1SequentialHloOrdering.html#add7df2df3c2d88d20fb688cb30547c97">xla::SequentialHloOrdering::HloModuleSequence</a></code> using <code><a class="el" href="../../d3/dbc/namespacexla.html#a1bbf3fb68f84f76b209f48f664a6a5a1">xla::CreateMemoryMinimizingSequence</a></code></li>
+<li>Run buffer analysis on the HLO graph. Figures out which temporary buffers are required to run the computation</li>
+<li>Construct IrEmmiter(that will but not yet compile HLO module to LLVM IR and saves to <code>llvm_module</code>(via <code><a class="el" href="../../d9/d4e/classxla_1_1cpu_1_1IrEmitter.html#a1ea44fdf51189a7102922a678dc4033c" title="Create a new LLVM IR emitter. ">xla::cpu::IrEmitter::IrEmitter()</a></code>)</li>
+<li>For all the embedded_computation(<code><a class="el" href="../../d4/d36/classxla_1_1HloComputation.html#afbdedf640a662908a6d9a6f0e3c74d39">xla::HloComputation::MakeEmbeddedComputationsList()</a></code>) made from entry computation of HLO module except entry computation do<ol type="i">
+<li>Ignore fusion computation</li>
+<li>Emmit LLVM IR from computation via <code><a class="el" href="../../d9/d4e/classxla_1_1cpu_1_1IrEmitter.html#a6b7becbce273b698ca6337eb906626f9">xla::cpu::IrEmitter::EmitComputation()</a></code></li>
+</ol>
 </li>
+<li>Assign and compile entry computation to <code>entry_function</code> of type <code>llvm:Function</code> type</li>
+<li>Set up hook for pre-optimization phrase and post-optimzation phrase.</li>
+<li>Run the <code><a class="el" href="../../d6/d10/namespacexla_1_1cpu_1_1anonymous__namespace_02cpu__compiler_8cc_03.html#afda30ab3f3866f05c5a12ec7deb71911">xla::cpu::anonymous_namespace{cpu_compiler.cc}::VerifyLlvmModule()</a></code> and fall back if verfication failed.</li>
+<li>Create <code><a class="el" href="../../d2/d13/classxla_1_1cpu_1_1Disassembler.html">xla::cpu::Disassembler</a></code> for <code><a class="el" href="../../da/d7d/classxla_1_1cpu_1_1CompilerFunctor.html">xla::cpu::CompilerFunctor</a></code></li>
+<li>Create <code><a class="el" href="../../da/d7d/classxla_1_1cpu_1_1CompilerFunctor.html">xla::cpu::CompilerFunctor</a></code> to compile llvm_module to object file</li>
+<li>Save object file into a character vector</li>
+<li>Create buffer for result, save to pointer. </li>
 </ol>
 </li>
 </ol>
@@ -173,7 +187,7 @@ Private Member Functions</h2></td></tr>
         <tr>
           <td class="memname">Status xla::cpu::CpuCompiler::RunHloPasses </td>
           <td>(</td>
-          <td class="paramtype">HloModule *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d7/d10/classxla_1_1HloModule.html">HloModule</a> *&#160;</td>
           <td class="paramname"><em>module</em>, </td>
         </tr>
         <tr>
@@ -195,7 +209,7 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Called by <code><a class="el" href="../../d2/d94/classxla_1_1cpu_1_1CpuCompiler.html#ae39f2b47db1aaa1457e76acb6ee3d496">xla::cpu::CpuCompiler::CompileAheadOfTime</a></code></p>
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000005">Todo:</a></b></dt><dd>See what those invariant checker and pass do</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000006">Todo:</a></b></dt><dd>See what those invariant checker and pass do</dd></dl>
 <ol type="1">
 <li>Create a <code><a class="el" href="../../d2/dbd/classxla_1_1HloPassPipeline.html">xla::HloPassPipeline</a></code></li>
 <li>Add invariant checker <code><a class="el" href="../../d5/dd4/classxla_1_1HloVerifier.html">xla::HloVerifier</a></code></li>
@@ -216,7 +230,7 @@ Private Member Functions</h2></td></tr>
 <li>Add pass <code><a class="el" href="../../d8/d9a/classxla_1_1GatherExpander.html">xla::GatherExpander</a></code></li>
 <li>Add pass <code><a class="el" href="../../d8/dd7/classxla_1_1AlgebraicSimplifier.html">xla::AlgebraicSimplifier</a></code><ul>
 <li><code>is_layout_sensitive</code> = false</li>
-<li><dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000006">Todo:</a></b></dt><dd>unknown argument</dd></dl>
+<li><dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000007">Todo:</a></b></dt><dd>unknown argument</dd></dl>
 </li>
 <li><code>enable_dot_strength_reduction</code> = false</li>
 </ul>
@@ -256,7 +270,8 @@ Private Member Functions</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d94/classxla_1_1cpu_1_1CpuCompiler_ab3bae76bdf9896dcfe3e1e749373f6b1_cgraph.svg" width="598" height="222"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d94/classxla_1_1cpu_1_1CpuCompiler_ab3bae76bdf9896dcfe3e1e749373f6b1_cgraph.svg" width="598" height="222"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>

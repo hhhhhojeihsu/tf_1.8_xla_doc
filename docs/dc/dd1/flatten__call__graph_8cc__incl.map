@@ -1,3 +1,5 @@
 <map id="tensorflow/tensorflow/compiler/xla/service/flatten_call_graph.cc" name="tensorflow/tensorflow/compiler/xla/service/flatten_call_graph.cc">
-<area shape="rect" id="node2" href="$d2/d8b/flatten__call__graph_8h.html" title="tensorflow/compiler\l/xla/service/flatten\l_call_graph.h" alt="" coords="92,109,227,165"/>
+<area shape="rect" id="node2" href="$d2/d8b/flatten__call__graph_8h.html" title="tensorflow/compiler\l/xla/service/flatten\l_call_graph.h" alt="" coords="865,109,1000,165"/>
+<area shape="rect" id="node6" href="$d2/d31/hlo__computation_8h.html" title="tensorflow/compiler\l/xla/service/hlo_computation.h" alt="" coords="1792,221,1991,262"/>
+<area shape="rect" id="node31" href="$db/da0/hlo__module_8h.html" title="tensorflow/compiler\l/xla/service/hlo_module.h" alt="" coords="2754,117,2925,158"/>
 </map>

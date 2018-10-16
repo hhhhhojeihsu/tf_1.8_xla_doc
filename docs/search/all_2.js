@@ -18,7 +18,11 @@ var searchData=
   ['compileonlyservice',['CompileOnlyService',['../dc/d07/classxla_1_1CompileOnlyService.html',1,'xla']]],
   ['compiler',['Compiler',['../d3/d3e/classxla_1_1Compiler.html',1,'xla']]],
   ['compiler_2eh',['compiler.h',['../d4/dd1/compiler_8h.html',1,'']]],
+  ['compiler_5ffunctor_2ecc',['compiler_functor.cc',['../de/ded/compiler__functor_8cc.html',1,'']]],
+  ['compiler_5ffunctor_2eh',['compiler_functor.h',['../d7/d3d/compiler__functor_8h.html',1,'']]],
+  ['compilerfunctor',['CompilerFunctor',['../da/d7d/classxla_1_1cpu_1_1CompilerFunctor.html',1,'xla::cpu']]],
   ['compilexla',['CompileXla',['../d4/df4/namespacetensorflow_1_1tfcompile_1_1anonymous__namespace_02compile_8cc_03.html#a40f8a019f31fa8cbe2fff5d90e69c21b',1,'tensorflow::tfcompile::anonymous_namespace{compile.cc}']]],
+  ['computation',['Computation',['../d1/d10/classxla_1_1Service.html#a99903338d816b47e9205fa44739e113a',1,'xla::Service']]],
   ['computation_5fbuilder_2ecc',['computation_builder.cc',['../da/d4d/computation__builder_8cc.html',1,'']]],
   ['computation_5fbuilder_2eh',['computation_builder.h',['../d0/d18/computation__builder_8h.html',1,'']]],
   ['computation_5ftracker_2ecc',['computation_tracker.cc',['../d2/dbf/computation__tracker_8cc.html',1,'']]],
@@ -50,5 +54,6 @@ var searchData=
   ['cpucopyinsertion',['CpuCopyInsertion',['../dd/d50/classxla_1_1CpuCopyInsertion.html',1,'xla']]],
   ['cpuhlosupportchecker',['CpuHloSupportChecker',['../da/d45/classxla_1_1CpuHloSupportChecker.html',1,'xla']]],
   ['cpuinstructionfusion',['CpuInstructionFusion',['../dd/db8/classxla_1_1cpu_1_1CpuInstructionFusion.html',1,'xla::cpu']]],
-  ['cpulayoutassignment',['CpuLayoutAssignment',['../d1/d9e/classxla_1_1cpu_1_1CpuLayoutAssignment.html',1,'xla::cpu']]]
+  ['cpulayoutassignment',['CpuLayoutAssignment',['../d1/d9e/classxla_1_1cpu_1_1CpuLayoutAssignment.html',1,'xla::cpu']]],
+  ['creatememoryminimizingsequence',['CreateMemoryMinimizingSequence',['../d4/d31/namespacexla_1_1anonymous__namespace_02hlo__scheduling_8cc_03.html#a551a127c7cc944134ecab5c5b0cab63f',1,'xla::anonymous_namespace{hlo_scheduling.cc}::CreateMemoryMinimizingSequence()'],['../d3/dbc/namespacexla.html#a1bbf3fb68f84f76b209f48f664a6a5a1',1,'xla::CreateMemoryMinimizingSequence()']]]
 ];

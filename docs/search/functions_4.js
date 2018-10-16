@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hlopasspipeline',['HloPassPipeline',['../d2/dbd/classxla_1_1HloPassPipeline.html#a0055f7e378a73b6e3bcc59663cf88502',1,'xla::HloPassPipeline']]]
+  ['emitcomputation',['EmitComputation',['../d9/d4e/classxla_1_1cpu_1_1IrEmitter.html#a6b7becbce273b698ca6337eb906626f9',1,'xla::cpu::IrEmitter']]]
 ];

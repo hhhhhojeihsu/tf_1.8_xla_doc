@@ -1,4 +1,6 @@
 <map id="tensorflow/tensorflow/compiler/xla/service/reduce_precision_insertion.cc" name="tensorflow/tensorflow/compiler/xla/service/reduce_precision_insertion.cc">
-<area shape="rect" id="node2" href="$d2/d33/reduce__precision__insertion_8h.html" title="tensorflow/compiler\l/xla/service/reduce\l_precision_insertion.h" alt="" coords="580,109,728,165"/>
-<area shape="rect" id="node8" href="$df/d0a/hlo__pass__pipeline_8h.html" title="tensorflow/compiler\l/xla/service/hlo_pass\l_pipeline.h" alt="" coords="525,213,671,269"/>
+<area shape="rect" id="node2" href="$d2/d33/reduce__precision__insertion_8h.html" title="tensorflow/compiler\l/xla/service/reduce\l_precision_insertion.h" alt="" coords="1668,109,1816,165"/>
+<area shape="rect" id="node30" href="$db/da0/hlo__module_8h.html" title="tensorflow/compiler\l/xla/service/hlo_module.h" alt="" coords="2190,325,2361,366"/>
+<area shape="rect" id="node4" href="$d2/d31/hlo__computation_8h.html" title="tensorflow/compiler\l/xla/service/hlo_computation.h" alt="" coords="1711,429,1909,470"/>
+<area shape="rect" id="node39" href="$df/d0a/hlo__pass__pipeline_8h.html" title="tensorflow/compiler\l/xla/service/hlo_pass\l_pipeline.h" alt="" coords="3501,213,3647,269"/>
 </map>

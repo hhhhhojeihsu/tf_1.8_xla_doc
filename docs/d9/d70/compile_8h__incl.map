@@ -1,5 +1,7 @@
 <map id="tensorflow/tensorflow/compiler/aot/compile.h" name="tensorflow/tensorflow/compiler/aot/compile.h">
-<area shape="rect" id="node6" href="$db/de2/cpu__compiler_8h.html" title="tensorflow/compiler\l/xla/service/cpu/cpu\l_compiler.h" alt="" coords="975,95,1114,151"/>
-<area shape="rect" id="node9" href="$d8/d1e/llvm__compiler_8h.html" title="tensorflow/compiler\l/xla/service/llvm_compiler.h" alt="" coords="889,199,1072,240"/>
-<area shape="rect" id="node11" href="$d4/dd1/compiler_8h.html" title="tensorflow/compiler\l/xla/service/compiler.h" alt="" coords="913,288,1065,329"/>
+<area shape="rect" id="node6" href="$db/de2/cpu__compiler_8h.html" title="tensorflow/compiler\l/xla/service/cpu/cpu\l_compiler.h" alt="" coords="1597,95,1736,151"/>
+<area shape="rect" id="node8" href="$db/da0/hlo__module_8h.html" title="tensorflow/compiler\l/xla/service/hlo_module.h" alt="" coords="1581,385,1752,426"/>
+<area shape="rect" id="node40" href="$d8/d1e/llvm__compiler_8h.html" title="tensorflow/compiler\l/xla/service/llvm_compiler.h" alt="" coords="755,199,938,240"/>
+<area shape="rect" id="node16" href="$d2/d31/hlo__computation_8h.html" title="tensorflow/compiler\l/xla/service/hlo_computation.h" alt="" coords="2166,489,2365,530"/>
+<area shape="rect" id="node42" href="$d4/dd1/compiler_8h.html" title="tensorflow/compiler\l/xla/service/compiler.h" alt="" coords="640,288,792,329"/>
 </map>

@@ -1,9 +1,0 @@
-<map id="xla::ClientLibrary::Singleton" name="xla::ClientLibrary::Singleton">
-<area shape="rect" id="node2" href="$d5/ddb/classxla_1_1ClientLibrary.html#a7dadd4179a27235b58ed227ddbc2cbbe" title="xla::ClientLibrary\l::GetOrCreateLocalClient" alt="" coords="195,5,365,47"/>
-<area shape="rect" id="node3" href="$d5/ddb/classxla_1_1ClientLibrary.html#aaf9a19a2d8a3013d0faa1906fd979d4d" title="xla::ClientLibrary\l::GetXlaService" alt="" coords="220,71,340,112"/>
-<area shape="rect" id="node4" href="$d5/ddb/classxla_1_1ClientLibrary.html#a5e940d153e6cfd72b34b2b8b89220f50" title="xla::ClientLibrary\l::GetOrCreateCompileOnlyClient" alt="" coords="173,136,387,177"/>
-<area shape="rect" id="node8" href="$d5/ddb/classxla_1_1ClientLibrary.html#a4d3bf2acdba04acd82e42bada5932063" title="xla::ClientLibrary\l::DestroyLocalInstances" alt="" coords="198,201,362,243"/>
-<area shape="rect" id="node5" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a021cb1c58d938b16dcd998aa8d1fc191" title="Converts the graph into an XLA computation, and compiles the computation. Called by tensorflow::tfcom..." alt="" coords="435,136,577,177"/>
-<area shape="rect" id="node6" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a460964a5bb277865d1275fe3746132c1" title="tensorflow::tfcompile\l::Main" alt="" coords="625,136,768,177"/>
-<area shape="rect" id="node7" href="$d4/d8d/tfcompile__main_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="816,143,867,170"/>
-</map>

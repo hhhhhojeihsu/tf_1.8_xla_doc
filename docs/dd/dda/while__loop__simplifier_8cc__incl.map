@@ -1,4 +1,6 @@
 <map id="tensorflow/tensorflow/compiler/xla/service/while_loop_simplifier.cc" name="tensorflow/tensorflow/compiler/xla/service/while_loop_simplifier.cc">
-<area shape="rect" id="node2" href="$da/d88/while__loop__simplifier_8h.html" title="tensorflow/compiler\l/xla/service/while_loop\l_simplifier.h" alt="" coords="185,109,340,165"/>
-<area shape="rect" id="node6" href="$d5/db7/call__inliner_8h.html" title="tensorflow/compiler\l/xla/service/call_inliner.h" alt="" coords="365,117,529,158"/>
+<area shape="rect" id="node2" href="$da/d88/while__loop__simplifier_8h.html" title="tensorflow/compiler\l/xla/service/while_loop\l_simplifier.h" alt="" coords="3347,109,3501,165"/>
+<area shape="rect" id="node38" href="$d5/db7/call__inliner_8h.html" title="tensorflow/compiler\l/xla/service/call_inliner.h" alt="" coords="3526,117,3690,158"/>
+<area shape="rect" id="node3" href="$db/da0/hlo__module_8h.html" title="tensorflow/compiler\l/xla/service/hlo_module.h" alt="" coords="2155,221,2325,262"/>
+<area shape="rect" id="node13" href="$d2/d31/hlo__computation_8h.html" title="tensorflow/compiler\l/xla/service/hlo_computation.h" alt="" coords="1850,325,2049,366"/>
 </map>

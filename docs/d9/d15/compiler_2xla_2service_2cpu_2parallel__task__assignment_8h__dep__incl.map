@@ -1,5 +1,0 @@
-<map id="tensorflow/tensorflow/compiler/xla/service/cpu/parallel_task_assignment.h" name="tensorflow/tensorflow/compiler/xla/service/cpu/parallel_task_assignment.h">
-<area shape="rect" id="node2" href="$d4/dcb/cpu__compiler_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/cpu/cpu_compiler.cc" alt="" coords="5,117,152,173"/>
-<area shape="rect" id="node3" href="$d8/d10/cpu__parallelization__preparation_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/cpu/cpu_parallelization\l_preparation.cc" alt="" coords="177,109,335,180"/>
-<area shape="rect" id="node4" href="$dd/d11/compiler_2xla_2service_2cpu_2parallel__task__assignment_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/cpu/parallel_task_assignment.cc" alt="" coords="360,117,576,173"/>
-</map>

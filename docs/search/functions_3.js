@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['getorcreatecompileonlyclient',['GetOrCreateCompileOnlyClient',['../d5/ddb/classxla_1_1ClientLibrary.html#a5e940d153e6cfd72b34b2b8b89220f50',1,'xla::ClientLibrary']]]
+  ['defaultmemoryscheduler',['DefaultMemoryScheduler',['../d3/dbc/namespacexla.html#a32825b0cc8309062cee41d691ba215b8',1,'xla']]]
 ];

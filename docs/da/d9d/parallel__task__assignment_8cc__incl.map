@@ -1,3 +1,5 @@
 <map id="tensorflow/tensorflow/compiler/xla/service/cpu/parallel_task_assignment.cc" name="tensorflow/tensorflow/compiler/xla/service/cpu/parallel_task_assignment.cc">
-<area shape="rect" id="node2" href="$dc/df9/parallel__task__assignment_8h.html" title="tensorflow/compiler\l/xla/service/cpu/parallel\l_task_assignment.h" alt="" coords="179,109,337,165"/>
+<area shape="rect" id="node2" href="$dc/df9/parallel__task__assignment_8h.html" title="tensorflow/compiler\l/xla/service/cpu/parallel\l_task_assignment.h" alt="" coords="895,109,1054,165"/>
+<area shape="rect" id="node14" href="$d2/d31/hlo__computation_8h.html" title="tensorflow/compiler\l/xla/service/hlo_computation.h" alt="" coords="1675,325,1874,366"/>
+<area shape="rect" id="node4" href="$db/da0/hlo__module_8h.html" title="tensorflow/compiler\l/xla/service/hlo_module.h" alt="" coords="797,221,968,262"/>
 </map>

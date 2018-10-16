@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['newcomputation',['NewComputation',['../dd/d3d/classComputationTracker.html#ae78b4b777cd7ca74a5b714bd94b974a4',1,'ComputationTracker']]],
-  ['newservice',['NewService',['../dc/d07/classxla_1_1CompileOnlyService.html#a99de5fe3f0dadada637309e65f53ce13',1,'xla::CompileOnlyService']]]
+  ['initgraph',['InitGraph',['../d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03.html#aeef0cda05958b2b855b0e2fbe07b1314',1,'tensorflow::anonymous_namespace{tf2xla.cc}']]],
+  ['iremitter',['IrEmitter',['../d9/d4e/classxla_1_1cpu_1_1IrEmitter.html#a1ea44fdf51189a7102922a678dc4033c',1,'xla::cpu::IrEmitter']]]
 ];

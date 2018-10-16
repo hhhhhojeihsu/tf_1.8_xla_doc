@@ -1,4 +1,6 @@
 <map id="tensorflow::tfcompile::anonymous_namespace{compile::cc}::CompileXla" name="tensorflow::tfcompile::anonymous_namespace{compile::cc}::CompileXla">
-<area shape="rect" id="node2" href="$d1/dd1/classxla_1_1CompileOnlyClient.html#a5a585d21f617b77a1cecc1b587d18d7a" title="Compiles a list of computations for ahead&#45;of&#45;time execution. This is intended for use in static compi..." alt="" coords="225,13,384,54"/>
-<area shape="rect" id="node3" href="$dc/d07/classxla_1_1CompileOnlyService.html#aceb67616a89167b9af1bf23d17ec37c9" title="xla::CompileOnlyService\l::CompileAheadOfTime" alt="" coords="432,13,599,54"/>
+<area shape="rect" id="node2" href="$d1/dd1/classxla_1_1CompileOnlyClient.html#a5a585d21f617b77a1cecc1b587d18d7a" title="Compiles a list of computations for ahead&#45;of&#45;time execution. This is intended for use in static compi..." alt="" coords="225,39,384,80"/>
+<area shape="rect" id="node3" href="$dc/d07/classxla_1_1CompileOnlyService.html#aceb67616a89167b9af1bf23d17ec37c9" title="xla::CompileOnlyService\l::CompileAheadOfTime" alt="" coords="432,39,599,80"/>
+<area shape="rect" id="node4" href="$dd/d3d/classComputationTracker.html#a1a3946ea7b82135df39842f6e5ed4b08" title="ComputationTracker\l::Resolve" alt="" coords="657,5,795,47"/>
+<area shape="rect" id="node5" href="$dd/d3d/classComputationTracker.html#addb407ae0007ec874f2b9d8a81364a3c" title="ComputationTracker\l::SnapshotComputation" alt="" coords="647,71,805,112"/>
 </map>

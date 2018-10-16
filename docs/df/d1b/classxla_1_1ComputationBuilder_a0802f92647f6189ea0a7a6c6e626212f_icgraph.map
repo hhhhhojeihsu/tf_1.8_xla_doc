@@ -1,5 +1,0 @@
-<map id="xla::ComputationBuilder::SetSharding" name="xla::ComputationBuilder::SetSharding">
-<area shape="rect" id="node2" href="$d5/db4/classxla_1_1ScopedShardingAssignment.html#a0a6961ccce95bc0a10aba9ccc8789ad1" title="xla::ScopedShardingAssignment\l::SetSharding" alt="" coords="215,39,425,80"/>
-<area shape="rect" id="node3" href="$d5/db4/classxla_1_1ScopedShardingAssignment.html#ab23bab30fdfeaae21eea50381cc2d47b" title="xla::ScopedShardingAssignment\l::ScopedShardingAssignment" alt="" coords="473,5,684,47"/>
-<area shape="rect" id="node4" href="$d5/db4/classxla_1_1ScopedShardingAssignment.html#a212d7257d87993b0c0f9dfd3464f7a37" title="xla::ScopedShardingAssignment\l::~ScopedShardingAssignment" alt="" coords="473,71,684,112"/>
-</map>

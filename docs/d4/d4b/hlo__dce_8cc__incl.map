@@ -1,3 +1,5 @@
 <map id="tensorflow/tensorflow/compiler/xla/service/hlo_dce.cc" name="tensorflow/tensorflow/compiler/xla/service/hlo_dce.cc">
-<area shape="rect" id="node2" href="$da/d99/hlo__dce_8h.html" title="tensorflow/compiler\l/xla/service/hlo_dce.h" alt="" coords="438,109,587,151"/>
+<area shape="rect" id="node2" href="$da/d99/hlo__dce_8h.html" title="tensorflow/compiler\l/xla/service/hlo_dce.h" alt="" coords="1930,109,2079,151"/>
+<area shape="rect" id="node3" href="$d2/d31/hlo__computation_8h.html" title="tensorflow/compiler\l/xla/service/hlo_computation.h" alt="" coords="1613,310,1812,351"/>
+<area shape="rect" id="node29" href="$db/da0/hlo__module_8h.html" title="tensorflow/compiler\l/xla/service/hlo_module.h" alt="" coords="1233,206,1403,247"/>
 </map>
