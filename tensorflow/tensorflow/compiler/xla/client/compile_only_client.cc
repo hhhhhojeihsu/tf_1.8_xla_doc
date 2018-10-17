@@ -20,8 +20,8 @@ namespace xla {
  * \brief Compiles a list of computations for ahead-of-time execution.  This is
  *        intended for use in static compilation. The |options| parameter describes
  *        the target for which the compiler should emit code.
- * 1. Create vector of `CompileOnlyService::AotComputationInstance`
- * 2. Put all the UserComputation into the instance array.
+ * 1. Create a vector of `CompileOnlyService::AotComputationInstance`
+ * 2. Convert all the `xla::CompileOnlyClient::AotComputationInstance` objects (basically represents an [`xla::Computation`](https://hhhhhojeihsu.github.io/tensorflow_1.8_woboq/tensorflow_1.8_xla/tensorflow/tensorflow/compiler/xla/client/computation.h.html#xla::Computation) object) into the `xla::CompileOnlyService::AotComputationInstance` objects.
  * 3. Call `xla::CompileOnlyService::CompileAheadOfTime`
  */
 StatusOr<std::vector<std::unique_ptr<AotCompilationResult>>>

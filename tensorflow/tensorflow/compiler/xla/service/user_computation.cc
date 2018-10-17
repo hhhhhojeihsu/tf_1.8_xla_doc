@@ -1240,10 +1240,23 @@ Status UserComputation::SetReturnValue(const ComputationDataHandle& handle) {
           << GetVersionedHandleInternal();
   return Status::OK();
 }
+/**
+ * \brief Lock mutex and call `GetVersionedHandleInternal()`
+ * - VersionedComputationHandle
+ *   - Contains
+ *     - ComputationHandle which represents an UserComputation
+ *     - Version (int64) which represents an specific ComputationDataHandle which represents an OpRequest recorded in session_computation_
+ */
 VersionedComputationHandle UserComputation::GetVersionedHandle() const {
   tensorflow::mutex_lock lock(mutex_);
   return GetVersionedHandleInternal();
 }
+/**
+ * \brief Get the VersionedComputationHandle recorded in UserComputation object
+ * - Check the member `handle_to_return_`
+ *   - Default to be 0 which means no specific ComputationDataHandle has been assigned. Therefore this function will return the last enqueued OpRequest's ComputationDataHandle which is usually the output node of a graph.
+ *   - If it's non-zero, just return the specific ComputationDataHandle.
+ */
 VersionedComputationHandle UserComputation::GetVersionedHandleInternal() const {
   VersionedComputationHandle versioned_handle;
   versioned_handle.handle = session_computation_.computation_handle();

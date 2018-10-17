@@ -60,11 +60,12 @@ CompileOnlyService::CompileOnlyService(const ServiceOptions& options,
  * > Compiles a list of computations for ahead-of-time execution.  This is
  * > intended for use in static compilation.
  *
- * 1. \todo Create xla::HloModule
- *
- * 2. Dump computation proto state if flag is set to a file.(Call `xla::ComputationTracker::SnapshotComputation`)
- * 3. Set execution options(e.g. debug options)
- * 4. Call `xla::cpu::CpuCompiler::CompileAheadOfTime`(Overridden, not shown in call graph)
+ * 1. Create xla::HloModule
+ *   1. Get the UserComputation object and get the xla::VersionedComputationHandle through it (Check xla::UserComputation::GetVersionedHandle()).
+ *   2. Compute the ProgramShape of VersionedComputationHandle and create config of module
+ *   3. Call xla::ComputationTracker::BuildHloModule()
+ *   4. Push HloModule object in member hlo_modules
+ * 2. Call `xla::cpu::CpuCompiler::CompileAheadOfTime`(Overridden, not shown in call graph)
  */
 StatusOr<std::vector<std::unique_ptr<AotCompilationResult>>>
 CompileOnlyService::CompileAheadOfTime(
