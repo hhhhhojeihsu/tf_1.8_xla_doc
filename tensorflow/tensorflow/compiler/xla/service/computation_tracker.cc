@@ -156,6 +156,16 @@ void ComputationTracker::ComputeComputationPostOrder(
   visited->insert(versioned_handle);
   post_order->push_back(versioned_handle);
 }
+/** \brief Build a HLO module (which is basically a set of HLO instructions) using the specified computation as the entry.
+ * 1. Get the `UserComputation` object by the entry handle first.
+ * 2. Build a list with entry computation and any embedded computations.
+ * 3. Traverse the list
+ *   - Build `HloComputation` for each `UserComputation` (`UserComputation`'s method xla::UserComputation::BuildHloComputation).
+ *   - If the `UserComputation` is the entry computation, call `HloModule`'s method xla::HloModule::AddEntryComputation() to add corresponding `HloComputation` to `HloModule`, otherwise call the method xla::HloModule::AddEmbeddedComputation().
+ *
+ * - [Header](https://hhhhhojeihsu.github.io/tensorflow_1.8_woboq/tensorflow_1.8_xla/tensorflow/tensorflow/compiler/xla/service/computation_tracker.h.html#_ZNK3xla18ComputationTracker14BuildHloModuleERKNS_26VersionedComputationHandleERKNS_15HloModuleConfigEb)
+ * - [Implementation](https://hhhhhojeihsu.github.io/tensorflow_1.8_woboq/tensorflow_1.8_xla/tensorflow/tensorflow/compiler/xla/service/computation_tracker.cc.html#_ZNK3xla18ComputationTracker14BuildHloModuleERKNS_26VersionedComputationHandleERKNS_15HloModuleConfigEb)
+ */
 StatusOr<std::unique_ptr<HloModule>> ComputationTracker::BuildHloModule(
     const VersionedComputationHandle& entry_handle,
     const HloModuleConfig& config,

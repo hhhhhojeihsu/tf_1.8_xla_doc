@@ -30,6 +30,11 @@ limitations under the License.
 #include "tensorflow/core/platform/mutex.h"
 #include "tensorflow/core/platform/thread_annotations.h"
 #include "tensorflow/core/platform/types.h"
+
+/**
+ * namespace of xla
+ */
+namespace xla {
 /**
  * \brief Tracks computations for the XLA service. Registered with a `xla::UserComputation` instance and can be resolved from a handle for later use.
  *
