@@ -35,6 +35,9 @@ limitations under the License.
 #include "tensorflow/core/lib/strings/stringprintf.h"
 #include "tensorflow/core/platform/logging.h"
 #include "tensorflow/core/platform/protobuf.h"
+/**
+ * namespace of xla
+ */
 namespace xla {
 namespace {
 HloOpcode UnaryOperationToHloOpcode(UnaryOperation unop) {
@@ -2030,12 +2033,31 @@ Status UserComputation::CheckParametersAreContiguous(
   }
   return Status::OK();
 }
+/**
+ * namespace of nothing
+ */
 namespace {
-// Helper class which builds an HLO computation from a SessionComputation. To
-// construct the HLO computation, the SessionComputation graph is walked in
-// DFS order lowering each OperationRequest to an HLO instruction.
+/**
+ * Google Docs:
+ *
+ * > Helper class which builds an HLO computation from a SessionComputation. To
+ * > construct the HLO computation, the SessionComputation graph is walked in
+ * > DFS order lowering each OperationRequest to an HLO instruction.
+ *
+ * \brief aaaa
+ */
 class ComputationLowerer {
  public:
+/**
+ * Google Docs:
+ *
+ * > Helper class which builds an HLO computation from a SessionComputation. To
+ * > construct the HLO computation, the SessionComputation graph is walked in
+ * > DFS order lowering each OperationRequest to an HLO instruction.
+ *
+ * 1. Contruct an `ComputationLowerer` object.
+ * 2. Then call the object method `xla::anonymous_namespace{user_computation.cc}::ComputationLowerer::Lower()` to build the HLO computation.
+ */
   static StatusOr<std::unique_ptr<HloComputation>> Lower(
       const string& computation_name,
       const SessionComputation& session_computation,
@@ -2063,6 +2085,15 @@ class ComputationLowerer {
         include_unreachable_instructions_(include_unreachable_instructions) {}
   // Build an HLO computation from the SessionComputation at the given
   // version.
+  /**
+   * \brief Build a HLO computation from the SessionComputation at the given version.
+   * 1. Traverse the whole computation starting from version computation (which is typically the entry computation) in the postorder
+   *   2. Call `xla::anonymous_namespace{user_computation.cc}::ComputationLowerer::Visit()` to insert the corresponding HLO instructions.
+   * 2. If flag `include_unreachable_instructions_` is set true, traverse all computations for the unvisited operations.
+   * 3. Call the `HloComputation::Builder`'s method `xla::HloComputation::Builder::Build()`.
+   *
+   * - [Implementation](https://hhhhhojeihsu.github.io/tensorflow_1.8_woboq/tensorflow_1.8_xla/tensorflow/tensorflow/compiler/xla/service/user_computation.cc.html#_ZN3xla12_GLOBAL__N_118ComputationLowerer5LowerEv)
+   */
   StatusOr<std::unique_ptr<HloComputation>> Lower();
  private:
   // Traverses the computation 'root' using a DFS, calling 'visit' in postorder.
@@ -2070,8 +2101,17 @@ class ComputationLowerer {
       const ComputationDataHandle& root,
       std::unordered_map<int64, HloInstruction*>* visited,
       const std::function<void(const ComputationDataHandle&)>& visit);
-  // DFS visitor of the UserComputation operations which lowers the operations
-  // to HLO instructions.
+  /**
+   * /brief DFS visitor of the UserComputation operations which lowers the operations to HLO instructions.
+   * 1. Instruction is created based on the kind of `OpRequest` and pass to the `HloComputation::Builder`'s method `xla::HloComputation::Builder::AddInstruction()` as argument to add instruction. 
+   *   - Instruction is created through a series of create function in [here](https://hhhhhojeihsu.github.io/tensorflow_1.8_woboq/tensorflow_1.8_xla/tensorflow/tensorflow/compiler/xla/service/hlo_instruction.cc.html) and check the brief introduction of `xla::HloInstruction`.
+   * 2. Process of sharding
+   * 3. Insert the instruction into the map<ComputationDataHandle, HloInstruction *>
+   *   - Map usage: map from ComputationDataHandle to HLO instruction.
+   *   Serves as a record of which operations have been visited as well as a cache for looking up ComputationDataHandle as HloInstructions.
+   *
+   * - [Implementation](https://hhhhhojeihsu.github.io/tensorflow_1.8_woboq/tensorflow_1.8_xla/tensorflow/tensorflow/compiler/xla/service/user_computation.cc.html#_ZN3xla12_GLOBAL__N_118ComputationLowerer5VisitERKNS_21ComputationDataHandleEPSt13unordered_mapIxPNS_14HloInstructionESt4hashIxESt8equal_toIxESaISt4pairIKxS7_EEE)
+   */
   void Visit(const ComputationDataHandle& handle,
              std::unordered_map<int64, HloInstruction*>* instructions);
   // Resolves a ComputationHandle and Version to a previously lowered
@@ -2403,6 +2443,7 @@ void ComputationLowerer::TraversePostorder(
     }
   }
 }
+
 StatusOr<std::unique_ptr<HloComputation>> ComputationLowerer::Lower() {
   // Map from ComputationDataHandle to HLO instruction. Serves as a record of
   // which operations have been visited as well as a cache for looking up
@@ -3052,6 +3093,12 @@ void ComputationLowerer::Visit(
   (*instructions)[handle.handle()] = hlo_instruction;
 }  // NOLINT(readability/fn_size)
 }  // namespace
+/**
+ * \brief Build a HLO computation from the `UserComputation`
+ * 1. Call `xla::anonymous_namespace{user_computation.cc}::ComputationLowerer::Lower()` to build a `HloComputation`.
+ *
+ * - [Implementation](https://hhhhhojeihsu.github.io/tensorflow_1.8_woboq/tensorflow_1.8_xla/tensorflow/tensorflow/compiler/xla/service/user_computation.cc.html#_ZNK3xla15UserComputation19BuildHloComputationExSt8functionIFPNS_14HloComputationERKNS_26VersionedComputationHandleEEERKNS_12DebugOptionsEb)
+ */
 StatusOr<std::unique_ptr<HloComputation>> UserComputation::BuildHloComputation(
     VersionedComputationHandle::Version version,
     HloComputationResolver hlo_resolver, const DebugOptions& debug_options,
