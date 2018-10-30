@@ -1,4 +1,6 @@
 <map id="tensorflow/tensorflow/compiler/xla/service/hlo_ordering.h" name="tensorflow/tensorflow/compiler/xla/service/hlo_ordering.h">
-<area shape="rect" id="node9" href="$db/da0/hlo__module_8h.html" title="tensorflow/compiler\l/xla/service/hlo_module.h" alt="" coords="1309,117,1479,158"/>
-<area shape="rect" id="node16" href="$d2/d31/hlo__computation_8h.html" title="tensorflow/compiler\l/xla/service/hlo_computation.h" alt="" coords="1295,221,1493,262"/>
+<area shape="rect" id="node8" href="$dd/d66/hlo__instruction_8h.html" title="tensorflow/compiler\l/xla/service/hlo_instruction.h" alt="" coords="2209,325,2419,366"/>
+<area shape="rect" id="node35" href="$db/da0/hlo__module_8h.html" title="tensorflow/compiler\l/xla/service/hlo_module.h" alt="" coords="3450,117,3639,158"/>
+<area shape="rect" id="node38" href="$d2/d31/hlo__computation_8h.html" title="tensorflow/compiler\l/xla/service/hlo_computation.h" alt="" coords="2132,221,2355,262"/>
+<area shape="rect" id="node45" href="$d3/d4d/versioned__computation__handle_8h.html" title="tensorflow/compiler\l/xla/service/versioned\l_computation_handle.h" alt="" coords="836,317,1011,373"/>
 </map>

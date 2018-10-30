@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['zerosizedhloelimination',['ZeroSizedHloElimination',['../db/df3/classxla_1_1ZeroSizedHloElimination.html',1,'xla']]]
+  ['xlacompiler',['XlaCompiler',['../d7/dbf/classtensorflow_1_1XlaCompiler.html',1,'tensorflow']]],
+  ['xlaopregistry',['XlaOpRegistry',['../d9/de9/classtensorflow_1_1XlaOpRegistry.html',1,'tensorflow']]]
 ];

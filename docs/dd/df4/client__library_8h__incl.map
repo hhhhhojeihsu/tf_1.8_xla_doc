@@ -1,10 +1,12 @@
 <map id="tensorflow/tensorflow/compiler/xla/client/client_library.h" name="tensorflow/tensorflow/compiler/xla/client/client_library.h">
-<area shape="rect" id="node6" href="$d4/dab/compile__only__client_8h.html" title="tensorflow/compiler\l/xla/client/compile\l_only_client.h" alt="" coords="3105,109,3239,165"/>
-<area shape="rect" id="node9" href="$d2/d89/compile__only__service_8h.html" title="tensorflow/compiler\l/xla/service/compile\l_only_service.h" alt="" coords="2212,213,2351,269"/>
-<area shape="rect" id="node11" href="$d4/dd1/compiler_8h.html" title="tensorflow/compiler\l/xla/service/compiler.h" alt="" coords="1240,414,1392,455"/>
-<area shape="rect" id="node35" href="$d5/d83/service_8h.html" title="tensorflow/compiler\l/xla/service/service.h" alt="" coords="2059,317,2205,359"/>
-<area shape="rect" id="node14" href="$db/da0/hlo__module_8h.html" title="tensorflow/compiler\l/xla/service/hlo_module.h" alt="" coords="1157,518,1328,559"/>
-<area shape="rect" id="node21" href="$d2/d31/hlo__computation_8h.html" title="tensorflow/compiler\l/xla/service/hlo_computation.h" alt="" coords="1047,622,1246,663"/>
-<area shape="rect" id="node41" href="$d1/dc5/computation__tracker_8h.html" title="tensorflow/compiler\l/xla/service/computation\l_tracker.h" alt="" coords="2633,407,2797,463"/>
-<area shape="rect" id="node43" href="$d6/d38/user__computation_8h.html" title="tensorflow/compiler\l/xla/service/user_computation.h" alt="" coords="2458,518,2665,559"/>
+<area shape="rect" id="node6" href="$d4/dab/compile__only__client_8h.html" title="tensorflow/compiler\l/xla/client/compile\l_only_client.h" alt="" coords="687,109,838,165"/>
+<area shape="rect" id="node9" href="$d2/d89/compile__only__service_8h.html" title="tensorflow/compiler\l/xla/service/compile\l_only_service.h" alt="" coords="2097,213,2250,269"/>
+<area shape="rect" id="node11" href="$d4/dd1/compiler_8h.html" title="tensorflow/compiler\l/xla/service/compiler.h" alt="" coords="1331,414,1501,455"/>
+<area shape="rect" id="node35" href="$d5/d83/service_8h.html" title="tensorflow/compiler\l/xla/service/service.h" alt="" coords="2393,317,2553,359"/>
+<area shape="rect" id="node14" href="$db/da0/hlo__module_8h.html" title="tensorflow/compiler\l/xla/service/hlo_module.h" alt="" coords="1523,518,1712,559"/>
+<area shape="rect" id="node21" href="$d2/d31/hlo__computation_8h.html" title="tensorflow/compiler\l/xla/service/hlo_computation.h" alt="" coords="2342,622,2565,663"/>
+<area shape="rect" id="node22" href="$dd/d66/hlo__instruction_8h.html" title="tensorflow/compiler\l/xla/service/hlo_instruction.h" alt="" coords="1893,719,2102,760"/>
+<area shape="rect" id="node30" href="$d3/d4d/versioned__computation__handle_8h.html" title="tensorflow/compiler\l/xla/service/versioned\l_computation_handle.h" alt="" coords="3605,615,3779,671"/>
+<area shape="rect" id="node41" href="$d1/dc5/computation__tracker_8h.html" title="tensorflow/compiler\l/xla/service/computation\l_tracker.h" alt="" coords="3063,407,3246,463"/>
+<area shape="rect" id="node43" href="$d6/d38/user__computation_8h.html" title="tensorflow/compiler\l/xla/service/user_computation.h" alt="" coords="2905,518,3135,559"/>
 </map>

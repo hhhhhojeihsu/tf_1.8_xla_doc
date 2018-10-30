@@ -78,14 +78,12 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for xla::cpu::CpuCompiler:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d99/classxla_1_1cpu_1_1CpuCompiler__inherit__graph.svg" width="163" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d99/classxla_1_1cpu_1_1CpuCompiler__inherit__graph.svg" width="176" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for xla::cpu::CpuCompiler:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d55/classxla_1_1cpu_1_1CpuCompiler__coll__graph.svg" width="163" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d55/classxla_1_1cpu_1_1CpuCompiler__coll__graph.svg" width="176" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -151,7 +149,7 @@ Private Member Functions</h2></td></tr>
 <li>Set target CPU, supported instructions and set optimization level.</li>
 <li>Create <code>llvm::Module</code> using <code>llvm::LLVMContext</code> because it requires to be thread safe.</li>
 <li>Loop through HLO modules<ol type="a">
-<li>Compile the code without optimization (call <code><a class="el" href="../../d2/d94/classxla_1_1cpu_1_1CpuCompiler.html#ab3bae76bdf9896dcfe3e1e749373f6b1">xla::cpu::CpuCompiler::RunHloPasses(HloModule* module, bool is_aot_compile)</a></code>)</li>
+<li>Use high-levle optimization (call <code><a class="el" href="../../d2/d94/classxla_1_1cpu_1_1CpuCompiler.html#ab3bae76bdf9896dcfe3e1e749373f6b1">xla::cpu::CpuCompiler::RunHloPasses(HloModule* module, bool is_aot_compile)</a></code>)</li>
 <li>Create a <code><a class="el" href="../../d9/dbf/classxla_1_1SequentialHloOrdering.html#add7df2df3c2d88d20fb688cb30547c97">xla::SequentialHloOrdering::HloModuleSequence</a></code> using <code><a class="el" href="../../d3/dbc/namespacexla.html#a1bbf3fb68f84f76b209f48f664a6a5a1">xla::CreateMemoryMinimizingSequence</a></code></li>
 <li>Run buffer analysis on the HLO graph. Figures out which temporary buffers are required to run the computation</li>
 <li>Construct IrEmmiter(that will but not yet compile HLO module to LLVM IR and saves to <code>llvm_module</code>(via <code><a class="el" href="../../d9/d4e/classxla_1_1cpu_1_1IrEmitter.html#a1ea44fdf51189a7102922a678dc4033c" title="Create a new LLVM IR emitter. ">xla::cpu::IrEmitter::IrEmitter()</a></code>)</li>
@@ -209,7 +207,7 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Called by <code><a class="el" href="../../d2/d94/classxla_1_1cpu_1_1CpuCompiler.html#ae39f2b47db1aaa1457e76acb6ee3d496">xla::cpu::CpuCompiler::CompileAheadOfTime</a></code></p>
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000006">Todo:</a></b></dt><dd>See what those invariant checker and pass do</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000005">Todo:</a></b></dt><dd>See what those invariant checker and pass do</dd></dl>
 <ol type="1">
 <li>Create a <code><a class="el" href="../../d2/dbd/classxla_1_1HloPassPipeline.html">xla::HloPassPipeline</a></code></li>
 <li>Add invariant checker <code><a class="el" href="../../d5/dd4/classxla_1_1HloVerifier.html">xla::HloVerifier</a></code></li>
@@ -230,7 +228,7 @@ Private Member Functions</h2></td></tr>
 <li>Add pass <code><a class="el" href="../../d8/d9a/classxla_1_1GatherExpander.html">xla::GatherExpander</a></code></li>
 <li>Add pass <code><a class="el" href="../../d8/dd7/classxla_1_1AlgebraicSimplifier.html">xla::AlgebraicSimplifier</a></code><ul>
 <li><code>is_layout_sensitive</code> = false</li>
-<li><dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000007">Todo:</a></b></dt><dd>unknown argument</dd></dl>
+<li><dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000006">Todo:</a></b></dt><dd>unknown argument</dd></dl>
 </li>
 <li><code>enable_dot_strength_reduction</code> = false</li>
 </ul>
@@ -270,8 +268,7 @@ Private Member Functions</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d94/classxla_1_1cpu_1_1CpuCompiler_ab3bae76bdf9896dcfe3e1e749373f6b1_cgraph.svg" width="598" height="222"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d94/classxla_1_1cpu_1_1CpuCompiler_ab3bae76bdf9896dcfe3e1e749373f6b1_cgraph.svg" width="639" height="222"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

@@ -10,6 +10,8 @@ var searchData=
   ['hlo_5fdce_2eh',['hlo_dce.h',['../da/d99/hlo__dce_8h.html',1,'']]],
   ['hlo_5felement_5ftype_5fconverter_2ecc',['hlo_element_type_converter.cc',['../d4/d43/hlo__element__type__converter_8cc.html',1,'']]],
   ['hlo_5felement_5ftype_5fconverter_2eh',['hlo_element_type_converter.h',['../da/dd2/hlo__element__type__converter_8h.html',1,'']]],
+  ['hlo_5finstruction_2ecc',['hlo_instruction.cc',['../db/d0c/hlo__instruction_8cc.html',1,'']]],
+  ['hlo_5finstruction_2eh',['hlo_instruction.h',['../dd/d66/hlo__instruction_8h.html',1,'']]],
   ['hlo_5fmodule_2ecc',['hlo_module.cc',['../d3/dfc/hlo__module_8cc.html',1,'']]],
   ['hlo_5fmodule_2eh',['hlo_module.h',['../db/da0/hlo__module_8h.html',1,'']]],
   ['hlo_5fordering_2ecc',['hlo_ordering.cc',['../da/d37/hlo__ordering_8cc.html',1,'']]],

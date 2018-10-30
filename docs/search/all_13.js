@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['while_5floop_5finvariant_5fcode_5fmotion_2ecc',['while_loop_invariant_code_motion.cc',['../da/df1/while__loop__invariant__code__motion_8cc.html',1,'']]],
-  ['while_5floop_5finvariant_5fcode_5fmotion_2eh',['while_loop_invariant_code_motion.h',['../d1/d57/while__loop__invariant__code__motion_8h.html',1,'']]],
-  ['while_5floop_5fsimplifier_2ecc',['while_loop_simplifier.cc',['../d5/d0e/while__loop__simplifier_8cc.html',1,'']]],
-  ['while_5floop_5fsimplifier_2eh',['while_loop_simplifier.h',['../da/d88/while__loop__simplifier_8h.html',1,'']]],
-  ['whileloopinvariantcodemotion',['WhileLoopInvariantCodeMotion',['../d6/dc0/classxla_1_1WhileLoopInvariantCodeMotion.html',1,'xla']]],
-  ['whileloopsimplifier',['WhileLoopSimplifier',['../d8/df6/classxla_1_1WhileLoopSimplifier.html',1,'xla']]]
+  ['validateconfig',['ValidateConfig',['../de/d86/namespacetensorflow.html#aaeeec358e2be013353667dd7c0a6dbaa',1,'tensorflow']]],
+  ['verifyllvmmodule',['VerifyLlvmModule',['../d6/d10/namespacexla_1_1cpu_1_1anonymous__namespace_02cpu__compiler_8cc_03.html#afda30ab3f3866f05c5a12ec7deb71911',1,'xla::cpu::anonymous_namespace{cpu_compiler.cc}']]],
+  ['versioned_5fcomputation_5fhandle_2eh',['versioned_computation_handle.h',['../d3/d4d/versioned__computation__handle_8h.html',1,'']]],
+  ['versionedcomputationhandle',['VersionedComputationHandle',['../db/df3/structxla_1_1VersionedComputationHandle.html',1,'xla']]],
+  ['visit',['Visit',['../d0/dee/classxla_1_1anonymous__namespace_02user__computation_8cc_03_1_1ComputationLowerer.html#a83c367ffd434f6e9e178fb33db76ed9f',1,'xla::anonymous_namespace{user_computation.cc}::ComputationLowerer']]]
 ];

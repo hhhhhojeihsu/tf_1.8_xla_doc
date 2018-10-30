@@ -1,0 +1,9 @@
+<map id="xla::UserComputation::BuildHloComputation" name="xla::UserComputation::BuildHloComputation">
+<area shape="rect" id="node2" href="$d8/d42/classxla_1_1ComputationTracker.html#abaeb463c7038bcc61515a19e18fe0714" title="Build a HLO module (which is basically a set of HLO instructions) using the specified computation as ..." alt="" coords="223,13,404,54"/>
+<area shape="rect" id="node3" href="$dc/d07/classxla_1_1CompileOnlyService.html#aceb67616a89167b9af1bf23d17ec37c9" title="xla::CompileOnlyService\l::CompileAheadOfTime" alt="" coords="452,13,635,54"/>
+<area shape="rect" id="node4" href="$d1/dd1/classxla_1_1CompileOnlyClient.html#a5a585d21f617b77a1cecc1b587d18d7a" title="Compiles a list of computations for ahead&#45;of&#45;time execution. This is intended for use in static compi..." alt="" coords="683,13,856,54"/>
+<area shape="rect" id="node5" href="$d4/df4/namespacetensorflow_1_1tfcompile_1_1anonymous__namespace_02compile_8cc_03.html#a40f8a019f31fa8cbe2fff5d90e69c21b" title="Compiles the XLA computation into executable code. " alt="" coords="904,5,1099,61"/>
+<area shape="rect" id="node6" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a021cb1c58d938b16dcd998aa8d1fc191" title="Converts the graph into an XLA computation, and compiles the computation. Called by tensorflow::tfcom..." alt="" coords="1147,13,1305,54"/>
+<area shape="rect" id="node7" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a460964a5bb277865d1275fe3746132c1" title="tensorflow::tfcompile\l::Main" alt="" coords="1353,13,1512,54"/>
+<area shape="rect" id="node8" href="$d4/d8d/tfcompile__main_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1560,20,1615,47"/>
+</map>

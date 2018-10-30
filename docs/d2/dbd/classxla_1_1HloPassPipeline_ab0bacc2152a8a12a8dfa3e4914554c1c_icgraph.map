@@ -1,4 +1,4 @@
 <map id="xla::HloPassPipeline::AddPass" name="xla::HloPassPipeline::AddPass">
-<area shape="rect" id="node2" href="$d2/d94/classxla_1_1cpu_1_1CpuCompiler.html#ab3bae76bdf9896dcfe3e1e749373f6b1" title="xla::cpu::CpuCompiler\l::RunHloPasses" alt="" coords="440,5,592,47"/>
-<area shape="rect" id="node3" href="$d2/d62/classxla_1_1ReducePrecisionInsertion.html#aba1c5793f719bc13e0880999cd5daa17" title="xla::ReducePrecisionInsertion\l::AddPasses" alt="" coords="196,35,392,76"/>
+<area shape="rect" id="node2" href="$d2/d94/classxla_1_1cpu_1_1CpuCompiler.html#ab3bae76bdf9896dcfe3e1e749373f6b1" title="xla::cpu::CpuCompiler\l::RunHloPasses" alt="" coords="468,5,633,47"/>
+<area shape="rect" id="node3" href="$d2/d62/classxla_1_1ReducePrecisionInsertion.html#aba1c5793f719bc13e0880999cd5daa17" title="xla::ReducePrecisionInsertion\l::AddPasses" alt="" coords="207,35,420,76"/>
 </map>

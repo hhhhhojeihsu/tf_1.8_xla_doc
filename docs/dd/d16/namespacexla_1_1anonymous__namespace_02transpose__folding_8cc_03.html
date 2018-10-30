@@ -65,10 +65,81 @@ $(function() {
 </div>
 </div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">xla::anonymous_namespace{transpose_folding.cc} Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a223eb7cf64d326116d16a4d783e7d971"><td class="memItemLeft" align="right" valign="top">TransposeFolding::OperandIndices&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d16/namespacexla_1_1anonymous__namespace_02transpose__folding_8cc_03.html#a223eb7cf64d326116d16a4d783e7d971">CanFoldOperandsIntoDot</a> (const <a class="el" href="../../d7/d59/classxla_1_1HloInstruction.html">HloInstruction</a> &amp;dot, const TransposeFolding::TransposableGemmOperandsFn &amp;transposable_gemm_operands)</td></tr>
+<tr class="separator:a223eb7cf64d326116d16a4d783e7d971"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a544245ba7865430f71a782237e5f36a8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d16/namespacexla_1_1anonymous__namespace_02transpose__folding_8cc_03.html#a544245ba7865430f71a782237e5f36a8">FoldTransposeIntoDot</a> (InstructionOperandsPair pair)</td></tr>
+<tr class="separator:a544245ba7865430f71a782237e5f36a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a223eb7cf64d326116d16a4d783e7d971"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a223eb7cf64d326116d16a4d783e7d971">&#9670;&nbsp;</a></span>CanFoldOperandsIntoDot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TransposeFolding::OperandIndices xla::anonymous_namespace{transpose_folding.cc}::CanFoldOperandsIntoDot </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d7/d59/classxla_1_1HloInstruction.html">HloInstruction</a> &amp;&#160;</td>
+          <td class="paramname"><em>dot</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const TransposeFolding::TransposableGemmOperandsFn &amp;&#160;</td>
+          <td class="paramname"><em>transposable_gemm_operands</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Decide if the operands can be folded into dot.</p>
+<ol type="1">
+<li>The operand must be <code>HloOpcode::kDot</code></li>
+<li>Return the operand set that <code>IsRank2Transpose()</code> </li>
+</ol>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/d16/namespacexla_1_1anonymous__namespace_02transpose__folding_8cc_03_a223eb7cf64d326116d16a4d783e7d971_icgraph.svg" width="462" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a544245ba7865430f71a782237e5f36a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a544245ba7865430f71a782237e5f36a8">&#9670;&nbsp;</a></span>FoldTransposeIntoDot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool xla::anonymous_namespace{transpose_folding.cc}::FoldTransposeIntoDot </td>
+          <td>(</td>
+          <td class="paramtype">InstructionOperandsPair&#160;</td>
+          <td class="paramname"><em>pair</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Fuse instruction of kTrasposeDot</p>
+<p>Google docs: </p><blockquote class="doxtable">
+<p>Folds the operands of <code>dot</code> that are foldable transposes. <code>computation</code> is the parent HLO computation of <code>dot</code>. Returns whether the module is changed.</p>
+</blockquote>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

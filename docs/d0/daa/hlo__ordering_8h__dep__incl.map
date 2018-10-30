@@ -1,6 +1,7 @@
 <map id="tensorflow/tensorflow/compiler/xla/service/hlo_ordering.h" name="tensorflow/tensorflow/compiler/xla/service/hlo_ordering.h">
-<area shape="rect" id="node2" href="$d4/dcb/cpu__compiler_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/cpu/cpu_compiler.cc" alt="" coords="5,213,152,269"/>
-<area shape="rect" id="node3" href="$da/d37/hlo__ordering_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/hlo_ordering.cc" alt="" coords="61,109,208,165"/>
-<area shape="rect" id="node4" href="$db/da3/hlo__scheduling_8h.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/hlo_scheduling.h" alt="" coords="232,109,379,165"/>
-<area shape="rect" id="node5" href="$d6/d85/hlo__scheduling_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/hlo_scheduling.cc" alt="" coords="232,213,379,269"/>
+<area shape="rect" id="node2" href="$d9/d53/copy__insertion_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/copy_insertion.cc" alt="" coords="5,109,168,165"/>
+<area shape="rect" id="node3" href="$d4/dcb/cpu__compiler_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/cpu/cpu_compiler.cc" alt="" coords="183,213,345,269"/>
+<area shape="rect" id="node4" href="$da/d37/hlo__ordering_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/hlo_ordering.cc" alt="" coords="243,109,405,165"/>
+<area shape="rect" id="node5" href="$db/da3/hlo__scheduling_8h.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/hlo_scheduling.h" alt="" coords="429,109,592,165"/>
+<area shape="rect" id="node6" href="$d6/d85/hlo__scheduling_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/hlo_scheduling.cc" alt="" coords="429,213,592,269"/>
 </map>

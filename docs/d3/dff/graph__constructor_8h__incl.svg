@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 510;
+var viewWidth = 562;
 var viewHeight = 106;
 var sectionId = 'dynsection-0';
 </script>
@@ -54,65 +54,65 @@ var sectionId = 'dynsection-0';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>tensorflow/tensorflow/core/graph/graph_constructor.h</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-102 506,-102 506,4 -4,4"/>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-102 557.5,-102 557.5,4 -4,4"/>
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="192,-67.5 192,-97.5 346,-97.5 346,-67.5 192,-67.5"/>
-<text text-anchor="start" x="200" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
-<text text-anchor="middle" x="269" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/core/graph/graph_constructor.h</text>
+<polygon fill="#bfbfbf" stroke="#000000" points="212,-67.5 212,-97.5 382,-97.5 382,-67.5 212,-67.5"/>
+<text text-anchor="start" x="220" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
+<text text-anchor="middle" x="297" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/core/graph/graph_constructor.h</text>
 </g>
 <!-- Node1 -->
 <g id="node2" class="node">
 <title>Node1</title>
-<polygon fill="#ffffff" stroke="#bfbfbf" points="0,-.5 0,-30.5 132,-30.5 132,-.5 0,-.5"/>
+<polygon fill="#ffffff" stroke="#bfbfbf" points="0,-.5 0,-30.5 148,-30.5 148,-.5 0,-.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/core/framework</text>
-<text text-anchor="middle" x="66" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/graph.pb.h</text>
+<text text-anchor="middle" x="74" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/graph.pb.h</text>
 </g>
 <!-- Node0&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node0&#45;&gt;Node1</title>
-<path fill="none" stroke="#191970" d="M223.4428,-67.4639C193.2506,-57.499 153.4543,-44.3642 121.4268,-33.7936"/>
-<polygon fill="#191970" stroke="#191970" points="122.349,-30.4123 111.7559,-30.6017 120.155,-37.0596 122.349,-30.4123"/>
+<path fill="none" stroke="#191970" d="M246.9544,-67.4639C213.5017,-57.4131 169.316,-44.1375 133.9796,-33.5208"/>
+<polygon fill="#191970" stroke="#191970" points="134.848,-30.1272 124.2638,-30.6017 132.8338,-36.8312 134.848,-30.1272"/>
 </g>
 <!-- Node2 -->
 <g id="node3" class="node">
 <title>Node2</title>
-<polygon fill="#ffffff" stroke="#bfbfbf" points="150,-.5 150,-30.5 260,-30.5 260,-.5 150,-.5"/>
-<text text-anchor="start" x="158" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/core/graph</text>
-<text text-anchor="middle" x="205" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/graph.h</text>
+<polygon fill="#ffffff" stroke="#bfbfbf" points="166,-.5 166,-30.5 288,-30.5 288,-.5 166,-.5"/>
+<text text-anchor="start" x="174" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/core/graph</text>
+<text text-anchor="middle" x="227" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/graph.h</text>
 </g>
 <!-- Node0&#45;&gt;Node2 -->
 <g id="edge2" class="edge">
 <title>Node0&#45;&gt;Node2</title>
-<path fill="none" stroke="#191970" d="M254.4774,-67.2967C246.2128,-58.6446 235.7045,-47.6438 226.4998,-38.0076"/>
-<polygon fill="#191970" stroke="#191970" points="228.9034,-35.4567 219.4651,-30.6432 223.8416,-40.2919 228.9034,-35.4567"/>
+<path fill="none" stroke="#191970" d="M281.1159,-67.2967C271.987,-58.559 260.3552,-47.4257 250.2168,-37.7218"/>
+<polygon fill="#191970" stroke="#191970" points="252.4655,-35.0293 242.8212,-30.6432 247.6253,-40.0862 252.4655,-35.0293"/>
 </g>
 <!-- Node3 -->
 <g id="node4" class="node">
 <title>Node3</title>
-<polygon fill="#ffffff" stroke="#bfbfbf" points="278,-.5 278,-30.5 388,-30.5 388,-.5 278,-.5"/>
-<text text-anchor="start" x="286" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/core/graph</text>
-<text text-anchor="middle" x="333" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/tensor_id.h</text>
+<polygon fill="#ffffff" stroke="#bfbfbf" points="306,-.5 306,-30.5 428,-30.5 428,-.5 306,-.5"/>
+<text text-anchor="start" x="314" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/core/graph</text>
+<text text-anchor="middle" x="367" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/tensor_id.h</text>
 </g>
 <!-- Node0&#45;&gt;Node3 -->
 <g id="edge3" class="edge">
 <title>Node0&#45;&gt;Node3</title>
-<path fill="none" stroke="#191970" d="M283.5226,-67.2967C291.7872,-58.6446 302.2955,-47.6438 311.5002,-38.0076"/>
-<polygon fill="#191970" stroke="#191970" points="314.1584,-40.2919 318.5349,-30.6432 309.0966,-35.4567 314.1584,-40.2919"/>
+<path fill="none" stroke="#191970" d="M312.8841,-67.2967C322.013,-58.559 333.6448,-47.4257 343.7832,-37.7218"/>
+<polygon fill="#191970" stroke="#191970" points="346.3747,-40.0862 351.1788,-30.6432 341.5345,-35.0293 346.3747,-40.0862"/>
 </g>
 <!-- Node4 -->
 <g id="node5" class="node">
 <title>Node4</title>
-<polygon fill="#ffffff" stroke="#bfbfbf" points="406,-.5 406,-30.5 502,-30.5 502,-.5 406,-.5"/>
-<text text-anchor="start" x="414" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/core/lib</text>
-<text text-anchor="middle" x="454" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/core/status.h</text>
+<polygon fill="#ffffff" stroke="#bfbfbf" points="446.5,-.5 446.5,-30.5 553.5,-30.5 553.5,-.5 446.5,-.5"/>
+<text text-anchor="start" x="454.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/core/lib</text>
+<text text-anchor="middle" x="500" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/core/status.h</text>
 </g>
 <!-- Node0&#45;&gt;Node4 -->
 <g id="edge4" class="edge">
 <title>Node0&#45;&gt;Node4</title>
-<path fill="none" stroke="#191970" d="M310.5176,-67.4639C337.7955,-57.5849 373.6756,-44.5905 402.7315,-34.0675"/>
-<polygon fill="#191970" stroke="#191970" points="404.0908,-37.2978 412.3013,-30.6017 401.7071,-30.7161 404.0908,-37.2978"/>
+<path fill="none" stroke="#191970" d="M342.5572,-67.4639C372.7494,-57.499 412.5457,-44.3642 444.5732,-33.7936"/>
+<polygon fill="#191970" stroke="#191970" points="445.845,-37.0596 454.2441,-30.6017 443.651,-30.4123 445.845,-37.0596"/>
 </g>
 </g>
 </svg>

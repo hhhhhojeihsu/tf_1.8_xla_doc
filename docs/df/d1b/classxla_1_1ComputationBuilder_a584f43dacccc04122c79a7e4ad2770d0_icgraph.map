@@ -1,5 +1,5 @@
 <map id="xla::ComputationBuilder::RunOpAndParseResponse" name="xla::ComputationBuilder::RunOpAndParseResponse">
-<area shape="rect" id="node2" href="$df/d1b/classxla_1_1ComputationBuilder.html#a7312b57426afbc7bcb728307fc020869" title="Enqueues a &quot;retrieve parameter value&quot; instruction to the UserComputation. " alt="" coords="240,5,401,47"/>
-<area shape="rect" id="node3" href="$d7/dbf/classtensorflow_1_1XlaCompiler.html#af976233791194ab48c2512fdfac123ea" title="Build XLA computations for each of the arguments to the UserComputation. " alt="" coords="449,5,611,47"/>
-<area shape="rect" id="node4" href="$d7/dbf/classtensorflow_1_1XlaCompiler.html#ade5be3e41d2892412acb844070182858" title="Compiles a tensorflow::Graph into an xla::Computation. " alt="" coords="659,5,820,47"/>
+<area shape="rect" id="node2" href="$df/d1b/classxla_1_1ComputationBuilder.html#a7312b57426afbc7bcb728307fc020869" title="Enqueues a &quot;retrieve parameter value&quot; instruction to the UserComputation. " alt="" coords="248,5,428,47"/>
+<area shape="rect" id="node3" href="$d7/dbf/classtensorflow_1_1XlaCompiler.html#af976233791194ab48c2512fdfac123ea" title="Build XLA computations for each of the arguments to the UserComputation. " alt="" coords="476,5,653,47"/>
+<area shape="rect" id="node4" href="$d7/dbf/classtensorflow_1_1XlaCompiler.html#ade5be3e41d2892412acb844070182858" title="Compiles a tensorflow::Graph into an xla::Computation. " alt="" coords="701,5,879,47"/>
 </map>

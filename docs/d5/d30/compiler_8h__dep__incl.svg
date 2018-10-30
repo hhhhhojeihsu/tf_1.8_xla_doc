@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 900;
+var viewWidth = 977;
 var viewHeight = 362;
 var sectionId = 'dynsection-1';
 </script>
@@ -54,343 +54,343 @@ var sectionId = 'dynsection-1';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>tensorflow/tensorflow/compiler/xla/service/compiler.h</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-358 896,-358 896,4 -4,4"/>
-<!-- Node41 -->
-<g id="node1" class="node">
-<title>Node41</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="406,-312.5 406,-353.5 516,-353.5 516,-312.5 406,-312.5"/>
-<text text-anchor="start" x="414" y="-341.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
-<text text-anchor="start" x="414" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/xla/service</text>
-<text text-anchor="middle" x="461" y="-319.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler.h</text>
-</g>
-<!-- Node42 -->
-<g id="node2" class="node">
-<title>Node42</title>
-<g id="a_node2"><a xlink:href="../../d4/d8d/tfcompile__main_8cc.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/aot/tfcompile\l_main.cc">
-<polygon fill="#ffffff" stroke="#000000" points="0,-.5 0,-41.5 116,-41.5 116,-.5 0,-.5"/>
-<text text-anchor="start" x="8" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
-<text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/aot/tfcompile</text>
-<text text-anchor="middle" x="58" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_main.cc</text>
-</a>
-</g>
-</g>
-<!-- Node41&#45;&gt;Node42 -->
-<g id="edge1" class="edge">
-<title>Node41&#45;&gt;Node42</title>
-<path fill="none" stroke="#191970" d="M396.1774,-314.7383C324.7055,-293.0071 207.8193,-252.6707 117,-198 71.0726,-170.353 47.5312,-168.6418 25,-120 12.8925,-93.8616 28.5548,-62.002 42.1621,-41.6111"/>
-<polygon fill="#191970" stroke="#191970" points="395.3691,-318.15 405.9535,-317.6807 397.3866,-311.4471 395.3691,-318.15"/>
-</g>
-<!-- Node43 -->
-<g id="node3" class="node">
-<title>Node43</title>
-<g id="a_node3"><a xlink:href="../../d4/dab/compile__only__client_8h.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/xla/client\l/compile_only_client.h">
-<polygon fill="#ffffff" stroke="#000000" points="473.5,-156.5 473.5,-197.5 586.5,-197.5 586.5,-156.5 473.5,-156.5"/>
-<text text-anchor="start" x="481.5" y="-185.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
-<text text-anchor="start" x="481.5" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/xla/client</text>
-<text text-anchor="middle" x="530" y="-163.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compile_only_client.h</text>
-</a>
-</g>
-</g>
-<!-- Node41&#45;&gt;Node43 -->
-<g id="edge2" class="edge">
-<title>Node41&#45;&gt;Node43</title>
-<path fill="none" stroke="#191970" d="M462.7354,-302.0614C464.8607,-281.8391 469.5723,-255.3227 480,-234 486.5926,-220.5192 497.2289,-207.7415 507,-197.7139"/>
-<polygon fill="#191970" stroke="#191970" points="459.2256,-302.0163 461.8219,-312.288 466.1978,-302.6391 459.2256,-302.0163"/>
-</g>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-358 973.5,-358 973.5,4 -4,4"/>
 <!-- Node50 -->
-<g id="node10" class="node">
+<g id="node1" class="node">
 <title>Node50</title>
-<g id="a_node10"><a xlink:href="../../d2/d89/compile__only__service_8h.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/xla/service\l/compile_only_service.h">
-<polygon fill="#ffffff" stroke="#000000" points="489,-234.5 489,-275.5 611,-275.5 611,-234.5 489,-234.5"/>
-<text text-anchor="start" x="497" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
-<text text-anchor="start" x="497" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/xla/service</text>
-<text text-anchor="middle" x="550" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compile_only_service.h</text>
-</a>
-</g>
-</g>
-<!-- Node41&#45;&gt;Node50 -->
-<g id="edge10" class="edge">
-<title>Node41&#45;&gt;Node50</title>
-<path fill="none" stroke="#191970" d="M492.6874,-305.229C503.7938,-295.4953 516.0643,-284.7414 526.3924,-275.6898"/>
-<polygon fill="#191970" stroke="#191970" points="490.064,-302.8742 484.8504,-312.0974 494.6778,-308.1386 490.064,-302.8742"/>
-</g>
-<!-- Node52 -->
-<g id="node12" class="node">
-<title>Node52</title>
-<g id="a_node12"><a xlink:href="../../d8/d1e/llvm__compiler_8h.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/xla/service\l/llvm_compiler.h">
-<polygon fill="#ffffff" stroke="#000000" points="321,-234.5 321,-275.5 431,-275.5 431,-234.5 321,-234.5"/>
-<text text-anchor="start" x="329" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
-<text text-anchor="start" x="329" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/xla/service</text>
-<text text-anchor="middle" x="376" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/llvm_compiler.h</text>
-</a>
-</g>
-</g>
-<!-- Node41&#45;&gt;Node52 -->
-<g id="edge14" class="edge">
-<title>Node41&#45;&gt;Node52</title>
-<path fill="none" stroke="#191970" d="M430.7367,-305.229C420.1295,-295.4953 408.4105,-284.7414 398.5466,-275.6898"/>
-<polygon fill="#191970" stroke="#191970" points="428.4872,-307.915 438.2216,-312.0974 433.22,-302.7574 428.4872,-307.915"/>
-</g>
-<!-- Node58 -->
-<g id="node18" class="node">
-<title>Node58</title>
-<g id="a_node18"><a xlink:href="../../d9/d1a/service_8cc.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/xla/service\l/service.cc">
-<polygon fill="#ffffff" stroke="#000000" points="629,-234.5 629,-275.5 739,-275.5 739,-234.5 629,-234.5"/>
-<text text-anchor="start" x="637" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
-<text text-anchor="start" x="637" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/xla/service</text>
-<text text-anchor="middle" x="684" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/service.cc</text>
-</a>
-</g>
-</g>
-<!-- Node41&#45;&gt;Node58 -->
-<g id="edge24" class="edge">
-<title>Node41&#45;&gt;Node58</title>
-<path fill="none" stroke="#191970" d="M525.5907,-310.4077C558.2551,-298.9825 597.4882,-285.2597 628.7377,-274.3294"/>
-<polygon fill="#191970" stroke="#191970" points="524.4073,-307.1137 516.1236,-313.7191 526.7184,-313.7211 524.4073,-307.1137"/>
-</g>
-<!-- Node44 -->
-<g id="node4" class="node">
-<title>Node44</title>
-<g id="a_node4"><a xlink:href="../../d6/d17/compile_8cc.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/aot/compile.cc">
-<polygon fill="#ffffff" stroke="#000000" points="152.5,-6 152.5,-36 275.5,-36 275.5,-6 152.5,-6"/>
-<text text-anchor="start" x="160.5" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
-<text text-anchor="middle" x="214" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/aot/compile.cc</text>
-</a>
-</g>
-</g>
-<!-- Node43&#45;&gt;Node44 -->
-<g id="edge3" class="edge">
-<title>Node43&#45;&gt;Node44</title>
-<path fill="none" stroke="#191970" d="M518.9045,-146.7015C509.1511,-124.3328 492.7719,-94.9439 469,-78 438.4321,-56.212 340.8123,-38.7725 275.6122,-29.1652"/>
-<polygon fill="#191970" stroke="#191970" points="515.7405,-148.209 522.8017,-156.1077 522.2074,-145.5296 515.7405,-148.209"/>
-</g>
-<!-- Node45 -->
-<g id="node5" class="node">
-<title>Node45</title>
-<g id="a_node5"><a xlink:href="../../db/d47/client__library_8h.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/xla/client\l/client_library.h">
-<polygon fill="#ffffff" stroke="#000000" points="654,-78.5 654,-119.5 764,-119.5 764,-78.5 654,-78.5"/>
-<text text-anchor="start" x="662" y="-107.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
-<text text-anchor="start" x="662" y="-96.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/xla/client</text>
-<text text-anchor="middle" x="709" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/client_library.h</text>
-</a>
-</g>
-</g>
-<!-- Node43&#45;&gt;Node45 -->
-<g id="edge4" class="edge">
-<title>Node43&#45;&gt;Node45</title>
-<path fill="none" stroke="#191970" d="M586.9087,-152.2018C611.0756,-141.671 638.9143,-129.5401 661.9004,-119.5239"/>
-<polygon fill="#191970" stroke="#191970" points="585.268,-149.0988 577.4988,-156.3022 588.0644,-155.516 585.268,-149.0988"/>
-</g>
-<!-- Node49 -->
-<g id="node9" class="node">
-<title>Node49</title>
-<g id="a_node9"><a xlink:href="../../d8/d93/compile__only__client_8cc.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/xla/client\l/compile_only_client.cc">
-<polygon fill="#ffffff" stroke="#000000" points="516.5,-78.5 516.5,-119.5 635.5,-119.5 635.5,-78.5 516.5,-78.5"/>
-<text text-anchor="start" x="524.5" y="-107.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
-<text text-anchor="start" x="524.5" y="-96.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/xla/client</text>
-<text text-anchor="middle" x="576" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compile_only_client.cc</text>
-</a>
-</g>
-</g>
-<!-- Node43&#45;&gt;Node49 -->
-<g id="edge9" class="edge">
-<title>Node43&#45;&gt;Node49</title>
-<path fill="none" stroke="#191970" d="M547.556,-147.2312C552.9755,-138.0415 558.823,-128.1263 563.7983,-119.6898"/>
-<polygon fill="#191970" stroke="#191970" points="544.3923,-145.7058 542.3272,-156.0974 550.4218,-149.2617 544.3923,-145.7058"/>
-</g>
-<!-- Node45&#45;&gt;Node44 -->
-<g id="edge5" class="edge">
-<title>Node45&#45;&gt;Node44</title>
-<path fill="none" stroke="#191970" d="M643.9179,-77.9445C508.0563,-47.6758 357.9236,-32.3846 275.6608,-25.535"/>
-<polygon fill="#191970" stroke="#191970" points="643.1485,-81.3589 653.6741,-80.1499 644.6919,-74.5311 643.1485,-81.3589"/>
-</g>
-<!-- Node46 -->
-<g id="node6" class="node">
-<title>Node46</title>
-<g id="a_node6"><a xlink:href="../../d5/d88/xla__compiler_8cc.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/tf2xla/xla\l_compiler.cc">
-<polygon fill="#ffffff" stroke="#000000" points="654,-.5 654,-41.5 764,-41.5 764,-.5 654,-.5"/>
-<text text-anchor="start" x="662" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
-<text text-anchor="start" x="662" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/tf2xla/xla</text>
-<text text-anchor="middle" x="709" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_compiler.cc</text>
-</a>
-</g>
-</g>
-<!-- Node45&#45;&gt;Node46 -->
-<g id="edge6" class="edge">
-<title>Node45&#45;&gt;Node46</title>
-<path fill="none" stroke="#191970" d="M709,-68.0789C709,-59.2178 709,-49.7747 709,-41.6898"/>
-<polygon fill="#191970" stroke="#191970" points="705.5001,-68.0974 709,-78.0974 712.5001,-68.0975 705.5001,-68.0974"/>
-</g>
-<!-- Node47 -->
-<g id="node7" class="node">
-<title>Node47</title>
-<g id="a_node7"><a xlink:href="../../d2/d10/xla__op__registry_8cc.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/tf2xla/xla\l_op_registry.cc">
-<polygon fill="#ffffff" stroke="#000000" points="782,-.5 782,-41.5 892,-41.5 892,-.5 782,-.5"/>
-<text text-anchor="start" x="790" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
-<text text-anchor="start" x="790" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/tf2xla/xla</text>
-<text text-anchor="middle" x="837" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_op_registry.cc</text>
-</a>
-</g>
-</g>
-<!-- Node45&#45;&gt;Node47 -->
-<g id="edge7" class="edge">
-<title>Node45&#45;&gt;Node47</title>
-<path fill="none" stroke="#191970" d="M751.5393,-73.0776C768.3809,-62.8148 787.4647,-51.1856 803.3198,-41.5239"/>
-<polygon fill="#191970" stroke="#191970" points="749.6837,-70.1097 742.9656,-78.3022 753.3263,-76.0873 749.6837,-70.1097"/>
-</g>
-<!-- Node48 -->
-<g id="node8" class="node">
-<title>Node48</title>
-<g id="a_node8"><a xlink:href="../../d3/dba/client__library_8cc.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/xla/client\l/client_library.cc">
-<polygon fill="#ffffff" stroke="#000000" points="526,-.5 526,-41.5 636,-41.5 636,-.5 526,-.5"/>
-<text text-anchor="start" x="534" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
-<text text-anchor="start" x="534" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/xla/client</text>
-<text text-anchor="middle" x="581" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/client_library.cc</text>
-</a>
-</g>
-</g>
-<!-- Node45&#45;&gt;Node48 -->
-<g id="edge8" class="edge">
-<title>Node45&#45;&gt;Node48</title>
-<path fill="none" stroke="#191970" d="M666.4607,-73.0776C649.6191,-62.8148 630.5353,-51.1856 614.6802,-41.5239"/>
-<polygon fill="#191970" stroke="#191970" points="664.6737,-76.0873 675.0344,-78.3022 668.3163,-70.1097 664.6737,-76.0873"/>
-</g>
-<!-- Node50&#45;&gt;Node43 -->
-<g id="edge12" class="edge">
-<title>Node50&#45;&gt;Node43</title>
-<path fill="none" stroke="#191970" d="M542.1455,-224.3676C539.8521,-215.4232 537.4007,-205.8626 535.3051,-197.6898"/>
-<polygon fill="#191970" stroke="#191970" points="538.7662,-225.2801 544.6404,-234.0974 545.5469,-223.5414 538.7662,-225.2801"/>
-</g>
-<!-- Node50&#45;&gt;Node45 -->
-<g id="edge11" class="edge">
-<title>Node50&#45;&gt;Node45</title>
-<path fill="none" stroke="#191970" d="M573.4893,-226.3461C593.9595,-201.6208 622.299,-168.0437 635,-156 648.7677,-142.9447 665.4078,-129.9167 679.419,-119.6181"/>
-<polygon fill="#191970" stroke="#191970" points="570.5506,-224.4082 566.883,-234.348 575.9486,-228.8648 570.5506,-224.4082"/>
+<polygon fill="#bfbfbf" stroke="#000000" points="436.5,-312.5 436.5,-353.5 558.5,-353.5 558.5,-312.5 436.5,-312.5"/>
+<text text-anchor="start" x="444.5" y="-341.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
+<text text-anchor="start" x="444.5" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/xla/service</text>
+<text text-anchor="middle" x="497.5" y="-319.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler.h</text>
 </g>
 <!-- Node51 -->
-<g id="node11" class="node">
+<g id="node2" class="node">
 <title>Node51</title>
-<g id="a_node11"><a xlink:href="../../df/d69/compile__only__service_8cc.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/xla/service\l/compile_only_service.cc">
-<polygon fill="#ffffff" stroke="#000000" points="643.5,-156.5 643.5,-197.5 770.5,-197.5 770.5,-156.5 643.5,-156.5"/>
-<text text-anchor="start" x="651.5" y="-185.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
-<text text-anchor="start" x="651.5" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/xla/service</text>
-<text text-anchor="middle" x="707" y="-163.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compile_only_service.cc</text>
+<g id="a_node2"><a xlink:href="../../d4/d8d/tfcompile__main_8cc.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/aot/tfcompile\l_main.cc">
+<polygon fill="#ffffff" stroke="#000000" points="0,-.5 0,-41.5 131,-41.5 131,-.5 0,-.5"/>
+<text text-anchor="start" x="8" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
+<text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/aot/tfcompile</text>
+<text text-anchor="middle" x="65.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_main.cc</text>
 </a>
 </g>
 </g>
 <!-- Node50&#45;&gt;Node51 -->
-<g id="edge13" class="edge">
+<g id="edge1" class="edge">
 <title>Node50&#45;&gt;Node51</title>
-<path fill="none" stroke="#191970" d="M600.7601,-229.7816C621.7585,-219.3493 645.7958,-207.4072 665.6892,-197.5239"/>
-<polygon fill="#191970" stroke="#191970" points="599.0593,-226.7184 591.6609,-234.3022 602.1739,-232.9873 599.0593,-226.7184"/>
+<path fill="none" stroke="#191970" d="M426.4653,-314.3357C349.9575,-292.5916 226.0823,-252.5594 128.5,-198 79.302,-170.4928 53.2293,-170.6512 28.5,-120 15.7003,-93.7834 33.0733,-61.9427 48.0764,-41.5774"/>
+<polygon fill="#191970" stroke="#191970" points="425.903,-317.8133 436.4773,-317.1535 427.7995,-311.0751 425.903,-317.8133"/>
+</g>
+<!-- Node52 -->
+<g id="node3" class="node">
+<title>Node52</title>
+<g id="a_node3"><a xlink:href="../../d4/dab/compile__only__client_8h.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/xla/client\l/compile_only_client.h">
+<polygon fill="#ffffff" stroke="#000000" points="510.5,-156.5 510.5,-197.5 636.5,-197.5 636.5,-156.5 510.5,-156.5"/>
+<text text-anchor="start" x="518.5" y="-185.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
+<text text-anchor="start" x="518.5" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/xla/client</text>
+<text text-anchor="middle" x="573.5" y="-163.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compile_only_client.h</text>
+</a>
+</g>
+</g>
+<!-- Node50&#45;&gt;Node52 -->
+<g id="edge2" class="edge">
+<title>Node50&#45;&gt;Node52</title>
+<path fill="none" stroke="#191970" d="M498.7506,-302.1085C500.6682,-281.7528 505.3303,-255.0675 516.5,-234 523.8422,-220.1518 535.6701,-207.5106 546.6534,-197.6709"/>
+<polygon fill="#191970" stroke="#191970" points="495.2585,-301.8731 497.9781,-312.1129 502.2377,-302.412 495.2585,-301.8731"/>
+</g>
+<!-- Node59 -->
+<g id="node10" class="node">
+<title>Node59</title>
+<g id="a_node10"><a xlink:href="../../d2/d89/compile__only__service_8h.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/xla/service\l/compile_only_service.h">
+<polygon fill="#ffffff" stroke="#000000" points="525.5,-234.5 525.5,-275.5 659.5,-275.5 659.5,-234.5 525.5,-234.5"/>
+<text text-anchor="start" x="533.5" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
+<text text-anchor="start" x="533.5" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/xla/service</text>
+<text text-anchor="middle" x="592.5" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compile_only_service.h</text>
+</a>
+</g>
+</g>
+<!-- Node50&#45;&gt;Node59 -->
+<g id="edge10" class="edge">
+<title>Node50&#45;&gt;Node59</title>
+<path fill="none" stroke="#191970" d="M530.9787,-305.5122C542.9243,-295.7043 556.1694,-284.8293 567.3009,-275.6898"/>
+<polygon fill="#191970" stroke="#191970" points="528.466,-303.0467 522.9583,-312.0974 532.908,-308.4568 528.466,-303.0467"/>
+</g>
+<!-- Node61 -->
+<g id="node12" class="node">
+<title>Node61</title>
+<g id="a_node12"><a xlink:href="../../d8/d1e/llvm__compiler_8h.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/xla/service\l/llvm_compiler.h">
+<polygon fill="#ffffff" stroke="#000000" points="346.5,-234.5 346.5,-275.5 468.5,-275.5 468.5,-234.5 346.5,-234.5"/>
+<text text-anchor="start" x="354.5" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
+<text text-anchor="start" x="354.5" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/xla/service</text>
+<text text-anchor="middle" x="407.5" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/llvm_compiler.h</text>
+</a>
+</g>
+</g>
+<!-- Node50&#45;&gt;Node61 -->
+<g id="edge14" class="edge">
+<title>Node50&#45;&gt;Node61</title>
+<path fill="none" stroke="#191970" d="M465.7833,-305.5122C454.4665,-295.7043 441.9184,-284.8293 431.3728,-275.6898"/>
+<polygon fill="#191970" stroke="#191970" points="463.5325,-308.193 473.3817,-312.0974 468.117,-302.9032 463.5325,-308.193"/>
+</g>
+<!-- Node67 -->
+<g id="node18" class="node">
+<title>Node67</title>
+<g id="a_node18"><a xlink:href="../../d9/d1a/service_8cc.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/xla/service\l/service.cc">
+<polygon fill="#ffffff" stroke="#000000" points="677.5,-234.5 677.5,-275.5 799.5,-275.5 799.5,-234.5 677.5,-234.5"/>
+<text text-anchor="start" x="685.5" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
+<text text-anchor="start" x="685.5" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/xla/service</text>
+<text text-anchor="middle" x="738.5" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/service.cc</text>
+</a>
+</g>
+</g>
+<!-- Node50&#45;&gt;Node67 -->
+<g id="edge24" class="edge">
+<title>Node50&#45;&gt;Node67</title>
+<path fill="none" stroke="#191970" d="M568.2108,-310.1144C602.863,-298.8991 644.1809,-285.5265 677.4391,-274.7624"/>
+<polygon fill="#191970" stroke="#191970" points="567.0624,-306.8072 558.626,-313.2165 569.2179,-313.4671 567.0624,-306.8072"/>
 </g>
 <!-- Node53 -->
-<g id="node13" class="node">
+<g id="node4" class="node">
 <title>Node53</title>
-<g id="a_node13"><a xlink:href="../../d7/d3d/compiler__functor_8h.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/xla/service\l/cpu/compiler_functor.h">
-<polygon fill="#ffffff" stroke="#000000" points="317,-156.5 317,-197.5 435,-197.5 435,-156.5 317,-156.5"/>
-<text text-anchor="start" x="325" y="-185.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
-<text text-anchor="start" x="325" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/xla/service</text>
-<text text-anchor="middle" x="376" y="-163.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/cpu/compiler_functor.h</text>
+<g id="a_node4"><a xlink:href="../../d6/d17/compile_8cc.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/aot/compile.cc">
+<polygon fill="#ffffff" stroke="#000000" points="167,-6 167,-36 304,-36 304,-6 167,-6"/>
+<text text-anchor="start" x="175" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
+<text text-anchor="middle" x="235.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/aot/compile.cc</text>
 </a>
 </g>
 </g>
 <!-- Node52&#45;&gt;Node53 -->
-<g id="edge15" class="edge">
+<g id="edge3" class="edge">
 <title>Node52&#45;&gt;Node53</title>
-<path fill="none" stroke="#191970" d="M376,-224.0789C376,-215.2178 376,-205.7747 376,-197.6898"/>
-<polygon fill="#191970" stroke="#191970" points="372.5001,-224.0974 376,-234.0974 379.5001,-224.0975 372.5001,-224.0974"/>
-</g>
-<!-- Node56 -->
-<g id="node16" class="node">
-<title>Node56</title>
-<g id="a_node16"><a xlink:href="../../db/de2/cpu__compiler_8h.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/xla/service\l/cpu/cpu_compiler.h">
-<polygon fill="#ffffff" stroke="#000000" points="126,-156.5 126,-197.5 236,-197.5 236,-156.5 126,-156.5"/>
-<text text-anchor="start" x="134" y="-185.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
-<text text-anchor="start" x="134" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/xla/service</text>
-<text text-anchor="middle" x="181" y="-163.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/cpu/cpu_compiler.h</text>
-</a>
-</g>
-</g>
-<!-- Node52&#45;&gt;Node56 -->
-<g id="edge18" class="edge">
-<title>Node52&#45;&gt;Node56</title>
-<path fill="none" stroke="#191970" d="M314.9553,-230.5821C288.455,-219.982 257.7571,-207.7028 232.4392,-197.5757"/>
-<polygon fill="#191970" stroke="#191970" points="313.9263,-233.9401 324.511,-234.4044 316.5261,-227.4408 313.9263,-233.9401"/>
+<path fill="none" stroke="#191970" d="M562.0486,-146.9882C551.9033,-124.507 534.8891,-94.8371 510.5,-78 477.6477,-55.3203 374.307,-38.3331 304.0949,-29.0354"/>
+<polygon fill="#191970" stroke="#191970" points="558.9417,-148.6234 566.103,-156.4315 565.3739,-145.8617 558.9417,-148.6234"/>
 </g>
 <!-- Node54 -->
-<g id="node14" class="node">
+<g id="node5" class="node">
 <title>Node54</title>
-<g id="a_node14"><a xlink:href="../../de/ded/compiler__functor_8cc.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/xla/service\l/cpu/compiler_functor.cc">
-<polygon fill="#ffffff" stroke="#000000" points="336.5,-78.5 336.5,-119.5 459.5,-119.5 459.5,-78.5 336.5,-78.5"/>
-<text text-anchor="start" x="344.5" y="-107.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
-<text text-anchor="start" x="344.5" y="-96.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/xla/service</text>
-<text text-anchor="middle" x="398" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/cpu/compiler_functor.cc</text>
+<g id="a_node5"><a xlink:href="../../db/d47/client__library_8h.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/xla/client\l/client_library.h">
+<polygon fill="#ffffff" stroke="#000000" points="707.5,-78.5 707.5,-119.5 829.5,-119.5 829.5,-78.5 707.5,-78.5"/>
+<text text-anchor="start" x="715.5" y="-107.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
+<text text-anchor="start" x="715.5" y="-96.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/xla/client</text>
+<text text-anchor="middle" x="768.5" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/client_library.h</text>
 </a>
 </g>
 </g>
-<!-- Node53&#45;&gt;Node54 -->
-<g id="edge16" class="edge">
-<title>Node53&#45;&gt;Node54</title>
-<path fill="none" stroke="#191970" d="M384.6399,-146.3676C387.1627,-137.4232 389.8593,-127.8626 392.1644,-119.6898"/>
-<polygon fill="#191970" stroke="#191970" points="381.2417,-145.5228 381.8956,-156.0974 387.9788,-147.4231 381.2417,-145.5228"/>
+<!-- Node52&#45;&gt;Node54 -->
+<g id="edge4" class="edge">
+<title>Node52&#45;&gt;Node54</title>
+<path fill="none" stroke="#191970" d="M634.5447,-152.5821C661.045,-141.982 691.7429,-129.7028 717.0608,-119.5757"/>
+<polygon fill="#191970" stroke="#191970" points="632.9739,-149.4408 624.989,-156.4044 635.5737,-155.9401 632.9739,-149.4408"/>
+</g>
+<!-- Node58 -->
+<g id="node9" class="node">
+<title>Node58</title>
+<g id="a_node9"><a xlink:href="../../d8/d93/compile__only__client_8cc.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/xla/client\l/compile_only_client.cc">
+<polygon fill="#ffffff" stroke="#000000" points="558,-78.5 558,-119.5 689,-119.5 689,-78.5 558,-78.5"/>
+<text text-anchor="start" x="566" y="-107.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
+<text text-anchor="start" x="566" y="-96.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/xla/client</text>
+<text text-anchor="middle" x="623.5" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compile_only_client.cc</text>
+</a>
+</g>
+</g>
+<!-- Node52&#45;&gt;Node58 -->
+<g id="edge9" class="edge">
+<title>Node52&#45;&gt;Node58</title>
+<path fill="none" stroke="#191970" d="M592.3986,-147.5181C598.3409,-138.2482 604.773,-128.2141 610.2373,-119.6898"/>
+<polygon fill="#191970" stroke="#191970" points="589.3492,-145.7898 586.8991,-156.0974 595.2424,-149.5675 589.3492,-145.7898"/>
+</g>
+<!-- Node54&#45;&gt;Node53 -->
+<g id="edge5" class="edge">
+<title>Node54&#45;&gt;Node53</title>
+<path fill="none" stroke="#191970" d="M697.2597,-77.9016C552.8214,-48.2462 393.2673,-32.8622 304.346,-25.8223"/>
+<polygon fill="#191970" stroke="#191970" points="696.6876,-81.3574 707.191,-79.9684 698.1139,-74.5042 696.6876,-81.3574"/>
 </g>
 <!-- Node55 -->
-<g id="node15" class="node">
+<g id="node6" class="node">
 <title>Node55</title>
-<g id="a_node15"><a xlink:href="../../d4/dcb/cpu__compiler_8cc.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/xla/service\l/cpu/cpu_compiler.cc">
-<polygon fill="#ffffff" stroke="#000000" points="208,-78.5 208,-119.5 318,-119.5 318,-78.5 208,-78.5"/>
-<text text-anchor="start" x="216" y="-107.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
-<text text-anchor="start" x="216" y="-96.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/xla/service</text>
-<text text-anchor="middle" x="263" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/cpu/cpu_compiler.cc</text>
+<g id="a_node6"><a xlink:href="../../d5/d88/xla__compiler_8cc.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/tf2xla/xla\l_compiler.cc">
+<polygon fill="#ffffff" stroke="#000000" points="707.5,-.5 707.5,-41.5 829.5,-41.5 829.5,-.5 707.5,-.5"/>
+<text text-anchor="start" x="715.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
+<text text-anchor="start" x="715.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/tf2xla/xla</text>
+<text text-anchor="middle" x="768.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_compiler.cc</text>
 </a>
 </g>
 </g>
-<!-- Node53&#45;&gt;Node55 -->
-<g id="edge17" class="edge">
-<title>Node53&#45;&gt;Node55</title>
-<path fill="none" stroke="#191970" d="M337.6254,-150.5113C322.9605,-140.3887 306.4735,-129.0083 292.7333,-119.5239"/>
-<polygon fill="#191970" stroke="#191970" points="335.7967,-153.5019 346.0147,-156.3022 339.7732,-147.741 335.7967,-153.5019"/>
+<!-- Node54&#45;&gt;Node55 -->
+<g id="edge6" class="edge">
+<title>Node54&#45;&gt;Node55</title>
+<path fill="none" stroke="#191970" d="M768.5,-68.0789C768.5,-59.2178 768.5,-49.7747 768.5,-41.6898"/>
+<polygon fill="#191970" stroke="#191970" points="765.0001,-68.0974 768.5,-78.0974 772.0001,-68.0975 765.0001,-68.0974"/>
 </g>
-<!-- Node56&#45;&gt;Node44 -->
-<g id="edge19" class="edge">
-<title>Node56&#45;&gt;Node44</title>
-<path fill="none" stroke="#191970" d="M185.9142,-146.5167C189.2349,-126.878 193.9264,-100.8398 199,-78 202.151,-63.8153 206.4215,-47.8291 209.6001,-36.4042"/>
-<polygon fill="#191970" stroke="#191970" points="182.4538,-145.9902 184.2625,-156.4296 189.3586,-147.1409 182.4538,-145.9902"/>
+<!-- Node56 -->
+<g id="node7" class="node">
+<title>Node56</title>
+<g id="a_node7"><a xlink:href="../../d2/d10/xla__op__registry_8cc.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/tf2xla/xla\l_op_registry.cc">
+<polygon fill="#ffffff" stroke="#000000" points="847.5,-.5 847.5,-41.5 969.5,-41.5 969.5,-.5 847.5,-.5"/>
+<text text-anchor="start" x="855.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
+<text text-anchor="start" x="855.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/tf2xla/xla</text>
+<text text-anchor="middle" x="908.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_op_registry.cc</text>
+</a>
 </g>
-<!-- Node56&#45;&gt;Node55 -->
-<g id="edge23" class="edge">
-<title>Node56&#45;&gt;Node55</title>
-<path fill="none" stroke="#191970" d="M210.4935,-148.9452C220.6474,-139.2866 231.8258,-128.6535 241.2492,-119.6898"/>
-<polygon fill="#191970" stroke="#191970" points="207.8078,-146.6693 202.9745,-156.0974 212.6324,-151.7412 207.8078,-146.6693"/>
+</g>
+<!-- Node54&#45;&gt;Node56 -->
+<g id="edge7" class="edge">
+<title>Node54&#45;&gt;Node56</title>
+<path fill="none" stroke="#191970" d="M814.521,-73.3597C833.0645,-63.0283 854.1617,-51.2742 871.6623,-41.5239"/>
+<polygon fill="#191970" stroke="#191970" points="812.6821,-70.3776 805.6499,-78.3022 816.089,-76.4926 812.6821,-70.3776"/>
 </g>
 <!-- Node57 -->
-<g id="node17" class="node">
+<g id="node8" class="node">
 <title>Node57</title>
-<g id="a_node17"><a xlink:href="../../d4/d03/compile_8h.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/aot/compile.h">
-<polygon fill="#ffffff" stroke="#000000" points="34,-84 34,-114 152,-114 152,-84 34,-84"/>
-<text text-anchor="start" x="42" y="-102" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
-<text text-anchor="middle" x="93" y="-91" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/aot/compile.h</text>
+<g id="a_node8"><a xlink:href="../../d3/dba/client__library_8cc.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/xla/client\l/client_library.cc">
+<polygon fill="#ffffff" stroke="#000000" points="567.5,-.5 567.5,-41.5 689.5,-41.5 689.5,-.5 567.5,-.5"/>
+<text text-anchor="start" x="575.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
+<text text-anchor="start" x="575.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/xla/client</text>
+<text text-anchor="middle" x="628.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/client_library.cc</text>
 </a>
 </g>
 </g>
-<!-- Node56&#45;&gt;Node57 -->
+<!-- Node54&#45;&gt;Node57 -->
+<g id="edge8" class="edge">
+<title>Node54&#45;&gt;Node57</title>
+<path fill="none" stroke="#191970" d="M722.479,-73.3597C703.9355,-63.0283 682.8383,-51.2742 665.3377,-41.5239"/>
+<polygon fill="#191970" stroke="#191970" points="720.911,-76.4926 731.3501,-78.3022 724.3179,-70.3776 720.911,-76.4926"/>
+</g>
+<!-- Node59&#45;&gt;Node52 -->
+<g id="edge12" class="edge">
+<title>Node59&#45;&gt;Node52</title>
+<path fill="none" stroke="#191970" d="M585.0383,-224.3676C582.8595,-215.4232 580.5306,-205.8626 578.5398,-197.6898"/>
+<polygon fill="#191970" stroke="#191970" points="581.641,-225.2099 587.4083,-234.0974 588.4421,-223.5532 581.641,-225.2099"/>
+</g>
+<!-- Node59&#45;&gt;Node54 -->
+<g id="edge11" class="edge">
+<title>Node59&#45;&gt;Node54</title>
+<path fill="none" stroke="#191970" d="M618.5681,-226.972C627.1475,-217.7455 636.7331,-207.4349 645.5,-198 662.8396,-179.3392 665.1705,-172.591 684.5,-156 700.0129,-142.6848 718.7143,-129.7332 734.5295,-119.5495"/>
+<polygon fill="#191970" stroke="#191970" points="615.885,-224.7177 611.6382,-234.4241 621.0111,-229.4846 615.885,-224.7177"/>
+</g>
+<!-- Node60 -->
+<g id="node11" class="node">
+<title>Node60</title>
+<g id="a_node11"><a xlink:href="../../df/d69/compile__only__service_8cc.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/xla/service\l/compile_only_service.cc">
+<polygon fill="#ffffff" stroke="#000000" points="693,-156.5 693,-197.5 832,-197.5 832,-156.5 693,-156.5"/>
+<text text-anchor="start" x="701" y="-185.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
+<text text-anchor="start" x="701" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/xla/service</text>
+<text text-anchor="middle" x="762.5" y="-163.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compile_only_service.cc</text>
+</a>
+</g>
+</g>
+<!-- Node59&#45;&gt;Node60 -->
+<g id="edge13" class="edge">
+<title>Node59&#45;&gt;Node60</title>
+<path fill="none" stroke="#191970" d="M646.8523,-230.0619C669.7331,-219.5637 696.0348,-207.4958 717.7685,-197.5239"/>
+<polygon fill="#191970" stroke="#191970" points="645.2399,-226.9508 637.6106,-234.3022 648.1591,-233.3131 645.2399,-226.9508"/>
+</g>
+<!-- Node62 -->
+<g id="node13" class="node">
+<title>Node62</title>
+<g id="a_node13"><a xlink:href="../../d7/d3d/compiler__functor_8h.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/xla/service\l/cpu/compiler_functor.h">
+<polygon fill="#ffffff" stroke="#000000" points="342,-156.5 342,-197.5 473,-197.5 473,-156.5 342,-156.5"/>
+<text text-anchor="start" x="350" y="-185.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
+<text text-anchor="start" x="350" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/xla/service</text>
+<text text-anchor="middle" x="407.5" y="-163.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/cpu/compiler_functor.h</text>
+</a>
+</g>
+</g>
+<!-- Node61&#45;&gt;Node62 -->
+<g id="edge15" class="edge">
+<title>Node61&#45;&gt;Node62</title>
+<path fill="none" stroke="#191970" d="M407.5,-224.0789C407.5,-215.2178 407.5,-205.7747 407.5,-197.6898"/>
+<polygon fill="#191970" stroke="#191970" points="404.0001,-224.0974 407.5,-234.0974 411.0001,-224.0975 404.0001,-224.0974"/>
+</g>
+<!-- Node65 -->
+<g id="node16" class="node">
+<title>Node65</title>
+<g id="a_node16"><a xlink:href="../../db/de2/cpu__compiler_8h.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/xla/service\l/cpu/cpu_compiler.h">
+<polygon fill="#ffffff" stroke="#000000" points="137.5,-156.5 137.5,-197.5 259.5,-197.5 259.5,-156.5 137.5,-156.5"/>
+<text text-anchor="start" x="145.5" y="-185.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
+<text text-anchor="start" x="145.5" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/xla/service</text>
+<text text-anchor="middle" x="198.5" y="-163.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/cpu/cpu_compiler.h</text>
+</a>
+</g>
+</g>
+<!-- Node61&#45;&gt;Node65 -->
+<g id="edge18" class="edge">
+<title>Node61&#45;&gt;Node65</title>
+<path fill="none" stroke="#191970" d="M342.819,-230.8607C314.2473,-220.1976 281.0059,-207.7917 253.6322,-197.5757"/>
+<polygon fill="#191970" stroke="#191970" points="341.7217,-234.1869 352.3143,-234.4044 344.1693,-227.6287 341.7217,-234.1869"/>
+</g>
+<!-- Node63 -->
+<g id="node14" class="node">
+<title>Node63</title>
+<g id="a_node14"><a xlink:href="../../de/ded/compiler__functor_8cc.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/xla/service\l/cpu/compiler_functor.cc">
+<polygon fill="#ffffff" stroke="#000000" points="366,-78.5 366,-119.5 501,-119.5 501,-78.5 366,-78.5"/>
+<text text-anchor="start" x="374" y="-107.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
+<text text-anchor="start" x="374" y="-96.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/xla/service</text>
+<text text-anchor="middle" x="433.5" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/cpu/compiler_functor.cc</text>
+</a>
+</g>
+</g>
+<!-- Node62&#45;&gt;Node63 -->
+<g id="edge16" class="edge">
+<title>Node62&#45;&gt;Node63</title>
+<path fill="none" stroke="#191970" d="M417.7108,-146.3676C420.6923,-137.4232 423.8791,-127.8626 426.6034,-119.6898"/>
+<polygon fill="#191970" stroke="#191970" points="414.3095,-145.5038 414.4675,-156.0974 420.9503,-147.7174 414.3095,-145.5038"/>
+</g>
+<!-- Node64 -->
+<g id="node15" class="node">
+<title>Node64</title>
+<g id="a_node15"><a xlink:href="../../d4/dcb/cpu__compiler_8cc.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/xla/service\l/cpu/cpu_compiler.cc">
+<polygon fill="#ffffff" stroke="#000000" points="225.5,-78.5 225.5,-119.5 347.5,-119.5 347.5,-78.5 225.5,-78.5"/>
+<text text-anchor="start" x="233.5" y="-107.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
+<text text-anchor="start" x="233.5" y="-96.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/xla/service</text>
+<text text-anchor="middle" x="286.5" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/cpu/cpu_compiler.cc</text>
+</a>
+</g>
+</g>
+<!-- Node62&#45;&gt;Node64 -->
+<g id="edge17" class="edge">
+<title>Node62&#45;&gt;Node64</title>
+<path fill="none" stroke="#191970" d="M366.8484,-150.7948C351.0358,-140.6016 333.1888,-129.0969 318.3383,-119.5239"/>
+<polygon fill="#191970" stroke="#191970" points="365.0905,-153.8258 375.3919,-156.3022 368.8832,-147.9423 365.0905,-153.8258"/>
+</g>
+<!-- Node65&#45;&gt;Node53 -->
+<g id="edge19" class="edge">
+<title>Node65&#45;&gt;Node53</title>
+<path fill="none" stroke="#191970" d="M202.9143,-146.3972C206.0358,-126.7108 210.6934,-100.6646 216.5,-78 220.1761,-63.6512 225.6199,-47.683 229.7393,-36.3066"/>
+<polygon fill="#191970" stroke="#191970" points="199.4462,-145.9222 201.3823,-156.3387 206.3646,-146.9884 199.4462,-145.9222"/>
+</g>
+<!-- Node65&#45;&gt;Node64 -->
+<g id="edge23" class="edge">
+<title>Node65&#45;&gt;Node64</title>
+<path fill="none" stroke="#191970" d="M229.8314,-149.229C240.813,-139.4953 252.9456,-128.7414 263.1577,-119.6898"/>
+<polygon fill="#191970" stroke="#191970" points="227.2443,-146.8451 222.0824,-156.0974 231.8875,-152.0835 227.2443,-146.8451"/>
+</g>
+<!-- Node66 -->
+<g id="node17" class="node">
+<title>Node66</title>
+<g id="a_node17"><a xlink:href="../../d4/d03/compile_8h.html" target="_top" xlink:title="tensorflow/tensorflow\l/compiler/aot/compile.h">
+<polygon fill="#ffffff" stroke="#000000" points="37.5,-84 37.5,-114 169.5,-114 169.5,-84 37.5,-84"/>
+<text text-anchor="start" x="45.5" y="-102" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
+<text text-anchor="middle" x="103.5" y="-91" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/aot/compile.h</text>
+</a>
+</g>
+</g>
+<!-- Node65&#45;&gt;Node66 -->
 <g id="edge20" class="edge">
-<title>Node56&#45;&gt;Node57</title>
-<path fill="none" stroke="#191970" d="M149.7658,-149.3152C136.3583,-137.4312 121.2194,-124.0126 109.9494,-114.0233"/>
-<polygon fill="#191970" stroke="#191970" points="147.6125,-152.0835 157.4176,-156.0974 152.2557,-146.8451 147.6125,-152.0835"/>
+<title>Node65&#45;&gt;Node66</title>
+<path fill="none" stroke="#191970" d="M165.1866,-149.648C150.613,-137.6823 134.0778,-124.106 121.7976,-114.0233"/>
+<polygon fill="#191970" stroke="#191970" points="163.092,-152.4568 173.0417,-156.0974 167.534,-147.0467 163.092,-152.4568"/>
 </g>
-<!-- Node57&#45;&gt;Node42 -->
+<!-- Node66&#45;&gt;Node51 -->
 <g id="edge22" class="edge">
-<title>Node57&#45;&gt;Node42</title>
-<path fill="none" stroke="#191970" d="M82.1348,-74.7862C77.3607,-64.1468 71.8133,-51.784 67.2416,-41.5956"/>
-<polygon fill="#191970" stroke="#191970" points="78.9644,-76.2701 86.2516,-83.9608 85.3509,-73.4043 78.9644,-76.2701"/>
+<title>Node66&#45;&gt;Node51</title>
+<path fill="none" stroke="#191970" d="M91.7035,-74.7862C86.5202,-64.1468 80.4973,-51.784 75.5338,-41.5956"/>
+<polygon fill="#191970" stroke="#191970" points="88.647,-76.5038 96.1732,-83.9608 94.9399,-73.438 88.647,-76.5038"/>
 </g>
-<!-- Node57&#45;&gt;Node44 -->
+<!-- Node66&#45;&gt;Node53 -->
 <g id="edge21" class="edge">
-<title>Node57&#45;&gt;Node44</title>
-<path fill="none" stroke="#191970" d="M124.7444,-78.5367C145.2926,-65.2907 171.6079,-48.3272 190.3287,-36.2592"/>
-<polygon fill="#191970" stroke="#191970" points="122.8387,-75.6009 116.33,-83.9608 126.6314,-81.4844 122.8387,-75.6009"/>
+<title>Node66&#45;&gt;Node53</title>
+<path fill="none" stroke="#191970" d="M137.8304,-78.7139C160.29,-65.4423 189.1629,-48.381 209.6768,-36.2592"/>
+<polygon fill="#191970" stroke="#191970" points="135.7796,-75.8602 128.9509,-83.9608 139.3408,-81.8867 135.7796,-75.8602"/>
 </g>
 </g>
 </svg>

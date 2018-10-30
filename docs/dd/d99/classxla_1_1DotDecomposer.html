@@ -66,6 +66,8 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d0/da9/classxla_1_1DotDecomposer-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">xla::DotDecomposer Class Reference</div>  </div>
@@ -75,11 +77,93 @@ $(function() {
 <p><code>#include &lt;<a class="el" href="../../d5/d31/dot__decomposer_8h_source.html">dot_decomposer.h</a>&gt;</code></p>
 
 <p>Inherits HloPassInterface.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a6ab6ddb14084f67eebb899a3e441a777"><td class="memItemLeft" align="right" valign="top">StatusOr&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d99/classxla_1_1DotDecomposer.html#a6ab6ddb14084f67eebb899a3e441a777">Run</a> (<a class="el" href="../../d7/d10/classxla_1_1HloModule.html">HloModule</a> *module) override</td></tr>
+<tr class="memdesc:a6ab6ddb14084f67eebb899a3e441a777"><td class="mdescLeft">&#160;</td><td class="mdescRight">Entry point of <code><a class="el" href="../../dd/d99/classxla_1_1DotDecomposer.html">xla::DotDecomposer</a></code>  <a href="#a6ab6ddb14084f67eebb899a3e441a777">More...</a><br /></td></tr>
+<tr class="separator:a6ab6ddb14084f67eebb899a3e441a777"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aae232d10dd5d73cd80107e54903b5592"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d99/classxla_1_1DotDecomposer.html#aae232d10dd5d73cd80107e54903b5592">decompose_batch_dot_</a></td></tr>
+<tr class="separator:aae232d10dd5d73cd80107e54903b5592"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Google docs: </p><blockquote class="doxtable">
 <p><a class="el" href="../../dd/d99/classxla_1_1DotDecomposer.html">DotDecomposer</a> is a pass which decomposes batch Dot operations into a sequence of smaller (R2) Dot operations.</p>
 </blockquote>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a6ab6ddb14084f67eebb899a3e441a777"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ab6ddb14084f67eebb899a3e441a777">&#9670;&nbsp;</a></span>Run()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">StatusOr&lt; bool &gt; xla::DotDecomposer::Run </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/d10/classxla_1_1HloModule.html">HloModule</a> *&#160;</td>
+          <td class="paramname"><em>module</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Entry point of <code><a class="el" href="../../dd/d99/classxla_1_1DotDecomposer.html">xla::DotDecomposer</a></code> </p>
+<p>Run <a class="el" href="../../dd/d99/classxla_1_1DotDecomposer.html">DotDecomposer</a> pass on computations in 'module'. Returns whether the 'module' was changed.</p>
+<p>Gather all batch Dot operations.</p><ol type="1">
+<li>For All non-fusion computations in hlo module<ol type="a">
+<li>For all the instructions in the computation<ol type="i">
+<li>Ignore all <code>HloOpcode::kDot</code> instructions</li>
+<li>Store it into <code>batch_dots</code> if <code><a class="el" href="../../dd/d99/classxla_1_1DotDecomposer.html#aae232d10dd5d73cd80107e54903b5592">xla::DotDecomposer::decompose_batch_dot_</a></code> is set</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><code><a class="el" href="../../da/d89/namespacexla_1_1anonymous__namespace_02dot__decomposer_8cc_03.html#a2dc3f1ae2d3b570ece2d4248fed5b38b">xla::anonymous_namespace{dot_decomposer.cc}::DecomposeBatchDot</a></code> to decompose </li>
+</ol>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/d99/classxla_1_1DotDecomposer_a6ab6ddb14084f67eebb899a3e441a777_cgraph.svg" width="499" height="134"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aae232d10dd5d73cd80107e54903b5592"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae232d10dd5d73cd80107e54903b5592">&#9670;&nbsp;</a></span>decompose_batch_dot_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool xla::DotDecomposer::decompose_batch_dot_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Indicate this instruction should be processed by <code><a class="el" href="../../dd/d99/classxla_1_1DotDecomposer.html">xla::DotDecomposer</a></code> </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>tensorflow/tensorflow/compiler/xla/service/<a class="el" href="../../d5/d31/dot__decomposer_8h_source.html">dot_decomposer.h</a></li>
 <li>tensorflow/tensorflow/compiler/xla/service/<a class="el" href="../../d3/d9f/dot__decomposer_8cc.html">dot_decomposer.cc</a></li>
 </ul>

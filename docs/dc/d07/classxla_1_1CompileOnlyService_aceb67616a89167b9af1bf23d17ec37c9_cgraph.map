@@ -1,4 +1,8 @@
 <map id="xla::CompileOnlyService::CompileAheadOfTime" name="xla::CompileOnlyService::CompileAheadOfTime">
-<area shape="rect" id="node2" href="$dd/d3d/classComputationTracker.html#a1a3946ea7b82135df39842f6e5ed4b08" title="ComputationTracker\l::Resolve" alt="" coords="230,5,369,47"/>
-<area shape="rect" id="node3" href="$dd/d3d/classComputationTracker.html#addb407ae0007ec874f2b9d8a81364a3c" title="ComputationTracker\l::SnapshotComputation" alt="" coords="220,71,379,112"/>
+<area shape="rect" id="node2" href="$d8/d42/classxla_1_1ComputationTracker.html#add84b3f565b288fdcfdfad55bab8f3ee" title="xla::ComputationTracker\l::Resolve" alt="" coords="465,5,647,47"/>
+<area shape="rect" id="node3" href="$db/dbb/classxla_1_1UserComputation.html#a4fef8fc438e3b3b2c396de862820af3e" title="Lock mutex and call GetVersionedHandleInternal() " alt="" coords="474,81,638,123"/>
+<area shape="rect" id="node5" href="$d8/d42/classxla_1_1ComputationTracker.html#a1acead58332b1b2c6beaeac5505b1b8a" title="xla::ComputationTracker\l::SnapshotComputation" alt="" coords="236,52,417,93"/>
+<area shape="rect" id="node6" href="$d8/d42/classxla_1_1ComputationTracker.html#abaeb463c7038bcc61515a19e18fe0714" title="Build a HLO module (which is basically a set of HLO instructions) using the specified computation as ..." alt="" coords="236,169,417,211"/>
+<area shape="rect" id="node4" href="$db/dbb/classxla_1_1UserComputation.html#af44a77b35aaed6ff22d5fbb266dd824e" title="Get the VersionedComputationHandle recorded in UserComputation object. " alt="" coords="695,81,908,123"/>
+<area shape="rect" id="node7" href="$db/dbb/classxla_1_1UserComputation.html#a7ab95fda9f35270dfbf0868b96f636c6" title="Build a HLO computation from the UserComputation " alt="" coords="471,169,641,211"/>
 </map>

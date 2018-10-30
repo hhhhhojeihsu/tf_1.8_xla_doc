@@ -66,6 +66,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="../../db/d14/classxla_1_1CpuCopyInsertion-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">xla::CpuCopyInsertion Class Reference</div>  </div>
@@ -75,12 +76,57 @@ $(function() {
 <p><code>#include &lt;<a class="el" href="../../d4/d7e/cpu__copy__insertion_8h_source.html">cpu_copy_insertion.h</a>&gt;</code></p>
 
 <p>Inherits HloPassInterface.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ae41776591d4f65ec4c608086c17179d9"><td class="memItemLeft" align="right" valign="top">StatusOr&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d50/classxla_1_1CpuCopyInsertion.html#ae41776591d4f65ec4c608086c17179d9">Run</a> (<a class="el" href="../../d7/d10/classxla_1_1HloModule.html">HloModule</a> *module) override</td></tr>
+<tr class="memdesc:ae41776591d4f65ec4c608086c17179d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Entry point of <code><a class="el" href="../../dd/d50/classxla_1_1CpuCopyInsertion.html">xla::CpuCopyInsertion</a></code>  <a href="#ae41776591d4f65ec4c608086c17179d9">More...</a><br /></td></tr>
+<tr class="separator:ae41776591d4f65ec4c608086c17179d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Google docs: </p><blockquote class="doxtable">
-<p>Besides the modifications made by the generic xla::CopyInsertion, this CPU-specific copy insertion pass also adds copies to values live out of computations satisfying certain conditions (defined by constant or parameter, etc). This is necessary because of deficiencies of buffer assignment. Specifically, buffer assignment is computation-scoped and does not recognized aliasing between arguments and outputs of computations.</p>
+<p>Besides the modifications made by the generic <a class="el" href="../../de/d53/classxla_1_1CopyInsertion.html">xla::CopyInsertion</a>, this CPU-specific copy insertion pass also adds copies to values live out of computations satisfying certain conditions (defined by constant or parameter, etc). This is necessary because of deficiencies of buffer assignment. Specifically, buffer assignment is computation-scoped and does not recognized aliasing between arguments and outputs of computations.</p>
 <p>TODO(b/62548313): Remove this when buffer assignment is smarter (module-scoped).</p>
 </blockquote>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae41776591d4f65ec4c608086c17179d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae41776591d4f65ec4c608086c17179d9">&#9670;&nbsp;</a></span>Run()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">StatusOr&lt; bool &gt; xla::CpuCopyInsertion::Run </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/d10/classxla_1_1HloModule.html">HloModule</a> *&#160;</td>
+          <td class="paramname"><em>module</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Entry point of <code><a class="el" href="../../dd/d50/classxla_1_1CpuCopyInsertion.html">xla::CpuCopyInsertion</a></code> </p>
+<ol type="1">
+<li>Call generic version of copy insertion(<code><a class="el" href="../../de/d53/classxla_1_1CopyInsertion.html">xla::CopyInsertion()</a></code>)</li>
+<li>Run addtional copy insertion for CPU version backend(<code><a class="el" href="../../de/d53/classxla_1_1CopyInsertion.html#abf6d4cb30686483553af178db690ebe7">xla::CopyInsertion::AddCopiesForBufferAssignment()</a></code>) due to deficiencies in buffer assignment </li>
+</ol>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/d50/classxla_1_1CpuCopyInsertion_ae41776591d4f65ec4c608086c17179d9_cgraph.svg" width="491" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>tensorflow/tensorflow/compiler/xla/service/cpu/<a class="el" href="../../d4/d7e/cpu__copy__insertion_8h_source.html">cpu_copy_insertion.h</a></li>
 <li>tensorflow/tensorflow/compiler/xla/service/cpu/<a class="el" href="../../de/dd7/cpu__copy__insertion_8cc.html">cpu_copy_insertion.cc</a></li>
 </ul>

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['xlacompiler',['XlaCompiler',['../d7/dbf/classtensorflow_1_1XlaCompiler.html',1,'tensorflow']]],
-  ['xlaopregistry',['XlaOpRegistry',['../d9/de9/classtensorflow_1_1XlaOpRegistry.html',1,'tensorflow']]]
+  ['whileloopinvariantcodemotion',['WhileLoopInvariantCodeMotion',['../d6/dc0/classxla_1_1WhileLoopInvariantCodeMotion.html',1,'xla']]],
+  ['whileloopsimplifier',['WhileLoopSimplifier',['../d8/df6/classxla_1_1WhileLoopSimplifier.html',1,'xla']]]
 ];

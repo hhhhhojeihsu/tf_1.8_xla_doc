@@ -1,5 +1,5 @@
 <map id="tensorflow/tensorflow/compiler/xla/client/computation_builder.h" name="tensorflow/tensorflow/compiler/xla/client/computation_builder.h">
-<area shape="rect" id="node2" href="$db/d38/xla__resource_8h.html" title="tensorflow/tensorflow\l/compiler/tf2xla/xla\l_resource.h" alt="" coords="5,109,152,165"/>
-<area shape="rect" id="node4" href="$da/d4d/computation__builder_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/client\l/computation_builder.cc" alt="" coords="177,109,335,165"/>
-<area shape="rect" id="node3" href="$dd/d22/xla__resource_8cc.html" title="tensorflow/tensorflow\l/compiler/tf2xla/xla\l_resource.cc" alt="" coords="5,213,152,269"/>
+<area shape="rect" id="node2" href="$db/d38/xla__resource_8h.html" title="tensorflow/tensorflow\l/compiler/tf2xla/xla\l_resource.h" alt="" coords="5,109,168,165"/>
+<area shape="rect" id="node4" href="$da/d4d/computation__builder_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/client\l/computation_builder.cc" alt="" coords="193,109,370,165"/>
+<area shape="rect" id="node3" href="$dd/d22/xla__resource_8cc.html" title="tensorflow/tensorflow\l/compiler/tf2xla/xla\l_resource.cc" alt="" coords="5,213,168,269"/>
 </map>

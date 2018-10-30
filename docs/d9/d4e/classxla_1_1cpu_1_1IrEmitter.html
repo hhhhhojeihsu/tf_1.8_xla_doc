@@ -79,10 +79,10 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1ea44fdf51189a7102922a678dc4033c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4e/classxla_1_1cpu_1_1IrEmitter.html#a1ea44fdf51189a7102922a678dc4033c">IrEmitter</a> (const <a class="el" href="../../d7/d10/classxla_1_1HloModule.html">HloModule</a> &amp;hlo_module, const BufferAssignment &amp;assignment, llvm::Module *llvm_module, std::unordered_map&lt; const HloInstruction *, int64 &gt; instruction_to_profile_idx, std::unordered_map&lt; const <a class="el" href="../../d4/d36/classxla_1_1HloComputation.html">HloComputation</a> *, int64 &gt; computation_to_profile_idx, llvm::TargetMachine *target_machine, ExternalConstantPool *external_constant_pool)</td></tr>
+<tr class="memitem:a1ea44fdf51189a7102922a678dc4033c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4e/classxla_1_1cpu_1_1IrEmitter.html#a1ea44fdf51189a7102922a678dc4033c">IrEmitter</a> (const <a class="el" href="../../d7/d10/classxla_1_1HloModule.html">HloModule</a> &amp;hlo_module, const BufferAssignment &amp;assignment, llvm::Module *llvm_module, std::unordered_map&lt; const <a class="el" href="../../d7/d59/classxla_1_1HloInstruction.html">HloInstruction</a> *, int64 &gt; instruction_to_profile_idx, std::unordered_map&lt; const <a class="el" href="../../d4/d36/classxla_1_1HloComputation.html">HloComputation</a> *, int64 &gt; computation_to_profile_idx, llvm::TargetMachine *target_machine, ExternalConstantPool *external_constant_pool)</td></tr>
 <tr class="memdesc:a1ea44fdf51189a7102922a678dc4033c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new LLVM IR emitter.  <a href="#a1ea44fdf51189a7102922a678dc4033c">More...</a><br /></td></tr>
 <tr class="separator:a1ea44fdf51189a7102922a678dc4033c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b7becbce273b698ca6337eb906626f9"><td class="memItemLeft" align="right" valign="top">StatusOr&lt; llvm::Function * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4e/classxla_1_1cpu_1_1IrEmitter.html#a6b7becbce273b698ca6337eb906626f9">EmitComputation</a> (<a class="el" href="../../d4/d36/classxla_1_1HloComputation.html">HloComputation</a> *computation, const string &amp;function_name_prefix, bool is_top_level_computation, std::vector&lt; const HloInstruction *&gt; *instruction_order)</td></tr>
+<tr class="memitem:a6b7becbce273b698ca6337eb906626f9"><td class="memItemLeft" align="right" valign="top">StatusOr&lt; llvm::Function * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4e/classxla_1_1cpu_1_1IrEmitter.html#a6b7becbce273b698ca6337eb906626f9">EmitComputation</a> (<a class="el" href="../../d4/d36/classxla_1_1HloComputation.html">HloComputation</a> *computation, const string &amp;function_name_prefix, bool is_top_level_computation, std::vector&lt; const <a class="el" href="../../d7/d59/classxla_1_1HloInstruction.html">HloInstruction</a> *&gt; *instruction_order)</td></tr>
 <tr class="separator:a6b7becbce273b698ca6337eb906626f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -117,7 +117,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::unordered_map&lt; const HloInstruction *, int64 &gt;&#160;</td>
+          <td class="paramtype">std::unordered_map&lt; const <a class="el" href="../../d7/d59/classxla_1_1HloInstruction.html">HloInstruction</a> *, int64 &gt;&#160;</td>
           <td class="paramname"><em>instruction_to_profile_idx</em>, </td>
         </tr>
         <tr>
@@ -189,7 +189,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; const HloInstruction *&gt; *&#160;</td>
+          <td class="paramtype">std::vector&lt; const <a class="el" href="../../d7/d59/classxla_1_1HloInstruction.html">HloInstruction</a> *&gt; *&#160;</td>
           <td class="paramname"><em>instruction_order</em>&#160;</td>
         </tr>
         <tr>
@@ -213,7 +213,7 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000009">Todo:</a></b></dt><dd>See what it does </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000008">Todo:</a></b></dt><dd>See what it does </dd></dl>
 
 </div>
 </div>

@@ -1,25 +1,8 @@
 var searchData=
 [
-  ['anonymous_5fnamespace_7bcompile_2ecc_7d',['anonymous_namespace{compile.cc}',['../d4/df4/namespacetensorflow_1_1tfcompile_1_1anonymous__namespace_02compile_8cc_03.html',1,'tensorflow::tfcompile']]],
-  ['anonymous_5fnamespace_7bgraph_5fconstructor_2ecc_7d',['anonymous_namespace{graph_constructor.cc}',['../d9/d86/namespacetensorflow_1_1anonymous__namespace_02graph__constructor_8cc_03.html',1,'tensorflow::anonymous_namespace{graph_constructor.cc}'],['../d9/d79/namespacetensorflow_1_1anonymous__namespace_02graph__constructor_8cc_03_1_1anonymous__namespace_02graph__constructor_8cc_03.html',1,'tensorflow::anonymous_namespace{graph_constructor.cc}::anonymous_namespace{graph_constructor.cc}']]],
-  ['anonymous_5fnamespace_7btf2xla_2ecc_7d',['anonymous_namespace{tf2xla.cc}',['../d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03.html',1,'tensorflow']]],
-  ['anonymous_5fnamespace_7btf2xla_5futil_2ecc_7d',['anonymous_namespace{tf2xla_util.cc}',['../d8/dc5/namespacetensorflow_1_1anonymous__namespace_02tf2xla__util_8cc_03.html',1,'tensorflow']]],
-  ['anonymous_5fnamespace_7bxla_5fcompiler_2ecc_7d',['anonymous_namespace{xla_compiler.cc}',['../de/d61/namespacetensorflow_1_1anonymous__namespace_02xla__compiler_8cc_03.html',1,'tensorflow']]],
-  ['tensorflow',['tensorflow',['../de/d86/namespacetensorflow.html',1,'']]],
-  ['tf2xla_2ecc',['tf2xla.cc',['../d8/db8/tf2xla_8cc.html',1,'']]],
-  ['tf2xla_2eh',['tf2xla.h',['../d7/d62/tf2xla_8h.html',1,'']]],
-  ['tf2xla_5futil_2ecc',['tf2xla_util.cc',['../d1/d60/tf2xla__util_8cc.html',1,'']]],
-  ['tf2xla_5futil_2eh',['tf2xla_util.h',['../d2/d2b/tf2xla__util_8h.html',1,'']]],
-  ['tfcompile',['tfcompile',['../d7/d38/namespacetensorflow_1_1tfcompile.html',1,'tensorflow']]],
-  ['tfcompile_5fmain_2ecc',['tfcompile_main.cc',['../d4/d8d/tfcompile__main_8cc.html',1,'']]],
-  ['todo_20list',['Todo List',['../dd/da0/todo.html',1,'']]],
-  ['transpose_5ffolding_2ecc',['transpose_folding.cc',['../df/dee/transpose__folding_8cc.html',1,'']]],
-  ['transpose_5ffolding_2eh',['transpose_folding.h',['../d6/dac/transpose__folding_8h.html',1,'']]],
-  ['transposefolding',['TransposeFolding',['../d5/db5/classxla_1_1TransposeFolding.html',1,'xla']]],
-  ['tuple_5fpoints_5fto_5fanalysis_2ecc',['tuple_points_to_analysis.cc',['../d5/d67/tuple__points__to__analysis_8cc.html',1,'']]],
-  ['tuple_5fpoints_5fto_5fanalysis_2eh',['tuple_points_to_analysis.h',['../df/d8a/tuple__points__to__analysis_8h.html',1,'']]],
-  ['tuple_5fsimplifier_2ecc',['tuple_simplifier.cc',['../d6/da0/tuple__simplifier_8cc.html',1,'']]],
-  ['tuple_5fsimplifier_2eh',['tuple_simplifier.h',['../df/dc6/tuple__simplifier_8h.html',1,'']]],
-  ['tuplepointstoanalysis',['TuplePointsToAnalysis',['../da/daf/classxla_1_1TuplePointsToAnalysis.html',1,'xla']]],
-  ['tuplesimplifier',['TupleSimplifier',['../dd/de3/classxla_1_1TupleSimplifier.html',1,'xla']]]
+  ['sequentialhloordering',['SequentialHloOrdering',['../d9/dbf/classxla_1_1SequentialHloOrdering.html',1,'xla']]],
+  ['service',['Service',['../d1/d10/classxla_1_1Service.html',1,'xla']]],
+  ['service_2ecc',['service.cc',['../d9/d1a/service_8cc.html',1,'']]],
+  ['service_2eh',['service.h',['../d5/d83/service_8h.html',1,'']]],
+  ['snapshotcomputation',['SnapshotComputation',['../d8/d42/classxla_1_1ComputationTracker.html#a1acead58332b1b2c6beaeac5505b1b8a',1,'xla::ComputationTracker']]]
 ];

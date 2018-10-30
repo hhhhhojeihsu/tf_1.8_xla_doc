@@ -1,0 +1,6 @@
+<map id="xla::HloComputation::CreateFusionInstruction" name="xla::HloComputation::CreateFusionInstruction">
+<area shape="rect" id="node2" href="$d4/d36/classxla_1_1HloComputation.html#a876925a742ee6ee05c22a2811f13a6bb" title="xla::HloComputation\l::AddInstruction" alt="" coords="238,5,394,47"/>
+<area shape="rect" id="node4" href="$d7/d59/classxla_1_1HloInstruction.html#a538498b14c7c98c2efdd17f3defcab0b" title="xla::HloInstruction\l::CreateFusion" alt="" coords="245,71,387,112"/>
+<area shape="rect" id="node5" href="$d4/d36/classxla_1_1HloComputation.html#a513b13379b95f5dd484fc45cacac2cc2" title="xla::HloComputation\l::FuseInstructionsInto" alt="" coords="236,136,396,177"/>
+<area shape="rect" id="node3" href="$d4/d36/classxla_1_1HloComputation.html#a92e460ea09a13fe5504bc0095dcb554f" title="xla::HloComputation\l::AddInstructionInternal" alt="" coords="444,5,619,47"/>
+</map>

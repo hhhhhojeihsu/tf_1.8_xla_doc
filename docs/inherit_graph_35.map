@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$d2/d62/classxla_1_1ReducePrecisionInsertion.html" title="xla::ReducePrecisionInsertion" alt="" coords="5,5,201,32"/>
+<area shape="rect" id="node1" href="$d0/d0f/classxla_1_1HloOrdering.html" title="xla::HloOrdering" alt="" coords="5,5,133,32"/>
+<area shape="rect" id="node2" href="$d9/dbf/classxla_1_1SequentialHloOrdering.html" title="xla::SequentialHloOrdering" alt="" coords="181,5,379,32"/>
 </map>

@@ -79,8 +79,7 @@ $(function() {
 <div class="dynheader">
 Collaboration diagram for xla::CompileOnlyClient:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dbf/classxla_1_1CompileOnlyClient__coll__graph.svg" width="278" height="306"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dbf/classxla_1_1CompileOnlyClient__coll__graph.svg" width="320" height="306"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -122,21 +121,19 @@ Public Member Functions</h2></td></tr>
 
 <p>Compiles a list of computations for ahead-of-time execution. This is intended for use in static compilation. The |options| parameter describes the target for which the compiler should emit code. </p>
 <ol type="1">
-<li>Create vector of <code><a class="el" href="../../d5/d85/structxla_1_1CompileOnlyService_1_1AotComputationInstance.html" title="A description of a computation to compile using CompileAheadOfTime. ">CompileOnlyService::AotComputationInstance</a></code></li>
-<li>Put all the <a class="el" href="../../db/dbb/classxla_1_1UserComputation.html">UserComputation</a> into the instance array.</li>
+<li>Create a vector of <code><a class="el" href="../../d5/d85/structxla_1_1CompileOnlyService_1_1AotComputationInstance.html" title="A description of a computation to compile using CompileAheadOfTime. ">CompileOnlyService::AotComputationInstance</a></code></li>
+<li>Convert all the <code>xla::CompileOnlyClient::AotComputationInstance</code> objects (basically represents an <a href="https://hhhhhojeihsu.github.io/tensorflow_1.8_woboq/tensorflow_1.8_xla/tensorflow/tensorflow/compiler/xla/client/computation.h.html#xla::Computation"><code>xla::Computation</code></a> object) into the <code><a class="el" href="../../d5/d85/structxla_1_1CompileOnlyService_1_1AotComputationInstance.html" title="A description of a computation to compile using CompileAheadOfTime. ">xla::CompileOnlyService::AotComputationInstance</a></code> objects.</li>
 <li>Call <code><a class="el" href="../../dc/d07/classxla_1_1CompileOnlyService.html#aceb67616a89167b9af1bf23d17ec37c9">xla::CompileOnlyService::CompileAheadOfTime</a></code> </li>
 </ol>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/dd1/classxla_1_1CompileOnlyClient_a5a585d21f617b77a1cecc1b587d18d7a_cgraph.svg" width="591" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/dd1/classxla_1_1CompileOnlyClient_a5a585d21f617b77a1cecc1b587d18d7a_cgraph.svg" width="100%" height="462"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/dd1/classxla_1_1CompileOnlyClient_a5a585d21f617b77a1cecc1b587d18d7a_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/dd1/classxla_1_1CompileOnlyClient_a5a585d21f617b77a1cecc1b587d18d7a_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

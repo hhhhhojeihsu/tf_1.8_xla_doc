@@ -1,0 +1,5 @@
+<map id="xla::ComputationTracker::SnapshotComputation" name="xla::ComputationTracker::SnapshotComputation">
+<area shape="rect" id="node2" href="$d8/d42/classxla_1_1ComputationTracker.html#add84b3f565b288fdcfdfad55bab8f3ee" title="xla::ComputationTracker\l::Resolve" alt="" coords="235,5,416,47"/>
+<area shape="rect" id="node3" href="$db/dbb/classxla_1_1UserComputation.html#a4fef8fc438e3b3b2c396de862820af3e" title="Lock mutex and call GetVersionedHandleInternal() " alt="" coords="243,71,407,112"/>
+<area shape="rect" id="node4" href="$db/dbb/classxla_1_1UserComputation.html#af44a77b35aaed6ff22d5fbb266dd824e" title="Get the VersionedComputationHandle recorded in UserComputation object. " alt="" coords="464,71,677,112"/>
+</map>

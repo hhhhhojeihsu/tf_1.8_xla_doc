@@ -1,4 +1,5 @@
 <map id="xla::Service::Op" name="xla::Service::Op">
-<area shape="rect" id="node2" href="$dd/d3d/classComputationTracker.html#a1a3946ea7b82135df39842f6e5ed4b08" title="ComputationTracker\l::Resolve" alt="" coords="187,5,326,47"/>
-<area shape="rect" id="node3" href="$db/dbb/classxla_1_1UserComputation.html#a25685bdc2be08a3873ba52d4867e8db8" title="Enqueue a parameter&#45;retrieving instruction onto this UserComputation. " alt="" coords="169,71,344,112"/>
+<area shape="rect" id="node2" href="$d8/d42/classxla_1_1ComputationTracker.html#add84b3f565b288fdcfdfad55bab8f3ee" title="xla::ComputationTracker\l::Resolve" alt="" coords="182,5,363,47"/>
+<area shape="rect" id="node3" href="$db/dbb/classxla_1_1UserComputation.html#a25685bdc2be08a3873ba52d4867e8db8" title="Enqueue a parameter&#45;retrieving instruction onto this UserComputation. " alt="" coords="177,71,368,112"/>
+<area shape="rect" id="node4" href="$db/dbb/classxla_1_1UserComputation.html#af44a77b35aaed6ff22d5fbb266dd824e" title="Get the VersionedComputationHandle recorded in UserComputation object. " alt="" coords="416,71,629,112"/>
 </map>

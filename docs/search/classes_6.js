@@ -5,6 +5,7 @@ var searchData=
   ['hlocse',['HloCSE',['../d5/d69/classxla_1_1HloCSE.html',1,'xla']]],
   ['hlodce',['HloDCE',['../d3/db4/classxla_1_1HloDCE.html',1,'xla']]],
   ['hloelementtypeconverter',['HloElementTypeConverter',['../d8/de7/classxla_1_1HloElementTypeConverter.html',1,'xla']]],
+  ['hloinstruction',['HloInstruction',['../d7/d59/classxla_1_1HloInstruction.html',1,'xla']]],
   ['hlomodule',['HloModule',['../d7/d10/classxla_1_1HloModule.html',1,'xla']]],
   ['hloordering',['HloOrdering',['../d0/d0f/classxla_1_1HloOrdering.html',1,'xla']]],
   ['hlopassfix',['HloPassFix',['../da/d51/classxla_1_1HloPassFix.html',1,'xla']]],

@@ -1,7 +1,9 @@
 <map id="tensorflow/tensorflow/compiler/xla/service/cpu/compiler_functor.h" name="tensorflow/tensorflow/compiler/xla/service/cpu/compiler_functor.h">
-<area shape="rect" id="node6" href="$db/d87/disassembler_8h.html" title="tensorflow/compiler\l/xla/service/cpu/disassembler.h" alt="" coords="1073,399,1279,441"/>
-<area shape="rect" id="node17" href="$d8/d1e/llvm__compiler_8h.html" title="tensorflow/compiler\l/xla/service/llvm_compiler.h" alt="" coords="1125,109,1307,151"/>
-<area shape="rect" id="node18" href="$d4/dd1/compiler_8h.html" title="tensorflow/compiler\l/xla/service/compiler.h" alt="" coords="2227,199,2379,240"/>
-<area shape="rect" id="node22" href="$db/da0/hlo__module_8h.html" title="tensorflow/compiler\l/xla/service/hlo_module.h" alt="" coords="2411,295,2581,337"/>
-<area shape="rect" id="node30" href="$d2/d31/hlo__computation_8h.html" title="tensorflow/compiler\l/xla/service/hlo_computation.h" alt="" coords="2521,399,2719,441"/>
+<area shape="rect" id="node6" href="$db/d87/disassembler_8h.html" title="tensorflow/compiler\l/xla/service/cpu/disassembler.h" alt="" coords="3575,399,3802,441"/>
+<area shape="rect" id="node17" href="$d8/d1e/llvm__compiler_8h.html" title="tensorflow/compiler\l/xla/service/llvm_compiler.h" alt="" coords="3154,109,3359,151"/>
+<area shape="rect" id="node18" href="$d4/dd1/compiler_8h.html" title="tensorflow/compiler\l/xla/service/compiler.h" alt="" coords="2927,199,3096,240"/>
+<area shape="rect" id="node22" href="$db/da0/hlo__module_8h.html" title="tensorflow/compiler\l/xla/service/hlo_module.h" alt="" coords="2146,295,2335,337"/>
+<area shape="rect" id="node30" href="$d2/d31/hlo__computation_8h.html" title="tensorflow/compiler\l/xla/service/hlo_computation.h" alt="" coords="1611,399,1833,441"/>
+<area shape="rect" id="node36" href="$dd/d66/hlo__instruction_8h.html" title="tensorflow/compiler\l/xla/service/hlo_instruction.h" alt="" coords="1921,503,2131,545"/>
+<area shape="rect" id="node46" href="$d3/d4d/versioned__computation__handle_8h.html" title="tensorflow/compiler\l/xla/service/versioned\l_computation_handle.h" alt="" coords="469,496,644,552"/>
 </map>

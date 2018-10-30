@@ -1,0 +1,4 @@
+<map id="xla::DotDecomposer::Run" name="xla::DotDecomposer::Run">
+<area shape="rect" id="node2" href="$d7/d10/classxla_1_1HloModule.html#ad2116293c9a502c5778dec07bed4abd5" title="xla::HloModule::MakeNonfusion\lComputations" alt="" coords="253,5,481,47"/>
+<area shape="rect" id="node3" href="$da/d89/namespacexla_1_1anonymous__namespace_02dot__decomposer_8cc_03.html#a2dc3f1ae2d3b570ece2d4248fed5b38b" title="xla::anonymous_namespace\l\{dot_decomposer::cc\}::Decompose\lBatchDot" alt="" coords="240,71,493,127"/>
+</map>

@@ -66,6 +66,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="../../db/df9/classxla_1_1TransposeFolding-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">xla::TransposeFolding Class Reference</div>  </div>
@@ -75,11 +76,53 @@ $(function() {
 <p><code>#include &lt;<a class="el" href="../../d6/dac/transpose__folding_8h_source.html">transpose_folding.h</a>&gt;</code></p>
 
 <p>Inherits HloPassInterface.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a94d1b7a112dd613def2f188a17925095"><td class="memItemLeft" align="right" valign="top">StatusOr&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/db5/classxla_1_1TransposeFolding.html#a94d1b7a112dd613def2f188a17925095">Run</a> (<a class="el" href="../../d7/d10/classxla_1_1HloModule.html">HloModule</a> *module) override</td></tr>
+<tr class="memdesc:a94d1b7a112dd613def2f188a17925095"><td class="mdescLeft">&#160;</td><td class="mdescRight">entry point of <code><a class="el" href="../../d5/db5/classxla_1_1TransposeFolding.html">xla::TransposeFolding</a></code> pass  <a href="#a94d1b7a112dd613def2f188a17925095">More...</a><br /></td></tr>
+<tr class="separator:a94d1b7a112dd613def2f188a17925095"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><blockquote class="doxtable">
 <p>HLO pass that folds transpose operators into Dot operators, where the Dot operator is implemented by a GEMM kernel that can transpose its inputs.</p>
 </blockquote>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a94d1b7a112dd613def2f188a17925095"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94d1b7a112dd613def2f188a17925095">&#9670;&nbsp;</a></span>Run()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">StatusOr&lt; bool &gt; xla::TransposeFolding::Run </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/d10/classxla_1_1HloModule.html">HloModule</a> *&#160;</td>
+          <td class="paramname"><em>module</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>entry point of <code><a class="el" href="../../d5/db5/classxla_1_1TransposeFolding.html">xla::TransposeFolding</a></code> pass </p>
+<p>Find all folding opportunities(dots and convolutions) and then fold it. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/db5/classxla_1_1TransposeFolding_a94d1b7a112dd613def2f188a17925095_cgraph.svg" width="462" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>tensorflow/tensorflow/compiler/xla/service/<a class="el" href="../../d6/dac/transpose__folding_8h_source.html">transpose_folding.h</a></li>
 <li>tensorflow/tensorflow/compiler/xla/service/<a class="el" href="../../df/dee/transpose__folding_8cc.html">transpose_folding.cc</a></li>
 </ul>

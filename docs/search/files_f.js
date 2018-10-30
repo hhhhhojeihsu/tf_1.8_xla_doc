@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['xla_5fcompiler_2ecc',['xla_compiler.cc',['../d5/d88/xla__compiler_8cc.html',1,'']]],
-  ['xla_5fcompiler_2eh',['xla_compiler.h',['../db/d88/xla__compiler_8h.html',1,'']]],
-  ['xla_5fop_5fregistry_2ecc',['xla_op_registry.cc',['../d2/d10/xla__op__registry_8cc.html',1,'']]],
-  ['xla_5fop_5fregistry_2eh',['xla_op_registry.h',['../d7/d49/xla__op__registry_8h.html',1,'']]],
-  ['xla_5fresource_2ecc',['xla_resource.cc',['../dd/d22/xla__resource_8cc.html',1,'']]],
-  ['xla_5fresource_2eh',['xla_resource.h',['../db/d38/xla__resource_8h.html',1,'']]]
+  ['while_5floop_5finvariant_5fcode_5fmotion_2ecc',['while_loop_invariant_code_motion.cc',['../da/df1/while__loop__invariant__code__motion_8cc.html',1,'']]],
+  ['while_5floop_5finvariant_5fcode_5fmotion_2eh',['while_loop_invariant_code_motion.h',['../d1/d57/while__loop__invariant__code__motion_8h.html',1,'']]],
+  ['while_5floop_5fsimplifier_2ecc',['while_loop_simplifier.cc',['../d5/d0e/while__loop__simplifier_8cc.html',1,'']]],
+  ['while_5floop_5fsimplifier_2eh',['while_loop_simplifier.h',['../da/d88/while__loop__simplifier_8h.html',1,'']]]
 ];

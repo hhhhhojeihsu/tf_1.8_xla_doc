@@ -1,6 +1,10 @@
 <map id="tensorflow::tfcompile::anonymous_namespace{compile::cc}::CompileXla" name="tensorflow::tfcompile::anonymous_namespace{compile::cc}::CompileXla">
-<area shape="rect" id="node2" href="$d1/dd1/classxla_1_1CompileOnlyClient.html#a5a585d21f617b77a1cecc1b587d18d7a" title="Compiles a list of computations for ahead&#45;of&#45;time execution. This is intended for use in static compi..." alt="" coords="225,39,384,80"/>
-<area shape="rect" id="node3" href="$dc/d07/classxla_1_1CompileOnlyService.html#aceb67616a89167b9af1bf23d17ec37c9" title="xla::CompileOnlyService\l::CompileAheadOfTime" alt="" coords="432,39,599,80"/>
-<area shape="rect" id="node4" href="$dd/d3d/classComputationTracker.html#a1a3946ea7b82135df39842f6e5ed4b08" title="ComputationTracker\l::Resolve" alt="" coords="657,5,795,47"/>
-<area shape="rect" id="node5" href="$dd/d3d/classComputationTracker.html#addb407ae0007ec874f2b9d8a81364a3c" title="ComputationTracker\l::SnapshotComputation" alt="" coords="647,71,805,112"/>
+<area shape="rect" id="node2" href="$d1/dd1/classxla_1_1CompileOnlyClient.html#a5a585d21f617b77a1cecc1b587d18d7a" title="Compiles a list of computations for ahead&#45;of&#45;time execution. This is intended for use in static compi..." alt="" coords="248,81,421,123"/>
+<area shape="rect" id="node3" href="$dc/d07/classxla_1_1CompileOnlyService.html#aceb67616a89167b9af1bf23d17ec37c9" title="xla::CompileOnlyService\l::CompileAheadOfTime" alt="" coords="469,81,652,123"/>
+<area shape="rect" id="node4" href="$d8/d42/classxla_1_1ComputationTracker.html#add84b3f565b288fdcfdfad55bab8f3ee" title="xla::ComputationTracker\l::Resolve" alt="" coords="929,5,1111,47"/>
+<area shape="rect" id="node5" href="$db/dbb/classxla_1_1UserComputation.html#a4fef8fc438e3b3b2c396de862820af3e" title="Lock mutex and call GetVersionedHandleInternal() " alt="" coords="938,81,1102,123"/>
+<area shape="rect" id="node7" href="$d8/d42/classxla_1_1ComputationTracker.html#a1acead58332b1b2c6beaeac5505b1b8a" title="xla::ComputationTracker\l::SnapshotComputation" alt="" coords="700,52,881,93"/>
+<area shape="rect" id="node8" href="$d8/d42/classxla_1_1ComputationTracker.html#abaeb463c7038bcc61515a19e18fe0714" title="Build a HLO module (which is basically a set of HLO instructions) using the specified computation as ..." alt="" coords="700,169,881,211"/>
+<area shape="rect" id="node6" href="$db/dbb/classxla_1_1UserComputation.html#af44a77b35aaed6ff22d5fbb266dd824e" title="Get the VersionedComputationHandle recorded in UserComputation object. " alt="" coords="1159,81,1372,123"/>
+<area shape="rect" id="node9" href="$db/dbb/classxla_1_1UserComputation.html#a7ab95fda9f35270dfbf0868b96f636c6" title="Build a HLO computation from the UserComputation " alt="" coords="935,169,1105,211"/>
 </map>

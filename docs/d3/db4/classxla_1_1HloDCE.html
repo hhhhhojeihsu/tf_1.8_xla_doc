@@ -66,6 +66,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="../../dd/d35/classxla_1_1HloDCE-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">xla::HloDCE Class Reference</div>  </div>
@@ -75,13 +76,55 @@ $(function() {
 <p><code>#include &lt;<a class="el" href="../../da/d99/hlo__dce_8h_source.html">hlo_dce.h</a>&gt;</code></p>
 
 <p>Inherits HloPassInterface.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a245062edb27df4635a2ef68c7714df8f"><td class="memItemLeft" align="right" valign="top">StatusOr&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/db4/classxla_1_1HloDCE.html#a245062edb27df4635a2ef68c7714df8f">Run</a> (<a class="el" href="../../d7/d10/classxla_1_1HloModule.html">HloModule</a> *module) override</td></tr>
+<tr class="memdesc:a245062edb27df4635a2ef68c7714df8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Entry of <code><a class="el" href="../../d3/db4/classxla_1_1HloDCE.html">xla::HloDCE</a></code> pass.  <a href="#a245062edb27df4635a2ef68c7714df8f">More...</a><br /></td></tr>
+<tr class="separator:a245062edb27df4635a2ef68c7714df8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><blockquote class="doxtable">
 <p>HLO pass which removes dead instructions from each computation in the module and removes dead computations from the module.</p>
 <p>An instruction is dead if it is not reachable from the root. A computation is dead if it is not the entry computation of the module and it is not reachable from the entry computation.</p>
 <p>This pass does not remove dead parameter instructions, as parameter instructions cannot be deleted.</p>
 </blockquote>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a245062edb27df4635a2ef68c7714df8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a245062edb27df4635a2ef68c7714df8f">&#9670;&nbsp;</a></span>Run()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">StatusOr&lt; bool &gt; xla::HloDCE::Run </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/d10/classxla_1_1HloModule.html">HloModule</a> *&#160;</td>
+          <td class="paramname"><em>module</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Entry of <code><a class="el" href="../../d3/db4/classxla_1_1HloDCE.html">xla::HloDCE</a></code> pass. </p>
+<p>For sequence of computation in hlo module in post order</p><ol type="1">
+<li>Mark all the removable instruction in the computation</li>
+<li>Remove the marked dead root and its sibling operand.</li>
+<li>Collect live computation(computation that is called by instruction)</li>
+<li>Remove dead computation(which is not live computation) </li>
+</ol>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>tensorflow/tensorflow/compiler/xla/service/<a class="el" href="../../da/d99/hlo__dce_8h_source.html">hlo_dce.h</a></li>
 <li>tensorflow/tensorflow/compiler/xla/service/<a class="el" href="../../d3/d25/hlo__dce_8cc.html">hlo_dce.cc</a></li>
 </ul>

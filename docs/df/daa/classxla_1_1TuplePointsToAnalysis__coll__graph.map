@@ -1,4 +1,6 @@
 <map id="xla::TuplePointsToAnalysis" name="xla::TuplePointsToAnalysis">
-<area shape="rect" id="node2" href="$d7/d10/classxla_1_1HloModule.html" title="xla::HloModule" alt="" coords="145,5,255,32"/>
-<area shape="rect" id="node3" href="$d4/d36/classxla_1_1HloComputation.html" title="xla::HloComputation" alt="" coords="208,95,349,121"/>
+<area shape="rect" id="node2" href="$d7/d10/classxla_1_1HloModule.html" title="xla::HloModule" alt="" coords="157,109,276,136"/>
+<area shape="rect" id="node4" href="$d4/d36/classxla_1_1HloComputation.html" title="xla::HloComputation" alt="" coords="223,199,379,225"/>
+<area shape="rect" id="node3" href="$db/df3/structxla_1_1VersionedComputationHandle.html" title="xla::VersionedComputation\lHandle" alt="" coords="117,5,316,47"/>
+<area shape="rect" id="node5" href="$d7/d59/classxla_1_1HloInstruction.html" title="xla::HloInstruction" alt="" coords="229,317,370,344"/>
 </map>

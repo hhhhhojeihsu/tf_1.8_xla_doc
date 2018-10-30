@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 812;
+var viewWidth = 877;
 var viewHeight = 50;
 var sectionId = 'dynsection-4';
 </script>
@@ -54,94 +54,94 @@ var sectionId = 'dynsection-4';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>tensorflow::anonymous_namespace{tf2xla::cc}::RewriteAndPruneGraph</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-46 808,-46 808,4 -4,4"/>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-46 873,-46 873,4 -4,4"/>
 <!-- Node20 -->
 <g id="node1" class="node">
 <title>Node20</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="0,-.5 0,-41.5 125,-41.5 125,-.5 0,-.5"/>
+<polygon fill="#bfbfbf" stroke="#000000" points="0,-.5 0,-41.5 135,-41.5 135,-.5 0,-.5"/>
 <text text-anchor="start" x="8" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow::anonymous</text>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_namespace{tf2xla::cc}</text>
-<text text-anchor="middle" x="62.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::RewriteAndPruneGraph</text>
+<text text-anchor="middle" x="67.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::RewriteAndPruneGraph</text>
 </g>
 <!-- Node21 -->
 <g id="node2" class="node">
 <title>Node21</title>
 <g id="a_node2"><a xlink:href="../../d3/dfa/namespacetensorflow_1_1anonymous__namespace_02tf2xla_8cc_03.html#aeef0cda05958b2b855b0e2fbe07b1314" target="_top" xlink:title="InitGraph creates a graph based on the graph_def, that may then be convert to an xla::Computation via...">
-<polygon fill="#ffffff" stroke="#000000" points="161,-.5 161,-41.5 280,-41.5 280,-.5 161,-.5"/>
-<text text-anchor="start" x="169" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow::anonymous</text>
-<text text-anchor="start" x="169" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_namespace{tf2xla::cc}</text>
-<text text-anchor="middle" x="220.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::InitGraph</text>
+<polygon fill="#ffffff" stroke="#000000" points="171,-.5 171,-41.5 306,-41.5 306,-.5 171,-.5"/>
+<text text-anchor="start" x="179" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow::anonymous</text>
+<text text-anchor="start" x="179" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_namespace{tf2xla::cc}</text>
+<text text-anchor="middle" x="238.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::InitGraph</text>
 </a>
 </g>
 </g>
 <!-- Node20&#45;&gt;Node21 -->
 <g id="edge1" class="edge">
 <title>Node20&#45;&gt;Node21</title>
-<path fill="none" stroke="#191970" d="M135.6463,-21C144.1046,-21 152.653,-21 160.9007,-21"/>
-<polygon fill="#191970" stroke="#191970" points="135.3998,-17.5001 125.3998,-21 135.3997,-24.5001 135.3998,-17.5001"/>
+<path fill="none" stroke="#191970" d="M145.0998,-21C153.692,-21 162.3915,-21 170.8472,-21"/>
+<polygon fill="#191970" stroke="#191970" points="145.0838,-17.5001 135.0837,-21 145.0837,-24.5001 145.0838,-17.5001"/>
 </g>
 <!-- Node22 -->
 <g id="node3" class="node">
 <title>Node22</title>
 <g id="a_node3"><a xlink:href="../../de/d86/namespacetensorflow.html#a6f8fce5955ec6d67cd1762891d4830e9" target="_top" xlink:title="Convert tensorflow graph_def to XLA UserComputation. ">
-<polygon fill="#ffffff" stroke="#000000" points="316,-6 316,-36 444,-36 444,-6 316,-6"/>
-<text text-anchor="start" x="324" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow::ConvertGraph</text>
-<text text-anchor="middle" x="380" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">DefToXla</text>
+<polygon fill="#ffffff" stroke="#000000" points="342,-6 342,-36 482,-36 482,-6 342,-6"/>
+<text text-anchor="start" x="350" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow::ConvertGraph</text>
+<text text-anchor="middle" x="412" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">DefToXla</text>
 </a>
 </g>
 </g>
 <!-- Node21&#45;&gt;Node22 -->
 <g id="edge2" class="edge">
 <title>Node21&#45;&gt;Node22</title>
-<path fill="none" stroke="#191970" d="M290.5119,-21C298.9271,-21 307.4891,-21 315.8156,-21"/>
-<polygon fill="#191970" stroke="#191970" points="290.3457,-17.5001 280.3457,-21 290.3457,-24.5001 290.3457,-17.5001"/>
+<path fill="none" stroke="#191970" d="M316.3262,-21C324.7938,-21 333.376,-21 341.7455,-21"/>
+<polygon fill="#191970" stroke="#191970" points="316.0765,-17.5001 306.0764,-21 316.0764,-24.5001 316.0765,-17.5001"/>
 </g>
 <!-- Node23 -->
 <g id="node4" class="node">
 <title>Node23</title>
 <g id="a_node4"><a xlink:href="../../d7/d38/namespacetensorflow_1_1tfcompile.html#a021cb1c58d938b16dcd998aa8d1fc191" target="_top" xlink:title="Converts the graph into an XLA computation, and compiles the computation. Called by tensorflow::tfcom...">
-<polygon fill="#ffffff" stroke="#000000" points="480,-6 480,-36 587,-36 587,-6 480,-6"/>
-<text text-anchor="start" x="488" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow::tfcompile</text>
-<text text-anchor="middle" x="533.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::CompileGraph</text>
+<polygon fill="#ffffff" stroke="#000000" points="518,-6 518,-36 637,-36 637,-6 518,-6"/>
+<text text-anchor="start" x="526" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow::tfcompile</text>
+<text text-anchor="middle" x="577.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::CompileGraph</text>
 </a>
 </g>
 </g>
 <!-- Node22&#45;&gt;Node23 -->
 <g id="edge3" class="edge">
 <title>Node22&#45;&gt;Node23</title>
-<path fill="none" stroke="#191970" d="M454.2612,-21C462.8631,-21 471.5067,-21 479.7592,-21"/>
-<polygon fill="#191970" stroke="#191970" points="454.2084,-17.5001 444.2084,-21 454.2084,-24.5001 454.2084,-17.5001"/>
+<path fill="none" stroke="#191970" d="M492.2836,-21C500.9177,-21 509.5876,-21 517.917,-21"/>
+<polygon fill="#191970" stroke="#191970" points="492.1869,-17.5001 482.1869,-21 492.1869,-24.5001 492.1869,-17.5001"/>
 </g>
 <!-- Node24 -->
 <g id="node5" class="node">
 <title>Node24</title>
 <g id="a_node5"><a xlink:href="../../d7/d38/namespacetensorflow_1_1tfcompile.html#a460964a5bb277865d1275fe3746132c1" target="_top" xlink:title="tensorflow::tfcompile\l::Main">
-<polygon fill="#ffffff" stroke="#000000" points="623,-6 623,-36 730,-36 730,-6 623,-6"/>
-<text text-anchor="start" x="631" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow::tfcompile</text>
-<text text-anchor="middle" x="676.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::Main</text>
+<polygon fill="#ffffff" stroke="#000000" points="673,-6 673,-36 792,-36 792,-6 673,-6"/>
+<text text-anchor="start" x="681" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow::tfcompile</text>
+<text text-anchor="middle" x="732.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::Main</text>
 </a>
 </g>
 </g>
 <!-- Node23&#45;&gt;Node24 -->
 <g id="edge4" class="edge">
 <title>Node23&#45;&gt;Node24</title>
-<path fill="none" stroke="#191970" d="M597.3238,-21C605.7452,-21 614.3103,-21 622.5445,-21"/>
-<polygon fill="#191970" stroke="#191970" points="597.1548,-17.5001 587.1548,-21 597.1547,-24.5001 597.1548,-17.5001"/>
+<path fill="none" stroke="#191970" d="M647.6612,-21C656.1217,-21 664.6999,-21 672.9877,-21"/>
+<polygon fill="#191970" stroke="#191970" points="647.4271,-17.5001 637.427,-21 647.427,-24.5001 647.4271,-17.5001"/>
 </g>
 <!-- Node25 -->
 <g id="node6" class="node">
 <title>Node25</title>
 <g id="a_node6"><a xlink:href="../../d4/d8d/tfcompile__main_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" target="_top" xlink:title="main">
-<polygon fill="#ffffff" stroke="#000000" points="766,-11.5 766,-30.5 804,-30.5 804,-11.5 766,-11.5"/>
-<text text-anchor="middle" x="785" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">main</text>
+<polygon fill="#ffffff" stroke="#000000" points="828,-11.5 828,-30.5 869,-30.5 869,-11.5 828,-11.5"/>
+<text text-anchor="middle" x="848.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">main</text>
 </a>
 </g>
 </g>
 <!-- Node24&#45;&gt;Node25 -->
 <g id="edge5" class="edge">
 <title>Node24&#45;&gt;Node25</title>
-<path fill="none" stroke="#191970" d="M740.2814,-21C749.5615,-21 758.4574,-21 765.8366,-21"/>
-<polygon fill="#191970" stroke="#191970" points="740.1143,-17.5001 730.1143,-21 740.1142,-24.5001 740.1143,-17.5001"/>
+<path fill="none" stroke="#191970" d="M802.3907,-21C811.6734,-21 820.5314,-21 827.9577,-21"/>
+<polygon fill="#191970" stroke="#191970" points="802.199,-17.5001 792.199,-21 802.199,-24.5001 802.199,-17.5001"/>
 </g>
 </g>
 </svg>

@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['validateconfig',['ValidateConfig',['../de/d86/namespacetensorflow.html#aaeeec358e2be013353667dd7c0a6dbaa',1,'tensorflow']]],
-  ['verifyllvmmodule',['VerifyLlvmModule',['../d6/d10/namespacexla_1_1cpu_1_1anonymous__namespace_02cpu__compiler_8cc_03.html#afda30ab3f3866f05c5a12ec7deb71911',1,'xla::cpu::anonymous_namespace{cpu_compiler.cc}']]]
+  ['user_5fcomputation_2ecc',['user_computation.cc',['../d3/dd6/user__computation_8cc.html',1,'']]],
+  ['user_5fcomputation_2eh',['user_computation.h',['../d6/d38/user__computation_8h.html',1,'']]],
+  ['usercomputation',['UserComputation',['../db/dbb/classxla_1_1UserComputation.html',1,'xla']]]
 ];

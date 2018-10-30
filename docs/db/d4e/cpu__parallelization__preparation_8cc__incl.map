@@ -1,6 +1,7 @@
 <map id="tensorflow/tensorflow/compiler/xla/service/cpu/cpu_parallelization_preparation.cc" name="tensorflow/tensorflow/compiler/xla/service/cpu/cpu_parallelization_preparation.cc">
-<area shape="rect" id="node2" href="$db/db4/cpu__parallelization__preparation_8h.html" title="tensorflow/compiler\l/xla/service/cpu/cpu\l_parallelization_preparation.h" alt="" coords="3128,124,3319,180"/>
-<area shape="rect" id="node14" href="$d2/d31/hlo__computation_8h.html" title="tensorflow/compiler\l/xla/service/hlo_computation.h" alt="" coords="1660,339,1859,381"/>
-<area shape="rect" id="node40" href="$dc/df9/parallel__task__assignment_8h.html" title="tensorflow/compiler\l/xla/service/cpu/parallel\l_task_assignment.h" alt="" coords="2945,124,3104,180"/>
-<area shape="rect" id="node4" href="$db/da0/hlo__module_8h.html" title="tensorflow/compiler\l/xla/service/hlo_module.h" alt="" coords="2947,235,3118,277"/>
+<area shape="rect" id="node2" href="$db/db4/cpu__parallelization__preparation_8h.html" title="tensorflow/compiler\l/xla/service/cpu/cpu\l_parallelization_preparation.h" alt="" coords="2821,124,3037,180"/>
+<area shape="rect" id="node14" href="$d2/d31/hlo__computation_8h.html" title="tensorflow/compiler\l/xla/service/hlo_computation.h" alt="" coords="2364,339,2587,381"/>
+<area shape="rect" id="node20" href="$dd/d66/hlo__instruction_8h.html" title="tensorflow/compiler\l/xla/service/hlo_instruction.h" alt="" coords="1848,443,2057,485"/>
+<area shape="rect" id="node47" href="$dc/df9/parallel__task__assignment_8h.html" title="tensorflow/compiler\l/xla/service/cpu/parallel\l_task_assignment.h" alt="" coords="3061,124,3239,180"/>
+<area shape="rect" id="node4" href="$db/da0/hlo__module_8h.html" title="tensorflow/compiler\l/xla/service/hlo_module.h" alt="" coords="2381,235,2570,277"/>
 </map>

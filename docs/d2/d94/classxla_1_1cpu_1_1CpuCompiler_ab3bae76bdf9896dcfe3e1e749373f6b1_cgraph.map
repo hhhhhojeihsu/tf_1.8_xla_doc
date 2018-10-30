@@ -1,6 +1,6 @@
 <map id="xla::cpu::CpuCompiler::RunHloPasses" name="xla::cpu::CpuCompiler::RunHloPasses">
-<area shape="rect" id="node2" href="$d2/dbd/classxla_1_1HloPassPipeline.html#a9bd9a8eb4c18afcb83765613e16f088e" title="xla::HloPassPipeline\l::AddInvariantChecker" alt="" coords="227,5,379,47"/>
-<area shape="rect" id="node3" href="$d2/dbd/classxla_1_1HloPassPipeline.html#ab0bacc2152a8a12a8dfa3e4914554c1c" title="Add a pass to the pipeline. It should be called with the arguments for the pass constructor: ..." alt="" coords="449,93,592,135"/>
-<area shape="rect" id="node4" href="$d2/d62/classxla_1_1ReducePrecisionInsertion.html#aba1c5793f719bc13e0880999cd5daa17" title="xla::ReducePrecisionInsertion\l::AddPasses" alt="" coords="205,123,401,164"/>
-<area shape="rect" id="node5" href="$d2/dbd/classxla_1_1HloPassPipeline.html#ab27120e575c66e2991a9085a94c88169" title="Run the Hlo pipeline by invoking each class&#39; Run method. " alt="" coords="216,189,391,215"/>
+<area shape="rect" id="node2" href="$d2/dbd/classxla_1_1HloPassPipeline.html#a9bd9a8eb4c18afcb83765613e16f088e" title="xla::HloPassPipeline\l::AddInvariantChecker" alt="" coords="242,5,409,47"/>
+<area shape="rect" id="node3" href="$d2/dbd/classxla_1_1HloPassPipeline.html#ab0bacc2152a8a12a8dfa3e4914554c1c" title="Add a pass to the pipeline. It should be called with the arguments for the pass constructor: ..." alt="" coords="480,93,633,135"/>
+<area shape="rect" id="node4" href="$d2/d62/classxla_1_1ReducePrecisionInsertion.html#aba1c5793f719bc13e0880999cd5daa17" title="xla::ReducePrecisionInsertion\l::AddPasses" alt="" coords="219,123,432,164"/>
+<area shape="rect" id="node5" href="$d2/dbd/classxla_1_1HloPassPipeline.html#ab27120e575c66e2991a9085a94c88169" title="Run the Hlo pipeline by invoking each class&#39; Run method. " alt="" coords="233,189,418,215"/>
 </map>

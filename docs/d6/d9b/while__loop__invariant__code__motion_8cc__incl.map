@@ -1,5 +1,7 @@
 <map id="tensorflow/tensorflow/compiler/xla/service/while_loop_invariant_code_motion.cc" name="tensorflow/tensorflow/compiler/xla/service/while_loop_invariant_code_motion.cc">
-<area shape="rect" id="node2" href="$d1/d57/while__loop__invariant__code__motion_8h.html" title="tensorflow/compiler\l/xla/service/while_loop\l_invariant_code_motion.h" alt="" coords="3275,124,3446,180"/>
-<area shape="rect" id="node3" href="$db/da0/hlo__module_8h.html" title="tensorflow/compiler\l/xla/service/hlo_module.h" alt="" coords="1365,235,1535,277"/>
-<area shape="rect" id="node13" href="$d2/d31/hlo__computation_8h.html" title="tensorflow/compiler\l/xla/service/hlo_computation.h" alt="" coords="1283,339,1481,381"/>
+<area shape="rect" id="node2" href="$d1/d57/while__loop__invariant__code__motion_8h.html" title="tensorflow/compiler\l/xla/service/while_loop\l_invariant_code_motion.h" alt="" coords="3366,124,3557,180"/>
+<area shape="rect" id="node3" href="$db/da0/hlo__module_8h.html" title="tensorflow/compiler\l/xla/service/hlo_module.h" alt="" coords="2703,235,2892,277"/>
+<area shape="rect" id="node13" href="$d2/d31/hlo__computation_8h.html" title="tensorflow/compiler\l/xla/service/hlo_computation.h" alt="" coords="1527,339,1750,381"/>
+<area shape="rect" id="node19" href="$dd/d66/hlo__instruction_8h.html" title="tensorflow/compiler\l/xla/service/hlo_instruction.h" alt="" coords="1991,443,2201,485"/>
+<area shape="rect" id="node44" href="$d3/d4d/versioned__computation__handle_8h.html" title="tensorflow/compiler\l/xla/service/versioned\l_computation_handle.h" alt="" coords="3586,436,3761,492"/>
 </map>

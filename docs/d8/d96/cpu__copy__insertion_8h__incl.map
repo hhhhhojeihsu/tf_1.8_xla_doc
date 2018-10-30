@@ -1,4 +1,6 @@
 <map id="tensorflow/tensorflow/compiler/xla/service/cpu/cpu_copy_insertion.h" name="tensorflow/tensorflow/compiler/xla/service/cpu/cpu_copy_insertion.h">
-<area shape="rect" id="node2" href="$db/da0/hlo__module_8h.html" title="tensorflow/compiler\l/xla/service/hlo_module.h" alt="" coords="1513,117,1683,158"/>
-<area shape="rect" id="node12" href="$d2/d31/hlo__computation_8h.html" title="tensorflow/compiler\l/xla/service/hlo_computation.h" alt="" coords="1363,221,1561,262"/>
+<area shape="rect" id="node2" href="$db/da0/hlo__module_8h.html" title="tensorflow/compiler\l/xla/service/hlo_module.h" alt="" coords="1558,117,1747,158"/>
+<area shape="rect" id="node12" href="$d2/d31/hlo__computation_8h.html" title="tensorflow/compiler\l/xla/service/hlo_computation.h" alt="" coords="2000,221,2223,262"/>
+<area shape="rect" id="node18" href="$dd/d66/hlo__instruction_8h.html" title="tensorflow/compiler\l/xla/service/hlo_instruction.h" alt="" coords="1548,325,1757,366"/>
+<area shape="rect" id="node43" href="$d3/d4d/versioned__computation__handle_8h.html" title="tensorflow/compiler\l/xla/service/versioned\l_computation_handle.h" alt="" coords="4227,317,4401,373"/>
 </map>

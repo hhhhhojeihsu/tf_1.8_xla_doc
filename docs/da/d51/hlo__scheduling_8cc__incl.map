@@ -1,7 +1,8 @@
 <map id="tensorflow/tensorflow/compiler/xla/service/hlo_scheduling.cc" name="tensorflow/tensorflow/compiler/xla/service/hlo_scheduling.cc">
-<area shape="rect" id="node2" href="$db/da3/hlo__scheduling_8h.html" title="tensorflow/compiler\l/xla/service/hlo_scheduling.h" alt="" coords="1987,109,2178,151"/>
-<area shape="rect" id="node14" href="$d2/d31/hlo__computation_8h.html" title="tensorflow/compiler\l/xla/service/hlo_computation.h" alt="" coords="1614,414,1813,455"/>
-<area shape="rect" id="node37" href="$df/d8a/tuple__points__to__analysis_8h.html" title="tensorflow/compiler\l/xla/service/tuple_points\l_to_analysis.h" alt="" coords="2607,199,2769,255"/>
-<area shape="rect" id="node5" href="$db/da0/hlo__module_8h.html" title="tensorflow/compiler\l/xla/service/hlo_module.h" alt="" coords="1315,310,1485,351"/>
-<area shape="rect" id="node35" href="$dd/d39/hlo__ordering_8h.html" title="tensorflow/compiler\l/xla/service/hlo_ordering.h" alt="" coords="293,206,467,247"/>
+<area shape="rect" id="node2" href="$db/da3/hlo__scheduling_8h.html" title="tensorflow/compiler\l/xla/service/hlo_scheduling.h" alt="" coords="1807,109,2017,151"/>
+<area shape="rect" id="node30" href="$d2/d31/hlo__computation_8h.html" title="tensorflow/compiler\l/xla/service/hlo_computation.h" alt="" coords="2091,407,2314,448"/>
+<area shape="rect" id="node39" href="$df/d8a/tuple__points__to__analysis_8h.html" title="tensorflow/compiler\l/xla/service/tuple_points\l_to_analysis.h" alt="" coords="2797,199,2979,255"/>
+<area shape="rect" id="node4" href="$dd/d66/hlo__instruction_8h.html" title="tensorflow/compiler\l/xla/service/hlo_instruction.h" alt="" coords="1563,503,1773,545"/>
+<area shape="rect" id="node29" href="$db/da0/hlo__module_8h.html" title="tensorflow/compiler\l/xla/service/hlo_module.h" alt="" coords="1101,310,1291,351"/>
+<area shape="rect" id="node37" href="$dd/d39/hlo__ordering_8h.html" title="tensorflow/compiler\l/xla/service/hlo_ordering.h" alt="" coords="1327,206,1521,247"/>
 </map>

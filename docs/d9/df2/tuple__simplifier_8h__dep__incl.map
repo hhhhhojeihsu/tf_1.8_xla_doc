@@ -1,4 +1,5 @@
 <map id="tensorflow/tensorflow/compiler/xla/service/tuple_simplifier.h" name="tensorflow/tensorflow/compiler/xla/service/tuple_simplifier.h">
-<area shape="rect" id="node2" href="$d4/dcb/cpu__compiler_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/cpu/cpu_compiler.cc" alt="" coords="5,109,152,165"/>
-<area shape="rect" id="node3" href="$d6/da0/tuple__simplifier_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/tuple_simplifier.cc" alt="" coords="176,109,323,165"/>
+<area shape="rect" id="node2" href="$d9/d53/copy__insertion_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/copy_insertion.cc" alt="" coords="5,109,168,165"/>
+<area shape="rect" id="node3" href="$d4/dcb/cpu__compiler_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/cpu/cpu_compiler.cc" alt="" coords="192,109,355,165"/>
+<area shape="rect" id="node4" href="$d6/da0/tuple__simplifier_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/tuple_simplifier.cc" alt="" coords="379,109,541,165"/>
 </map>

@@ -1,6 +1,6 @@
 <map id="xla::CompileOnlyClient" name="xla::CompileOnlyClient">
-<area shape="rect" id="node2" href="$dc/d07/classxla_1_1CompileOnlyService.html" title="xla::CompileOnlyService" alt="" coords="79,184,246,211"/>
-<area shape="rect" id="node3" href="$d1/d10/classxla_1_1Service.html" title="xla::Service" alt="" coords="29,95,120,121"/>
-<area shape="rect" id="node4" href="$dd/d3d/classComputationTracker.html" title="Tracks computations for the XLA service. Registered with a xla::UserComputation instance and can be r..." alt="" coords="5,5,144,32"/>
-<area shape="rect" id="node5" href="$d3/d3e/classxla_1_1Compiler.html" title="xla::Compiler" alt="" coords="144,95,243,121"/>
+<area shape="rect" id="node2" href="$dc/d07/classxla_1_1CompileOnlyService.html" title="xla::CompileOnlyService" alt="" coords="101,184,283,211"/>
+<area shape="rect" id="node3" href="$d1/d10/classxla_1_1Service.html" title="xla::Service" alt="" coords="47,95,145,121"/>
+<area shape="rect" id="node4" href="$d8/d42/classxla_1_1ComputationTracker.html" title="Tracks computations for the XLA service. Registered with a xla::UserComputation instance and can be r..." alt="" coords="5,5,187,32"/>
+<area shape="rect" id="node5" href="$d3/d3e/classxla_1_1Compiler.html" title="xla::Compiler" alt="" coords="169,95,279,121"/>
 </map>

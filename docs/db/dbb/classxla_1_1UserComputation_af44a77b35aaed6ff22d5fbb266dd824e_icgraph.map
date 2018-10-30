@@ -1,0 +1,12 @@
+<map id="xla::UserComputation::GetVersionedHandleInternal" name="xla::UserComputation::GetVersionedHandleInternal">
+<area shape="rect" id="node2" href="$db/dbb/classxla_1_1UserComputation.html#a25685bdc2be08a3873ba52d4867e8db8" title="Enqueue a parameter&#45;retrieving instruction onto this UserComputation. " alt="" coords="267,5,457,47"/>
+<area shape="rect" id="node4" href="$db/dbb/classxla_1_1UserComputation.html#a4fef8fc438e3b3b2c396de862820af3e" title="Lock mutex and call GetVersionedHandleInternal() " alt="" coords="280,71,444,112"/>
+<area shape="rect" id="node3" href="$d1/d10/classxla_1_1Service.html#a8aa08872316b8fa3297972486b4b339e" title="Enqueue an Op on the computation. " alt="" coords="534,13,658,39"/>
+<area shape="rect" id="node5" href="$dc/d07/classxla_1_1CompileOnlyService.html#aceb67616a89167b9af1bf23d17ec37c9" title="xla::CompileOnlyService\l::CompileAheadOfTime" alt="" coords="735,92,917,133"/>
+<area shape="rect" id="node11" href="$d8/d42/classxla_1_1ComputationTracker.html#a1acead58332b1b2c6beaeac5505b1b8a" title="xla::ComputationTracker\l::SnapshotComputation" alt="" coords="505,121,687,163"/>
+<area shape="rect" id="node6" href="$d1/dd1/classxla_1_1CompileOnlyClient.html#a5a585d21f617b77a1cecc1b587d18d7a" title="Compiles a list of computations for ahead&#45;of&#45;time execution. This is intended for use in static compi..." alt="" coords="965,92,1139,133"/>
+<area shape="rect" id="node7" href="$d4/df4/namespacetensorflow_1_1tfcompile_1_1anonymous__namespace_02compile_8cc_03.html#a40f8a019f31fa8cbe2fff5d90e69c21b" title="Compiles the XLA computation into executable code. " alt="" coords="1187,85,1381,141"/>
+<area shape="rect" id="node8" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a021cb1c58d938b16dcd998aa8d1fc191" title="Converts the graph into an XLA computation, and compiles the computation. Called by tensorflow::tfcom..." alt="" coords="1429,92,1588,133"/>
+<area shape="rect" id="node9" href="$d7/d38/namespacetensorflow_1_1tfcompile.html#a460964a5bb277865d1275fe3746132c1" title="tensorflow::tfcompile\l::Main" alt="" coords="1636,92,1795,133"/>
+<area shape="rect" id="node10" href="$d4/d8d/tfcompile__main_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1843,99,1897,126"/>
+</map>

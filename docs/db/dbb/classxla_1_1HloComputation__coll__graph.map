@@ -1,3 +1,5 @@
 <map id="xla::HloComputation" name="xla::HloComputation">
-<area shape="rect" id="node2" href="$d7/d10/classxla_1_1HloModule.html" title="xla::HloModule" alt="" coords="33,95,142,121"/>
+<area shape="rect" id="node2" href="$d7/d59/classxla_1_1HloInstruction.html" title="xla::HloInstruction" alt="" coords="5,139,147,165"/>
+<area shape="rect" id="node3" href="$d7/d10/classxla_1_1HloModule.html" title="xla::HloModule" alt="" coords="375,139,494,165"/>
+<area shape="rect" id="node4" href="$db/df3/structxla_1_1VersionedComputationHandle.html" title="xla::VersionedComputation\lHandle" alt="" coords="419,5,618,47"/>
 </map>

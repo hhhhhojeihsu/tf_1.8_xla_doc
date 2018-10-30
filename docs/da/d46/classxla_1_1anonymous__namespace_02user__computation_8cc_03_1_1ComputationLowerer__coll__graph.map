@@ -1,0 +1,7 @@
+<map id="xla::anonymous_namespace{user_computation.cc}::ComputationLowerer" name="xla::anonymous_namespace{user_computation.cc}::ComputationLowerer">
+<area shape="rect" id="node2" href="$de/d57/classxla_1_1HloComputation_1_1Builder.html" title="Builder class for HloComputation. " alt="" coords="31,124,187,165"/>
+<area shape="rect" id="node3" href="$d7/d59/classxla_1_1HloInstruction.html" title="xla::HloInstruction" alt="" coords="224,5,365,32"/>
+<area shape="rect" id="node4" href="$d4/d36/classxla_1_1HloComputation.html" title="xla::HloComputation" alt="" coords="293,131,449,158"/>
+<area shape="rect" id="node5" href="$d7/d10/classxla_1_1HloModule.html" title="xla::HloModule" alt="" coords="453,243,571,269"/>
+<area shape="rect" id="node6" href="$db/df3/structxla_1_1VersionedComputationHandle.html" title="xla::VersionedComputation\lHandle" alt="" coords="497,124,695,165"/>
+</map>

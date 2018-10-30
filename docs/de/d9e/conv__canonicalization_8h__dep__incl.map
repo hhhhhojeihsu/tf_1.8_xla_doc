@@ -1,4 +1,4 @@
 <map id="tensorflow/tensorflow/compiler/xla/service/cpu/conv_canonicalization.h" name="tensorflow/tensorflow/compiler/xla/service/cpu/conv_canonicalization.h">
-<area shape="rect" id="node2" href="$d9/dfc/conv__canonicalization_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/cpu/conv_canonicalization.cc" alt="" coords="5,109,203,165"/>
-<area shape="rect" id="node3" href="$d4/dcb/cpu__compiler_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/cpu/cpu_compiler.cc" alt="" coords="227,109,373,165"/>
+<area shape="rect" id="node2" href="$d9/dfc/conv__canonicalization_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/cpu/conv_canonicalization.cc" alt="" coords="5,109,220,165"/>
+<area shape="rect" id="node3" href="$d4/dcb/cpu__compiler_8cc.html" title="tensorflow/tensorflow\l/compiler/xla/service\l/cpu/cpu_compiler.cc" alt="" coords="245,109,407,165"/>
 </map>

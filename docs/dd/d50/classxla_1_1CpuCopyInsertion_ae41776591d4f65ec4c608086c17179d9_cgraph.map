@@ -1,0 +1,4 @@
+<map id="xla::CpuCopyInsertion::Run" name="xla::CpuCopyInsertion::Run">
+<area shape="rect" id="node2" href="$de/d53/classxla_1_1CopyInsertion.html#a3f2c92fc482ae2f9e7ef5e0c270709b8" title="Run the pass on the given module. " alt="" coords="282,5,454,32"/>
+<area shape="rect" id="node3" href="$de/d53/classxla_1_1CopyInsertion.html#abf6d4cb30686483553af178db690ebe7" title="xla::CopyInsertion\l::AddCopiesForBufferAssignment" alt="" coords="251,57,485,98"/>
+</map>

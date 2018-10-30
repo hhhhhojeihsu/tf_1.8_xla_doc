@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 788;
+var viewWidth = 863;
 var viewHeight = 206;
 var sectionId = 'dynsection-0';
 </script>
@@ -54,122 +54,122 @@ var sectionId = 'dynsection-0';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>tensorflow/tensorflow/compiler/xla/service/reshape_mover.cc</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-202 783.5,-202 783.5,4 -4,4"/>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-202 859,-202 859,4 -4,4"/>
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="313.5,-156.5 313.5,-197.5 423.5,-197.5 423.5,-156.5 313.5,-156.5"/>
-<text text-anchor="start" x="321.5" y="-185.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
-<text text-anchor="start" x="321.5" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/xla/service</text>
-<text text-anchor="middle" x="368.5" y="-163.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/reshape_mover.cc</text>
+<polygon fill="#bfbfbf" stroke="#000000" points="344.5,-156.5 344.5,-197.5 466.5,-197.5 466.5,-156.5 344.5,-156.5"/>
+<text text-anchor="start" x="352.5" y="-185.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/tensorflow</text>
+<text text-anchor="start" x="352.5" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/compiler/xla/service</text>
+<text text-anchor="middle" x="405.5" y="-163.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/reshape_mover.cc</text>
 </g>
 <!-- Node1 -->
 <g id="node2" class="node">
 <title>Node1</title>
 <g id="a_node2"><a xlink:href="../../d8/d00/reshape__mover_8h.html" target="_top" xlink:title="tensorflow/compiler\l/xla/service/reshape\l_mover.h">
-<polygon fill="#ffffff" stroke="#000000" points="2.5,-78.5 2.5,-119.5 106.5,-119.5 106.5,-78.5 2.5,-78.5"/>
-<text text-anchor="start" x="10.5" y="-107.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/compiler</text>
-<text text-anchor="start" x="10.5" y="-96.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/xla/service/reshape</text>
-<text text-anchor="middle" x="54.5" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_mover.h</text>
+<polygon fill="#ffffff" stroke="#000000" points="2,-78.5 2,-119.5 117,-119.5 117,-78.5 2,-78.5"/>
+<text text-anchor="start" x="10" y="-107.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/compiler</text>
+<text text-anchor="start" x="10" y="-96.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/xla/service/reshape</text>
+<text text-anchor="middle" x="59.5" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_mover.h</text>
 </a>
 </g>
 </g>
 <!-- Node0&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node0&#45;&gt;Node1</title>
-<path fill="none" stroke="#191970" d="M313.2799,-166.3825C263.9445,-156.4858 189.5805,-140.5602 116.4625,-120.1433"/>
-<polygon fill="#191970" stroke="#191970" points="117.1987,-116.7143 106.6239,-117.3662 115.2971,-123.4511 117.1987,-116.7143"/>
+<path fill="none" stroke="#191970" d="M344.4059,-166.3778C289.8233,-156.4664 207.5508,-140.4931 126.9544,-119.9976"/>
+<polygon fill="#191970" stroke="#191970" points="127.6922,-116.5735 117.1358,-117.4758 125.9508,-123.3535 127.6922,-116.5735"/>
 </g>
 <!-- Node3 -->
 <g id="node4" class="node">
 <title>Node3</title>
-<polygon fill="#ffffff" stroke="#bfbfbf" points="124.5,-89.5 124.5,-108.5 180.5,-108.5 180.5,-89.5 124.5,-89.5"/>
-<text text-anchor="middle" x="152.5" y="-96.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">algorithm</text>
+<polygon fill="#ffffff" stroke="#bfbfbf" points="135.5,-89.5 135.5,-108.5 199.5,-108.5 199.5,-89.5 135.5,-89.5"/>
+<text text-anchor="middle" x="167.5" y="-96.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">algorithm</text>
 </g>
 <!-- Node0&#45;&gt;Node3 -->
 <g id="edge3" class="edge">
 <title>Node0&#45;&gt;Node3</title>
-<path fill="none" stroke="#191970" d="M313.3523,-162.3542C277.671,-152.1478 230.5716,-137.2919 190.5,-120 186.1789,-118.1353 181.7051,-115.931 177.4102,-113.6637"/>
-<polygon fill="#191970" stroke="#191970" points="178.8693,-110.4714 168.4224,-108.7069 175.4887,-116.601 178.8693,-110.4714"/>
+<path fill="none" stroke="#191970" d="M344.0721,-162.1884C304.959,-152.0139 253.5504,-137.2544 209.5,-120 204.4118,-118.007 199.1087,-115.6179 194.052,-113.1768"/>
+<polygon fill="#191970" stroke="#191970" points="195.2604,-109.8672 184.7529,-108.5089 192.1199,-116.1232 195.2604,-109.8672"/>
 </g>
 <!-- Node4 -->
 <g id="node5" class="node">
 <title>Node4</title>
-<polygon fill="#ffffff" stroke="#bfbfbf" points="199,-84 199,-114 300,-114 300,-84 199,-84"/>
-<text text-anchor="start" x="207" y="-102" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/compiler</text>
-<text text-anchor="middle" x="249.5" y="-91" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/xla/literal_util.h</text>
+<polygon fill="#ffffff" stroke="#bfbfbf" points="218,-84 218,-114 331,-114 331,-84 218,-84"/>
+<text text-anchor="start" x="226" y="-102" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/compiler</text>
+<text text-anchor="middle" x="274.5" y="-91" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/xla/literal_util.h</text>
 </g>
 <!-- Node0&#45;&gt;Node4 -->
 <g id="edge4" class="edge">
 <title>Node0&#45;&gt;Node4</title>
-<path fill="none" stroke="#191970" d="M336.9226,-156.3022C319.6838,-145.0028 298.4009,-131.0527 281.1506,-119.7458"/>
-<polygon fill="#191970" stroke="#191970" points="282.8225,-116.6568 272.5403,-114.102 278.9851,-122.5113 282.8225,-116.6568"/>
+<path fill="none" stroke="#191970" d="M370.7383,-156.3022C351.5,-144.8474 327.6864,-130.6682 308.5609,-119.2805"/>
+<polygon fill="#191970" stroke="#191970" points="310.2465,-116.2108 299.8637,-114.102 306.6653,-122.2254 310.2465,-116.2108"/>
 </g>
 <!-- Node5 -->
 <g id="node6" class="node">
 <title>Node5</title>
-<polygon fill="#ffffff" stroke="#bfbfbf" points="318,-84 318,-114 419,-114 419,-84 318,-84"/>
-<text text-anchor="start" x="326" y="-102" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/compiler</text>
-<text text-anchor="middle" x="368.5" y="-91" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/xla/shape_util.h</text>
+<polygon fill="#ffffff" stroke="#bfbfbf" points="349,-84 349,-114 462,-114 462,-84 349,-84"/>
+<text text-anchor="start" x="357" y="-102" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/compiler</text>
+<text text-anchor="middle" x="405.5" y="-91" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/xla/shape_util.h</text>
 </g>
 <!-- Node0&#45;&gt;Node5 -->
 <g id="edge5" class="edge">
 <title>Node0&#45;&gt;Node5</title>
-<path fill="none" stroke="#191970" d="M368.5,-156.0974C368.5,-146.3178 368.5,-134.5873 368.5,-124.3097"/>
-<polygon fill="#191970" stroke="#191970" points="372.0001,-124.2678 368.5,-114.2679 365.0001,-124.2679 372.0001,-124.2678"/>
+<path fill="none" stroke="#191970" d="M405.5,-156.0974C405.5,-146.3178 405.5,-134.5873 405.5,-124.3097"/>
+<polygon fill="#191970" stroke="#191970" points="409.0001,-124.2678 405.5,-114.2679 402.0001,-124.2679 409.0001,-124.2678"/>
 </g>
 <!-- Node6 -->
 <g id="node7" class="node">
 <title>Node6</title>
-<polygon fill="#ffffff" stroke="#bfbfbf" points="437.5,-84 437.5,-114 545.5,-114 545.5,-84 437.5,-84"/>
-<text text-anchor="start" x="445.5" y="-102" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/compiler</text>
-<text text-anchor="middle" x="491.5" y="-91" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/xla/status_macros.h</text>
+<polygon fill="#ffffff" stroke="#bfbfbf" points="480.5,-84 480.5,-114 598.5,-114 598.5,-84 480.5,-84"/>
+<text text-anchor="start" x="488.5" y="-102" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/compiler</text>
+<text text-anchor="middle" x="539.5" y="-91" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/xla/status_macros.h</text>
 </g>
 <!-- Node0&#45;&gt;Node6 -->
 <g id="edge6" class="edge">
 <title>Node0&#45;&gt;Node6</title>
-<path fill="none" stroke="#191970" d="M401.1388,-156.3022C418.957,-145.0028 440.9554,-131.0527 458.7855,-119.7458"/>
-<polygon fill="#191970" stroke="#191970" points="461.1146,-122.4133 467.6853,-114.102 457.3658,-116.5017 461.1146,-122.4133"/>
+<path fill="none" stroke="#191970" d="M441.0577,-156.3022C460.7366,-144.8474 485.0956,-130.6682 504.6591,-119.2805"/>
+<polygon fill="#191970" stroke="#191970" points="506.6738,-122.1576 513.5555,-114.102 503.1523,-116.1079 506.6738,-122.1576"/>
 </g>
 <!-- Node7 -->
 <g id="node8" class="node">
 <title>Node7</title>
-<polygon fill="#ffffff" stroke="#bfbfbf" points="564,-84 564,-114 665,-114 665,-84 564,-84"/>
-<text text-anchor="start" x="572" y="-102" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/compiler</text>
-<text text-anchor="middle" x="614.5" y="-91" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/xla/util.h</text>
+<polygon fill="#ffffff" stroke="#bfbfbf" points="617,-84 617,-114 730,-114 730,-84 617,-84"/>
+<text text-anchor="start" x="625" y="-102" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/compiler</text>
+<text text-anchor="middle" x="673.5" y="-91" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/xla/util.h</text>
 </g>
 <!-- Node0&#45;&gt;Node7 -->
 <g id="edge7" class="edge">
 <title>Node0&#45;&gt;Node7</title>
-<path fill="none" stroke="#191970" d="M423.6153,-160.7293C460.7239,-149.6226 510.6959,-134.3715 554.5,-120 557.2035,-119.113 559.971,-118.1917 562.7622,-117.252"/>
-<polygon fill="#191970" stroke="#191970" points="563.947,-120.546 572.2848,-114.0091 561.6904,-113.9197 563.947,-120.546"/>
+<path fill="none" stroke="#191970" d="M466.6449,-160.3119C506.7855,-149.2173 560.3833,-134.1393 607.5,-120 610.6096,-119.0668 613.7974,-118.0969 617.0124,-117.1084"/>
+<polygon fill="#191970" stroke="#191970" points="618.1748,-120.4124 626.6876,-114.105 616.0995,-113.7271 618.1748,-120.4124"/>
 </g>
 <!-- Node8 -->
 <g id="node9" class="node">
 <title>Node8</title>
-<polygon fill="#ffffff" stroke="#bfbfbf" points="683.5,-84 683.5,-114 779.5,-114 779.5,-84 683.5,-84"/>
-<text text-anchor="start" x="691.5" y="-102" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/core/lib</text>
-<text text-anchor="middle" x="731.5" y="-91" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/core/errors.h</text>
+<polygon fill="#ffffff" stroke="#bfbfbf" points="748,-84 748,-114 855,-114 855,-84 748,-84"/>
+<text text-anchor="start" x="756" y="-102" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/core/lib</text>
+<text text-anchor="middle" x="801.5" y="-91" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/core/errors.h</text>
 </g>
 <!-- Node0&#45;&gt;Node8 -->
 <g id="edge8" class="edge">
 <title>Node0&#45;&gt;Node8</title>
-<path fill="none" stroke="#191970" d="M423.579,-169.6043C485.3338,-160.6531 588.1418,-143.7681 674.5,-120 677.6012,-119.1465 680.7726,-118.1982 683.9533,-117.1899"/>
-<polygon fill="#191970" stroke="#191970" points="685.0832,-120.5027 693.463,-114.0198 682.8694,-113.862 685.0832,-120.5027"/>
+<path fill="none" stroke="#191970" d="M466.7442,-169.4971C534.1916,-160.5531 645.5471,-143.7706 739.5,-120 743.0703,-119.0967 746.7303,-118.0856 750.3999,-117.0084"/>
+<polygon fill="#191970" stroke="#191970" points="751.5517,-120.316 760.0813,-114.0315 749.4943,-113.6252 751.5517,-120.316"/>
 </g>
 <!-- Node2 -->
 <g id="node3" class="node">
 <title>Node2</title>
-<polygon fill="#ffffff" stroke="#bfbfbf" points="0,-.5 0,-41.5 109,-41.5 109,-.5 0,-.5"/>
+<polygon fill="#ffffff" stroke="#bfbfbf" points="0,-.5 0,-41.5 119,-41.5 119,-.5 0,-.5"/>
 <text text-anchor="start" x="8" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tensorflow/compiler</text>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/xla/service/hlo_pass</text>
-<text text-anchor="middle" x="54.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_interface.h</text>
+<text text-anchor="middle" x="59.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_interface.h</text>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge2" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="#191970" d="M54.5,-78.0974C54.5,-70.077 54.5,-60.7444 54.5,-51.9772"/>
-<polygon fill="#191970" stroke="#191970" points="58.0001,-51.6898 54.5,-41.6898 51.0001,-51.6898 58.0001,-51.6898"/>
+<path fill="none" stroke="#191970" d="M59.5,-78.0974C59.5,-70.077 59.5,-60.7444 59.5,-51.9772"/>
+<polygon fill="#191970" stroke="#191970" points="63.0001,-51.6898 59.5,-41.6898 56.0001,-51.6898 63.0001,-51.6898"/>
 </g>
 </g>
 </svg>

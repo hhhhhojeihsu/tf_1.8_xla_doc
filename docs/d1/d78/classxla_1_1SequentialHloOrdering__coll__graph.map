@@ -1,5 +1,7 @@
 <map id="xla::SequentialHloOrdering" name="xla::SequentialHloOrdering">
-<area shape="rect" id="node2" href="$d0/d0f/classxla_1_1HloOrdering.html" title="xla::HloOrdering" alt="" coords="36,95,152,121"/>
-<area shape="rect" id="node3" href="$d7/d10/classxla_1_1HloModule.html" title="xla::HloModule" alt="" coords="123,5,233,32"/>
-<area shape="rect" id="node4" href="$d4/d36/classxla_1_1HloComputation.html" title="xla::HloComputation" alt="" coords="181,95,322,121"/>
+<area shape="rect" id="node2" href="$d0/d0f/classxla_1_1HloOrdering.html" title="xla::HloOrdering" alt="" coords="40,199,168,225"/>
+<area shape="rect" id="node3" href="$d7/d10/classxla_1_1HloModule.html" title="xla::HloModule" alt="" coords="137,109,255,136"/>
+<area shape="rect" id="node5" href="$d4/d36/classxla_1_1HloComputation.html" title="xla::HloComputation" alt="" coords="198,199,354,225"/>
+<area shape="rect" id="node4" href="$db/df3/structxla_1_1VersionedComputationHandle.html" title="xla::VersionedComputation\lHandle" alt="" coords="97,5,295,47"/>
+<area shape="rect" id="node6" href="$d7/d59/classxla_1_1HloInstruction.html" title="xla::HloInstruction" alt="" coords="260,317,401,344"/>
 </map>

@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['decompose_5fbatch_5fdot_5f',['decompose_batch_dot_',['../dd/d99/classxla_1_1DotDecomposer.html#aae232d10dd5d73cd80107e54903b5592',1,'xla::DotDecomposer']]],
+  ['decomposebatchdot',['DecomposeBatchDot',['../da/d89/namespacexla_1_1anonymous__namespace_02dot__decomposer_8cc_03.html#a2dc3f1ae2d3b570ece2d4248fed5b38b',1,'xla::anonymous_namespace{dot_decomposer.cc}']]],
   ['defaultmemoryscheduler',['DefaultMemoryScheduler',['../d3/dbc/namespacexla.html#a32825b0cc8309062cee41d691ba215b8',1,'xla']]],
   ['disassembler',['Disassembler',['../d2/d13/classxla_1_1cpu_1_1Disassembler.html',1,'xla::cpu']]],
   ['disassembler_2ecc',['disassembler.cc',['../d7/d1d/disassembler_8cc.html',1,'']]],

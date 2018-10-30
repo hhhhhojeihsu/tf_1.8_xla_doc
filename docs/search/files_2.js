@@ -21,6 +21,8 @@ var searchData=
   ['conditional_5fsimplifier_2eh',['conditional_simplifier.h',['../d6/dd6/conditional__simplifier_8h.html',1,'']]],
   ['conv_5fcanonicalization_2ecc',['conv_canonicalization.cc',['../d9/dfc/conv__canonicalization_8cc.html',1,'']]],
   ['conv_5fcanonicalization_2eh',['conv_canonicalization.h',['../d6/d76/conv__canonicalization_8h.html',1,'']]],
+  ['copy_5finsertion_2ecc',['copy_insertion.cc',['../d9/d53/copy__insertion_8cc.html',1,'']]],
+  ['copy_5finsertion_2eh',['copy_insertion.h',['../d8/d94/copy__insertion_8h.html',1,'']]],
   ['cpu_5fcompiler_2ecc',['cpu_compiler.cc',['../d4/dcb/cpu__compiler_8cc.html',1,'']]],
   ['cpu_5fcompiler_2eh',['cpu_compiler.h',['../db/de2/cpu__compiler_8h.html',1,'']]],
   ['cpu_5fcopy_5finsertion_2ecc',['cpu_copy_insertion.cc',['../de/dd7/cpu__copy__insertion_8cc.html',1,'']]],

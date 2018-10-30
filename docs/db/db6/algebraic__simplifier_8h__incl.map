@@ -1,4 +1,6 @@
 <map id="tensorflow/tensorflow/compiler/xla/service/algebraic_simplifier.h" name="tensorflow/tensorflow/compiler/xla/service/algebraic_simplifier.h">
-<area shape="rect" id="node3" href="$db/da0/hlo__module_8h.html" title="tensorflow/compiler\l/xla/service/hlo_module.h" alt="" coords="1921,117,2092,158"/>
-<area shape="rect" id="node13" href="$d2/d31/hlo__computation_8h.html" title="tensorflow/compiler\l/xla/service/hlo_computation.h" alt="" coords="1645,221,1843,262"/>
+<area shape="rect" id="node3" href="$db/da0/hlo__module_8h.html" title="tensorflow/compiler\l/xla/service/hlo_module.h" alt="" coords="2438,117,2627,158"/>
+<area shape="rect" id="node13" href="$d2/d31/hlo__computation_8h.html" title="tensorflow/compiler\l/xla/service/hlo_computation.h" alt="" coords="1511,221,1733,262"/>
+<area shape="rect" id="node18" href="$dd/d66/hlo__instruction_8h.html" title="tensorflow/compiler\l/xla/service/hlo_instruction.h" alt="" coords="2032,325,2241,366"/>
+<area shape="rect" id="node43" href="$d3/d4d/versioned__computation__handle_8h.html" title="tensorflow/compiler\l/xla/service/versioned\l_computation_handle.h" alt="" coords="3817,317,3992,373"/>
 </map>
