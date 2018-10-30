@@ -28,7 +28,12 @@ limitations under the License.
 #include "tensorflow/core/platform/logging.h"
 
 namespace xla {
-
+/**
+ * \brief Entry point of `xla::CpuCopyInsertion`
+ *
+ * 1. Call generic version of copy insertion(`xla::CopyInsertion()`)
+ * 2. Run addtional copy insertion for CPU version backend(`xla::CopyInsertion::AddCopiesForBufferAssignment()`) due to deficiencies in buffer assignment
+ */
 StatusOr<bool> CpuCopyInsertion::Run(HloModule* module) {
   CopyInsertion generic_copy_insertion;
 

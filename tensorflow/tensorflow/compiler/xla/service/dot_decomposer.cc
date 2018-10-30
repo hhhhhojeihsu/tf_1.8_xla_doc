@@ -23,6 +23,9 @@ namespace xla {
 namespace {
 // TODO(b/69062148) Remove this code when all backends support BatchDot
 // natively.
+/**
+ * \todo Opinion: It seems like decompose high-rank dot operation to low-rank. Is based on mathematical approach, and can be applied for computer as well.
+ */
 Status DecomposeBatchDot(HloInstruction* dot) {
   auto computation = dot->parent();
   const DotDimensionNumbers& dnums = dot->dot_dimension_numbers();
@@ -134,6 +137,14 @@ Status DecomposeBatchDot(HloInstruction* dot) {
   return computation->ReplaceInstruction(dot, new_dot);
 }
 }  // namespace
+/**
+ * Gather all batch Dot operations.
+ * 1. For All non-fusion computations in hlo module
+ *   1. For all the instructions in the computation
+ *     1. Ignore all `HloOpcode::kDot` instructions
+ *     2. Store it into `batch_dots` if `xla::DotDecomposer::decompose_batch_dot_` is set
+ * 2. `xla::anonymous_namespace{dot_decomposer.cc}::DecomposeBatchDot` to decompose
+ */
 StatusOr<bool> DotDecomposer::Run(HloModule* module) {
   XLA_VLOG_LINES(2, "DotDecomposer ENTRY\n" + module->ToString());
   // Gather all batch Dot operations.

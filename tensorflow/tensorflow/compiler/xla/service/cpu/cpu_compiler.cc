@@ -707,7 +707,7 @@ StatusOr<std::unique_ptr<Executable>> CpuCompiler::RunBackend(
  * 5. Set target CPU, supported instructions and set optimization level.
  * 6. Create `llvm::Module` using `llvm::LLVMContext` because it requires to be thread safe.
  * 7. Loop through HLO modules
- *   1. Compile the code without optimization (call `xla::cpu::CpuCompiler::RunHloPasses(HloModule* module, bool is_aot_compile)`)
+ *   1. Use high-levle optimization (call `xla::cpu::CpuCompiler::RunHloPasses(HloModule* module, bool is_aot_compile)`)
  *   2. Create a `xla::SequentialHloOrdering::HloModuleSequence` using `xla::CreateMemoryMinimizingSequence`
  *   3. Run buffer analysis on the HLO graph. Figures out which temporary buffers are required to run the computation
  *   4. Construct IrEmmiter(that will but not yet compile HLO module to LLVM IR and saves to `llvm_module`(via `xla::cpu::IrEmitter::IrEmitter()`)

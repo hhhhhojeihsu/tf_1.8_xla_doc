@@ -36,6 +36,15 @@ limitations under the License.
 
 namespace xla {
 
+/**
+ * \brief Entry of `xla::HloDCE` pass
+ *
+ * For sequence of computation in hlo module in post order
+ *   1. Mark all the removable instruction in the computation
+ *   2. Remove the marked dead root and its sibling operand.
+ *   3. Collect live computation(computation that is called by instruction)
+ *   4. Remove dead computation(which is not live computation)
+ */
 StatusOr<bool> HloDCE::Run(HloModule* module) {
   bool changed = false;
 

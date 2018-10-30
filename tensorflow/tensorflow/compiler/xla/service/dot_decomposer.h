@@ -28,10 +28,17 @@ class DotDecomposer : public HloPassInterface {
       : decompose_batch_dot_(decompose_batch_dot) {}
   ~DotDecomposer() = default;
   tensorflow::StringPiece name() const override { return "dot_decomposer"; }
-  // Run DotDecomposer pass on computations in 'module'.
-  // Returns whether the 'module' was changed.
+	/**
+	 * \brief Entry point of `xla::DotDecomposer`
+	 *
+   * Run DotDecomposer pass on computations in 'module'.
+   * Returns whether the 'module' was changed.
+	 */
   StatusOr<bool> Run(HloModule* module) override;
  private:
+	/**
+	 * Indicate this instruction should be processed by `xla::DotDecomposer`
+	 */
   bool decompose_batch_dot_;
 };
 }  // namespace xla
