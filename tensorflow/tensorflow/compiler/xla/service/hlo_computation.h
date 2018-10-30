@@ -226,13 +226,15 @@ class HloComputation {
 	*/
   std::list<HloComputation*> MakeEmbeddedComputationsList() const;
 
-  // Creates a fusion instruction containing the given instructions.
-  // `fusion_kind` indicates the type of the fusion, e.g., loop fusion or fusion
-  // into a library call. Instructions must be in reverse topological order
-  // (root of the fused expression first). Replaces all uses of the original
-  // root instruction with the fusion instruction. The original instructions are
-  // removed if they have no uses after fusion (this is necessarily true for at
-  // least the root).
+	/**
+   * > Creates a fusion instruction containing the given instructions.
+   * > `fusion_kind` indicates the type of the fusion, e.g., loop fusion or fusion
+   * > into a library call. Instructions must be in reverse topological order
+   * > (root of the fused expression first). Replaces all uses of the original
+   * > root instruction with the fusion instruction. The original instructions are
+   * > removed if they have no uses after fusion (this is necessarily true for at
+   * > least the root).
+	 */
   HloInstruction* CreateFusionInstruction(
       tensorflow::gtl::ArraySlice<HloInstruction*> instructions_to_fuse,
       HloInstruction::FusionKind fusion_kind);

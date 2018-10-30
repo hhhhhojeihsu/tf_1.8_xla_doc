@@ -33,6 +33,12 @@ namespace xla {
 
 namespace {
 
+/**
+ * Decide if the operands can be folded into dot.
+ *
+ * 1. The operand must be `HloOpcode::kDot`
+ * 2. Return the operand set that `IsRank2Transpose()`
+ */
 TransposeFolding::OperandIndices CanFoldOperandsIntoDot(
     const HloInstruction& dot,
     const TransposeFolding::TransposableGemmOperandsFn&
@@ -74,10 +80,14 @@ TransposeFolding::OperandIndices CanFoldOperandsIntoConvolution(
 using InstructionOperandsPair =
     std::pair<HloInstruction*, TransposeFolding::OperandIndices>;
 
-// Folds the operands of `dot` that are foldable transposes. `computation` is
-// the parent HLO computation of `dot`.
-//
-// Returns whether the module is changed.
+/**
+ * Fuse instruction of kTrasposeDot
+ *
+ * Google docs:
+ * > Folds the operands of `dot` that are foldable transposes. `computation` is
+ * > the parent HLO computation of `dot`.
+ * > Returns whether the module is changed.
+ */
 bool FoldTransposeIntoDot(InstructionOperandsPair pair) {
   auto* dot = pair.first;
   std::vector<HloInstruction*> instructions_to_fuse(1, dot);
@@ -175,6 +185,11 @@ TransposeFolding::TransposeFolding(
     : transposable_gemm_operands_(std::move(transposable_gemm_operands)),
       transposable_conv_operands_(std::move(transposable_conv_operands)) {}
 
+/**
+ * \brief entry point of `xla::TransposeFolding` pass
+ *
+ * Find all folding opportunities(dots and convolutions) and then fold it.
+ */
 StatusOr<bool> TransposeFolding::Run(HloModule* module) {
   // Modifying the graph while traversing is dangerous, so we find all folding
   // opportunities before actually folding them.

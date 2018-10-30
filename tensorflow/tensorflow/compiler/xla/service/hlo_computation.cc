@@ -97,6 +97,10 @@ HloComputation::HloComputation(
       << "\nERROR: root instruction is not present in computation.";
 }
 
+/**
+ * 1. Instruction cannot be kParameter
+ * 2. Call `xla::HloComputation::AddInstructionInternal()`
+ */
 HloInstruction* HloComputation::AddInstruction(
     std::unique_ptr<HloInstruction> instruction) {
   CHECK(instruction->opcode() != HloOpcode::kParameter)
@@ -105,6 +109,12 @@ HloInstruction* HloComputation::AddInstruction(
   return AddInstructionInternal(std::move(instruction));
 }
 
+/**
+ * 1. If the instruction is not root then
+ *   - Set the instruction's unique name and id to parent
+ * 2. Set parent to self
+ * 3. Add the instruction into instruction list
+ */
 HloInstruction* HloComputation::AddInstructionInternal(
     std::unique_ptr<HloInstruction> instruction) {
   if (parent() != nullptr) {
@@ -436,7 +446,10 @@ HloComputation::CreateFromProto(
                                        &instructions, root,
                                        /*fusion_instruction=*/nullptr));
 }
-
+/**
+ * 1. Check the instruction is type `kFusion`
+ * 2. Merge `fusion_instruction` to `instructions_to_fuse`
+ */
 void HloComputation::FuseInstructionsInto(
     tensorflow::gtl::ArraySlice<HloInstruction*> instructions_to_fuse,
     HloInstruction* fusion_instruction) {
@@ -455,7 +468,14 @@ void HloComputation::FuseInstructionsInto(
     }
   }
 }
-
+/**
+ * Called by `xla::TransposeFolding` and `xla::BatchNormExpander`
+ *
+ * - Root is `instructions_to_fuse`.
+ * 1. Use `xla::HloComputation::AddInstruction` and `xla::HloInstruction::CreateFusion()` to generate instruction.
+ * 2. And then use `xla::HloComputation::FuseInstructionsInto` to inject into instruction.
+ *
+ */
 HloInstruction* HloComputation::CreateFusionInstruction(
     tensorflow::gtl::ArraySlice<HloInstruction*> instructions_to_fuse,
     HloInstruction::FusionKind fusion_kind) {
