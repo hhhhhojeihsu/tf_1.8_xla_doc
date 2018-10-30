@@ -46,6 +46,13 @@ namespace xla {
 
 using ::tensorflow::strings::StrCat;
 
+/**
+ * \brief Build and return an HloComputation.
+ * 1. Traverse the instruction list to count the `parameter_count`.
+ * 2. Use the root instruction (can be specified otherwise use the last added instruction) to build a `HloComputation` object and return it.
+ *
+ * - [Implementation](https://hhhhhojeihsu.github.io/tensorflow_1.8_woboq/tensorflow_1.8_xla/tensorflow/tensorflow/compiler/xla/service/hlo_computation.cc.html#_ZN3xla14HloComputation7Builder5BuildEPNS_14HloInstructionE)
+ */
 std::unique_ptr<HloComputation> HloComputation::Builder::Build(
     HloInstruction* root_instruction) {
   int parameter_count = 0;

@@ -59,7 +59,9 @@ class HloModule;
  */
 class HloComputation {
  public:
-  // Builder class for HloComputation.
+  /**
+   * \brief Builder class for HloComputation.
+   */
   class Builder {
    public:
     explicit Builder(const string& name,
@@ -75,6 +77,9 @@ class HloComputation {
     std::unique_ptr<HloComputation> Build(
         HloInstruction* root_instruction = nullptr);
 
+    /**
+     * \brief Add the instruction to the member `instructions` which is an array used to record instructions.
+     */
     HloInstruction* AddInstruction(
         std::unique_ptr<HloInstruction> instruction) {
       instructions_.push_back(std::move(instruction));
