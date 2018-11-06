@@ -823,6 +823,13 @@ static string FusionNodeName(HloInstruction::FusionKind fusion_kind) {
   return instruction;
 }
 
+/**
+ * * Add an `kParameter` instruction to fusion computation based on `new_operand`.
+ * * Call `AppendOperand` to append `new_operand` to `this->operands_`.
+ * * Notice that `fused_instructions_computation()->param_instructions_` and `this->operands_` are maintained consitently.
+ So we can sometimes see following sanity check(at least with similar purpose)
+ *   * `CHECK_EQ(operands_.size(), fused_parameters.size()`
+ */
 HloInstruction* HloInstruction::AddFusionOperand(HloInstruction* new_operand) {
   CHECK_EQ(opcode(), HloOpcode::kFusion);
   CHECK_EQ(operand_count(),
@@ -952,6 +959,28 @@ HloInstruction* HloInstruction::FuseInstructionInternal(
   return fused_instruction;
 }
 
+/**
+ * * Check whether `called_computations_` is empty
+ *   * If so
+ *     * Use `HloComputation::Builder` to create a computation(`fused_computation`) whose `fusion_instruction_` member is `this`(this `kFusion` instruction).
+ *     * Copy `instruction_to_fuse` and add to `fused_computation`.
+ *     * Instantiate `fused_computation` and push it to `this->called_computations_`.
+ *     * Assign the cloned `instruction_to_fuse` to `clone`.
+ *   * Else
+ *     * Copy `instruction_to_fuse` and add to `fused_computation`. Then assign to `clone`.
+ *     * `fused_parameters = fused_instructions_computation()->parameter_instructions()`.
+ *     * Traverse `this->operands_` to find index of `instruction_to_fuse` in `this->operands_`.
+ *     * After finding, fetch the corresponding `kParameter` instruction from `fused_parameters`, then assign to `fused_parameter`.
+ *     * Call `fused_parameter->ReplaceAllUsesWith(clone)`.
+ *     * Since the functionality of `fused_parameter` has been replaced, remove it from computation. And also remove corresponding entry in `this->operands_`.
+ *     * Remove `this` from user list of `instruction_to_fuse`, since we have fused it into `this`.
+ * * `fused_parameters = fused_instructions_computation()->parameter_instructions()`.
+ * * For each `operand` of `clone`
+ *   * Check whether it is already an operand of `this`. If not, call `AddFusionOperand` to make `operand` an operand of `this`, also add a corresponding `kParameter` instruction in fusion compuatation to maintain consistency.
+ *   * Call `ReplaceOperandWith` to replace `operand` to the corresponding `kParameter` instruction.
+ * * If `add_output` is set
+ *   * //TODO
+ */
 HloInstruction* HloInstruction::CloneAndFuseInternal(
     HloInstruction* instruction_to_fuse, bool add_output) {
   CHECK_EQ(opcode_, HloOpcode::kFusion);
@@ -1925,6 +1954,11 @@ Status HloInstruction::ReplaceUseWith(HloInstruction* user,
   return Status::OK();
 }
 
+/**
+ * * `operands_[operand_num] = new_operand`.
+ * * If there is no `old_operand` in `operands_`, remove `this` from user list of `old_operand`.
+ * * Add `this` to user list of `new_operand`.
+ */
 Status HloInstruction::ReplaceOperandWith(int64 operand_num,
                                           HloInstruction* new_operand) {
   TF_RET_CHECK(operand_num >= 0);
@@ -1947,6 +1981,13 @@ Status HloInstruction::ReplaceOperandWith(int64 operand_num,
   return Status::OK();
 }
 
+/**
+ * * For each `user` in `users()`
+ *   * Set `new_producer_is_user` if `user == new_producer`.
+ *   * Replace all appearances of `this` in `user->operands_` to `new_producer`. Add `user` to user list of `new_producer`.
+ * * Clear user list of `this` and add `new_producer` to user list if `new_producer_is_user` is set.
+ * * If `this` is root instruction originally, make `new_producer` become new root instruction.
+ */
 Status HloInstruction::ReplaceAllUsesWith(HloInstruction* new_producer) {
   bool new_producer_is_user = false;
   for (HloInstruction* user : users()) {
