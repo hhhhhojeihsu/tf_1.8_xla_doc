@@ -139,6 +139,11 @@ HloInstruction* HloComputation::AddParameter(
   return instructions_.back().get();
 }
 
+/**
+ * * Remove the `param_no`-th parameter from parameters list of `this`.
+ * * Call `RemoveInstruction` to remove the instruction.
+ * * Perform parameter renumbering. //TODO
+ */
 Status HloComputation::RemoveParameter(int64 param_no) {
   CHECK_GE(param_no, 0);
   CHECK_LT(param_no, param_instructions_.size());
@@ -204,6 +209,15 @@ bool HloComputation::HasSideEffect() const {
   return false;
 }
 
+/**
+ * * Conduct following checks to make sure `instruction` is removable
+ *   * `instruction` is not root instruction.
+ *   * user list of `instruction` is empty.
+ *   * `IsRemovable(instruction)`. This checks whether `instruction` doesn't have control predecessor/successor, and that `instruction` is not a `kParameter` instruction in a non-fusion computation.
+ * * Perform BFS from `instruction`, remove useless instructions(user list is empty).
+ *   * `removed` stores removed instruction, prevent them from being removed again.
+ *   * `worklist` stores instruction to be removed.
+ */
 Status HloComputation::RemoveInstructionAndUnusedOperands(
     HloInstruction* instruction) {
   TF_RET_CHECK(root_instruction() != instruction);
@@ -586,6 +600,12 @@ Status HloComputation::ReplaceWithNewInstruction(
                             AddInstruction(std::move(new_instruction)));
 }
 
+/**
+ * \brief Replace old instruction with new instruction. Updates uses and root instruction. Removes old instruction from computation.
+ * * Check whether shape of `old_instruction` and `new_instruction` is compatible.
+ * * `old_instruction->ReplaceAllUsesWith(new_instruction)`.
+ * * Call `RemoveInstructionAndUnusedOperands`, start from `old_instruction`, check and remove unneeded instructions.
+ */
 Status HloComputation::ReplaceInstruction(HloInstruction* old_instruction,
                                           HloInstruction* new_instruction) {
   TF_RET_CHECK(
