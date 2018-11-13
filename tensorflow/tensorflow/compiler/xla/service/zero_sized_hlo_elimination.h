@@ -21,6 +21,9 @@ namespace xla {
 class ZeroSizedHloElimination : public HloPassInterface {
  public:
   StatusOr<bool> Run(HloModule* module) override;
+  /**
+   * Return internal name "zero_sized_hlo_elimination"
+   */
   tensorflow::StringPiece name() const override {
     return "zero_sized_hlo_elimination";
   }

@@ -36,6 +36,9 @@ class BatchNormExpander : public HloPassInterface {
         rewrite_grad_op_(rewrite_grad_op),
         use_fusion_(use_fusion) {}
   ~BatchNormExpander() = default;
+  /**
+   * Return internal name "batchnorm_expander"
+   */
   tensorflow::StringPiece name() const override { return "batchnorm_expander"; }
   // Run operation expander on the given computation. Returns whether the
   // computation was changed.

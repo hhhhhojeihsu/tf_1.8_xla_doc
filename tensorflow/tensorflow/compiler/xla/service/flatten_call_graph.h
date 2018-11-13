@@ -32,6 +32,9 @@ namespace xla {
 */
 class FlattenCallGraph : public HloPassInterface {
  public:
+  /**
+   * Return internal name "flatten-call-graph"
+   */
   tensorflow::StringPiece name() const override { return "flatten-call-graph"; }
 
   // Duplicates computations called from multiple call- or while-nodes to

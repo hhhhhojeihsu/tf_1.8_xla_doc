@@ -34,6 +34,9 @@ class TupleSimplifier : public HloPassInterface {
  public:
   TupleSimplifier() {}
   ~TupleSimplifier() override {}
+  /**
+   * Return internal name "tuple-simplifier"
+   */
   tensorflow::StringPiece name() const override { return "tuple-simplifier"; }
 
   // Run tuple simplification on the given computation. Returns whether the

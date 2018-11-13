@@ -51,6 +51,9 @@ namespace xla {
  */
 class CopyInsertion : public HloPassInterface {
  public:
+  /**
+   * Return internal name "copy-insertion"
+   */
   tensorflow::StringPiece name() const override { return "copy-insertion"; }
 
 	/**

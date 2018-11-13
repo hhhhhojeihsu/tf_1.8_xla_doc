@@ -58,6 +58,9 @@ namespace xla {
 */
 class ReshapeMover : public HloPassInterface {
  public:
+  /**
+   * Return internal name "reshape-mover"
+   */
   tensorflow::StringPiece name() const override { return "reshape-mover"; }
 
   StatusOr<bool> Run(HloModule* module) override;

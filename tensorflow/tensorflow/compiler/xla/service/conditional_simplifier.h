@@ -30,6 +30,9 @@ namespace xla {
  */
 class ConditionalSimplifier : public HloPassInterface {
  public:
+  /**
+   * Return internal name "simplify-conditional"
+   */
   tensorflow::StringPiece name() const override {
     return "simplify-conditional";
   }

@@ -39,6 +39,9 @@ namespace xla {
 class HloDCE : public HloPassInterface {
  public:
   ~HloDCE() override {}
+  /**
+   * Return internal name "dce"
+   */
   tensorflow::StringPiece name() const override { return "dce"; }
 
   // Run the pass on the given module. Returns whether the module was changed

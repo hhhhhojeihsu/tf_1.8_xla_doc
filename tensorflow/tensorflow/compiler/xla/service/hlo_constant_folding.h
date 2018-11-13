@@ -29,6 +29,9 @@ namespace xla {
  */
 class HloConstantFolding : public HloPassInterface {
  public:
+  /**
+   * Return internal name "constant_folding"
+   */
   tensorflow::StringPiece name() const override { return "constant_folding"; }
 
   // Run constant folding operations on the given module. Returns whether the

@@ -36,6 +36,9 @@ class HloElementTypeConverter : public HloPassInterface {
   HloElementTypeConverter(PrimitiveType eliminate_type,
                           PrimitiveType replace_with_type);
 
+  /**
+   * Return internal name "element_type_converter"
+   */
   tensorflow::StringPiece name() const override {
     return "element_type_converter";
   }

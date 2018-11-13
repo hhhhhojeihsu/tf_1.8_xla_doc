@@ -33,6 +33,9 @@ class WhileLoopInvariantCodeMotion : public HloPassInterface {
  public:
   ~WhileLoopInvariantCodeMotion() override = default;
 
+  /**
+   * Return internal name "while-loop-invariant-code-motion"
+   */
   tensorflow::StringPiece name() const override {
     return "while-loop-invariant-code-motion";
   }

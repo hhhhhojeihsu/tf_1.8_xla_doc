@@ -54,6 +54,9 @@ class ReducePrecisionInsertion : public HloPassInterface {
             make_filter_function(reduce_precision_options)) {}
   ~ReducePrecisionInsertion() override{};
   tensorflow::StringPiece name() const override {
+  /**
+   * Return internal name "reduce-precision-insertion"
+   */
     return "reduce-precision-insertion";
   }
   // Run the pass on the given module. Returns whether the module was changed

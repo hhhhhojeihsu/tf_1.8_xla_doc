@@ -36,6 +36,9 @@ class HloCSE : public HloPassInterface {
   explicit HloCSE(bool is_layout_sensitive)
       : is_layout_sensitive_(is_layout_sensitive) {}
   ~HloCSE() override {}
+  /**
+   * Return internal name "cse"
+   */
   tensorflow::StringPiece name() const override { return "cse"; }
 
   // Run CSE on the given module. Returns whether the module was changed (common

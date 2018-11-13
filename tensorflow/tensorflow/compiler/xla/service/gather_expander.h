@@ -23,6 +23,9 @@ namespace xla {
  */
 class GatherExpander : public HloPassInterface {
  public:
+  /**
+   * Return internal name "gather_expander"
+   */
   tensorflow::StringPiece name() const override { return "gather_expander"; }
   StatusOr<bool> Run(HloModule* module) override;
  private:

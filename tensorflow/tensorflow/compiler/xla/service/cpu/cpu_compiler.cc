@@ -209,6 +209,30 @@ class CollectProfileCandidates : public DfsHloVisitorWithDefault {
 };
 }  // namespace
 /**
+ * \page page1 Hlo passes and it's formal name
+ * \tableofcontents
+ * The name required in `--xla_disable_hlo_passes` is different then its class name.
+ * - AlgebraicSimplifier => "algsimp"
+ * - BatchNormExpander => "batchnorm_expander"
+ * - CallInliner => "CallInliner"
+ * - ConditionalSimplifier => "simplify-conditional"
+ * - CopyInsertion => "copy-insertion"
+ * - DotDecomposer => "dot_decomposer"
+ * - FlattenCallGraph => "flatten-call-graph"
+ * - GatherExpander => "gather_expander"
+ * - HloConstantFolding => "constant_folding"
+ * - HloCSE => "cse"
+ * - HloDCE => "dce"
+ * - HloElementTypeConverter => "element_type_converter"
+ * - ReducePrecisionInsertion => "reduce-precision-insertion"
+ * - ReshapeMover => "reshape-mover"
+ * - TransposeFolding => "transpose-folding"
+ * - TupleSimplifier => "tuple-simplifier"
+ * - WhileLoopInvariantCodeMotion => "while-loop-invariant-code-motion"
+ * - WhileLoopSimplifier => "simplify-while-loops"
+ * - ZeroSizedHloElimination => "zero_sized_hlo_elimination"
+ */
+/**
  * Called by `xla::cpu::CpuCompiler::CompileAheadOfTime`
  *
  * \todo See what those invariant checker and pass do
