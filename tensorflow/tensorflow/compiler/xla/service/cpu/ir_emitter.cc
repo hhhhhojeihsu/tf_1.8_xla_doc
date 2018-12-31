@@ -2063,6 +2063,15 @@ static const HloInstruction* StripTranspose(const HloInstruction& hlo) {
   return &hlo;
 }
 
+/**
+ * * When visiting a fusion node, perform different operations based on its kind.
+ * * In the case of `loop fusion`, it begin to traverse the fusion computation,
+ * create a *IR generator* for each instruction in it. A `LoopEmitter`
+ * will finally create a nested loop based on the shape of output, and call
+ * the *IR generator* of the fusion root to emit IR at innermost
+ * loop body. This way, each element of output will be filled iteratively.
+ * > Instructions under normal(not fusion) computation is handled by `Handle${instr. name}()` under `IrEmitter`, which instead emits necessary code directly.
+ */
 Status IrEmitter::HandleFusion(HloInstruction* fusion) {
   auto* root = fusion->fused_expression_root();
   if (fusion->fusion_kind() == HloInstruction::FusionKind::kTransposeDot) {
@@ -2674,6 +2683,10 @@ Status IrEmitter::Postprocess(HloInstruction* hlo) {
   return Status::OK();
 }
 
+/**
+ * * Call `GetEmittedValueFor` to gather information of the given instruction.
+ * * Transform the returned `llvm::Value` to `llvm_ir::IrArray`, and add some aliasing information to it.
+ */
 llvm_ir::IrArray IrEmitter::GetIrArrayFor(const HloInstruction* hlo) {
   llvm::Value* value_for_op = GetEmittedValueFor(hlo);
 
@@ -2682,6 +2695,9 @@ llvm_ir::IrArray IrEmitter::GetIrArrayFor(const HloInstruction* hlo) {
   return array;
 }
 
+/**
+ * * Gather information of operands of the given instruction, store them to a vector.
+ */
 std::vector<llvm_ir::IrArray> IrEmitter::GetIrArraysForOperandsOf(
     const HloInstruction* hlo) {
   std::vector<llvm_ir::IrArray> arrays;
@@ -2692,6 +2708,10 @@ std::vector<llvm_ir::IrArray> IrEmitter::GetIrArraysForOperandsOf(
   return arrays;
 }
 
+/**
+ * * Each instruction may store information(calculated value, address of buffer, ...) of themself to the map `emitted_value_`.
+ * * This function return this information(if existed) of the given instruction.
+ */
 llvm::Value* IrEmitter::GetEmittedValueFor(const HloInstruction* hlo) {
   auto it = emitted_value_.find(hlo);
   if (it == emitted_value_.end()) {
@@ -2854,6 +2874,10 @@ Status IrEmitter::EmitTargetElementLoop(
   return EmitTargetElementLoop(target_op, /*desc=*/"", element_generator);
 }
 
+/**
+ * * First emit code to fetch the target buffer to store the result.
+ * * If `target_op` is neither MOF(Multiple Output Fusion) nor satisfying the condition of `ShouldEmitParallelLoopFor()`, the base case will be creating a `LoopEmitter`, which emits nested loop with code calculating the result of each element in the innermost loop.
+ */
 Status IrEmitter::EmitTargetElementLoop(
     HloInstruction* target_op, tensorflow::StringPiece desc,
     const llvm_ir::ElementGenerator& element_generator) {

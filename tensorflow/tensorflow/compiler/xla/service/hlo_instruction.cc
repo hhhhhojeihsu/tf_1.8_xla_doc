@@ -2793,6 +2793,10 @@ inline bool PushDFSChild(Visitor* visitor, DFSStack* dfs_stack,
 using InternalCompareFunction =
     std::function<bool(std::pair<int, const HloInstruction*>,
                        std::pair<int, const HloInstruction*>)>;
+/**
+ * * Perform **post-order** DFS from the given `root`
+ * * When visiting a node, perform different operations based on `visitor`.
+ */
 template <typename Visitor>
 static Status PostOrderDFS(HloInstruction* root, Visitor* visitor,
                            const InternalCompareFunction* operand_order,
